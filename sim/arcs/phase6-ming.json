@@ -1,0 +1,246 @@
+{
+  "faction": "ming",
+  "phase": 6,
+  "strategy": "粮缰勒紧病宋，候汴内变，徐达水陆入城拥德昭奉正朔，兵不血刃并中原；凭汴蔡坚垒挫东汉反扑，纵元唐相咬于陇坂、挑唐汉争河北；收宋卒、固漕屯、制度收功臣兵柄；岁末浮海摘山东——七州在手，缓图二汉与唐。",
+  "months": {
+    "61": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "岁首庙算：宋主病笃、国本悬于幼侄，岁内以粮缰与内应并之；唐真共治最难啃，纵元骑与唐相咬，挑唐汉争河北——缓急之柄在我",
+        "wishes": "先并宋，后二汉，唐留最后"
+      },
+      {
+        "kind": "spy",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "谍网三路急布：汴城晋邸与郡王府之向、曹彬石守信之志；洛阳云台岁谋；长安两府与上都病帐——匡义一旦不讳，金陵须第一个知道",
+        "wishes": "汴变未作，局先布好"
+      }
+    ],
+    "62": [
+      {
+        "kind": "build",
+        "target": "zhongyuan",
+        "troops": null,
+        "general": "徐达",
+        "detail": "宿州焚仓重筑，淮泗转般仓再实；水师习汴泗昼夜护漕，炮车火器前送汴口大营——耿弇再来，粮车不再是软肋",
+        "wishes": "粮械续积，饷道无懈可击"
+      },
+      {
+        "kind": "diplo",
+        "target": "song",
+        "troops": null,
+        "general": null,
+        "detail": "输粟改月给：汴饥则济，月不过八千石，明舟自运入汴仓当面发放——粮袋口捏进金陵手里，汴梁仰我鼻息度日",
+        "wishes": "汴梁之日，系我之粮"
+      }
+    ],
+    "63": [
+      {
+        "kind": "diplo",
+        "target": "song",
+        "troops": null,
+        "general": null,
+        "detail": "密使入汴结德昭与太祖旧将：许赵氏王爵世守、宗庙血食；晋邸若篡位，明师为德昭靖难——开门的钥匙先配好",
+        "wishes": "内应在城，明师在门"
+      },
+      {
+        "kind": "move",
+        "target": "zhongyuan",
+        "troops": 12,
+        "general": "徐达",
+        "detail": "徐达十二万壁汴东因冬修垒，楼船横锁汴口；李文忠缮淮备耿弇，蓝玉以前驱自效——弦满不发，专候城中消息",
+        "wishes": "内外相应，一举定汴"
+      }
+    ],
+    "64": [
+      {
+        "kind": "battle",
+        "target": "zhongyuan",
+        "troops": 12,
+        "general": "徐达",
+        "detail": "汴变一起（匡义不讳或晋邸作乱）：水陆薄城，约曹彬内应启门，拥德昭去帝号奉明正朔——兵不血刃为上，巷战只诛首恶",
+        "wishes": "汴门洞开，中原易帜"
+      },
+      {
+        "kind": "internal",
+        "target": "zhongyuan",
+        "troops": null,
+        "general": null,
+        "detail": "入城令：毋惊赵氏宗庙，汴吏留署；免中原一年粮，发粟赈饥；赵氏封王礼养，曹彬石守信授明官——以礼葬宋号，以仁收汴心",
+        "wishes": "中原人心，一纸檄定"
+      }
+    ],
+    "65": [
+      {
+        "kind": "battle",
+        "target": "zhongyuan",
+        "troops": 10,
+        "general": "徐达",
+        "detail": "东汉必来争汴：冯异耿弇若薄城，凭蔡水坚垒火器挫其突骑，勿逐北；水师夜绝颍汝漕——汴郊故技，以逸待劳",
+        "wishes": "其锋再挫于垒下"
+      },
+      {
+        "kind": "internal",
+        "target": "zhongyuan",
+        "troops": null,
+        "general": null,
+        "detail": "收宋卒十一万：汰弱散部曲归农，精锐编卫所分戍汴蔡，将领子弟入金陵讲武——兵收其半，人质其心",
+        "wishes": "宋卒为明卒，汴蔡成深壁"
+      }
+    ],
+    "66": [
+      {
+        "kind": "diplo",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "遣使长安贺真共治：约互不攻伐——唐东略河北、明定中原各取所得，明师不北渡河；汴渠两岸通市，各发其财",
+        "wishes": "唐锋东指河北，汴西无战"
+      },
+      {
+        "kind": "diplo",
+        "target": "yuan",
+        "troops": null,
+        "general": null,
+        "detail": "阴平茶马倍市，金帛结陇上诸豪；「好心」飞报唐廷西收陇右之谋，劝真金先发制人——元唐再咬，明粟两卖",
+        "wishes": "陇坂烽火不熄，蜀门自安"
+      }
+    ],
+    "67": [
+      {
+        "kind": "battle",
+        "target": "jianghuai",
+        "troops": 5,
+        "general": "李文忠",
+        "detail": "检校先觉耿弇将袭淮泗：李文忠水陆伏五河口，半渡而击，楼船夜断其归桥——淮上焚仓之账，连本一次算清",
+        "wishes": "突骑折于淮，东汉夺气"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "论功：徐达进魏国公录军国重事，沐英李文忠封公侯，蓝玉复爵仍居前驱；功臣家眷厚养京师，铁券颁而兵柄归督府",
+        "wishes": "赏厚权聚，骄将知恩亦知惧"
+      }
+    ],
+    "68": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "新附地尽置卫所，军籍直达御前，五军都督府分掌训练而无调兵权；检校密档续录功臣过失，钥付太子——制度收权，不兴大狱",
+        "wishes": "刀仍出鞘，鞘在朕手"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "标儿监国益重：北地章奏先过东宫；功臣子弟入大本堂与太子同读，马后宫中恤诸将家属——储德与将门，结成一家",
+        "wishes": "主少之忧，预解于今日"
+      }
+    ],
+    "69": [
+      {
+        "kind": "battle",
+        "target": "longxi",
+        "troops": 4,
+        "general": "沐英",
+        "detail": "乘伯颜主力东出攻唐：沐英再出阴平，袭凉州马场因粮于敌，传檄陇上诸豪；元骑回救则敛入祁山堡寨，火器守隘",
+        "wishes": "马群入蜀，陇右再摇"
+      },
+      {
+        "kind": "build",
+        "target": "bashu",
+        "troops": null,
+        "general": null,
+        "detail": "编新旧战马练铁骑三千屯汉中；缮阴平栈道粮台，蜀粟转陇不绝——西线可进可退，元骑不敢窥剑门",
+        "wishes": "明军有骑，蜀陇连成一气"
+      }
+    ],
+    "70": [
+      {
+        "kind": "build",
+        "target": "zhongyuan",
+        "troops": null,
+        "general": null,
+        "detail": "疏汴渠蔡河，汴口—泗—淮漕运一体；中原屯田置卫，转般仓按汴梁故事实之——中原这口大仓，来年养北伐之师",
+        "wishes": "中原自养，反哺大军"
+      },
+      {
+        "kind": "spy",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "谍网北移：唐军出井陉否、东汉云台如何分兵、山东守备与登莱海道水情——摘桃的梯子，先搭在齐鲁海岸",
+        "wishes": "山东虚实，尽入图中"
+      }
+    ],
+    "71": [
+      {
+        "kind": "diplo",
+        "target": "donghan",
+        "troops": null,
+        "general": null,
+        "detail": "唐若东薄河北，遣使洛阳卑辞「贺御敌之胜」，淮盐茶市加倍——教刘秀放心把兵北调，齐鲁空虚之期，逐旬报来",
+        "wishes": "东汉主力北去，山东门开"
+      },
+      {
+        "kind": "move",
+        "target": "jianghuai",
+        "troops": 10,
+        "general": "徐达",
+        "detail": "徐达壁曹单，李文忠集楼船于淮口海州；选锋练浮海登陆之法——山东门一开，水陆齐发",
+        "wishes": "大军在弦，只候北信"
+      }
+    ],
+    "72": [
+      {
+        "kind": "battle",
+        "target": "shandong",
+        "troops": 10,
+        "general": "徐达",
+        "detail": "摘桃：东汉主力陷河北泥淖，楼船浮海袭登莱，步骑出沂密，檄谕齐鲁「王师为百姓来，秋毫无犯」——孔孟之乡，传檄为先",
+        "wishes": "齐鲁传檄定，东汉断一臂"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "岁末大计：中原齐鲁若俱下则七州在手，来岁谨守而观唐汉之毙；蓝玉辈功高，检校之档日厚——马后在，刀且慢收",
+        "wishes": "天下渐轻，来岁可图"
+      }
+    ]
+  },
+  "diplomacy": [
+    {
+      "to": "song",
+      "proposal": "称臣",
+      "terms": "匡义身后德昭袭位，宋去帝号奉大明正朔、中原民政归明直辖；赵氏封王世守宗庙，曹彬石守信授明官爵，明输粟如故"
+    },
+    {
+      "to": "tang",
+      "proposal": "互不侵犯",
+      "terms": "唐东略河北、明定中原，明师不北渡河、唐军不西窥汴；汴渠两岸通市互不加兵"
+    },
+    {
+      "to": "yuan",
+      "proposal": "贸易",
+      "terms": "阴平茶马倍市，明以粟金易陇右战马、结陇上诸豪；唐元军情互通报，市而不盟不声张"
+    },
+    {
+      "to": "donghan",
+      "proposal": "互不侵犯",
+      "terms": "淮界盐茶之市加倍，明不窥齐鲁之境；唐若犯河北，明守中立——各安其民"
+    }
+  ],
+  "self_note": "并宋靠粮缰内应不强攻；纵元唐相咬、坐观唐汉争河北；蓝玉档案与马后之劝，皆留标儿作刀鞘。"
+}

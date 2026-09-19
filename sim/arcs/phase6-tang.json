@@ -1,0 +1,238 @@
+{
+  "faction": "tang",
+  "phase": 6,
+  "strategy": "分陕定制：世民都督陕东专取汴洛，建成握漕粮兵籍之枢，李靖挂帅西征。东连东汉共挤明师，伺宋变收汴；西破伯颜收凉州，抚真金于碛北。南面暂不摊牌，治水师于河洛——先西东、后南北，混一路线定盘。",
+  "months": {
+    "61": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "诏定分陕：世民都督陕东道、开府洛阳，陕以东军政悉委之，漕粮兵籍官铨归中枢；元吉拜司空入朝，河内之众属陕东道。",
+        "wishes": "共治成制度，两府各安其位，天下无内顾之忧。"
+      },
+      {
+        "kind": "diplo",
+        "target": "donghan",
+        "troops": null,
+        "general": null,
+        "detail": "密使洛阳申中分之约：汴及汴北归唐、陈颍以南归汉，共逐明师出中原；敖仓岁转粟五万石助汉，互市如故。",
+        "wishes": "汉唐合纵成，明军独吞中原之图破。"
+      }
+    ],
+    "62": [
+      {
+        "kind": "spy",
+        "target": "song",
+        "troops": null,
+        "general": null,
+        "detail": "间入汴梁三线：说曹彬『举城全活为功』；许德昭开城封王、奉宋祀；日播晋邸旧僚图德昭与明军汴东暴行于市井。",
+        "wishes": "宋廷内变，汴门自内开于唐。"
+      },
+      {
+        "kind": "spy",
+        "target": "yuan",
+        "troops": null,
+        "general": null,
+        "detail": "遣间入凉州：播『真金欲诛阿合马、伯颜拥兵自重』之语以离其君臣；赂羌豪为内应，尽探仓廪兵籍虚实。",
+        "wishes": "元内衅起，陇右虚实尽知。"
+      }
+    ],
+    "63": [
+      {
+        "kind": "move",
+        "target": "zhongyuan",
+        "troops": 10,
+        "general": "李世民",
+        "detail": "世民十万出河阴壁敖仓，列栅汴北、护漕立砦；传檄汴城申唐宋之盟——兵临而不攻，专候城中之变，明师至则据仓城相持。",
+        "wishes": "汴中人心西向，先明一步成围。"
+      },
+      {
+        "kind": "move",
+        "target": "longxi",
+        "troops": 8,
+        "general": "李靖",
+        "detail": "李靖八万出萧关复泾州故垒，日日鼓噪作持久状；薛万彻阴简锐骑、密伏陇坻之南候命。",
+        "wishes": "元军并力陇坂，凉州后路自虚。"
+      }
+    ],
+    "64": [
+      {
+        "kind": "battle",
+        "target": "zhongyuan",
+        "troops": 10,
+        "general": "李世民",
+        "detail": "宋变若作（主崩嗣幼、内乱相攻）：玄甲倍道薄汴，先纳举火者，曹彬开门则秋毫无犯；明师来争则据汴北仓城相持，飞檄东汉蹑其后。",
+        "wishes": "汴梁归唐，漕枢尽入掌中。"
+      },
+      {
+        "kind": "battle",
+        "target": "longxi",
+        "troops": 8,
+        "general": "李靖",
+        "detail": "李靖明持重于泾州，夜遣薛万彻锐骑间出陇坻之南，袭金城黄河渡：焚舟断桥，绝伯颜西归凉州之路。",
+        "wishes": "归路一断，陇坂元军成困兽。"
+      }
+    ],
+    "65": [
+      {
+        "kind": "battle",
+        "target": "longxi",
+        "troops": 8,
+        "general": "李靖",
+        "detail": "断归既成、元粮将匮：李靖全军压陇坂决战，羌部起于凉州之侧为应——内外交攻，一鼓破之。",
+        "wishes": "陇坂决战歼元军主力，凉州门户洞开。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "汴若定：免汴畿一岁租，宋旧吏留任；德昭封王奉宋祀，曹彬量才授职；即与东汉交割陈颍，践盟通市。",
+        "wishes": "中原人心渐附，汉唐之盟愈固。"
+      }
+    ],
+    "66": [
+      {
+        "kind": "battle",
+        "target": "longxi",
+        "troops": 8,
+        "general": "李靖",
+        "detail": "乘胜穷追入凉州：先檄后兵，羌豪内应开城；收马场牛羊尽充监牧，伯颜残部驱出塞外，抚定河西诸郡。",
+        "wishes": "陇右全境归唐，获马数万。"
+      },
+      {
+        "kind": "move",
+        "target": "hedong",
+        "troops": 3,
+        "general": "平阳公主",
+        "detail": "大军在西，北门宜重：平阳公主率轻骑巡滏口、井陉，增戍上党河内，谍报河北动静。",
+        "wishes": "东汉元骑皆不敢乘虚，东西两军无后顾。"
+      }
+    ],
+    "67": [
+      {
+        "kind": "diplo",
+        "target": "yuan",
+        "troops": null,
+        "general": null,
+        "detail": "移檄上都：真金弃陇右退居碛北，则复泾渭马市、边境互市，唐军不出塞；执伯颜以谢关中，岁市马三千。",
+        "wishes": "真金约和，唐不顿兵大碛。"
+      },
+      {
+        "kind": "battle",
+        "target": "zhongyuan",
+        "troops": 9,
+        "general": "李世民",
+        "detail": "徐达若挟水师来争汴：世民背城而阵，玄甲蹙之汴原，断其浮桥；檄东汉出颍蹑粮道——汴可下，不可复失。",
+        "wishes": "明师挫于汴下，中原底定。"
+      }
+    ],
+    "68": [
+      {
+        "kind": "build",
+        "target": "zhongyuan",
+        "troops": null,
+        "general": null,
+        "detail": "汴口、河阴置造船场：募宋水师旧部与巴渝舟子，习楼船火器于河洛——对明之备，自水军始。",
+        "wishes": "水师渐成，南面有恃。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "长安大计：陇右之马尽入监牧，陇卒编府兵；漕粮通计东西两界，功赏均施，勿使偏重。",
+        "wishes": "兵愈精、赏愈平，两府无怨言。"
+      }
+    ],
+    "69": [
+      {
+        "kind": "spy",
+        "target": "yuan",
+        "troops": null,
+        "general": null,
+        "detail": "遣间漠北：探真金与诸王之隙、伯颜残部所在；阴结史天泽、张弘范，许『汉人世侯富贵如故』。",
+        "wishes": "元廷内隙日深，世侯怀去就之心。"
+      },
+      {
+        "kind": "build",
+        "target": "longxi",
+        "troops": null,
+        "general": null,
+        "detail": "缮凉州、置烽堡、徙民实边，开陇道茶马；阴平武都道口置戍，防明军自蜀窥陇。",
+        "wishes": "陇右渐为唐用，西塞稳固。"
+      }
+    ],
+    "70": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "东西论功并封：汴功归世民，陇功归李靖、薛万彻；东宫秦府属僚各著其劳，太子亲迎世民于都亭，布告天下。",
+        "wishes": "功分东西、权集中枢，共治历战而愈固。"
+      }
+    ],
+    "71": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "两府联席定混一路线：明岁世民渡河取河北，李靖抚定河西、候元之衅；水师成军后南向与明摊牌——先西东、后南北。",
+        "wishes": "路线定盘，举国知所向。"
+      },
+      {
+        "kind": "spy",
+        "target": "donghan",
+        "troops": null,
+        "general": null,
+        "detail": "间入河北山东：结度田所怨之豪族、恋旧之齐鲁民，图籍山川险易、戍守虚实尽入军报——为明岁北向之备。",
+        "wishes": "河北人心可用，北伐有内应。"
+      }
+    ],
+    "72": [
+      {
+        "kind": "build",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "岁终大储：河阴、泾原、凉州三仓皆实；楼船试水于河洛，大阅于汴——兵精粮足，来岁北向。",
+        "wishes": "进退有据，北伐无后顾。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "岁末世民西入长安朝正，兄弟同谒太庙、剖符合计来岁；魏征进《兄弟同鉴》颁两府——共治之制，以三年之验昭天下。",
+        "wishes": "玄武之谶消于制度，共治终成唐家之法。"
+      }
+    ]
+  },
+  "diplomacy": [
+    {
+      "to": "donghan",
+      "proposal": "会盟",
+      "terms": "中分中原：汴及汴北归唐、陈颍以南归汉；共逐明师，互市通粟，明若犯境两家连兵击之。"
+    },
+    {
+      "to": "song",
+      "proposal": "警告",
+      "terms": "开城者封王、宗庙可奉、闾里不惊；负隅则汴为齑粉。"
+    },
+    {
+      "to": "yuan",
+      "proposal": "贸易",
+      "terms": "弃陇右退碛北则复泾渭马市、边境互市，唐军不出塞；执伯颜以谢关中者岁市马三千。"
+    },
+    {
+      "to": "ming",
+      "proposal": "警告",
+      "terms": "汴事唐宋自了，明师毋入汴畿；淮颍界上愿通市如故。"
+    }
+  ],
+  "self_note": "分陕是堤亦是引：世民功成，属僚九锡之议渐起；建成以漕粮官铨为锁，魏征缝合其间，元吉怨望犹在。"
+}

@@ -1,0 +1,246 @@
+{
+  "faction": "song",
+  "phase": 6,
+  "strategy": "生死之年先定大位：金匮手诏双证立德昭为皇太侄监国，曹彬赵普夹辅，晋邸养以富贵；倚汉粟、联唐姻，受明市而不称臣；缮汴待衅，乘明师北犯夜逐汴东之戍以复漕立威；徐观唐元明汉相噬，渔利虎牢齐鲁。",
+  "months": {
+    "61": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "帝疾革，榻前定策：金匮旧盟、太庙手诏并宣于两府，立德昭为皇太侄监国决军国事；皇子封王世食邑以安己出，程羽柴禹锡仍典枢密以安晋邸；曹彬受遗命总内外兵，赵普复位辅政。",
+        "wishes": "大位名分先正，两党各安，观望之心自帖。"
+      },
+      {
+        "kind": "build",
+        "target": "zhongyuan",
+        "troops": null,
+        "general": null,
+        "detail": "乘春汛未至急缮汴垒：增楼橹砲座、深沟列木；括市粟储半岁，平粜安民；德昭亲巡城垒遍犒诸军，先为不可胜。",
+        "wishes": "明春锋至而有备，城中不饥。"
+      }
+    ],
+    "62": [
+      {
+        "kind": "diplo",
+        "target": "donghan",
+        "troops": null,
+        "general": null,
+        "detail": "使洛阳告以立储定策，申唇齿之盟：汉岁粟十万如故，宋偿金帛盐铁；明若强并汴，汉出颍汝绝其饷道，宋内外相应，事成共分其械马。",
+        "wishes": "粮命在汉而不受其缚，明北顾有所惮。"
+      },
+      {
+        "kind": "diplo",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "以皇太侄尚唐宗室女结姻好；岁市敖仓粟麦，约唐兵毋东出成皋；明若犯汴洛，宋绝其汴渠饷道以应，两家掎角。",
+        "wishes": "姻盟既成，西门无虞，仓粟饷军。"
+      }
+    ],
+    "63": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "帝若稍间则深宫颐养、政尽委监国；若大渐则秘不发丧，德昭柩前即位，赵普宣金匮遗诏为证，曹彬勒禁军卫宫，大赦天下、市不易肆。",
+        "wishes": "无论崩与不崩，神器不摇，军心不乱。"
+      },
+      {
+        "kind": "spy",
+        "target": "ming",
+        "troops": null,
+        "general": null,
+        "detail": "谍入汴口泗州大营：觇徐达兵期粮道、火器虚实、水砦布局；兼赂金陵中人，察其并宋后图与东宫检校动静。",
+        "wishes": "明之刀锋与死期，先我一步而知。"
+      }
+    ],
+    "64": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "监国新政安反侧：蠲中原逋赋半岁，平粜赈流民；录太祖朝旧臣宿将之后，石守信辈加殊礼；下诏求直言，开恩科取士。",
+        "wishes": "人心渐附新主，反侧自定。"
+      },
+      {
+        "kind": "build",
+        "target": "zhongyuan",
+        "troops": null,
+        "general": null,
+        "detail": "募流民壮者补禁军，汰老弱编伍；德昭亲教阅殿前一军，日与士卒同食——以太祖之孙收太祖之军。",
+        "wishes": "军额渐复，禁军知有新君。"
+      }
+    ],
+    "65": [
+      {
+        "kind": "battle",
+        "target": "ming",
+        "troops": 5,
+        "general": "曹彬",
+        "detail": "若明师大举北向、汴东戍单，曹彬夜出诸门，以五万逐汴东明戍、毁其楼砦复郭东门；檄明营「盟好如故，戍毋留畿」；敌固守则敛保成皋掎之，毋浪战。",
+        "wishes": "半城之耻一雪，汴东复为宋土。"
+      },
+      {
+        "kind": "internal",
+        "target": "zhongyuan",
+        "troops": null,
+        "general": null,
+        "detail": "复汴东即蠲其赋、抚其民，明商市舶仍通——示无绝明，独拒其戍；移水师巡汴口护漕。",
+        "wishes": "得地而不启大战，市肆不惊。"
+      }
+    ],
+    "66": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "梓宫若发丧：上庙号，俭葬不劳民；德昭谅阴监国如故，郊祀告太祖太宗之庙，正大位归于太祖之统，烛影之谣不攻自破。",
+        "wishes": "名分终正，天下知宋有主。"
+      },
+      {
+        "kind": "diplo",
+        "target": "ming",
+        "troops": null,
+        "general": null,
+        "detail": "使金陵致意：宋明市好如故，汴东已归宋自戍，愿罢汴口水砦、复岁市旧额；阳示修好，阴治守备。",
+        "wishes": "明怒而不遽发，赢得一岁喘息。"
+      }
+    ],
+    "67": [
+      {
+        "kind": "spy",
+        "target": "donghan",
+        "troops": null,
+        "general": null,
+        "detail": "细作入齐鲁：结度田怨豪，散「明得齐鲁必徙其豪于江南」之惧，阴约为内应；兼觇冯异耿弇兵马动向与洛下虚实。",
+        "wishes": "齐鲁内应复通，敌情先知。"
+      },
+      {
+        "kind": "build",
+        "target": "zhongyuan",
+        "troops": null,
+        "general": null,
+        "detail": "屯田汴东荒田劝麦，浚汴渠堰闸；楼船习战于汴泗，置三迭水砦护漕。",
+        "wishes": "饷源渐裕，水陆有备。"
+      }
+    ],
+    "68": [
+      {
+        "kind": "diplo",
+        "target": "donghan",
+        "troops": null,
+        "general": null,
+        "detail": "与汉约合以制明：明若再举，汉蹑淮泗、宋守汴洛，互市盐铁粟帛不绝；虎牢之争暂置盟外，两家毋相攻伐。",
+        "wishes": "汉宋一体，明锋两分。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "新朝考课百司，惩贪平狱；收山东流寓士人置于学馆养之——为北图储才，亦阴收齐人之心。",
+        "wishes": "政平讼理，士心渐附。"
+      }
+    ],
+    "69": [
+      {
+        "kind": "battle",
+        "target": "donghan",
+        "troops": 4,
+        "general": "曹翰",
+        "detail": "若明汉大战淮泗、齐鲁南鄙空虚或怨豪举郡内附，曹翰将四万出济上应之，先檄后兵、秋毫无犯；汉军大至则敛保汴东，毋贪功。",
+        "wishes": "齐鲁南鄙附宋，进图济上。"
+      },
+      {
+        "kind": "move",
+        "target": "zhongyuan",
+        "troops": 3,
+        "general": "潘美",
+        "detail": "潘美将三万屯成皋缮守，瞰虎牢洛阳之隙；唐汉若相攻，则据险观变、收其流亡士马。",
+        "wishes": "西门有备，进退在我。"
+      }
+    ],
+    "70": [
+      {
+        "kind": "spy",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "重布长安谍网：觇建成世民两府之隙、玄武之变与真金伯颜动向；唐若内乱或元汗崩，驰驿速报，庙算豫为进退。",
+        "wishes": "天下大变，先我一步而知。"
+      },
+      {
+        "kind": "internal",
+        "target": "zhongyuan",
+        "troops": null,
+        "general": null,
+        "detail": "岁中抚治：平物价，修陂塘，核兵籍钱谷为大计；汴市渐复，流亡复业，户口渐归。",
+        "wishes": "庶政渐修，根本渐固。"
+      }
+    ],
+    "71": [
+      {
+        "kind": "battle",
+        "target": "donghan",
+        "troops": 5,
+        "general": "曹彬",
+        "detail": "若唐室内乱或元唐大战关中、洛阳势孤，曹彬会攻虎牢、复洛口以全漕枢；不济则敛保成皋，毋蹈亲征浪攻之覆辙。",
+        "wishes": "漕枢全复，中原形胜始全。"
+      },
+      {
+        "kind": "diplo",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "唐若易主，即遣使通新君，申盟市如故——乘丧不伐，结好于新；元若入关则约唐共拒，宋出粟饷军。",
+        "wishes": "唐变而宋盟不摇，反收其利。"
+      }
+    ],
+    "72": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "郊祀献捷告太祖太宗庙，大赏功臣宿将；蠲赋息民，储半岁之粮；史馆开局修两朝实录，正统于是乎定。",
+        "wishes": "新君立威，岁末帖然。"
+      },
+      {
+        "kind": "build",
+        "target": "zhongyuan",
+        "troops": null,
+        "general": null,
+        "detail": "大阅禁军于汴郊，治攻守之具；庙算来岁：观明唐汉三家胜败之衅，徐图大举。",
+        "wishes": "兵食两足，进退有据。"
+      }
+    ]
+  },
+  "diplomacy": [
+    {
+      "to": "donghan",
+      "proposal": "会盟",
+      "terms": "汉岁助粟十万石，宋偿金帛盐铁；明犯汴则汉出颍汝蹑其后，宋为汉守汴洛门户；虎牢之争暂置盟外，互不攻伐。"
+    },
+    {
+      "to": "tang",
+      "proposal": "联姻",
+      "terms": "皇太侄德昭尚唐宗室女，两家约为婚姻；宋岁市敖仓粟麦，唐兵毋东出成皋，明若犯汴洛则东西掎角。"
+    },
+    {
+      "to": "ming",
+      "proposal": "互不侵犯",
+      "terms": "明戍退出畿辅、罢汴口水砦，岁市粟麦金帛两平如故；宋不称臣、不质子，各守其境，舟楫毋相逾。"
+    },
+    {
+      "to": "donghan",
+      "proposal": "贸易",
+      "terms": "开汴门榷场：宋以盐铁绫磁易汉粟麦布帛，税两平分，军民两便。"
+    }
+  ],
+  "self_note": "手诏本欲焚，病榻弄假成真；晋邸阴奉皇子，柴禹锡辈密通明使；德昭仁少，兵柄实操于曹彬。"
+}

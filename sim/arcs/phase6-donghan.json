@@ -1,0 +1,246 @@
+{
+  "faction": "donghan",
+  "phase": 6,
+  "strategy": "破壁自铸：置军器监仿明火器、市元回回炮匠，叠阵骑射还制之；汴城可让而中原不可尽入明——宋变则奉德昭檄定汴西，与明分汴而壁成皋陈留；连元市马成铁骑，导唐西略关陇，楼船河防拒其东顾；册太子庄定国本，抚两宫，以爵易兵缓度田。",
+  "months": {
+    "61": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "洛阳置军器监：籍汴郊两战所获明军铳炮，重爵募中原降匠与明营火器手，山东盐铁悉输为料，仿铸以岁月为期。",
+        "wishes": "明恃火器，我亦有之，壁垒自此可破。"
+      },
+      {
+        "kind": "diplo",
+        "target": "yuan",
+        "troops": null,
+        "general": null,
+        "detail": "贺正上都：马市岁三千匹续约，益以茶盐铁器，另购回回炮匠与炮样——明器制汉亦制元骑，愿合两家之长。",
+        "wishes": "炮匠北来，骑射火器并辔。"
+      }
+    ],
+    "62": [
+      {
+        "kind": "spy",
+        "target": "song",
+        "troops": null,
+        "general": null,
+        "detail": "细作遍入汴：匡义病势、金匮之盟、晋邸旧僚与太祖旧将向背、曹彬所向，五日一报；阴结汴西门校尉为内线。",
+        "wishes": "宋变先知，先机在我。"
+      },
+      {
+        "kind": "move",
+        "target": "hebei",
+        "troops": 3,
+        "general": "吴汉",
+        "detail": "吴汉突骑三万屯黎阳白马，马成楼船巡河佐之；唐若自河内窥河北，半渡而击，毋令立岸。",
+        "wishes": "河防如铁，唐之东略不敢北向。"
+      }
+    ],
+    "63": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "立国本：太子庄册礼告庙，邓禹为太傅录尚书事，太子留洛听政；岁月不居，国本早定一日，人心早安一日。",
+        "wishes": "储位如山，两宫同辅，谶谣自息。"
+      },
+      {
+        "kind": "build",
+        "target": "zhongyuan",
+        "troops": null,
+        "general": "寇恂",
+        "detail": "寇恂转山东河北之粟倍储颍汝洛阳，缮仓廪、浚漕堰；蝗旱有备，麦秋之战先为粮谋。",
+        "wishes": "仓盈漕通，灾年而军不饥。"
+      }
+    ],
+    "64": [
+      {
+        "kind": "battle",
+        "target": "jianghuai",
+        "troops": 3,
+        "general": "耿弇",
+        "detail": "明若再举北犯：耿弇轻骑倍道绝淮泗饷道，焚粮艘转仓如宿州故事；避坚垒火器，毋与堂堂之阵。",
+        "wishes": "明军千里裹粮，昼夜惊火而自疲。"
+      },
+      {
+        "kind": "internal",
+        "target": "zhongyuan",
+        "troops": null,
+        "general": null,
+        "detail": "宋变之备：匡义若不讳、汴中生变，即传檄奉德昭嗣宋祀，檄至降者授职如故；冯异贾复读檄待发，先收人心。",
+        "wishes": "檄先于变，汴西望风而附。"
+      }
+    ],
+    "65": [
+      {
+        "kind": "battle",
+        "target": "zhongyuan",
+        "troops": 6,
+        "general": "冯异",
+        "detail": "取汴西：宋若溃，冯异出颍川、耿弇贯其郊，会内应开汴西门，收陈留成皋而壁之；避汴东明垒，毋浪战。",
+        "wishes": "汴西汉旗，虎牢成皋陈留联为一线。"
+      },
+      {
+        "kind": "diplo",
+        "target": "ming",
+        "troops": null,
+        "general": null,
+        "detail": "移书徐达布告天下：汴宋之都，明吞之则负天下；汉存宋祀，仁暴之辨，士民公论。",
+        "wishes": "明军新附众心动，汴中士民阴向我。"
+      }
+    ],
+    "66": [
+      {
+        "kind": "internal",
+        "target": "zhongyuan",
+        "troops": null,
+        "general": null,
+        "detail": "抚新附：汴西之众编营授田如颍汝故事；德昭若至，宾礼封宋公奉祀，曹彬石守信量才授任——推赤心置人腹中。",
+        "wishes": "中原人心渐染汉尘，降者日众。"
+      },
+      {
+        "kind": "spy",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "觇长安：世民东略之期、元吉敖仓之粟、玄甲之数；唐西举则岁粟佐之，东向则河防戒严——其向西，我利也。",
+        "wishes": "唐师西出陇坂，我东线只当明一家。"
+      }
+    ],
+    "67": [
+      {
+        "kind": "build",
+        "target": "zhongyuan",
+        "troops": null,
+        "general": null,
+        "detail": "火器试阵：邺洛仿铸铳炮三百配颍汝前军，教叠阵——盾车前、强弩次、铳炮后、骑翼之，乘雨夜薄垒。",
+        "wishes": "叠阵初成，明之利器不复独擅。"
+      },
+      {
+        "kind": "diplo",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "使长安贺西师：岁粟五万石佐陇右之役，马市加额；申约汉专中夏、唐专关陇，共明为敌，各不相犯。",
+        "wishes": "中夏关陇剖分之势成，我专力东向。"
+      }
+    ],
+    "68": [
+      {
+        "kind": "battle",
+        "target": "zhongyuan",
+        "troops": 8,
+        "general": "冯异",
+        "detail": "御明于颍：明若尽汴而西薄洛，冯异叠阵凭颍汝之垒，耿弇绝汴口之饷，吴汉突骑继进——挫其锐不求速决。",
+        "wishes": "明师顿于坚垒饷道间，今我亦有火器。"
+      },
+      {
+        "kind": "move",
+        "target": "zhongyuan",
+        "troops": null,
+        "general": "马成",
+        "detail": "楼船争汴渠：乘秋涨入汴上游，护漕纵火船扰明水运；不与明舟战于淮，争汴渠于门庭之内。",
+        "wishes": "汴渠漕权半归我，汴口大营坐困。"
+      }
+    ],
+    "69": [
+      {
+        "kind": "internal",
+        "target": "shandong",
+        "troops": null,
+        "general": null,
+        "detail": "山东垦籍：新附垦田籍之，豪右隐田仍缓；以爵易兵岁课其效，简骑士万人隶耿弇——马市之骑当成铁骑。",
+        "wishes": "兵籍日实铁骑渐成，度田之结自解。"
+      },
+      {
+        "kind": "spy",
+        "target": "ming",
+        "troops": null,
+        "general": null,
+        "detail": "结荆襄淮西豪帅内线如旧，籍明粮道兵屯虚实与金陵储政——来岁之谋先落于图。",
+        "wishes": "明之虚实岁岁在目，衅至即发。"
+      }
+    ],
+    "70": [
+      {
+        "kind": "battle",
+        "target": "jianghuai",
+        "troops": 4,
+        "general": "耿弇",
+        "detail": "乘疲徇淮北：明若顿兵粮疲，耿弇铁骑徇颍蔡复淮北故垒，得则缮守，不得则敛归毋贪。",
+        "wishes": "淮北渐复，明年可挠淮南。"
+      },
+      {
+        "kind": "move",
+        "target": "hebei",
+        "troops": null,
+        "general": "吴汉",
+        "detail": "河上大阅：吴汉阅黎阳之众，楼船列河；唐元若相持陇坂则敛兵观衅，毋为天下先。",
+        "wishes": "四境整然，进退之柄在我。"
+      }
+    ],
+    "71": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "岁终上计：校兵籍粮储火器之数，并省诸县以省费；云台议来岁——明疲则进，唐东则守。",
+        "wishes": "庙算先定，国用日节。"
+      },
+      {
+        "kind": "build",
+        "target": "hebei",
+        "troops": null,
+        "general": null,
+        "detail": "冬缮之工：虎牢金墉增陴，邺城船场岁输楼船，续铸铳炮三百，常平仓冬籴。",
+        "wishes": "守具战器岁增，来春无惧。"
+      }
+    ],
+    "72": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "储位终定：尊郭后、益封郭氏如故，阴郭子弟并进；诏太子庄代行郊祀、录尚书事——君臣父子之位正。",
+        "wishes": "宫省帖然，万一事出不测，国本不倾。"
+      },
+      {
+        "kind": "diplo",
+        "target": "yuan",
+        "troops": null,
+        "general": null,
+        "detail": "续市马约聘真金：来岁马五千匹、茶盐倍输；明若岁中大举，愿约东西共蹑之。",
+        "wishes": "元汉弥固，铁骑岁增。"
+      }
+    ]
+  },
+  "diplomacy": [
+    {
+      "to": "song",
+      "proposal": "会盟",
+      "terms": "匡义若不讳，汉奉德昭嗣宋祀、入汴西定变；赵氏封宋公世守汴社，曹彬石守信列侯，降者授职如故。"
+    },
+    {
+      "to": "tang",
+      "proposal": "会盟",
+      "terms": "汉专中夏、唐专关陇，各不相犯；岁粟五万石佐陇右之役，马市加额；明北犯则东西相应。"
+    },
+    {
+      "to": "yuan",
+      "proposal": "贸易",
+      "terms": "岁市马三千（来岁五千）匹，茶盐铁器偿之；购回回炮匠与炮样，互不攻伐如故。"
+    },
+    {
+      "to": "ming",
+      "proposal": "警告",
+      "terms": "还淮西之侵、归沛侯、毋吞宋汴；各守淮界，不然新铸铳炮与铁骑岁岁相见。"
+    }
+  ],
+  "self_note": "汴可让，中原不可尽入明；仿器市马所以破壁制骑；唐若东略，半渡可拒；早定国本，为岁月计。"
+}

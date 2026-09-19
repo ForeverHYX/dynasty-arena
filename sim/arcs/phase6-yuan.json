@@ -1,0 +1,241 @@
+{
+  "faction": "yuan",
+  "phase": 6,
+  "strategy": "真金监国行汉法守成：屯田抚羌、黄河漕运以固根本；凭陇坻险塞挫唐复陇之师，归俘复市缓死仇；抑阿合马、安守旧诸王定储位；连横东汉市粮，坐观明并中原三虎相耗，铁骑养锐候变。",
+  "months": {
+    "61": [
+      {
+        "kind": "internal",
+        "target": "mobei",
+        "troops": null,
+        "general": "真金",
+        "detail": "上都颁监国条画：真金以皇太子监国总政，省刑薄赋、劝农重谷；秦陇行汉法，草原仍旧俗，两不相扰。",
+        "wishes": "政出监国而国本不摇，汉法旧俗两安。"
+      },
+      {
+        "kind": "diplo",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "遣使长安：归渭北俘口之老弱，愿留者编为屯户；请复泾渭马市，划陇坻为界各守——会战之仇，以归俘偿之。",
+        "wishes": "唐纳归俘之义，许市息兵，我专固根本。"
+      }
+    ],
+    "62": [
+      {
+        "kind": "internal",
+        "target": "longxi",
+        "troops": null,
+        "general": "姚枢",
+        "detail": "命姚枢许衡核秦陇财计：阿合马明升暗降、夺其实柄，茶盐苛法汰其半；转输之才暂留其用，渐进不移。",
+        "wishes": "柄去而怨未激，国用不骤失其人。"
+      },
+      {
+        "kind": "build",
+        "target": "longxi",
+        "troops": null,
+        "general": "张弘范",
+        "detail": "张弘范开兰州黄河漕：造平底河船三百、练水军护漕，凉州粟浮河入河套漠南——粮道自此避陇坂孤廊之险。",
+        "wishes": "三焚之厄终解，水战之短渐习。"
+      }
+    ],
+    "63": [
+      {
+        "kind": "build",
+        "target": "longxi",
+        "troops": null,
+        "general": "伯颜",
+        "detail": "唐复陇之谋已宣：增缮陇坂萧关堡寨，回回炮分置垒上，深沟高垒；徙边民入堡清野，粮械并聚凉州。",
+        "wishes": "唐师来则顿坚塞之下，粮拙自疲。"
+      },
+      {
+        "kind": "diplo",
+        "target": "donghan",
+        "troops": null,
+        "general": null,
+        "detail": "深盟增市：岁马五千匹易粟十万石并茶铁，先输半岁之粟；约互通明军军情，汴洛有变互为掎角不相背。",
+        "wishes": "粮命脉接于洛阳，明师北顾有忌。"
+      }
+    ],
+    "64": [
+      {
+        "kind": "battle",
+        "target": "tang",
+        "troops": 9,
+        "general": "伯颜",
+        "detail": "唐师若出泾州犯陇：敛骑凭险，回回炮挫其攻坚；万骑绕萧关侧后绝泾水粮道，挫其锐即止，勿逐北。",
+        "wishes": "唐师粮尽引还，陇右不失一城。"
+      },
+      {
+        "kind": "move",
+        "target": "longxi",
+        "troops": 3,
+        "general": "史天泽",
+        "detail": "史天泽汉军三万壁萧关外为疑军：昼曳柴扬尘，夜多布火鼓；护凉州粮队，堡驿衔接到营。",
+        "wishes": "唐疑伏不敢薄险，粮道无失。"
+      }
+    ],
+    "65": [
+      {
+        "kind": "battle",
+        "target": "guanzhong",
+        "troops": 2.5,
+        "general": "张弘范",
+        "detail": "唐师若顿陇坻：张弘范轻骑夜出萧关，焚其攻具粮台于泾原，得手即还；毋深入、毋掠民——以直报怨。",
+        "wishes": "一炬夺其气，唐围自解。"
+      },
+      {
+        "kind": "internal",
+        "target": "longxi",
+        "troops": null,
+        "general": null,
+        "detail": "抚羌固边：羌豪世袭官爵，许茶马互市于洮岷；渭北愿留之俘编户授田屯秦凉——阴平内应之路绝。",
+        "wishes": "羌部复附，屯垦之众日繁。"
+      }
+    ],
+    "66": [
+      {
+        "kind": "internal",
+        "target": "mobei",
+        "troops": null,
+        "general": "真金",
+        "detail": "诸王预备会于上都：岁赐倍支，以陇右屯田之入实之；明诏漠北旧俗、汉地汉法并行不悖——先释守旧诸王之疑。",
+        "wishes": "守旧诸王帖然帐下，驿道无警。"
+      },
+      {
+        "kind": "spy",
+        "target": "ming",
+        "troops": null,
+        "general": null,
+        "detail": "细作遍入汴洛荆襄：明师破汴否、徐达师期、沐英再出阴平否；兼记唐东西两路孰重，月报凉州行在。",
+        "wishes": "中原三虎之耗尽知，铁骑进退有据。"
+      }
+    ],
+    "67": [
+      {
+        "kind": "battle",
+        "target": "guanzhong",
+        "troops": 6,
+        "general": "伯颜",
+        "detail": "唐师若东调河北、陇上兵薄：伯颜复取泾州萧关，缮戍而止、不复东出——陇坂前门重锁，长安西望而已。",
+        "wishes": "前门复固，攻守之势在我。"
+      },
+      {
+        "kind": "build",
+        "target": "longxi",
+        "troops": null,
+        "general": "史天泽",
+        "detail": "粮廊堡垒化：凉州至陇坂三里一堡、十里一驿，护粮汉军世屯堡侧；陆挽与河漕并进，粮车不孤悬千里。",
+        "wishes": "再无三焚之厄，师出而粮继。"
+      }
+    ],
+    "68": [
+      {
+        "kind": "internal",
+        "target": "longxi",
+        "troops": null,
+        "general": "真金",
+        "detail": "阿合马贪墨案发，真金断然收之下狱，穷治其党，赃罚充军储；尽废榷敛之半，代以薄税官市，儒臣掌计。",
+        "wishes": "民怨消而转输再立，激变消弭于先。"
+      },
+      {
+        "kind": "diplo",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "再使长安：陇坻既定，请划陇为界、复马市、俘口愿归者尽归；明并中原在即，愿与唐分西东而各治其民。",
+        "wishes": "唐虽市而不盟亦足，西线息兵。"
+      }
+    ],
+    "69": [
+      {
+        "kind": "build",
+        "target": "mobei",
+        "troops": null,
+        "general": null,
+        "detail": "白灾大备：诸部预徙漠南冬场，羊马入暖厩，凉州广仓与河套漕粟并实，雪警驿传先期而动。",
+        "wishes": "冬寒来而不成灾，畜群得全。"
+      },
+      {
+        "kind": "internal",
+        "target": "mobei",
+        "troops": null,
+        "general": "真金",
+        "detail": "真金亲巡漠南诸部：帐中问疾苦，赐茶帛医药，断狱平允——储君之仁，草原共见，非独行于汉地。",
+        "wishes": "草原之心归监国，谗言不入诸帐。"
+      }
+    ],
+    "70": [
+      {
+        "kind": "internal",
+        "target": "mobei",
+        "troops": null,
+        "general": "忽必烈",
+        "detail": "大汗病笃口授遗诏：真金嗣位、伯颜掌兵、汉法旧制并进不改，刘秉忠史天泽辅政——缄之金匮，副本分授诸王。",
+        "wishes": "纵有不讳，国本先定，诸王无所藉口。"
+      },
+      {
+        "kind": "build",
+        "target": "longxi",
+        "troops": null,
+        "general": null,
+        "detail": "阴平武都再增戍：烽燧相望，徙羌部守隘如律；马场徙内郡，沐英若再出，坚壁清野以待。",
+        "wishes": "南门锁钥再固，马不资敌。"
+      }
+    ],
+    "71": [
+      {
+        "kind": "internal",
+        "target": "mobei",
+        "troops": null,
+        "general": "真金",
+        "detail": "白灾若起：开仓赈部、破雪保畜、暖厩护羔，河漕昼夜续运；真金坐镇上都调度，毋令一部失所。",
+        "wishes": "灾而不乱，诸部感监国之仁。"
+      },
+      {
+        "kind": "internal",
+        "target": "mobei",
+        "troops": null,
+        "general": null,
+        "detail": "忽里勒台大会诸王：预誓真金储位于太祖大帐，大汗能临则亲临；歃血为书，岁赐盟约同颁。",
+        "wishes": "嗣局铁定，守旧派无所挟以乱。"
+      }
+    ],
+    "72": [
+      {
+        "kind": "internal",
+        "target": "mobei",
+        "troops": null,
+        "general": "真金",
+        "detail": "岁终上计：屯田、漕运、马市、抚羌并书于册；定来岁方略——西和唐、北固漠、南锁阴平，中原变起则铁骑东出。",
+        "wishes": "守成之基既固，来岁进有方向。"
+      },
+      {
+        "kind": "diplo",
+        "target": "ming",
+        "troops": null,
+        "general": null,
+        "detail": "遣回回商使如金陵请续互市：岁马千匹易茶粮，观其并汴后师期所向——市者，亦谍也。",
+        "wishes": "互市续而明不西窥，其军实我先知。"
+      }
+    ]
+  },
+  "diplomacy": [
+    {
+      "to": "tang",
+      "proposal": "互不侵犯",
+      "terms": "归渭北俘口、划陇坻为界各守，复泾渭马市岁马千匹易粟五万石，界上息兵。"
+    },
+    {
+      "to": "donghan",
+      "proposal": "会盟",
+      "terms": "马市增额：岁马五千匹易粟十万石并茶铁；明师北犯汴洛则互通军情、互为掎角。"
+    },
+    {
+      "to": "ming",
+      "proposal": "贸易",
+      "terms": "陇上茶马互市照旧续约，以马易茶粮；明师毋再犯阴平武都，犯则绝市。"
+    }
+  ],
+  "self_note": "大汗恐不起，遗诏已缄金匮；阿合马柄虽去、命难全；唐仇可缓不可解；白灾岁至，河漕是保命绳。"
+}

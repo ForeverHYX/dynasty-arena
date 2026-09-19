@@ -1,0 +1,27 @@
+{
+  "month": 72,
+  "factions": {
+    "qin":     {"name": "秦", "leader": "胡亥", "troops": 0.3, "food": 0, "morale": 15, "stability": 10, "regions": [], "alive": false, "notes": "亡国。嬴政服丹暴崩于云阳（35月），沙丘矫诏立胡亥、赐死扶苏蒙恬；王贲举萧关残军降唐，赵高戮于军门，李斯胡亥被执送长安。国祚三十六月，旧将王贲亦殉于萧关（57月），秦焰至此而尽"},
+    "han":     {"name": "汉(西汉)", "leader": "刘邦", "troops": 0, "food": 0, "morale": 10, "stability": 10, "regions": [], "alive": false, "notes": "国除（44月）。刘邦仍寓金陵为沛侯（今岁五十五，未至享年）：岁首汴变、岁中河决、岁末齐鲁易帜，老棋子冷眼观局——检校环宅如故，吕后闭门、萧何抄书，仍是金陵押着的一枚活棋"},
+    "donghan": {"name": "汉(东汉)", "leader": "刘秀", "troops": 12.0, "food": 30, "morale": 67, "stability": 68, "regions": ["hebei"], "alive": true, "notes": "断臂之年：册太子庄定国本、军器监仿火器成叠阵；耿弇徇淮北遇李文忠五河口之伏折锐（70月），河决东平灾齐鲁；岁末明师浮海、山东失守（72月）——敛保河洛河北，切齿记仇：「明并齐鲁，下一个就是虎牢」"},
+    "sui":     {"name": "隋", "leader": "杨勇", "troops": 0, "food": 0, "morale": 15, "stability": 10, "regions": [], "alive": false, "notes": "国除。杨广谋西奔事泄被幽（34月），杨勇安于汴梁隋国公之位，部众早编入宋军"},
+    "tang":    {"name": "唐", "leader": "李建成", "troops": 19.5, "food": 21, "morale": 80, "stability": 61, "regions": ["hedong", "guanzhong"], "alive": true, "notes": "分陕成制：世民都督陕东开府洛阳专东、李靖挂帅西征。汴北候变无功（玄甲候火火不燃），陇坂会战惨胜、顿于陇坻坚塞——凉州不得而泾州复垒；真金请划陇为界，唐答「市而不盟」。汴口置场习楼船，兄弟同谒太庙，共治历三载愈固，来岁世民渡河取河北"},
+    "song":    {"name": "宋", "leader": "赵德昭", "troops": 10.0, "food": 26, "morale": 63, "stability": 40, "regions": ["zhongyuan"], "alive": true, "notes": "新君之年：匡义崩于背疽（63月），金匮手诏双证、德昭柩前即位；夜挫晋邸柴禹锡之变（通明伏诛），三军璧汴而城不乱。夜逐汴东折于火网、乘虚取洛口得粟——立而未固，命脉仍悬于汉粟与明之粮缰之间"},
+    "yuan":    {"name": "元", "leader": "真金", "troops": 10.5, "food": 14, "morale": 56, "stability": 46, "regions": ["mobei", "longxi"], "alive": true, "notes": "忽必烈崩于上都（71月，年六十，风痹三年撑到遗诏金匮储位铁定），真金柩前即位、伯颜掌兵、刘秉忠病卒丧次（72月）。陇坂挫唐而失泾州外垒；兰州河漕成、阿合马伏诛、白灾赈而不乱——守成之局：西和唐、北固漠、南锁阴平"},
+    "ming":    {"name": "明", "leader": "朱元璋", "troops": 15.0, "food": 68, "morale": 88, "stability": 84, "regions": ["jiangnan", "lingnan", "jingchu", "jianghuai", "bashu", "shandong"], "alive": true, "notes": "并宋不血刃之谋落空（三军璧汴、曹彬答「宋有君矣」），转以粮缰围汴：火网挫曹彬夜袭、五河口伏破耿弇；岁末楼船浮海登蓬莱、步骑出沂密——山东易帜（72月），六州在手，天下之势渐成一超，而四方皆敌"}
+  },
+  "regions": {
+    "longxi":    {"name": "陇右凉州", "owner": "yuan",     "pop": 165, "grain": 5, "garrison": 0},
+    "guanzhong": {"name": "关中",     "owner": "tang",    "pop": 390, "grain": 7, "garrison": 0},
+    "hedong":    {"name": "河东",     "owner": "tang",    "pop": 300, "grain": 9, "garrison": 0},
+    "hebei":     {"name": "河北",     "owner": "donghan", "pop": 436, "grain": 8, "garrison": 0},
+    "zhongyuan": {"name": "中原",     "owner": "song",    "pop": 463, "grain": 6, "garrison": 0},
+    "shandong":  {"name": "山东",     "owner": "ming",    "pop": 305, "grain": 5, "garrison": 0},
+    "bashu":     {"name": "巴蜀",     "owner": "ming",    "pop": 350, "grain": 9, "garrison": 0},
+    "jingchu":   {"name": "荆楚",     "owner": "ming",    "pop": 335, "grain": 9, "garrison": 0},
+    "jianghuai": {"name": "江淮",     "owner": "ming",    "pop": 285, "grain": 8, "garrison": 0},
+    "jiangnan":  {"name": "江南",     "owner": "ming",    "pop": 480, "grain": 15, "garrison": 0},
+    "lingnan":   {"name": "岭南",     "owner": "ming",    "pop": 150, "grain": 6, "garrison": 0},
+    "mobei":     {"name": "漠北",     "owner": "yuan",    "pop": 86,  "grain": 2, "garrison": 0}
+  }
+}
