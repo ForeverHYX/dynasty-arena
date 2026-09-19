@@ -153,7 +153,7 @@ EXTRA = {
     "李元吉":"tang","魏征":"tang","薛万彻":"tang","房玄龄":"tang","杜如晦":"tang","尉迟恭":"tang","秦琼":"tang","平阳公主":"tang",
     "慕容延钊":"song","石守信":"song","高怀德":"song","王审琦":"song","曹翰":"song","李处耘":"song","赵德昭":"song","赵匡义":"song",
     "姚枢":"yuan","张弘范":"yuan","王著":"yuan","刘秉忠":"yuan","史天泽":"yuan","阿合马":"yuan","阿里不哥":"yuan","真金":"yuan",
-    "沐英":"ming","昔里吉":"yuan","李承乾":"tang","柴禹锡":"song","程羽":"song","胡惟庸":"ming","朱标":"ming","李文忠":"ming","蓝玉":"ming","马皇后":"ming",
+    "沐英":"ming","昔里吉":"yuan","药木忽儿":"yuan","桓荣":"donghan","李承乾":"tang","柴禹锡":"song","程羽":"song","胡惟庸":"ming","朱标":"ming","李文忠":"ming","蓝玉":"ming","马皇后":"ming",
 }
 CHARACTERS = {}
 for f in fids:
