@@ -1,0 +1,27 @@
+{
+  "month": 60,
+  "factions": {
+    "qin":     {"name": "秦", "leader": "胡亥", "troops": 0.3, "food": 0, "morale": 15, "stability": 10, "regions": [], "alive": false, "notes": "亡国。嬴政服丹暴崩于云阳（35月），沙丘矫诏立胡亥、赐死扶苏蒙恬；王贲举萧关残军降唐，赵高戮于军门，李斯胡亥被执送长安。国祚三十六月。旧将王贲效唐力战，本岁殉于萧关（57月），秦焰至此而尽"},
+    "han":     {"name": "汉(西汉)", "leader": "刘邦", "troops": 0, "food": 0, "morale": 10, "stability": 10, "regions": [], "alive": false, "notes": "国除（44月）。刘邦封沛侯困居金陵：东汉檄请归沛侯奉汉祀，明廷制诏褒答而终不遣；检校环宅如故，吕后冷眼、萧何闭户抄书——棋子虽老，仍是金陵押着的一枚活棋"},
+    "donghan": {"name": "汉(东汉)", "leader": "刘秀", "troops": 15.0, "food": 38, "morale": 73, "stability": 72, "regions": ["hebei", "shandong"], "alive": true, "notes": "罢汴围存宋反酿三国绞肉场：连唐破局（唐乘隙围汴）、汴郊合击受挫于徐达火器壁垒、请归沛侯被拒；然虎牢洛阳颍汝寸土未失，元汉马市得骑三千，以爵易兵、受降募练，兵额复至十五万——中夏抗明之轴心成形"},
+    "sui":     {"name": "隋", "leader": "杨勇", "troops": 0, "food": 0, "morale": 15, "stability": 10, "regions": [], "alive": false, "notes": "国除。杨广谋西奔事泄被幽（34月），杨勇安于汴梁隋国公之位，部众早编入宋军"},
+    "tang":    {"name": "唐", "leader": "李建成", "troops": 21.0, "food": 22, "morale": 77, "stability": 50, "regions": ["hedong", "guanzhong"], "alive": true, "notes": "真共治经两线战火而成：魏征破元谍网缝合兄弟旧怨，世民汴功垂成而奉诏还救关中，泾渭会战挫伯颜，建成亲鼓凤翔、都亭剖符——玄武门之雷压而未熄（元吉昆明池之谋焚于鞘外）。汴东之图未竟，渭北被掠、旱蝗继作，元吉保河内敖仓，王贲殉萧关；伤而根本愈固"},
+    "song":    {"name": "宋", "leader": "赵匡义", "troops": 11.5, "food": 20, "morale": 67, "stability": 40, "regions": ["zhongyuan"], "alive": true, "notes": "一岁三惊：汉围甫解、唐围又至、明师入汴东——拒称臣而受双重供奉（汉粟十万、明粟八万），复成皋而虎牢不拔；明军戍汴东置水师大营，半城已非宋有。匡义箭疮成疽病笃（60月），手诏归位藏于密匣，金匮之盟又成悬案——残喘在悬崖边上"},
+    "yuan":    {"name": "元", "leader": "忽必烈", "troops": 12.0, "food": 14, "morale": 67, "stability": 62, "regions": ["mobei", "longxi"], "alive": true, "notes": "入关大举功败垂成：拔泾州萧关、回回炮撼长安而不克，粮廊三焚、泾渭折锐，掠渭北丁口而还；张弘范袭汉中顿险无功，沐英出阴平夺马数千、陇右西鄙皆摇；忽必烈风痹骤剧中风半瘫（59月），真金监国总秦陇军国、伯颜掌兵——铁骑犹在，大汗垂暮"},
+    "ming":    {"name": "明", "leader": "朱元璋", "troops": 16.5, "food": 66, "morale": 86, "stability": 81, "regions": ["jiangnan", "lingnan", "jingchu", "jianghuai", "bashu"], "alive": true, "notes": "北伐并宋功败垂成：徐达渡淮解唐围、汴郊却东汉合击，然匡义拒称臣、汴门只得半开；耿弇焚宿州仓折饷，蓝玉纵掠夺爵（马后谏止大狱），李善长病卒；沐英阴平得马数千立骑兵之基，汴口大营冬藏——粮缰仍控汴梁死期，来春之势成于冬藏"}
+  },
+  "regions": {
+    "longxi":    {"name": "陇右凉州", "owner": "yuan",     "pop": 165, "grain": 5, "garrison": 0},
+    "guanzhong": {"name": "关中",     "owner": "tang",    "pop": 388, "grain": 6, "garrison": 0},
+    "hedong":    {"name": "河东",     "owner": "tang",    "pop": 300, "grain": 9, "garrison": 0},
+    "hebei":     {"name": "河北",     "owner": "donghan", "pop": 438, "grain": 8, "garrison": 0},
+    "zhongyuan": {"name": "中原",     "owner": "song",    "pop": 470, "grain": 6, "garrison": 0},
+    "shandong":  {"name": "山东",     "owner": "donghan", "pop": 316, "grain": 8, "garrison": 0},
+    "bashu":     {"name": "巴蜀",     "owner": "ming",    "pop": 350, "grain": 9, "garrison": 0},
+    "jingchu":   {"name": "荆楚",     "owner": "ming",    "pop": 335, "grain": 9, "garrison": 0},
+    "jianghuai": {"name": "江淮",     "owner": "ming",    "pop": 285, "grain": 8, "garrison": 0},
+    "jiangnan":  {"name": "江南",     "owner": "ming",    "pop": 480, "grain": 15, "garrison": 0},
+    "lingnan":   {"name": "岭南",     "owner": "ming",    "pop": 150, "grain": 6, "garrison": 0},
+    "mobei":     {"name": "漠北",     "owner": "yuan",    "pop": 87,  "grain": 2, "garrison": 0}
+  }
+}

@@ -1,0 +1,246 @@
+{
+  "faction": "donghan",
+  "phase": 5,
+  "strategy": "抗明保中夏：罢汴围存宋为藩，汉粟代明粟以收其心；连唐制明、崤函互市，坐观唐元相耗而西线自安；坚壁颍汝，轻骑绝明饷道，会宋内外合击挫其北伐于汴郊；受降募练以复兵额，以爵易豪强之兵，缓度田抚两宫；请归沛侯，收天下汉心。",
+  "months": {
+    "49": [
+      {
+        "kind": "diplo",
+        "target": "song",
+        "troops": null,
+        "general": null,
+        "detail": "再开汴门：罢围、还俘、岁助粟十万石以继明粟之断；约共拒明，汴社世守；去帝号称藩尤善，不从亦为唇齿之盟。",
+        "wishes": "宋廷绝明倚汉，中原结成抗明一体。"
+      },
+      {
+        "kind": "diplo",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "遣使吊祭高祖、贺新君，申崤函互市；密约：明若北犯，唐出敖仓挠其西、汉任颍汝正面，唇齿相保。",
+        "wishes": "西线帖然，唐汉合纵成，明师西顾有畏。"
+      }
+    ],
+    "50": [
+      {
+        "kind": "move",
+        "target": "zhongyuan",
+        "troops": 8,
+        "general": "冯异",
+        "detail": "罢汴围为戍：冯异整军颍汝缮垒积粟，贾复壁虎牢成皋间备唐兼备明，耿弇突骑还河北休整候时。",
+        "wishes": "围解而势不摇，锋锐内敛，专候明师。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "传檄天下数明之罪：绝盟助宋、夺我淮西、吞蜀执沛侯；请明归刘邦奉汉祀于洛——汉贼不两立，士民拭目。",
+        "wishes": "明匿沛侯则失天下望，两汉旧德复聚于我。"
+      }
+    ],
+    "51": [
+      {
+        "kind": "spy",
+        "target": "ming",
+        "troops": null,
+        "general": null,
+        "detail": "觇徐达北伐：兵数、粮台、转般仓、水陆运道虚实毕录；阴结淮北豪帅为内应，购金陵近侍为线。",
+        "wishes": "明军虚实先得，粮道要害尽在目中。"
+      },
+      {
+        "kind": "build",
+        "target": "zhongyuan",
+        "troops": null,
+        "general": "寇恂",
+        "detail": "寇恂并转洛阳河内之粟，缮汴渠堰闸；马成以东盐铁之利悉输军兴，楼船护漕毋辍。",
+        "wishes": "饷道内固，师出无乏。"
+      }
+    ],
+    "52": [
+      {
+        "kind": "battle",
+        "target": "zhongyuan",
+        "troops": 3,
+        "general": "耿弇",
+        "detail": "徐达渡淮薄中原：耿弇轻骑三万绝淮泗饷道、焚转般仓，避堂堂之阵；冯异坚壁颍汝勿浪战。",
+        "wishes": "明军千里裹粮，饷道昼夜惊火。"
+      },
+      {
+        "kind": "diplo",
+        "target": "song",
+        "troops": null,
+        "general": null,
+        "detail": "军前定约：汴梁但坚守勿出，我绝其粮、壁其西；事定汉不取汴、还宋所失，共修淮泗之守。",
+        "wishes": "曹彬开陈桥相应，宋汉首次并力。"
+      }
+    ],
+    "53": [
+      {
+        "kind": "battle",
+        "target": "zhongyuan",
+        "troops": 4,
+        "general": "冯异",
+        "detail": "明师若顿汴城下：冯异四万壁陈留断颍运，射书明营「降者不死」；与城中约举火相应，毋令合围。",
+        "wishes": "明军顿坚城而饥疲，降卒缒营来归。"
+      },
+      {
+        "kind": "internal",
+        "target": "zhongyuan",
+        "troops": null,
+        "general": null,
+        "detail": "攻心之政：陈颍设粥棚，收中原流民与明军亡卒；降者隶营、愿农给田——推赤心置人腹中。",
+        "wishes": "受降转化，兵额渐复，仁声日彰。"
+      }
+    ],
+    "54": [
+      {
+        "kind": "move",
+        "target": "hebei",
+        "troops": 2,
+        "general": "吴汉",
+        "detail": "吴汉率河北突骑新卒二万南屯濮济为后继；帝亲驰洛阳设大营，节度颍汝虎牢诸军。",
+        "wishes": "后继既实，亲征之势成而锐气完。"
+      },
+      {
+        "kind": "spy",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "觇长安：两府之变若作，我严陲受降、毋伐丧、毋弃盟；兼察陇坂元骑与敖仓唐军动静。",
+        "wishes": "西变先知，进退不失其时。"
+      }
+    ],
+    "55": [
+      {
+        "kind": "battle",
+        "target": "zhongyuan",
+        "troops": 8,
+        "general": "冯异",
+        "detail": "汴郊合击：明师久顿粮疲，冯异将四万出陈留，耿弇突骑贯其中坚，约曹彬举火出陈桥；帝督洛阳。",
+        "wishes": "内外夹击大破徐达，明师南奔，中原不失。"
+      },
+      {
+        "kind": "diplo",
+        "target": "ming",
+        "troops": null,
+        "general": null,
+        "detail": "阵前遗徐达书：还淮侵、归沛侯、罢北伐，则淮界如故；不然汉骑岁蹂淮泗，胜负未可知也。",
+        "wishes": "明军心摇，徐达进退失据。"
+      }
+    ],
+    "56": [
+      {
+        "kind": "move",
+        "target": "jianghuai",
+        "troops": 3,
+        "general": "耿弇",
+        "detail": "乘胜徇淮北：耿弇轻骑复颍蔡诸城而止，毋渡淮与明水师争锋；冯异缮陈颍守，抚定新复。",
+        "wishes": "淮北复为我有，守淮之势复完。"
+      },
+      {
+        "kind": "diplo",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "捷报入长安申盟，岁粜粟市马如约；婉劝早定君臣名分——北门安则中原共安。",
+        "wishes": "唐廷以我为诚，盟好弥固。"
+      }
+    ],
+    "57": [
+      {
+        "kind": "diplo",
+        "target": "yuan",
+        "troops": null,
+        "general": null,
+        "detail": "遣使上都：茶盐通市如故；密劝毋乘唐丧——关中若残，河东中原次第皆危，鹰狼同饥耳。",
+        "wishes": "元骑观望陇坂，唐元相持而我东线专一。"
+      },
+      {
+        "kind": "internal",
+        "target": "hebei",
+        "troops": null,
+        "general": null,
+        "detail": "郡国新政：输粟助军者赐爵，部曲入营者授职；度田惟括垦荒新附，豪右隐田仍缓——以爵易兵。",
+        "wishes": "豪强之众化为官军之籍，怨气不生。"
+      }
+    ],
+    "58": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "两宫之抚：不易储不易后，益封郭氏；郭阴子弟悉遣军前效力以功自固；太子庄讲武云台、兼省尚书事。",
+        "wishes": "宫省帖然，储位之谣渐息。"
+      },
+      {
+        "kind": "build",
+        "target": "shandong",
+        "troops": null,
+        "general": "马成",
+        "detail": "马成楼船岁成，习战济濮以护汴漕；增缮虎牢金墉诸垒，颍汝屯田，兵食渐饶。",
+        "wishes": "漕运自护，中夏守备日固。"
+      }
+    ],
+    "59": [
+      {
+        "kind": "spy",
+        "target": "ming",
+        "troops": null,
+        "general": null,
+        "detail": "间楚蜀：播蓝玉功高之语以疑其将，结荆襄豪帅；觇金陵储政与再举之期，蜀中赋怨亦阴籍之。",
+        "wishes": "明之内衅可伺，来岁之谋先定。"
+      },
+      {
+        "kind": "move",
+        "target": "hebei",
+        "troops": 5,
+        "general": "吴汉",
+        "detail": "冬防布势：吴汉还河北大阅，冯异镇颍汝，贾复备虎牢，耿弇游骑备河东——唐变则受降勿伐。",
+        "wishes": "四境有备，内变外衅皆不失机。"
+      }
+    ],
+    "60": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "岁终上计洛阳：校受降新募之籍，兵额望复十五万；常平仓会计；召云台议来岁——明必再举，先为不可胜。",
+        "wishes": "兵粮两复，来岁庙算先定。"
+      },
+      {
+        "kind": "diplo",
+        "target": "song",
+        "troops": null,
+        "general": null,
+        "detail": "固盟：还汴郊俘系，岁通漕市，约共修淮泗之守；赵氏奉汉正朔，汴社世守。",
+        "wishes": "宋为汉东藩，中原合势抗明有余。"
+      }
+    ]
+  },
+  "diplomacy": [
+    {
+      "to": "song",
+      "proposal": "会盟",
+      "terms": "罢围还俘，汉岁助粟十万石代明之阴输；约共拒明，汴社世守、中原互保；去帝号奉汉正朔则封宋公，不从亦为唇齿之盟。"
+    },
+    {
+      "to": "tang",
+      "proposal": "会盟",
+      "terms": "吊祭贺新君，崤函互市不废；明北犯则唐出敖仓挠其西、汉任颍汝正面；汉岁粜粟，元若叩陇坂则助粟佐守。"
+    },
+    {
+      "to": "yuan",
+      "proposal": "贸易",
+      "terms": "茶盐通市如故；劝毋乘唐丧犯关中——关中若残，河东中原次第皆危，于汗何利。"
+    },
+    {
+      "to": "ming",
+      "proposal": "警告",
+      "terms": "还淮西之侵、归沛侯奉汉祀、罢北伐之师，各守淮界；不然天子亲督六师，汉贼不两立。"
+    }
+  ],
+  "self_note": "汴为宋守即为我守，围罢而钉存；连唐所以拒明，实畏元得关中耳；唐变则受降勿伐丧；储后之局，俟中原大定。"
+}

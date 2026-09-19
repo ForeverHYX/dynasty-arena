@@ -1,0 +1,241 @@
+{
+  "faction": "yuan",
+  "phase": 5,
+  "strategy": "唐室内衅即发：伯颜铁骑踏陇坂取关中，据四塞因粮于敌；真金以汉法治秦陇固国本，上都养圣体定嗣局；连横东汉制明，乘明师顿于汴，出陈仓取汉中——巴蜀之仇，先四塞后天府。",
+  "months": {
+    "49": [
+      {
+        "kind": "spy",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "长安谍网总动：新君削藩举措、两府兵柄消长、李靖西军动向，一日一报陇坂；续布「遗诏辅政、新君欲夺秦王兵柄」之语。",
+        "wishes": "玄武门之雷早发，唐庭自乱，隙至先知。"
+      },
+      {
+        "kind": "diplo",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "贺使入长安：贺建成即位，续泾渭马市岁马千匹易粟五万石，厚结其近臣，厚礼而示无他意。",
+        "wishes": "唐西军懈备，粟马两得，兵发之日仓廪犹盈。"
+      }
+    ],
+    "50": [
+      {
+        "kind": "build",
+        "target": "longxi",
+        "troops": null,
+        "general": null,
+        "detail": "缮阴平武都道口堡戍，徙羌部守隘，量毁栈阁以拒明师——此我昔年入蜀之路，亦明犯陇右之路。",
+        "wishes": "南门锁死，明蜀之师不得北窥陇右。"
+      },
+      {
+        "kind": "diplo",
+        "target": "donghan",
+        "troops": null,
+        "general": null,
+        "detail": "会盟连横制明：岁市马三千匹助东汉铁骑，约明师北犯汴洛则东西共蹑之；兼探荆襄汉水军实。",
+        "wishes": "明顿兵坚城之下，东线胶着，我得专力于西。"
+      }
+    ],
+    "51": [
+      {
+        "kind": "internal",
+        "target": "longxi",
+        "troops": null,
+        "general": "阿合马",
+        "detail": "阿合马领秦陇财计：榷茶盐、括商税、军前抽分，转输咄嗟立办；姚枢许衡谏其敛怨，帝戒之而仍用。",
+        "wishes": "大举之资立办，师行粮械无乏。"
+      },
+      {
+        "kind": "spy",
+        "target": "ming",
+        "troops": null,
+        "general": null,
+        "detail": "细作入蜀中荆襄：沐英成都屯兵几何、蓝玉夔巫水陆、北伐师期粮台；兼清其检校谍网在我境者。",
+        "wishes": "明之谋画尽知，其谍反为我用。"
+      }
+    ],
+    "52": [
+      {
+        "kind": "battle",
+        "target": "guanzhong",
+        "troops": 12,
+        "general": "伯颜",
+        "detail": "长安两府构兵之报至即誓师出陇坂：轻骑两日拔泾州萧关，王贲旧部为内应，直薄长安，勿顿坚城先夺仓。",
+        "wishes": "四塞西门洞开，关中传檄可下。"
+      },
+      {
+        "kind": "move",
+        "target": "longxi",
+        "troops": 2.5,
+        "general": "史天泽",
+        "detail": "汉军世侯节节护粮廊，申军律：入塞毋掠、降者不杀、市易如故；收秦遗民怨卒为先导向导。",
+        "wishes": "粮道千里不绝，关中之民不骇而附。"
+      }
+    ],
+    "53": [
+      {
+        "kind": "battle",
+        "target": "guanzhong",
+        "troops": 12,
+        "general": "伯颜",
+        "detail": "唐西军来援则会战泾渭之野：铁骑张两翼、炮阵居中；先断渭漕、夺栎阳永丰之仓，因粮于敌。",
+        "wishes": "歼其西军主力，长安成孤，师就敌食。"
+      },
+      {
+        "kind": "spy",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "反间河东长安：使建成世民各疑其将，李靖进退失据；重金啖王贲，许以秦公世守陇右之位。",
+        "wishes": "唐将携贰，萧关不战自开，王贲举军来归。"
+      }
+    ],
+    "54": [
+      {
+        "kind": "battle",
+        "target": "guanzhong",
+        "troops": 12,
+        "general": "伯颜",
+        "detail": "回回炮昼夜轰长安，阙东门以纳降；秦遗民内应为号，礼唐宗庙不戮宗室，建成遁河东则壁而不急追。",
+        "wishes": "长安破，关中底定，四塞尽入版图。"
+      },
+      {
+        "kind": "internal",
+        "target": "guanzhong",
+        "troops": null,
+        "general": "真金",
+        "detail": "真金驰入长安开府：禁杀掠、复农桑、薄赋敛，用唐秦故吏抚新附；籍降卒补军伍。",
+        "wishes": "汉法立威于四塞，民心渐附，兵额复振。"
+      }
+    ],
+    "55": [
+      {
+        "kind": "move",
+        "target": "guanzhong",
+        "troops": null,
+        "general": null,
+        "detail": "分戍蒲津武关萧关陇坻，徙诸部就食渭北；大犒诸王将士，关中卤获分赐，恩结守旧诸王。",
+        "wishes": "四塞为固，军心部族两帖。"
+      },
+      {
+        "kind": "diplo",
+        "target": "ming",
+        "troops": null,
+        "general": null,
+        "detail": "移檄金陵：汉水以北为元界，明师毋溯汉水犯武都阴平，犯则绝市而铁骑南下蹑之。",
+        "wishes": "明敛蜀师不敢北犯，我得专固关中。"
+      }
+    ],
+    "56": [
+      {
+        "kind": "battle",
+        "target": "bashu",
+        "troops": 5,
+        "general": "张弘范",
+        "detail": "明主力胶着淮汴，则出陈仓祁山两道袭汉中：轻骑先夺散关，檄谕汉中吏民，蜀汉遗黎可为内应。",
+        "wishes": "汉中入手，秦岭之险我有其北，剑阁在望。"
+      },
+      {
+        "kind": "build",
+        "target": "guanzhong",
+        "troops": null,
+        "general": null,
+        "detail": "复郑白渠、修长安渠仓，徙降卒屯渭北；阿合马转漕陇坂之粟实京兆仓廪。",
+        "wishes": "关中仓廪渐实，大军就食无匮。"
+      }
+    ],
+    "57": [
+      {
+        "kind": "move",
+        "target": "bashu",
+        "troops": 4,
+        "general": "张弘范",
+        "detail": "汉中既得则壁青桥阳安之险，游骑扰阴平金牛故道；沐英出剑阁则挫之于隘，传檄蜀中数明夺蜀之罪。",
+        "wishes": "汉中牢守，剑阁天险与之共，蜀人闻檄而思动。"
+      },
+      {
+        "kind": "internal",
+        "target": "mobei",
+        "troops": null,
+        "general": "真金",
+        "detail": "白灾预储：诸部先徙漠南冬场，羊马入暖厩，广仓储粟，驿传雪警；宗王增食邑留上都共议国政。",
+        "wishes": "冬寒来而不成灾，诸王帖然帐下。"
+      }
+    ],
+    "58": [
+      {
+        "kind": "internal",
+        "target": "mobei",
+        "troops": null,
+        "general": "忽必烈",
+        "detail": "上都将养圣体，诏真金总秦陇川汉军国、伯颜掌兵、刘秉忠史天泽辅政；密定不讳之仪。",
+        "wishes": "圣躬渐安；纵有不讳，国本不摇。"
+      },
+      {
+        "kind": "build",
+        "target": "guanzhong",
+        "troops": null,
+        "general": "刘秉忠",
+        "detail": "定西京官制：立行省宣慰之规，缮长安城郭宫府；驿传东通凉州、南抵汉中，军情三日达上都。",
+        "wishes": "汉法行之有地，西京规制以兴王业。"
+      }
+    ],
+    "59": [
+      {
+        "kind": "diplo",
+        "target": "donghan",
+        "troops": null,
+        "general": null,
+        "detail": "深盟制明：约元出汉中蹑蜀、东汉蹑淮，使明两顾不及北；市马增额，茶粮铁互市。",
+        "wishes": "明两线受牵，无力专图西北。"
+      },
+      {
+        "kind": "internal",
+        "target": "guanzhong",
+        "troops": null,
+        "general": "真金",
+        "detail": "忽里勒台大会诸王于长安：誓真金储位，分汉中之获；宣汉法旧制并进国是，守旧汉法两派共誓。",
+        "wishes": "嗣局铁定，路线之争化为并进之力。"
+      }
+    ],
+    "60": [
+      {
+        "kind": "internal",
+        "target": "guanzhong",
+        "troops": null,
+        "general": "忽必烈",
+        "detail": "岁终大计：关中汉中新政上计；阿合马之效与怨并录，姚枢等劾之，戒而仍用；定来岁东向汴洛、南向巴蜀之策。",
+        "wishes": "三州之基既固，来岁进有方向。"
+      },
+      {
+        "kind": "build",
+        "target": "mobei",
+        "troops": null,
+        "general": null,
+        "detail": "扩漠南屯田驿传，凉州广仓支冬，雪备如律；探马日夜望汴洛，中原鹬蚌之争旦夕可乘。",
+        "wishes": "根本牢固，坐观中原相耗，铁骑常饱。"
+      }
+    ]
+  },
+  "diplomacy": [
+    {
+      "to": "tang",
+      "proposal": "贸易",
+      "terms": "贺新君即位，续泾渭马市：岁马千匹易粟五万石，界上息兵。"
+    },
+    {
+      "to": "donghan",
+      "proposal": "会盟",
+      "terms": "连横制明：岁市马三千匹，明师北犯汴洛则东西共蹑之，互不攻伐。"
+    },
+    {
+      "to": "ming",
+      "proposal": "警告",
+      "terms": "汉水以北为元界，明师毋溯汉水犯武都阴平，犯则绝市开战。"
+    }
+  ],
+  "self_note": "朕年五十九，风痹足疾渐作；关中一下即命真金坐镇行汉法、伯颜掌兵；阿合马敛怨之种已埋；巴蜀之仇必报。"
+}

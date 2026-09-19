@@ -1,0 +1,246 @@
+{
+  "faction": "song",
+  "phase": 5,
+  "strategy": "绝境合纵：死守汴梁待变，受明粟而拒其缚，许明假道汴东使明汉相噬；阴联唐市敖仓粟、约唐胁虎牢断东汉西臂；乘明叩淮夜袭汴口、破围拓汴东就食；尊德昭收太祖旧将而兵柄不假，手诏许归位以安反侧；伺隙复虎牢洛阳立威，压金匮之疑。",
+  "months": {
+    "49": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "箭疮复发，召医昼夜视疾而朝会如常以安众心；尊德昭为武功郡王使总城守抚军民，枢密兵柄仍归晋邸旧僚，厚赐石守信等太祖宿将。",
+        "wishes": "以侄系太祖旧将之心，烛影之谣稍弭。"
+      },
+      {
+        "kind": "diplo",
+        "target": "ming",
+        "troops": null,
+        "general": null,
+        "detail": "密谢阴输之粟，请增岁额并假火器甲仗；约明北伐宋为内应，许明师假道汴东趋齐鲁而不入畿辅——拒称臣、拒质子。",
+        "wishes": "粮械续命而名分不堕。"
+      }
+    ],
+    "50": [
+      {
+        "kind": "diplo",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "密使赍金帛至成皋敖仓唐营：许唐有河内敖仓，岁市仓粟；约唐出成皋胁虎牢绝东汉西臂，事成洛归宋、河内归唐。",
+        "wishes": "唐军西胁虎牢，汴围断其一臂。"
+      },
+      {
+        "kind": "spy",
+        "target": "donghan",
+        "troops": null,
+        "general": null,
+        "detail": "伪为耿弇通唐密书泄于洛阳汉营，构冯异耿弇之隙；又纵'汴中粮尽、军民食糟糠'之言骄围师，懈其守备。",
+        "wishes": "汉将相疑，围备稍弛。"
+      }
+    ],
+    "51": [
+      {
+        "kind": "battle",
+        "target": "donghan",
+        "troops": 3,
+        "general": "潘美",
+        "detail": "潘美将水陆三万夜袭吴汉汴口水砦，火攻沉其艛船，迎明粮艘溯流入汴；得手即敛还，不与斗狠。",
+        "wishes": "汴口一通，粮道复续。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "帝力疾登城，亲酹阵亡将士，出内帑米赈饥民；令计口授粮、先公后私，与士卒同食围中之粮。",
+        "wishes": "上下同饥，守志愈坚。"
+      }
+    ],
+    "52": [
+      {
+        "kind": "battle",
+        "target": "donghan",
+        "troops": 5,
+        "general": "曹彬",
+        "detail": "明师叩淮、汉军南调之隙，曹彬开诸门以锐卒五万夜突冯异长围，焚云梯砲座破其南面；胜即敛入，不逐北。",
+        "wishes": "长围破一面，汴梁吐气。"
+      },
+      {
+        "kind": "move",
+        "target": "zhongyuan",
+        "troops": 2,
+        "general": "曹翰",
+        "detail": "曹翰将二万循汴南趋宋州护新通粮道，多张疑兵为外拒，与城守表里相应。",
+        "wishes": "粮路外通，围师不敢并力。"
+      }
+    ],
+    "53": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "围解一面即大赏突围功臣，蠲围城逋赋，收流亡补禁军；开仓平粜，汴中市肆渐复。",
+        "wishes": "汴梁元气稍复，户口渐归。"
+      },
+      {
+        "kind": "build",
+        "target": "zhongyuan",
+        "troops": null,
+        "general": null,
+        "detail": "缮城垒、造砲座楼车，储半岁之粮；募汴东流民壮者别立一军，习水战于汴泗。",
+        "wishes": "守具粮储并进，水陆有备。"
+      }
+    ],
+    "54": [
+      {
+        "kind": "battle",
+        "target": "donghan",
+        "troops": 4,
+        "general": "曹彬",
+        "detail": "乘东汉主力南御明师，曹彬将四万出收宋亳曹诸城，传檄先谕、降者不杀，因粮于敌。",
+        "wishes": "汴东诸城复归，就食宽粮。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "德昭请缨，帝不假兵，使持节为汴东招抚使，以郡王之名收太祖旧地，曹翰实监军事；功归帝，劳归侄。",
+        "wishes": "借侄之名收人心，兵柄不外假。"
+      }
+    ],
+    "55": [
+      {
+        "kind": "spy",
+        "target": "ming",
+        "troops": null,
+        "general": null,
+        "detail": "谍入徐达军前，觇火器虚实与顿兵之所，兼察金陵有吞宋并汴之谋否；汴泗楼船暗缮不解。",
+        "wishes": "明之虚实先知，南门常有备。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "赵普密献三策：受明粟而不受其缚、联唐制明、缓图山东。帝纳其策而阴分其权，命监修国史领虚衔。",
+        "wishes": "谋用而权不下移。"
+      }
+    ],
+    "56": [
+      {
+        "kind": "move",
+        "target": "zhongyuan",
+        "troops": 4,
+        "general": "曹彬",
+        "detail": "元骑叩萧关、成皋唐军若西旋，曹彬将四万进扼成皋复敖仓，深壁虎牢下观衅；唐军不撤则以盟约辞之，毋先启衅。",
+        "wishes": "漕枢复入手，进退有据。"
+      },
+      {
+        "kind": "spy",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "布谍长安洛阳，觇建成分陕两府之衅，阴通款曲自卖消息；唐室内衅愈深，东顾愈迟。",
+        "wishes": "唐自顾不暇，无背盟之力。"
+      }
+    ],
+    "57": [
+      {
+        "kind": "battle",
+        "target": "donghan",
+        "troops": 7,
+        "general": "曹彬",
+        "detail": "东汉胶着于淮，曹彬为都部署将七万攻虎牢，潘美出轘辕缀洛阳；帝欲再亲征，箭疮未平，普彬泣谏而止，帝驻汴督饷。",
+        "wishes": "虎牢一鼓复之，西进之门开。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "帝手诏盟于太庙：天下底定，大位归侄德昭。以一纸空文安太祖旧将之反侧，收其死力以战。",
+        "wishes": "旧将感泣效死，疑议暂平。"
+      }
+    ],
+    "58": [
+      {
+        "kind": "battle",
+        "target": "donghan",
+        "troops": 7,
+        "general": "曹彬",
+        "detail": "虎牢若下则长围洛阳、绝洛口粮道，先檄后兵、市不易肆；不下则敛保成皋，待汉明胜败之隙再动。",
+        "wishes": "洛阳受兵，河南人心摇动。"
+      },
+      {
+        "kind": "build",
+        "target": "zhongyuan",
+        "troops": null,
+        "general": null,
+        "detail": "修汴洛驰道备转饷，徙民实巩洛之野；造浮桥于河阴以通唐市，粮械相易。",
+        "wishes": "饷路先通，兵进无乏。"
+      }
+    ],
+    "59": [
+      {
+        "kind": "diplo",
+        "target": "donghan",
+        "troops": null,
+        "general": null,
+        "detail": "若洛阳危急刘秀乞和：要其还虎牢洛口、罢汴围，划大河为界互市；不从则约明共分其山东之地。",
+        "wishes": "不战而复汴西之土。"
+      },
+      {
+        "kind": "diplo",
+        "target": "ming",
+        "troops": null,
+        "general": null,
+        "detail": "明若胜汉而求过兵并宋：严辞'宋为与国非臣仆'，闭关缮守，暗移水师备之——受粟之恩，到此为止。",
+        "wishes": "明知宋有备，未敢遽图。"
+      }
+    ],
+    "60": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "郊祀献捷告太祖庙，大赏功臣；德昭加殊礼而枢密如故，皇子皆封王——各安其位，暗流仍伏。",
+        "wishes": "君臣名分粗定，岁末帖然。"
+      },
+      {
+        "kind": "build",
+        "target": "zhongyuan",
+        "troops": null,
+        "general": null,
+        "detail": "屯田汴东荒田，练水师于汴泗，储来岁之粮；庙算来岁：齐鲁可图，明终不可信。",
+        "wishes": "兵食两足，进图齐鲁。"
+      }
+    ]
+  },
+  "diplomacy": [
+    {
+      "to": "ming",
+      "proposal": "互不侵犯",
+      "terms": "岁粟增额并假火器甲仗，许明师假道汴东趋齐鲁而不入畿辅；宋不称臣、不质子，舟楫盟好如故。"
+    },
+    {
+      "to": "tang",
+      "proposal": "会盟",
+      "terms": "唐保河内敖仓，宋岁以金帛市仓粟；唐出成皋胁虎牢共制东汉，事成洛归宋、河内归唐，互市盐铁。"
+    },
+    {
+      "to": "donghan",
+      "proposal": "警告",
+      "terms": "罢汴围、还虎牢洛口、退出汴西，划大河为治互市；不然宋合明唐之力共击之。"
+    },
+    {
+      "to": "tang",
+      "proposal": "联姻",
+      "terms": "以武功郡王德昭尚唐宗室女，结两家之好，固宋唐掎角之盟。"
+    }
+  ],
+  "self_note": "手诏归位是骗局，事成即焚；德昭声望日高，杀心渐起；明粟养人亦养傀儡，疮痛日剧恐天不假年。"
+}
