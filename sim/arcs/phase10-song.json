@@ -1,0 +1,241 @@
+{
+  "faction": "song",
+  "phase": 10,
+  "strategy": "守枢待变：汴口舰禁不摇、粮缰随唐势低昂；售宋旗护明舶、密约升为唇齿，汉盟北望成环；反间慢煮长安泗上之隙；漕利还民、讲武蓄锐——待天下有变，先手启门。",
+  "months": {
+    "109": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "元正庙算定「守枢待变」：汴口三禁（商通、兵禁、舰禁）不摇，粮缰随势低昂；先修汴东决河复漕、赈浸区复耕——去年秋汛的账，开春先还。",
+        "wishes": "漕复民安，秤仍悬于汴手。"
+      },
+      {
+        "kind": "diplo",
+        "target": "donghan",
+        "troops": null,
+        "general": null,
+        "detail": "应邓禹「议北边」之请结「北望之约」：唐若犯汴或夺汴口，汉出井陉压河东为援；宋平价粟济汉东军、盐铁市利岁偿如故；谍报共享，观隙俱动毋先发。",
+        "wishes": "三面之势成环，唐顾北则缓江南。"
+      }
+    ],
+    "110": [
+      {
+        "kind": "build",
+        "target": "zhongyuan",
+        "troops": null,
+        "general": null,
+        "detail": "以岁修为名增汴口之防：沉舟三迭再铸铁锁、两岸砲座暗增；浚渠复漕、新仓代浸仓——口在，漕在，宋在。",
+        "wishes": "汴口不可猝拔，唐夺口之念重估。"
+      },
+      {
+        "kind": "spy",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "谍网东伸泗口、西入长安：唐水师成军之期、渡江之期、楼船请过汴口之议；兼记长安泗上信使往还疏密——两府火候，先我而知。",
+        "wishes": "渡期与口之争，宋先一着。"
+      }
+    ],
+    "111": [
+      {
+        "kind": "diplo",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "唐使若索战舰过汴口：申约在（舰禁）不可废，废须以战；另开价——岁市增五成、认宿亳戍权，可议商艘代运军粮于泗口；不允则各安其约。",
+        "wishes": "以代运缠其兵锋，舰禁之名立于约。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "讲武堂首期卒业大阅：曹彬为山长授帅略，崔翰田重进等三十人出补将位；武举第二届并开——帅才以制度继，不以门户继。",
+        "wishes": "禁军新旧相衔，将星层出。"
+      }
+    ],
+    "112": [
+      {
+        "kind": "build",
+        "target": "zhongyuan",
+        "troops": null,
+        "general": null,
+        "detail": "募淮北流民补禁军、汰老弱编伍；水师汴泗合操火船铁锁之阵；括粟至一岁之储——内功年年做，不止为守。",
+        "wishes": "兵实仓实，应变有本。"
+      },
+      {
+        "kind": "diplo",
+        "target": "ming",
+        "troops": null,
+        "general": null,
+        "detail": "聘金陵升密约为「唇齿三款」：唐若攻汴口，明水师逆击唐江防为援；宋以「宋旗之护」纳明海舶、市舶减税三分，岁市粟加至十八万；婚议再缓。",
+        "wishes": "明得喘息，宋得海利，唐两线悬。"
+      }
+    ],
+    "113": [
+      {
+        "kind": "spy",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "反间慢煮：商路散语——长安言「泗上甲仗租赋不入京」，泗上言「旦夕有代帅之诏」；捧世民之功入东宫，誉之足以疑之。",
+        "wishes": "建成生疑，渡江之期自迟。"
+      },
+      {
+        "kind": "internal",
+        "target": "zhongyuan",
+        "troops": null,
+        "general": null,
+        "detail": "漕利还民第二年：浸区尽复耕，常平仓增籴平粜；录去岁赈蠲之数宣示中外——民心是中立的底仓。",
+        "wishes": "稳定脱六而上，户口再增。"
+      }
+    ],
+    "114": [
+      {
+        "kind": "move",
+        "target": "zhongyuan",
+        "troops": 5,
+        "general": "潘美",
+        "detail": "潘美将水陆五万壁汴口，曹翰以二万壁宿亳为犄角；「唐若犯中立之漕」檄文预藏于匣——先为不可胜，以待唐之可胜。",
+        "wishes": "唐侦知汴口有备，夺口之价重估。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "粮缰再调：唐若临江乏饷，粜价再增三成、市门缓开；明若危殆，则粟舟挂宋旗出淮转饷——秤针随势，两头皆仰汴。",
+        "wishes": "唐明久噬，宋握其饷源。"
+      }
+    ],
+    "115": [
+      {
+        "kind": "battle",
+        "target": "tang",
+        "troops": 5,
+        "general": "潘美",
+        "detail": "唐舰若强闯或攻汴口：铁锁火船逆击、砲座夹射，曹翰蹙其陆师，逐出即敛；飞檄天下唐败盟犯漕，按约促汉明俱动——三面之环收口。",
+        "wishes": "唐知夺口即三线之战，敛兵转图。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "大义之用：檄布则募中原义勇巡漕、商人输粮犒军——中立被犯之日，即举国同忾之时。",
+        "wishes": "守漕之名，化为守土之实。"
+      }
+    ],
+    "116": [
+      {
+        "kind": "diplo",
+        "target": "donghan",
+        "troops": null,
+        "general": null,
+        "detail": "岁中固盟洛阳：岁粟如约、水师联哨如故；密议分法——唐两府若开，汉向河东、宋收汴西淮北，先约后动，两家刀不相逢。",
+        "wishes": "变起之日，利不争而分定。"
+      },
+      {
+        "kind": "internal",
+        "target": "zhongyuan",
+        "troops": null,
+        "general": null,
+        "detail": "秋收大计：核户口田亩、平狱讼、蠲逋赋；讲武堂进「守口十策」为教典——中兴之政，岁岁记账。",
+        "wishes": "政成俗阜，史馆有光。"
+      }
+    ],
+    "117": [
+      {
+        "kind": "spy",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "察变专谍：长安召还之使、泗上辞让之表、东宫属官之迁——两府之隙若开，一驿驰汴，即启「乘变之图」。",
+        "wishes": "变起先知，先发先备。"
+      },
+      {
+        "kind": "build",
+        "target": "zhongyuan",
+        "troops": null,
+        "general": null,
+        "detail": "缮攻守之具：床弩火箭配楼船，砲座增石弹火柜；储粮分三仓——口守矣，亦谋出。",
+        "wishes": "能守能出，变至可乘。"
+      }
+    ],
+    "118": [
+      {
+        "kind": "move",
+        "target": "zhongyuan",
+        "troops": 3,
+        "general": "曹翰",
+        "detail": "简禁军锐三万为「应变军」：甲械舟楫常备，一檄即发——唐内乱则趋虎牢收汴西淮北，唐胜明则敛守联汉，两案月演。",
+        "wishes": "变至之日，宋兵先至。"
+      },
+      {
+        "kind": "diplo",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "岁末通问长安：岁市如额、使节相望、礼辞周旋——使唐终以宋为「守财之主」；骄敌之半，在使其轻汴。",
+        "wishes": "唐轻汴而重江南，西门之兵不启。"
+      }
+    ],
+    "119": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "冬储讲武：大阅首期生各领一队，功臣阁第三榜图形；史馆进中兴政记第二卷——内治之极，即外衡之资。",
+        "wishes": "军民并练，正统益固。"
+      },
+      {
+        "kind": "spy",
+        "target": "ming",
+        "troops": null,
+        "general": null,
+        "detail": "觇金陵虚实：水师战损之数、海舶回舶之期、检校密网所向——盟友的秤，宋也要自己称过。",
+        "wishes": "明之强弱势数，了然于汴。"
+      }
+    ],
+    "120": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "郊祀庙算：三策悬冬——唐内乱则进，唐明俱损则收渔，唐灭明则沉口中舟、举国守汴联汉死战；史馆书「天下之枢，悬于汴门」。",
+        "wishes": "来岁之门，宋自启之。"
+      },
+      {
+        "kind": "spy",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "岁终大谍：长安金陵洛阳三家兵粮谍图重绘以进；汴口之争、两府之隙、江防之耗并注于图——庙算随图更新。",
+        "wishes": "天下之底，岁岁在汴。"
+      }
+    ]
+  },
+  "diplomacy": [
+    {
+      "to": "tang",
+      "proposal": "互不侵犯",
+      "terms": "汴口之约续守：兵舰毋过汴口、兵毋入汴境；宋岁市如额、不绝唐商。唐若索战舰过口，宋以岁市增五成、商艘代运泗口为替代，战舰过口之请终拒。"
+    },
+    {
+      "to": "donghan",
+      "proposal": "会盟",
+      "terms": "北望之约：唐若犯汴或夺汴口，汉出井陉压河东为援；宋平价粟济汉东军、盐铁市利岁偿如故；两国谍报共享，观隙俱动毋先发。"
+    },
+    {
+      "to": "ming",
+      "proposal": "贸易",
+      "terms": "唇齿三款：唐若攻汴口，明水师逆击唐江防为援；宋旗之护纳明海舶、市舶减税三分，岁市粟加至十八万；军械之禁如故，婚议再缓。"
+    }
+  ],
+  "self_note": "中立是秤非墙：粮缰紧唐、宋旗护明、反间慢煮两府——只待其变；汴口若失，即联汉明举国反噬。"
+}

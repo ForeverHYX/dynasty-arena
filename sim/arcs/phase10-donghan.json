@@ -1,0 +1,233 @@
+{
+  "faction": "donghan",
+  "phase": 10,
+  "strategy": "江左对峙、汉实其内：不遏唐兵而遏唐势——粟分月而输为缰、马自育、存宋固盟、两门增壁；谍册两府止觇勿扇，候衅不赌。太子加元服、监国试政，付托有渐；度田柔推、举吏抚齐，渔利于江而根本日深。",
+  "months": {
+    "109": [
+      {
+        "kind": "diplo",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "贺正长安续盟：岁粟北马如故价、登莱互市加额；以分月输粟佐唐淮饷为价，请唐正认泗北齐界、唐骑毋出井陉著之盟书。",
+        "wishes": "盟文落墨，齐界永定，唐师专于江。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "云台岁首大议定「实内观衅」：兵不出界，两门增戍，足仓育马、齐整新附；观唐两府之隙、汴门之开阖、江墙之坚脆。",
+        "wishes": "江上相持一日，汉实一日。"
+      }
+    ],
+    "110": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "太子加元服告太庙，邓禹赞冠、桓荣授经；两宫并尊如故，厚赏郭氏金帛而不假以权——国本既固，北道豪强之心亦安。",
+        "wishes": "元服礼成，幼主之疑永息。"
+      },
+      {
+        "kind": "build",
+        "target": "hebei",
+        "troops": null,
+        "general": null,
+        "detail": "苑马之成：渤海故苑三岁蕃息，岁简军骑自给其半；唐马照市如故——厩日充而缰不骤脱，毋惊长安。",
+        "wishes": "三岁之后，铁骑不假于人。"
+      }
+    ],
+    "111": [
+      {
+        "kind": "spy",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "谍册两府：承乾失师后东宫辅翼之虚实、世民镇泗之隙、谤语所自、临江之期；旬日一更，止觇勿扇。",
+        "wishes": "唐衅之起，先旬在我。"
+      },
+      {
+        "kind": "build",
+        "target": "shandong",
+        "troops": null,
+        "general": null,
+        "detail": "泗上之备：增郯费之垒、列烽南望，徙近边之粟于北；登莱快船哨海及淮口——让地之后，南门自增一重。",
+        "wishes": "世民壁虽近，吾有垒可凭。"
+      }
+    ],
+    "112": [
+      {
+        "kind": "diplo",
+        "target": "song",
+        "troops": null,
+        "general": null,
+        "detail": "邓禹聘汴践北边之议：唐若犯汴或北渡，汉出军为掎角、宋持粜缰制其饷；盐铁互市加额、姻盟如故。",
+        "wishes": "汴门不独闭，唐锋常分。"
+      },
+      {
+        "kind": "internal",
+        "target": "shandong",
+        "troops": null,
+        "general": null,
+        "detail": "山东举吏：州郡辟大姓子弟，立郡学、岁贡儒生入洛，复孔氏旧族门户——新附之根在吏不在兵。",
+        "wishes": "齐鲁之望，渐归于洛。"
+      }
+    ],
+    "113": [
+      {
+        "kind": "internal",
+        "target": "hebei",
+        "troops": null,
+        "general": null,
+        "detail": "帝北巡河朔：幸邺、邯郸、真定，宴元从功臣与豪右，阅黎阳之戍，面解度田之怨——柔道行于北道，兼节劳养体。",
+        "wishes": "豪强安而根本益固。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "帝巡期间太子监国：邓禹、冯异辅政，庶政决于东宫、奏报以闻——班子的成色，先试于三月。",
+        "wishes": "归而政不滞，则付托有渐。"
+      }
+    ],
+    "114": [
+      {
+        "kind": "diplo",
+        "target": "ming",
+        "troops": null,
+        "general": null,
+        "detail": "使金陵通海市：登莱与吴越海商互市，北马南缯两得其利；申江为界之约——明专守江，汉不逾界一步。",
+        "wishes": "明得实利，守江益坚。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "度田柔推二期：河北沿河新垦渐籍折粟输军，山东如之；郭耿元勋之家赐爵免勘如故——军实增而豪右不惊。",
+        "wishes": "度田之结，又柔解一寸。"
+      }
+    ],
+    "115": [
+      {
+        "kind": "internal",
+        "target": "shandong",
+        "troops": null,
+        "general": null,
+        "detail": "太子抚齐：代帝东巡，谒阙里祠孔子，宴劳齐鲁豪右，览登莱舟师，耿纯扈从——储君之望著于新附之州。",
+        "wishes": "齐东之民心，系于储君。"
+      },
+      {
+        "kind": "spy",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "更进唐册：江上战守之势、汴粜之价、两府衅之深浅、淮北新附之向背——候衅之笔不辍。",
+        "wishes": "江局之变，先知于洛。"
+      }
+    ],
+    "116": [
+      {
+        "kind": "build",
+        "target": "shandong",
+        "troops": null,
+        "general": null,
+        "detail": "登莱增艨艟火船，习海戍、巡渤海——门内之海自为池沼；示唐以有备，非示天下以争锋。",
+        "wishes": "海上门户，操之在我。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "郡国立常平仓：谷贱增价而籴、谷贵减价而粜——备凶年之灾，抑豪右之籴，民价常平。",
+        "wishes": "凶年有备，民价不腾。"
+      }
+    ],
+    "117": [
+      {
+        "kind": "diplo",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "岁中申盟：江上捷则贺、顿则吊皆礼也；乘间请泗上毋增戍、市舶分润著约——岁粟佐饷，价在界与市。",
+        "wishes": "界与市再固，唐锋专于江南。"
+      }
+    ],
+    "118": [
+      {
+        "kind": "build",
+        "target": "hebei",
+        "troops": null,
+        "general": null,
+        "detail": "河防冬修：发卒缮河北长堤、疏积水，常平仓粟先运濒河——天时不由人，堤与仓先由人。",
+        "wishes": "汛来有备，灾不为祸。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "有司奏河清请封禅泰山，帝却之：「谶不经，封禅勿议；治迹自在仓廪户口。」——自我感动之门，先自关之。",
+        "wishes": "谶不能惑，柔道自胜。"
+      }
+    ],
+    "119": [
+      {
+        "kind": "move",
+        "target": "hebei",
+        "troops": 2,
+        "general": "冯异",
+        "detail": "两门之备：吴汉谨黎阳、冯异巡河内之隘、耿弇移镇郯——唐若内衅或江师大顿，此三门者进退所出。",
+        "wishes": "门内有备，观衅无忧。"
+      },
+      {
+        "kind": "battle",
+        "target": "jianghuai",
+        "troops": 4,
+        "general": "耿弇",
+        "detail": "候衅之兵：唐两府若起衅、临江之师若大挫，耿弇出郯蹙泗、马成舟师继进，传檄淮北，得徐泗而止；衅不至则敛兵毋动。",
+        "wishes": "衅至则复徐泗，不至则全师待时。"
+      }
+    ],
+    "120": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "岁终大计：校兵粮马船之数；诏太子五日一朝、军国重事先白东宫——监国试于巡，付托成于常；尊郭后如故。",
+        "wishes": "身后之局，今日已定。"
+      },
+      {
+        "kind": "diplo",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "岁终三聘：长安申市、汴梁固盟、金陵通好——三面之市皆温，两门之壁皆固，变起而汉在局中不在火中。",
+        "wishes": "天下变起，汉坐观而收。"
+      }
+    ]
+  },
+  "diplomacy": [
+    {
+      "to": "tang",
+      "proposal": "会盟",
+      "terms": "岁粟北马如价续市、登莱互市加额；汉分月输粟佐唐淮饷为价，请正认泗北齐界、唐骑毋出井陉著之盟书。"
+    },
+    {
+      "to": "song",
+      "proposal": "会盟",
+      "terms": "北边之约：唐若犯汴或北渡，汉出军为掎角、宋持粜缰制其饷；岁粟六万、盐铁互市加额，姻盟如故。"
+    },
+    {
+      "to": "ming",
+      "proposal": "互不侵犯",
+      "terms": "江为界各守其土：登莱吴越海市、淮盐通市如故；明专力守江，汉不逾界一步。"
+    }
+  ],
+  "self_note": "渔利非忘唐：两府之册观而未扇，粟之缓急视江上胜负；马厩既充，缰终自解——戒后嗣毋赌国运于江。"
+}

@@ -1,0 +1,27 @@
+{
+  "month": 120,
+  "factions": {
+    "qin":     {"name": "秦", "leader": "胡亥", "troops": 0.3, "food": 0, "morale": 15, "stability": 10, "regions": [], "alive": false, "notes": "亡国（36月）。嬴政服丹暴崩、沙丘矫诏、王贲萧关殉国，李斯胡亥被执送长安——秦焰早熄，旧档存照"},
+    "han":     {"name": "汉(西汉)", "leader": "刘邦", "troops": 0, "food": 0, "morale": 10, "stability": 10, "regions": [], "alive": false, "notes": "国除（44月）。沛侯刘邦酒疾暴作，薨于金陵围城（120月，年五十九，距享年61差二载），萧何侍药到终，朱元璋以侯礼葬于钟山——押了十年的棋子，天道收回。萧何扶柩居金陵"},
+    "sui":     {"name": "隋", "leader": "杨勇", "troops": 0, "food": 0, "morale": 15, "stability": 10, "regions": [], "alive": false, "notes": "国除。杨广谋西奔事泄被幽（34月），杨勇安于汴梁隋国公位，部众早编入宋军"},
+    "donghan": {"name": "汉(东汉)", "leader": "刘秀", "troops": 12.0, "food": 19, "morale": 80, "stability": 82, "regions": ["hebei", "shandong"], "alive": true, "notes": "缰失之年：太子加元服、帝北巡付托成常课（五日一朝、军国事先白东宫），抚齐举吏、常平立仓、苑马自给其半——实内一日深一日。然分月输粟为缰而唐倍储自解，候衅的兵候了一年、候来唐垒已立江南：受明市而不受明盟，北望之约悬而未发。云台之册又添一页——来岁之局，系于金陵城墙的厚薄"},
+    "tang":    {"name": "唐", "leader": "李建成", "troops": 13.3, "food": 12, "morale": 92, "stability": 71, "regions": ["hedong", "guanzhong", "longxi", "mobei", "jianghuai"], "alive": true, "notes": "渡江之年：苏定方「再而实之」出阴平夜拔江油、涪城破沐英，蜀门半开而顿于绵竹险（上游得其半）；枯水破锁京口（先锋半队被蓝玉火船焚——惨胜）、玄甲夜渡、京口采石立垒、壁丹阳围金陵——围而不攻，候蜀荆生变，来春一鼓。谤语+宋反间煮出长安代帅之议（诏稿三易），承乾以转运籍自证、天子东幸临江、册秦王女为太子妃领江东行台锁局——两府之隙惊而不爆。白灾课漠北之费，真金赈部得养。金陵城下，天下只欠一鼓"},
+    "song":    {"name": "宋", "leader": "赵德昭", "troops": 12.7, "food": 27, "morale": 78, "stability": 67, "regions": ["zhongyuan"], "alive": true, "notes": "掀桌之年：北望之约、唇齿三款两环扣成，商艘代运两头收价，反间慢煮几裂长安——然房玄龄溯及汴商，宋旗粮船江面尽没于唐（约文只护汴漕，无约可援，敛帜输平）。应变军立而檄匣未开，漕利还民、仓实兵足。三策悬冬：唐内乱则进、俱损则收渔、唐灭明则举国守汴联汉死战——天下之门，不知还能不能由汴启"},
+    "yuan":    {"name": "元", "leader": "真金", "troops": 0, "food": 0, "morale": 15, "stability": 10, "regions": [], "alive": false, "notes": "国除（93月）。真金奉世祖主去汗号举族内附，封归义王赐第长安；本岁白灾锁漠北，真金请粟赈其部、归义诸部得养不散——国亡部存，旧档存照"},
+    "ming":    {"name": "明", "leader": "朱元璋", "troops": 5.3, "food": 38, "morale": 59, "stability": 69, "regions": ["jiangnan", "lingnan", "jingchu", "bashu"], "alive": true, "notes": "围城之年：三候尽失——候师老而唐倍储、候内衅而赐婚锁局、候天灾而大旱反替唐开江（114月江湖大旱，铁锁半悬）。苏定方开蜀门（江油涪城失、沐英退保绵竹）、枯水破锁水师残、玄甲立滩蓝玉再创，金陵合围：围而不攻，城中粮支岁余、流民入城助守，马后尽出宫藏、皇孙诞于围城，沛侯刘邦薨。「江在城在，城在明在」——命悬一城而城未破"}
+  },
+  "regions": {
+    "longxi":    {"name": "陇右凉州", "owner": "tang",    "pop": 161, "grain": 5, "garrison": 0},
+    "guanzhong": {"name": "关中",     "owner": "tang",    "pop": 388, "grain": 6, "garrison": 0},
+    "hedong":    {"name": "河东",     "owner": "tang",    "pop": 301, "grain": 9, "garrison": 0},
+    "hebei":     {"name": "河北",     "owner": "donghan", "pop": 436, "grain": 7, "garrison": 0},
+    "zhongyuan": {"name": "中原",     "owner": "song",    "pop": 468, "grain": 6, "garrison": 0},
+    "shandong":  {"name": "山东",     "owner": "donghan", "pop": 292, "grain": 5, "garrison": 0},
+    "bashu":     {"name": "巴蜀",     "owner": "ming",    "pop": 350, "grain": 8, "garrison": 0},
+    "jingchu":   {"name": "荆楚",     "owner": "ming",    "pop": 337, "grain": 9, "garrison": 0},
+    "jianghuai": {"name": "江淮",     "owner": "tang",    "pop": 266, "grain": 5, "garrison": 0},
+    "jiangnan":  {"name": "江南",     "owner": "ming",    "pop": 470, "grain": 8, "garrison": 0},
+    "lingnan":   {"name": "岭南",     "owner": "ming",    "pop": 153, "grain": 6, "garrison": 0},
+    "mobei":     {"name": "漠北",     "owner": "tang",    "pop": 74,  "grain": 1, "garrison": 0}
+  }
+}

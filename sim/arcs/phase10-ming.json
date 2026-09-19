@@ -1,0 +1,233 @@
+{
+  "faction": "ming",
+  "phase": 10,
+  "strategy": "守江待变：铁锁铳台为壁、水师为干，三候为纲——候唐师老、候唐两府之衅、候天灾；谤入长安、粮缰假宋、云台暗结；海舶蜀盐，四州自给南朝化；败责自任、蓝玉薄惩，身后班底付标儿——变至则鄱阳之火重燃。",
+  "months": {
+    "109": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "岁首庙算定「守江待变」：三候为纲——候唐师老、候唐内衅、候天灾，逐旬评注；徐达总江防，水师为干、陆军守城",
+        "wishes": "国是既定，四州各安其位"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "败议定谳：言官请诛蓝玉、劾徐达失律；帝焚章自任「失淮朕之过」，贬蓝玉二秩夺选锋、徐达削俸留任；马后谏「败而杀将，是助唐」",
+        "wishes": "薄惩塞清议，将心不散"
+      }
+    ],
+    "110": [
+      {
+        "kind": "build",
+        "target": "jiangnan",
+        "troops": null,
+        "general": "徐达",
+        "detail": "江防大工：南岸铳台自池州连锁至海口，采石京口铁锁益增，烽传半日抵金陵；火器分贮沿江三库——大江即城墙，台舰即垛口",
+        "wishes": "唐舰至江，先碎于台舰之下"
+      },
+      {
+        "kind": "spy",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "谤入长安：厚赂唐室近幸，播「淮上之功归天策、庙堂高坐者王」之语；谤与周公之诏并进——两府之隙，月浇一勺油",
+        "wishes": "唐室内衅渐深，临江之师自缓"
+      }
+    ],
+    "111": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "蓝玉闭门读铁榜，太子太师衔如故，金吾亲军印暂付伤愈视事之李文忠；东宫恩问不绝——明罚暗保，骁将不折，刀鞘仍在东宫",
+        "wishes": "惩而不折，蓝玉之怨化为愧忠"
+      },
+      {
+        "kind": "diplo",
+        "target": "song",
+        "troops": null,
+        "general": null,
+        "detail": "固宋秤：岁市粟十五万如约，番禺市舶之利予宋商三成；密告汴京「唐得江左则漕中立破」——宋的粮缰，替朕勒住唐",
+        "wishes": "宋缰愈紧，唐饷愈艰"
+      }
+    ],
+    "112": [
+      {
+        "kind": "build",
+        "target": "lingnan",
+        "troops": null,
+        "general": null,
+        "detail": "南朝自给：市舶司岁三发通番，银利尽佐军资；韶桂屯田、徙流民垦溟峒，阴市滇马——海为田、山为仓，不求中原一粒粟",
+        "wishes": "海利岁增，四州馈饷自足"
+      },
+      {
+        "kind": "move",
+        "target": "jingchu",
+        "troops": 6,
+        "general": "徐达",
+        "detail": "水师三段布防：楼船主力伏湖口三江口，荆楚舟师壁江陵扼上游，海道舟师备苏松——一处受攻，两处顺流来援",
+        "wishes": "江防三节活棋，处处可援"
+      }
+    ],
+    "113": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "帝感风寒旬日，愈后手诏定顾命格局：徐达都督中外、沐英世镇蜀、蓝玉掌金吾，皆东宫戚旧；祖训录颁行诸司",
+        "wishes": "身后之制成，主少国不疑"
+      },
+      {
+        "kind": "spy",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "三色旗报直入东宫：长安两府动静、泗口舰成几成、汴粜几何、淮北怨状——标儿亲阅天下底牌，储幕渐成小庙堂",
+        "wishes": "天下一动，储君先知"
+      }
+    ],
+    "114": [
+      {
+        "kind": "diplo",
+        "target": "donghan",
+        "troops": null,
+        "general": null,
+        "detail": "使邺申淮盐通市之约，密语云台：「唐并江左，则幽冀非汉有」——汉宋固淮之局，明在暗处再压一手",
+        "wishes": "汉宋北压，唐师不敢专意南向"
+      },
+      {
+        "kind": "build",
+        "target": "bashu",
+        "troops": null,
+        "general": "沐英",
+        "detail": "蜀中自给：都江堰岁修，井盐蜀锦岁输东南；剑阁阴平烽堡增戍——天府不呼中原，西臂自坚，唐刀难出其鞘",
+        "wishes": "蜀门无虞，饷源不断"
+      }
+    ],
+    "115": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "兵复之路：四州清军括隐籍，讲武堂新卒岁入逾万，水师居六——岁终兵复十万；以江为界、以水为骑，军制尽南朝化",
+        "wishes": "兵复十万，守江有余"
+      },
+      {
+        "kind": "build",
+        "target": "jiangnan",
+        "troops": null,
+        "general": null,
+        "detail": "备荒之政：江湖圩堤以工代赈，常平义仓岁籴盈寸——天灾若至，仓廪先实；败年修备，反收民心",
+        "wishes": "灾至有备，民心反附"
+      }
+    ],
+    "116": [
+      {
+        "kind": "spy",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "细作伪为舟工入泗口船场：舰成几成、漕饷所出、水师将佐之隙，尽图之——唐若临江，先一月而知",
+        "wishes": "唐师动向，先手在金陵"
+      },
+      {
+        "kind": "diplo",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "报聘长安议「江为界」细则：互市、还俘、约誓之仪，每议一寸缓一月；厚礼卑辞而阴修武备——缓兵非怯，磨刀待时",
+        "wishes": "和局迁延，战备不休"
+      }
+    ],
+    "117": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "常妃诞皇孙，告庙颁赏，马后力疾抚孙；常蓝两家与东宫血肉相结——二代之盾，铸自襁褓",
+        "wishes": "储线绵长，勋家死心塌地"
+      },
+      {
+        "kind": "build",
+        "target": "jiangnan",
+        "troops": null,
+        "general": "徐达",
+        "detail": "采石水陆大操：火船舰炮合演半渡聚歼之局，三军旬日而成；纵唐汉使者登台观之——「鄱阳之火未冷」",
+        "wishes": "四家知江不可犯，军心自壮"
+      }
+    ],
+    "118": [
+      {
+        "kind": "battle",
+        "target": "tang",
+        "troops": 5,
+        "general": "徐达",
+        "detail": "若唐舟师临江：铁锁绊其行、火船焚其阵、舰炮碎其中坚；蓝玉请为先锋赎罪，率选锋焚其滩头——鄱阳故智，江上重演",
+        "wishes": "聚歼唐师于大江，唐十年不敢言渡"
+      }
+    ],
+    "119": [
+      {
+        "kind": "move",
+        "target": "jingchu",
+        "troops": 1.5,
+        "general": "沐英",
+        "detail": "上游试锋：荆楚舟师顺流耀兵薄蕲黄，列炮不焚、示形而还——告唐「上游之师朝发夕至」，临江之军不得不顾其后",
+        "wishes": "唐顾上游，临江之势自缓"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "免江南逋赋，淮南流民南来者籍田安集；淮上弃地之民闻风缒城渡江者以千计——败年之民，收为十年之粮",
+        "wishes": "淮南之民北去其心，南归其身"
+      }
+    ],
+    "120": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "岁终大计：三候评注入档——唐师老几成、长安之隙深几寸、天灾之数几何；兵粮舰台之数亲校，方略付东宫——守江待变，变至刀出",
+        "wishes": "内功再成，静候天时"
+      },
+      {
+        "kind": "spy",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "谍网岁报总核：唐临江之期、两府之衅、汴邺之向，并沛侯酒疾安康之状——三候之数，定来岁之方",
+        "wishes": "天下之变，尽入庙算"
+      }
+    ]
+  },
+  "diplomacy": [
+    {
+      "to": "tang",
+      "proposal": "贸易",
+      "terms": "「江为界」之议愿细谈：互市、还俘、各守其境——细则每议一寸，和局再延一月"
+    },
+    {
+      "to": "song",
+      "proposal": "贸易",
+      "terms": "兄弟之约加额：市粟十五万如约、番禺市舶之利予宋商三成；唐若得江左，漕中立必破——粮缰勿松"
+    },
+    {
+      "to": "donghan",
+      "proposal": "互不侵犯",
+      "terms": "淮盐通市加深，阴约共察唐势：唐并江左则幽冀危——固淮之局，明暗相济"
+    }
+  ],
+  "self_note": "薄惩是演给朝堂看的，谤间唐两府才是真刀；身后班底已齐——标儿之江，即朕之江。"
+}
