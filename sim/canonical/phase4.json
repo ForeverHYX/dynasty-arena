@@ -1,0 +1,787 @@
+{
+  "phase": 4,
+  "events": [
+    {
+      "month": 37,
+      "type": "internal",
+      "faction": "song",
+      "region": "zhongyuan",
+      "title": "金匮昭告定策",
+      "desc": "赵匡胤发丧，匡义大赦免夏税，昭金匮之盟以正大位；复赵普相位令其作证，晋邸旧僚掌枢密，曹彬典禁军如故。诸将观望渐安，汴都气象一新。",
+      "actors": ["赵匡义", "赵普", "曹彬", "赵德昭"],
+      "inter": false,
+      "delta": {
+        "stability": {"song": 4},
+        "morale": {"song": 2}
+      }
+    },
+    {
+      "month": 37,
+      "type": "diplomacy",
+      "faction": "donghan",
+      "region": null,
+      "title": "窦融故事檄宋",
+      "desc": "刘秀遣使吊祭，赍诏行窦融故事：宋去帝号奉汉正朔，封赵氏宋公世守汴社。匡义拒之——新君正要立威，岂能开门称藩。两国使者各自还营，战云更低。",
+      "actors": ["刘秀", "赵匡义", "邓禹"],
+      "inter": true,
+      "delta": {
+        "morale": {"donghan": 1},
+        "stability": {"song": -1}
+      }
+    },
+    {
+      "month": 37,
+      "type": "internal",
+      "faction": "tang",
+      "region": null,
+      "title": "分阃定策两府安",
+      "desc": "唐廷分阃：世民为陕东道大总管将十万出河内，元吉副之；李靖为西面元帅御陇坻，王贲佐之；建成监国长安，籍秦降编府兵。东出西守各有其主。",
+      "actors": ["李渊", "李世民", "李建成", "李靖"],
+      "inter": false,
+      "delta": {
+        "troops": {"tang": 1},
+        "morale": {"tang": 1}
+      }
+    },
+    {
+      "month": 37,
+      "type": "economy",
+      "faction": "yuan",
+      "region": "longxi",
+      "title": "真金抚陇马市续",
+      "desc": "真金籍户劝农修渠，陇右粮产渐复；元唐续泾渭马市，岁马千匹易粟五万石，界上息兵。忽必烈厚唐使示无东意——南下的兵马，正一批批阴集凉州。",
+      "actors": ["真金", "忽必烈", "李渊"],
+      "inter": true,
+      "delta": {
+        "food": {"yuan": 2, "tang": 1},
+        "stability": {"yuan": 1}
+      }
+    },
+    {
+      "month": 37,
+      "type": "internal",
+      "faction": "han",
+      "region": "bashu",
+      "title": "萧何治蜀卑辞骄明",
+      "desc": "萧何修都江陂塘、括隐户广义仓，轻赋安新亡之众；陆贾使金陵卑辞贺正，请增茶丝市额。刘邦一面示弱骄敌，一面阴修戈矛——吴王抚纳，南面暂安。",
+      "actors": ["萧何", "陆贾", "刘邦", "朱元璋"],
+      "inter": true,
+      "delta": {
+        "food": {"han": 3},
+        "stability": {"han": 1}
+      }
+    },
+    {
+      "month": 38,
+      "type": "war",
+      "faction": "donghan",
+      "region": "zhongyuan",
+      "title": "冯异长围汴梁",
+      "desc": "冯异八万长围汴梁，围三阙一纵贵官流民南走；吴汉别部绝汴口漕运。细作同时入城：烛影弑兄之谣四起，重金结禁军校尉为内应。汴中米价一日三涨。",
+      "actors": ["冯异", "吴汉", "曹彬", "赵普"],
+      "inter": true,
+      "delta": {
+        "food": {"song": -3, "donghan": -1},
+        "morale": {"song": -2},
+        "stability": {"song": -2}
+      }
+    },
+    {
+      "month": 38,
+      "type": "character",
+      "faction": "ming",
+      "region": "jiangnan",
+      "title": "刘基舆疾奉遗策",
+      "desc": "刘基舆疾入见，留遗策三语：蜀人离心可传檄；瞿塘天险当以火器楼船夜破；刘秀必不弃汴，淮可无虞。元璋录策屏风，检校正奉密令，阴覆验胡医所进之方。",
+      "actors": ["刘基", "朱元璋", "胡惟庸"],
+      "inter": false,
+      "delta": {
+        "morale": {"ming": -1}
+      }
+    },
+    {
+      "month": 38,
+      "type": "spy",
+      "faction": "yuan",
+      "region": null,
+      "title": "反间长安两府",
+      "desc": "元谍重金布长安：天策功高不赏、东宫欲夺兵柄之语日日浸润，两府左右皆有纳金者。建成元吉益相结，李渊两慰并抑——裂痕又深一寸，渭桥驿马渐密。",
+      "actors": ["忽必烈", "李建成", "李元吉", "李世民"],
+      "inter": true,
+      "delta": {
+        "stability": {"tang": -2}
+      }
+    },
+    {
+      "month": 38,
+      "type": "build",
+      "faction": "tang",
+      "region": "guanzhong",
+      "title": "李靖缮陇坻堡寨",
+      "desc": "李靖增筑陇坻、萧关、泾州堡寨，广置烽燧，徙边民入保，积粟泾原。奏言：元骑若叩关，顿于坚垒之下，粮尽自疲，然后可击。北面先为不可胜。",
+      "actors": ["李靖", "王贲"],
+      "inter": false,
+      "delta": {
+        "food": {"tang": -1},
+        "stability": {"tang": 1}
+      }
+    },
+    {
+      "month": 38,
+      "type": "build",
+      "faction": "han",
+      "region": "bashu",
+      "title": "灌婴潜治舟师",
+      "desc": "灌婴深峡伐木潜造楼船，募巴渝獠儿为水卒，外托漕运缉盗。张良同时如洛阳游说合纵：东汉出淮、汉出上游共分楚淮——刘秀温言抚使，盟约悬而未决。",
+      "actors": ["灌婴", "张良", "刘秀"],
+      "inter": true,
+      "delta": {
+        "food": {"han": -1}
+      }
+    },
+    {
+      "month": 39,
+      "type": "war",
+      "faction": "donghan",
+      "region": "zhongyuan",
+      "title": "雨袭汴梁云梯折",
+      "desc": "耿弇五万自曹濮南薄汴，夜射书约内应举火，雨夜云梯并进。曹彬早从细作得线，先一夜尽收内应之网——攻至天明云梯尽折，东汉折兵近两万。刘秀罢总攻之议。",
+      "actors": ["耿弇", "冯异", "曹彬", "刘秀"],
+      "inter": true,
+      "delta": {
+        "troops": {"donghan": -1.8, "song": -0.5},
+        "morale": {"donghan": -4, "song": 3}
+      }
+    },
+    {
+      "month": 39,
+      "type": "war",
+      "faction": "tang",
+      "region": "zhongyuan",
+      "title": "世民传檄定河内",
+      "desc": "世民十万乘宋衅渡河出河内，先檄后兵，降者不杀；怀卫诸城望风下，宋军困于汴围不能救。唐得河内形胜与仓粟，兵锋南指河阴——中原北门暗换主人。",
+      "actors": ["李世民", "李元吉"],
+      "inter": true,
+      "delta": {
+        "troops": {"tang": -0.3},
+        "food": {"tang": 2},
+        "morale": {"tang": 2, "song": -2}
+      }
+    },
+    {
+      "month": 39,
+      "type": "war",
+      "faction": "yuan",
+      "region": "longxi",
+      "title": "移檄成都勒称藩",
+      "desc": "伯颜九万阴集凉州，粮械先运阴平道口；张弘范三万屯祁山外为疑兵。元使移檄成都：去帝号、岁贡粟、质子于上都，则铁骑不入蜀。刘邦掷檄于地。",
+      "actors": ["伯颜", "忽必烈", "刘邦", "张弘范"],
+      "inter": true,
+      "delta": {
+        "morale": {"yuan": 1},
+        "stability": {"han": -1}
+      }
+    },
+    {
+      "month": 39,
+      "type": "internal",
+      "faction": "ming",
+      "region": "jiangnan",
+      "title": "诛胡惟庸首恶",
+      "desc": "刘基讣至；检校呈验医案——胡惟庸所遣医进药鸩杀国士。元璋诛惟庸一人，不连坐一家，马皇后泣谏之力也。李善长惧，上表老病免相，政渐归六部与世子。",
+      "actors": ["刘基", "胡惟庸", "朱元璋", "马皇后", "李善长"],
+      "inter": false,
+      "delta": {
+        "morale": {"ming": -2},
+        "stability": {"ming": 2},
+        "characters": [
+          {"name": "刘基", "faction": "ming", "status": "病故"},
+          {"name": "胡惟庸", "faction": "ming", "status": "被诛"}
+        ]
+      }
+    },
+    {
+      "month": 39,
+      "type": "spy",
+      "faction": "han",
+      "region": "jingchu",
+      "title": "陈平阴结楚豪",
+      "desc": "陈平间行入楚，以楚王刘交见囚为帜，结汉旧吏豪帅；「汉王悔诛淮阴」之语随商队播于江汉。金陵检校亦有所闻，楚境戍备暗增——两家暗手在市井里对握。",
+      "actors": ["陈平", "刘交", "刘邦"],
+      "inter": true,
+      "delta": {
+        "stability": {"ming": -1}
+      }
+    },
+    {
+      "month": 40,
+      "type": "internal",
+      "faction": "han",
+      "region": "bashu",
+      "title": "曹参挂帅太子听政",
+      "desc": "两警并至：北元集凉州，东明檄问罪。刘邦拜曹参为上将统方面，周勃缮金牛阴平栈道，灌婴守瞿塘；诏太子盈听政，萧何吕后参决——上春秋高，先固国本。",
+      "actors": ["刘邦", "曹参", "周勃", "刘盈", "吕后"],
+      "inter": false,
+      "delta": {
+        "morale": {"han": 1}
+      }
+    },
+    {
+      "month": 40,
+      "type": "war",
+      "faction": "yuan",
+      "region": "bashu",
+      "title": "裹毡衔枚渡阴平",
+      "desc": "伯颜九万裹毡衔枚出阴平小道，逾摩天岭直插江油，守军不意天降，一鼓而下，涪水仓廪尽入元军。张弘范出祁山佯趋汉中，剑阁守军不敢动，蜀口洞开。",
+      "actors": ["伯颜", "张弘范", "曹参"],
+      "inter": true,
+      "delta": {
+        "troops": {"yuan": -0.5, "han": -0.8},
+        "food": {"yuan": 3, "han": -2},
+        "morale": {"han": -3}
+      }
+    },
+    {
+      "month": 40,
+      "type": "war",
+      "faction": "ming",
+      "region": "jingchu",
+      "title": "徐达潜集夷陵",
+      "desc": "明檄数刘邦阴结唐元、缮甲谋复荆楚之罪，令缚送谋主，否则王师问罪——绝盟之衅在汉不在明。徐达水陆十三万已潜集夷陵归州，蓝玉释戴罪为前锋。",
+      "actors": ["朱元璋", "徐达", "蓝玉", "刘邦"],
+      "inter": true,
+      "delta": {
+        "morale": {"ming": 1}
+      }
+    },
+    {
+      "month": 40,
+      "type": "war",
+      "faction": "tang",
+      "region": "zhongyuan",
+      "title": "双雄冷面会敖仓",
+      "desc": "曹彬八万乘围之隙西出，进屯敖仓成皋为攻虎牢之基；世民亦自河内南下据河阴河阳桥。两营相望一箭之地，使者往来皆碰壁——漕枢旁边，宋唐两虎对坐。",
+      "actors": ["曹彬", "李世民", "赵匡义"],
+      "inter": true,
+      "delta": {
+        "food": {"song": -1},
+        "morale": {"song": 1}
+      }
+    },
+    {
+      "month": 41,
+      "type": "war",
+      "faction": "ming",
+      "region": "bashu",
+      "title": "火器夜破瞿塘",
+      "desc": "沐英舟师夜薄瞿塘：火器楼船轰两岸石垒，死士凿沉铁锁横江，火攻连舟——鄱阳故智用于峡江。灌婴新练水师一日尽没，仅以身免；巫山秭归下，峡门洞开。",
+      "actors": ["沐英", "徐达", "灌婴"],
+      "inter": true,
+      "delta": {
+        "troops": {"han": -2, "ming": -0.5},
+        "morale": {"ming": 2, "han": -3}
+      }
+    },
+    {
+      "month": 41,
+      "type": "war",
+      "faction": "yuan",
+      "region": "bashu",
+      "title": "涪城会战汉师溃",
+      "desc": "伯颜诱汉军出成都平原会战，铁骑张两翼炮阵居中；阵前招谕，韩信旧部怨卒数千倒戈。曹参力战不支退入成都，樊哙陷阵死之——钟室之血，今日见偿。",
+      "actors": ["伯颜", "曹参", "樊哙", "周勃"],
+      "inter": true,
+      "delta": {
+        "troops": {"han": -2, "yuan": -0.8},
+        "morale": {"han": -4},
+        "characters": [
+          {"name": "樊哙", "faction": "han", "status": "战死"}
+        ]
+      }
+    },
+    {
+      "month": 41,
+      "type": "diplomacy",
+      "faction": "donghan",
+      "region": null,
+      "title": "两汉宗盟约",
+      "desc": "东汉使入成都缔两汉宗盟：助粮械楼船之料，约汉出巴峡复楚、东汉规淮南，正朔各奉、胜不相弃。盟书墨迹未干，瞿塘已破、涪城已溃——盟犹在，国将不国。",
+      "actors": ["刘秀", "刘邦", "张良"],
+      "inter": true,
+      "delta": {
+        "stability": {"han": 1}
+      }
+    },
+    {
+      "month": 41,
+      "type": "politics",
+      "faction": "song",
+      "region": null,
+      "title": "唐书一纸溃盟议",
+      "desc": "东汉将唐使前岁「中分宋土」密约书阴泄于汴梁，满朝哗然——唐许东汉取汴，安得为盟！宋唐会盟之议立罢，曹彬遣使敖仓诘之，世民笑而不答。三家嫌隙更深。",
+      "actors": ["赵匡义", "刘秀", "李世民", "曹彬"],
+      "inter": true,
+      "delta": {
+        "stability": {"song": -2, "tang": -1}
+      }
+    },
+    {
+      "month": 41,
+      "type": "spy",
+      "faction": "han",
+      "region": "guanzhong",
+      "title": "变起玄武谶",
+      "desc": "陈平重金入长安：伪为两府通外之书互播猜嫌，「变起玄武」谶语流于市井，恰与元谍流言合流。李靖在前线闻之，遣使密谏李渊早定名分——长安人心浮动。",
+      "actors": ["陈平", "李世民", "李建成", "李靖"],
+      "inter": true,
+      "delta": {
+        "stability": {"tang": -2}
+      }
+    },
+    {
+      "month": 42,
+      "type": "war",
+      "faction": "song",
+      "region": "zhongyuan",
+      "title": "亲征誓师攻虎牢",
+      "desc": "六月，赵匡义亲督十万出敖仓攻虎牢，曹彬为前锋。帝催促争先，云梯炮座齐发，耿弇凭险死守，两日折兵近万——曹彬谏止浪攻，改断洛口粮道为长围。",
+      "actors": ["赵匡义", "曹彬", "耿弇", "潘美"],
+      "inter": true,
+      "delta": {
+        "troops": {"song": -1.5, "donghan": -0.5},
+        "food": {"song": -2},
+        "morale": {"song": -2}
+      }
+    },
+    {
+      "month": 42,
+      "type": "internal",
+      "faction": "donghan",
+      "region": null,
+      "title": "图谶归藏兰台",
+      "desc": "夜袭之挫、师期之误，皆谶纬之过。刘秀诏校定图谶藏之兰台：军国大计自今决于庙算，方士毋得预政。云台诸将肃然——他把天命，第一次收回了人间。",
+      "actors": ["刘秀", "邓禹", "冯异"],
+      "inter": false,
+      "delta": {
+        "stability": {"donghan": 2}
+      }
+    },
+    {
+      "month": 42,
+      "type": "war",
+      "faction": "ming",
+      "region": "bashu",
+      "title": "传檄下巴东",
+      "desc": "徐达乘胜拔夔、万，进围江州；檄谕蜀吏民：降者秋毫无犯，官不改署。蓝玉部曲犯令者军前杖之。江州守三日开门，巴东诸城传檄而定——蜀中民心，已不在汉。",
+      "actors": ["徐达", "蓝玉", "沐英"],
+      "inter": true,
+      "delta": {
+        "troops": {"ming": -0.3},
+        "food": {"ming": 2},
+        "morale": {"ming": 1}
+      }
+    },
+    {
+      "month": 42,
+      "type": "war",
+      "faction": "yuan",
+      "region": "bashu",
+      "title": "回回炮围成都",
+      "desc": "伯颜九万列营合围成都，回回炮昼夜轰城，阙北门以纳降。刘邦亲自巡城抚卒，陈平阳与议降以缓兵——成都在等东面的旗号：与其降胡，不如降明。",
+      "actors": ["伯颜", "刘邦", "陈平", "周勃"],
+      "inter": true,
+      "delta": {
+        "troops": {"yuan": -0.7, "han": -0.5},
+        "morale": {"han": -2},
+        "stability": {"han": -2}
+      }
+    },
+    {
+      "month": 43,
+      "type": "war",
+      "faction": "ming",
+      "region": "bashu",
+      "title": "蓝玉血战复涪城",
+      "desc": "徐达分道深入：沐英循外水趋犍为，蓝玉率铁骑内水趣涪城——元军守备单薄，一战复之，明元两家第一次见血。蓝玉乘胜逼成都北原，与伯颜隔绵竹相望。",
+      "actors": ["蓝玉", "沐英", "徐达", "伯颜"],
+      "inter": true,
+      "delta": {
+        "troops": {"ming": -0.8, "yuan": -0.5},
+        "morale": {"ming": 1}
+      }
+    },
+    {
+      "month": 43,
+      "type": "politics",
+      "faction": "han",
+      "region": "bashu",
+      "title": "降明不降胡之议",
+      "desc": "两围之间的成都夜议。张良言：元所要者称臣质子，明所许者礼遇全宗——降明不降胡。萧何阴遣使通徐达营。刘邦绕室三匝长叹：起于沛，今日乃议降。",
+      "actors": ["刘邦", "张良", "萧何", "吕后"],
+      "inter": false,
+      "delta": {
+        "morale": {"han": 1}
+      }
+    },
+    {
+      "month": 43,
+      "type": "war",
+      "faction": "tang",
+      "region": "longxi",
+      "title": "李靖试陇坻之锋",
+      "desc": "李靖见元军尽在南，出陇坻试其锋；史天泽坚壁凭险勿战，唐军仅复泾州前沿数戍堡而止。唐使至成都约汉出阴平制元——抵城下时明元旗号已满郊野，怅然而返。",
+      "actors": ["李靖", "史天泽", "王贲"],
+      "inter": true,
+      "delta": {
+        "troops": {"tang": -0.4},
+        "food": {"tang": -1}
+      }
+    },
+    {
+      "month": 43,
+      "type": "war",
+      "faction": "song",
+      "region": "zhongyuan",
+      "title": "长围虎牢断洛口",
+      "desc": "曹彬代帝节度，深沟长围虎牢，绝洛口粮道，昼夜以炮碎其堞。耿弇百计乞师，刘秀尽发洛阳之众来援——一场大会战，正在洛阳平原上酝酿。",
+      "actors": ["曹彬", "赵匡义", "耿弇", "刘秀"],
+      "inter": true,
+      "delta": {
+        "troops": {"song": -0.5},
+        "food": {"donghan": -2}
+      }
+    },
+    {
+      "month": 43,
+      "type": "diplomacy",
+      "faction": "ming",
+      "region": null,
+      "title": "商舶阴粟济汴",
+      "desc": "明东汉淮界之约既续，市而不废；淮南商舶却岁阴输粟五万石于汴，金帛偿之——宋存一日，东汉兵锋一日不南。刘秀得报切齿，记下这笔账。",
+      "actors": ["朱元璋", "赵匡义", "刘秀", "李善长"],
+      "inter": true,
+      "delta": {
+        "food": {"ming": -2, "song": 3},
+        "stability": {"song": 1}
+      }
+    },
+    {
+      "month": 44,
+      "type": "war",
+      "faction": "ming",
+      "region": "bashu",
+      "title": "舆榇出降蜀汉亡",
+      "desc": "徐达大军壁成都，蓝玉先驱临北门。刘邦面缚舆榇出东门降，徐达执手释缚，全城无一妄杀；伯颜攻北墙一昼夜不克，退营绵竹——天府之国，改竖明旗。",
+      "actors": ["刘邦", "徐达", "蓝玉", "萧何", "伯颜"],
+      "inter": true,
+      "delta": {
+        "regions": {"bashu": "ming"},
+        "troops": {"ming": -0.5},
+        "food": {"ming": 3},
+        "morale": {"ming": 2},
+        "characters": [
+          {"name": "刘邦", "faction": "han", "status": "被俘"}
+        ]
+      }
+    },
+    {
+      "month": 44,
+      "type": "war",
+      "faction": "donghan",
+      "region": "zhongyuan",
+      "title": "洛汭会战破宋师",
+      "desc": "刘秀亲驰洛阳，冯异耿弇贾复三道并出，会战洛汭：突骑卷翼，宋师大溃。赵匡义中流矢坠马，曹彬断后死战全师东走——虎牢之围立解，中原攻守易势。",
+      "actors": ["刘秀", "冯异", "耿弇", "赵匡义", "曹彬"],
+      "inter": true,
+      "delta": {
+        "troops": {"song": -2.5, "donghan": -1},
+        "morale": {"donghan": 5, "song": -5},
+        "stability": {"song": -3}
+      }
+    },
+    {
+      "month": 44,
+      "type": "war",
+      "faction": "tang",
+      "region": "zhongyuan",
+      "title": "坐收漕枢据敖仓",
+      "desc": "宋师既溃，曹彬弃敖仓走保汴。世民兵不血刃据敖仓成皋，河阳仓粟尽入唐军——漕枢在握，东慑汴梁，西瞰洛阳。汴使诘之，唐报曰：代守以待宋。",
+      "actors": ["李世民", "李元吉", "曹彬"],
+      "inter": true,
+      "delta": {
+        "food": {"tang": 3},
+        "morale": {"tang": 2, "song": -1},
+        "stability": {"song": -1}
+      }
+    },
+    {
+      "month": 44,
+      "type": "politics",
+      "faction": "song",
+      "region": "zhongyuan",
+      "title": "罪己诏下大位摇",
+      "desc": "败军还汴，赵匡义带箭下诏罪己，厚赏守汴将士；烛影之谣再起，金匮之盟人窃疑之。德昭从军有功，人望暗归——晋邸旧僚与太祖旧将，各怀一本账。",
+      "actors": ["赵匡义", "赵德昭", "赵普", "曹彬"],
+      "inter": false,
+      "delta": {
+        "stability": {"song": -3},
+        "morale": {"song": -2}
+      }
+    },
+    {
+      "month": 45,
+      "type": "war",
+      "faction": "yuan",
+      "region": "bashu",
+      "title": "伯颜掠金牛北归",
+      "desc": "成都已明，坚城不可犯，阴平粮道将冻——伯颜驱掠梓潼金牛道丁口牛马数万北归，蜀人泣野。元军虽挫，天府膏血仍实凉州广仓；蜀之北鄙，残破经年。",
+      "actors": ["伯颜", "史天泽", "沐英"],
+      "inter": true,
+      "delta": {
+        "food": {"yuan": 4, "ming": -2},
+        "morale": {"yuan": -2},
+        "stability": {"ming": -1}
+      }
+    },
+    {
+      "month": 45,
+      "type": "internal",
+      "faction": "ming",
+      "region": "bashu",
+      "title": "经略蜀中分兵柄",
+      "desc": "明定蜀初令：免粮一年，收蜀卒汰弱编伍散其部曲，置郡县用旧吏，萧何榜谕安蜀。兵柄三分——蓝玉镇夔巫，沐英镇成都，不相统属；修都江堰，开岭南市舶。",
+      "actors": ["朱元璋", "沐英", "蓝玉", "萧何", "朱标"],
+      "inter": false,
+      "delta": {
+        "troops": {"ming": 1.5},
+        "food": {"ming": 2},
+        "stability": {"ming": 1}
+      }
+    },
+    {
+      "month": 45,
+      "type": "politics",
+      "faction": "tang",
+      "region": null,
+      "title": "世民献俘还长安",
+      "desc": "李渊召世民还长安献俘议政，前方兵柄分授李靖、平阳公主；加世民天策上将、开陕东道行台——明尊之而阴析其势。世民顿首受命，天策府心腹却都留在洛阳。",
+      "actors": ["李渊", "李世民", "李建成", "李元吉"],
+      "inter": false,
+      "delta": {
+        "stability": {"tang": 1},
+        "morale": {"tang": 1}
+      }
+    },
+    {
+      "month": 45,
+      "type": "internal",
+      "faction": "donghan",
+      "region": null,
+      "title": "移镇颍汝安郭氏",
+      "desc": "冯异移镇颍汝缮守，吴汉还河北练突骑，贾复仍备西——四面有恃。朝中尊郭后如故，大封郭氏外家，敕两宫亲戚毋豫政；太子庄燕见云台诸将，阴郭之争暂弭。",
+      "actors": ["刘秀", "郭圣通", "冯异", "吴汉", "刘庄"],
+      "inter": false,
+      "delta": {
+        "stability": {"donghan": 1}
+      }
+    },
+    {
+      "month": 46,
+      "type": "crisis",
+      "faction": "ming",
+      "region": "bashu",
+      "title": "蜀疫大作沐英赈",
+      "desc": "兵燹之后疫起成都，死者相枕。沐英分坊隔疫、施药深埋，免蜀粮、招商贾运药——疫三月而止。蜀人始信明政，亡国之悲竟以仁政收场；元璋檄褒之。",
+      "actors": ["沐英", "朱元璋", "朱标"],
+      "inter": false,
+      "delta": {
+        "troops": {"ming": -0.6},
+        "stability": {"ming": 2},
+        "morale": {"ming": -1}
+      }
+    },
+    {
+      "month": 46,
+      "type": "war",
+      "faction": "donghan",
+      "region": "jianghuai",
+      "title": "耿弇乘虚渡淮",
+      "desc": "明师尽西，耿弇八万乘虚渡淮，昼夜拔淮北诸城。李文忠坚壁清野不浪战，明水师夜绝颍泗漕道——耿弇顿兵坚城之下，粮将尽，敛兵还颍汝。淮南空折一阵。",
+      "actors": ["耿弇", "李文忠", "吴汉", "刘秀"],
+      "inter": true,
+      "delta": {
+        "troops": {"donghan": -1.2, "ming": -0.5},
+        "morale": {"donghan": -2, "ming": -1}
+      }
+    },
+    {
+      "month": 46,
+      "type": "crisis",
+      "faction": "tang",
+      "region": null,
+      "title": "李渊风疾不豫",
+      "desc": "李渊风疾发作不能视朝，诏建成监国决庶政，房玄龄杜如晦魏征参机务，军国重事榻前白之。东宫既秉政，秦王拥河南——长安与洛阳，各有一台戏。",
+      "actors": ["李渊", "李建成", "李世民", "魏征"],
+      "inter": false,
+      "delta": {
+        "stability": {"tang": -2}
+      }
+    },
+    {
+      "month": 46,
+      "type": "crisis",
+      "faction": "yuan",
+      "region": "mobei",
+      "title": "白灾再至四十日",
+      "desc": "大雪连四十日，畜群倒毙相枕。忽必烈开金莲川广仓，鬻蜀中卤获之粟赈部，徙诸部就漠南冬场，真金驰驿调度——灾而不乱，诸部帖然。南方天府，已是明旗。",
+      "actors": ["忽必烈", "真金", "刘秉忠"],
+      "inter": false,
+      "delta": {
+        "food": {"yuan": -6},
+        "troops": {"yuan": -0.5},
+        "morale": {"yuan": -3},
+        "stability": {"yuan": 1}
+      }
+    },
+    {
+      "month": 47,
+      "type": "politics",
+      "faction": "tang",
+      "region": null,
+      "title": "东宫夜宴鸩风波",
+      "desc": "东宫夜宴，世民归邸呕血数升——医言酒中有异，李渊和稀泥曰秦王素不能饮。越日议分陕：太子居长安，秦王镇洛阳，以婚姻固之。两府皆拜谢，袖中各握紧了刀。",
+      "actors": ["李建成", "李世民", "李元吉", "李渊"],
+      "inter": false,
+      "delta": {
+        "stability": {"tang": -3},
+        "morale": {"tang": -2}
+      }
+    },
+    {
+      "month": 47,
+      "type": "build",
+      "faction": "ming",
+      "region": "jianghuai",
+      "title": "北伐战备粮械集",
+      "desc": "淮泗汉水两岸置粮台转般仓，造炮车编步骑，水师习汴泗之流。使唐通汉中陇道之市，唐报市而不盟；元亦续茶马——北方愈纷，南愈可乘。金陵算盘拨向中原。",
+      "actors": ["徐达", "朱元璋", "李文忠"],
+      "inter": true,
+      "delta": {
+        "food": {"ming": -2},
+        "stability": {"ming": 1}
+      }
+    },
+    {
+      "month": 47,
+      "type": "internal",
+      "faction": "donghan",
+      "region": "zhongyuan",
+      "title": "常平仓垦政新附",
+      "desc": "淮北敛兵之后，籍降户垦汴东荒田，豪强隐田暂不问，广置常平仓以备凶年。刘秀岁末上计洛阳，召邓禹冯异耿弇议五年大略——淮与楚，孰先？",
+      "actors": ["刘秀", "寇恂", "冯异", "邓禹"],
+      "inter": false,
+      "delta": {
+        "food": {"donghan": 3},
+        "stability": {"donghan": 1}
+      }
+    },
+    {
+      "month": 47,
+      "type": "move",
+      "faction": "yuan",
+      "region": "longxi",
+      "title": "转粟陇坂候长安",
+      "desc": "白灾之赈方毕，伯颜并蜀还之军与陇上诸军，转粟实陇坂大营，回回炮对准萧关——探马日夜望泾渭：唐室内乱一起，铁骑便东。长安之变未起，持重敛兵。",
+      "actors": ["伯颜", "史天泽", "忽必烈"],
+      "inter": true,
+      "delta": {
+        "food": {"yuan": -1},
+        "morale": {"yuan": 1}
+      }
+    },
+    {
+      "month": 47,
+      "type": "politics",
+      "faction": "song",
+      "region": null,
+      "title": "普彬谏帝息民",
+      "desc": "赵普曹彬交谏：久战兵疲，强弩之末不能穿鲁缟。赵匡义阳许休息，攻具阴治不辍；德昭每将士卒先登之赏，帝闻之默然。汴泗楼船亦暗缮，防明弃盟。",
+      "actors": ["赵匡义", "赵普", "曹彬", "赵德昭"],
+      "inter": false,
+      "delta": {
+        "stability": {"song": 2},
+        "food": {"song": 2}
+      }
+    },
+    {
+      "month": 48,
+      "type": "character",
+      "faction": "tang",
+      "region": "guanzhong",
+      "title": "李渊崩托孤定局",
+      "desc": "李渊病笃，召裴寂、刘文静、建成、世民同受顾命：太子嗣位、秦王辅政、李靖主西军，誓于太庙。当夜崩于垂拱殿，年五十八。建成即位——压住玄武门之雷的，只剩一道遗诏。",
+      "actors": ["李渊", "李建成", "李世民", "裴寂", "刘文静", "李靖"],
+      "inter": false,
+      "delta": {
+        "stability": {"tang": -25},
+        "morale": {"tang": -10},
+        "characters": [
+          {"name": "李渊", "faction": "tang", "status": "病故"}
+        ]
+      }
+    },
+    {
+      "month": 48,
+      "type": "politics",
+      "faction": "ming",
+      "region": "jiangnan",
+      "title": "大明开国誓北伐",
+      "desc": "蜀会既定，南方混一。朱元璋郊天即皇帝位，国号大明，立马氏为后、朱标为太子，檄告天下将混一寰宇。召徐达还金陵授北伐方略：来春淮泗趋中原，荆襄出汉水为牵。",
+      "actors": ["朱元璋", "马皇后", "朱标", "徐达"],
+      "inter": true,
+      "delta": {
+        "morale": {"ming": 2},
+        "stability": {"ming": 2}
+      }
+    },
+    {
+      "month": 48,
+      "type": "diplomacy",
+      "faction": "donghan",
+      "region": null,
+      "title": "移檄金陵数明罪",
+      "desc": "东汉移檄金陵，数明绝盟助宋、夺淮西、吞蜀之罪，声言吊民伐罪——实骄之而徐观其衅。细作亦报：明已称帝，北伐在即。刘秀抚檄而笑：来得正好。",
+      "actors": ["刘秀", "朱元璋", "耿弇"],
+      "inter": true,
+      "delta": {
+        "morale": {"donghan": 1},
+        "stability": {"ming": -1}
+      }
+    },
+    {
+      "month": 48,
+      "type": "politics",
+      "faction": "yuan",
+      "region": "mobei",
+      "title": "上都立皇太子",
+      "desc": "忽必烈于上都行大典，立真金为皇太子告天地，蜀陇卤获分赐诸王——储位定而诸王帖。汗年五十八，上将养圣体，真金总揽秦陇军国。长安丧钟的报马，正驰向陇坂。",
+      "actors": ["忽必烈", "真金", "伯颜"],
+      "inter": false,
+      "delta": {
+        "stability": {"yuan": 2},
+        "morale": {"yuan": 1}
+      }
+    },
+    {
+      "month": 48,
+      "type": "character",
+      "faction": "han",
+      "region": null,
+      "title": "沛侯困居金陵",
+      "desc": "金陵赐第，刘邦受封沛侯——起于沛，终于沛。萧何随侍闭门抄书，张良辞归青城山辟谷，吕后抚太子盈于帘后，目光冷过剑锋。英雄迟暮，只剩灌不完的酒。",
+      "actors": ["刘邦", "吕后", "刘盈", "萧何", "张良"],
+      "inter": false,
+      "delta": {}
+    }
+  ]
+}
