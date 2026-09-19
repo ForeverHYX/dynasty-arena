@@ -1,0 +1,246 @@
+{
+  "faction": "ming",
+  "phase": 9,
+  "strategy": "五州持重：淮泗铳台加水师火器为壁，江南市舶财赋养兵；缓唐约、固宋屏、探汉和，谤间唐汉两府；朱标监国、恩鞘功臣、暗立身后之制——候唐师老汉粮尽，诱敌聚歼于淮，一刀摘齐鲁，州数即天命。",
+  "months": {
+    "97": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "岁首庙算定八字：守五州、熬内功、固宋屏、候师老；朱标监国总裁庶政，帝亲校兵籍钱粮——三挫之后，先立不败之地",
+        "wishes": "内外各安其位，庙算先定"
+      },
+      {
+        "kind": "diplo",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "遣使报聘长安：中原之约愿面议，议期各守其境、汴洛市如故；礼厚而程缓，阴迁延之——以岁月换备战",
+        "wishes": "唐锋少缓，淮防得成"
+      }
+    ],
+    "98": [
+      {
+        "kind": "build",
+        "target": "jianghuai",
+        "troops": null,
+        "general": "徐达",
+        "detail": "徐达督淮泗大工：铳台烽堠自海州连锁至泗上，口岸增炮百尊，水寨深沟高垒——高筑墙于必争之地",
+        "wishes": "敌至淮上，先挫于台下"
+      },
+      {
+        "kind": "spy",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "谍网四路再织密：洛阳云台出师之期、长安两府之隙、汴中心向、唐厩马政之数——逐旬绘图呈金陵",
+        "wishes": "四家一动，金陵先知半旬"
+      }
+    ],
+    "99": [
+      {
+        "kind": "diplo",
+        "target": "song",
+        "troops": null,
+        "general": null,
+        "detail": "固屏三着：淮汴市粟岁至十五万石、明舟护漕；密约唐若犯汴、明出淮师为援，宋毋西幸；以联姻锁南门",
+        "wishes": "宋屏南倚，唐不可得汴"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "消功臣之怨：恤登莱没阵之家、厚赏血战之劳；册开平王常氏女为太子妃——常家旧部与勋臣，从此皆东宫之戚",
+        "wishes": "怨气化恩泽，将心附储君"
+      }
+    ],
+    "100": [
+      {
+        "kind": "build",
+        "target": "jiangnan",
+        "troops": null,
+        "general": null,
+        "detail": "采石大阅水师：楼船炮舰水陆合操，火器轰震大江，唐汉使人在金陵者观之——示强于外，安军心于内",
+        "wishes": "四家知淮坚不可犯"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "检校密奏宿将怨望，帝欲穷治；马皇后谏「三挫非将之罪」，帝纳谏焚其籍——铁榜在外，中宫在内",
+        "wishes": "猜忌之链，斩于未萌"
+      }
+    ],
+    "101": [
+      {
+        "kind": "build",
+        "target": "lingnan",
+        "troops": null,
+        "general": null,
+        "detail": "扩番禺市舶：招闽广海商通番，金帛岁入尽佐军资；阴市滇马蜀驹补骑伍——财赋怪物再张一臂",
+        "wishes": "岁入益军，粮械不竭"
+      },
+      {
+        "kind": "move",
+        "target": "jianghuai",
+        "troops": 3,
+        "general": "李文忠",
+        "detail": "李文忠将登莱选锋三万为徐达前军，屯泗上砺刃习浮海；帝戒诸将衅未开毋轻掷——锋藏于鞘而常砺",
+        "wishes": "旧卒之愤，化为砺刃"
+      }
+    ],
+    "102": [
+      {
+        "kind": "build",
+        "target": "bashu",
+        "troops": null,
+        "general": "沐英",
+        "detail": "沐英缮剑阁阴平烽堡、增白帝之屯，蜀锦井盐岁输军资——西臂坚握，唐刀难出其鞘",
+        "wishes": "蜀门无虞，东师专意"
+      },
+      {
+        "kind": "spy",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "长安行谤：播「灭元之功在天策、封拜之柄归东宫」之语于两府之间；微泄唐马政虚实于邺——一谍而摇两盟",
+        "wishes": "唐两府生隙，汉疑唐马"
+      }
+    ],
+    "103": [
+      {
+        "kind": "move",
+        "target": "jianghuai",
+        "troops": 9,
+        "general": "徐达",
+        "detail": "徐达总两淮之备：增灶清野、徙粟入台城，水师分番巡哨海口；外敛威示弱，纵敌谍归言淮可图——诱敌深入",
+        "wishes": "汉师若来，半渡而歼"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "朱标再抚军淮上，诸将子弟同营操演；监国岁中考绩、赏罚画一——军心吏治，日附储君",
+        "wishes": "二世之基日固"
+      }
+    ],
+    "104": [
+      {
+        "kind": "diplo",
+        "target": "donghan",
+        "troops": null,
+        "general": null,
+        "detail": "遣使河北：还登莱之俘，请以淮为界、淮盐通市各守其境；阴觇云台徐淮之期——和战两手，皆为我用",
+        "wishes": "汉锋少迟，虚实先知"
+      },
+      {
+        "kind": "build",
+        "target": "jiangnan",
+        "troops": null,
+        "general": null,
+        "detail": "三吴船场岁成战舰百艘，炮位益增；火器分司金陵番禺——水师火器之利，岁岁加厚",
+        "wishes": "器械冠绝四家"
+      }
+    ],
+    "105": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "纂祖训录：监国抚军之制成书；兵柄归督府、金吾亲军听东宫令，铁榜申诫并行；诸子渐封王镇方面——身后之制暗立",
+        "wishes": "万世法立，主少不疑"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "决战三策上于东宫：汉犯淮则守台绝饷、火船焚漕；唐攻汴则援以饷械、踞淮口为声援；唐窥蜀则凭险挫之——三途预筹",
+        "wishes": "变起之时，先手在我"
+      }
+    ],
+    "106": [
+      {
+        "kind": "diplo",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "岁中再报聘：中原之约请秋后再议，厚市羁縻之；使团阴觇唐师所向、粮道远近——唐锋所指，先期而知",
+        "wishes": "和局迁延，战备不休"
+      },
+      {
+        "kind": "spy",
+        "target": "donghan",
+        "troops": null,
+        "general": null,
+        "detail": "商旅谍网深入邺与登莱：徐淮出师之期、快船所泊、粮台所在——汉若大出，先十日而知，伏击有地",
+        "wishes": "汉师未动，虚实尽握"
+      }
+    ],
+    "107": [
+      {
+        "kind": "battle",
+        "target": "donghan",
+        "troops": 9,
+        "general": "徐达",
+        "detail": "候汉师犯淮半渡而击：徐达依铳台壁挫其锋，蓝玉选锋自海州击其侧背，水师火船绝其后——鄱阳故智重演",
+        "wishes": "聚歼汉师于淮，山东自虚"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "马皇后年高小疾，帝亲视汤药、减膳罢筵；后力疾董功臣家眷之局如故——「愿陛下终始待功臣以恩」",
+        "wishes": "中宫之德，镇住戾气"
+      }
+    ],
+    "108": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "岁终大计：兵籍复十二万、仓粟支数岁、台舰成军；熬至唐师老汉粮耗，衅开则一刀——州数即天命",
+        "wishes": "内功既成，静待天时"
+      },
+      {
+        "kind": "diplo",
+        "target": "song",
+        "troops": null,
+        "general": null,
+        "detail": "岁末聘汴申兄弟之约，市粟如约而输；觇德昭两扇门之向——宋屏若倒，明已有接手之备",
+        "wishes": "屏在则安，屏倒有备"
+      }
+    ]
+  },
+  "diplomacy": [
+    {
+      "to": "tang",
+      "proposal": "贸易",
+      "terms": "中原之约愿面议而缓其期：议期之内各守其境，汴洛通市如故——各图其近，毋先相攻"
+    },
+    {
+      "to": "song",
+      "proposal": "互不侵犯",
+      "terms": "兄弟之约加深：市粟岁十五万石、明舟护漕；唐若犯汴明出淮师为援，宋毋西幸洛"
+    },
+    {
+      "to": "song",
+      "proposal": "联姻",
+      "terms": "以宗室女适德昭结姻——宋之退路，只留南归一扇门"
+    },
+    {
+      "to": "donghan",
+      "proposal": "互不侵犯",
+      "terms": "还登莱之俘，以淮为界各守其境、淮盐通市——两安毋相犯"
+    }
+  ],
+  "self_note": "决战不在今年：熬唐师老、激唐汉隙、诱汉犯淮聚歼；常家结东宫，蓝玉档与祖训付标儿；沛侯养着待变。"
+}

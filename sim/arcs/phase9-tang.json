@@ -1,0 +1,241 @@
+{
+  "faction": "tang",
+  "phase": 9,
+  "strategy": "剖符东征：世民假黄钺总统淮上之师，建成御洛握漕枢、承乾监国长安；苏定方接西军，朔方马政、张弘范佐水师；约汉蹙徐、假宋汴道、阴平缀蜀，铁骑水师并举会徐达于汴泗——以淮为界，破明争鼎。",
+  "months": {
+    "97": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "太庙剖符定东征：世民假黄钺为行军元帅，建成御洛握漕枢兵籍，承乾监国长安——阃外将军制之，阃内天子制之。",
+        "wishes": "双头一枢，庙算先定而两府无异辞。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "西军之柄定授：苏定方擢河西陇右行军大总管接李靖之镇；薛万彻专北门，真金领北衙羁縻骑，元室旧部分隶诸监。",
+        "wishes": "靖后有托，西门北门皆安。"
+      }
+    ],
+    "98": [
+      {
+        "kind": "build",
+        "target": "mobei",
+        "troops": null,
+        "general": null,
+        "detail": "朔方马政：真金部众处漠南河南地，编监牧于朔方河西，岁简军马万匹；简归义骑五千，唐将将其伍、酋长署其长。",
+        "wishes": "北马尽入唐厩，铁骑之费半出朔方。"
+      },
+      {
+        "kind": "build",
+        "target": "zhongyuan",
+        "troops": null,
+        "general": null,
+        "detail": "张弘范参赞水师，授崖山旧术——火舟连环、铁索锁流、先占上风；平阳公主合操河阴，水骑合同为期。",
+        "wishes": "以元人破宋之术，制明水战之长。"
+      }
+    ],
+    "99": [
+      {
+        "kind": "diplo",
+        "target": "donghan",
+        "troops": null,
+        "general": null,
+        "detail": "约共伐江淮：汉出下邳蹙徐州之背，唐出汴泗当正面；许淮东盐铁市舶之润，唐骑不出井陉、汴梁之局听宋自便。",
+        "wishes": "汉践约出兵，明两面受敌而徐州孤。"
+      },
+      {
+        "kind": "diplo",
+        "target": "song",
+        "troops": null,
+        "general": null,
+        "detail": "假道之约：岁粟十五万照输，唐师假汴道出汴泗，汴城宗社秋毫无犯；明若北犯，水师援汴、洛宫西幸之约如故。",
+        "wishes": "宋纳假道，漕枢兵锋一线贯通。"
+      }
+    ],
+    "100": [
+      {
+        "kind": "spy",
+        "target": "ming",
+        "troops": null,
+        "general": null,
+        "detail": "房玄龄会汉哨海船之报：图徐达壁垒、淮桥水砦、粮台泊位；觇金陵和战之议与荆楚戍兵之数。",
+        "wishes": "江淮虚实尽入军图，明之和战先知。"
+      },
+      {
+        "kind": "build",
+        "target": "zhongyuan",
+        "troops": null,
+        "general": null,
+        "detail": "转粟实敖仓洛口，楼船蒙冲毕会河阴；诸道府兵简锐东集——兵粮舟马四者毕备。",
+        "wishes": "进退有据，师出而饷不绝。"
+      }
+    ],
+    "101": [
+      {
+        "kind": "move",
+        "target": "longxi",
+        "troops": 2,
+        "general": "尉迟恭",
+        "detail": "阴平大张缮栈聚粮之形，纵谍扬言「唐师明年出蜀」；实严戍不发一骑——以疑形锁沐英于蜀。",
+        "wishes": "沐英之师不敢东调，阴平为饵非刀。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "留守之局：承乾监国长安，魏征辅之，政事堂日录达于行在；建成御洛总漕枢——长安、洛阳、行营三轴一脉。",
+        "wishes": "决战之月，政令军令两不滞。"
+      }
+    ],
+    "102": [
+      {
+        "kind": "diplo",
+        "target": "ming",
+        "troops": null,
+        "general": null,
+        "detail": "奉檄如金陵：「汴泗请会，以淮为界则盟好如故；江淮之局，明自择之」——先礼后兵之终章。",
+        "wishes": "明避战不得，徐达主力东出会战。"
+      },
+      {
+        "kind": "move",
+        "target": "zhongyuan",
+        "troops": 10,
+        "general": "李世民",
+        "detail": "世民十万出成皋假汴道，壁虹县踞汴泗之会；玄甲三万先驱，尉迟恭自蜀口东来隶之。",
+        "wishes": "大军压淮，徐达不得不战。"
+      }
+    ],
+    "103": [
+      {
+        "kind": "battle",
+        "target": "jianghuai",
+        "troops": 2.5,
+        "general": "平阳公主",
+        "detail": "水师夜薄泗口：张弘范火舟焚明淮口水砦、断淮桥——先夺水上之权，绝徐达淮上声援。",
+        "wishes": "淮口既夺，明水师不敢逆流。"
+      },
+      {
+        "kind": "diplo",
+        "target": "donghan",
+        "troops": null,
+        "general": null,
+        "detail": "军书驰洛阳：唐师既壁汴泗、水师将夺淮口，请汉骑如期出下邳蹙徐州——三面之约会于此月。",
+        "wishes": "汉骑如期，明军首尾不能相顾。"
+      }
+    ],
+    "104": [
+      {
+        "kind": "battle",
+        "target": "ming",
+        "troops": 10,
+        "general": "李世民",
+        "detail": "与徐达会战于淮泗之原：汉骑卷其右，玄甲贯其中，火器楼船绝其归路——汴泗之会，即决战之地。",
+        "wishes": "一战破徐达之众，淮北传檄而定。"
+      },
+      {
+        "kind": "battle",
+        "target": "jianghuai",
+        "troops": 2,
+        "general": "尉迟恭",
+        "detail": "别遣玄甲偏师二万徇临淮钟离，抚降籍众、毋掠毋杀——胜后之政与兵同至。",
+        "wishes": "淮西州县望旗而下，降卒尽为唐用。"
+      }
+    ],
+    "105": [
+      {
+        "kind": "move",
+        "target": "jianghuai",
+        "troops": 6,
+        "general": "尉迟恭",
+        "detail": "乘胜渡淮南略庐寿：世民壁钟离节度，尉迟恭徇合肥；漕艘自泗口转淮馈军。",
+        "wishes": "淮南底定，江淮之州归唐。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "传檄江淮：降者不杀、田庐如故、市不扰；籍明降卒别为一军简将抚之——善纳降之长，兵不血刃者半。",
+        "wishes": "江南闻之，阻兵自固者渐摇。"
+      }
+    ],
+    "106": [
+      {
+        "kind": "move",
+        "target": "jianghuai",
+        "troops": 2.5,
+        "general": "平阳公主",
+        "detail": "水师壁泗口锁淮拒明江路；世民抚定淮上——明若益兵荆楚北上，坚壁老其师毋浪战。",
+        "wishes": "明反扑顿于淮，新附之地以时而定。"
+      },
+      {
+        "kind": "diplo",
+        "target": "song",
+        "troops": null,
+        "general": null,
+        "detail": "谕汴：明若北犯以撼漕，唐水师却之、玄甲蹙其后，洛宫西幸之门终不闭——兄弟之约，城存与存。",
+        "wishes": "宋不内附于明，漕枢仍贯。"
+      }
+    ],
+    "107": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "淮功之赏预定：世民进太尉、领淮东行台镇泗上，图形凌烟第一；承乾录功监国——功名有壑而储位益固。",
+        "wishes": "大功厚赏两不相逼，周公之局再过一关。"
+      },
+      {
+        "kind": "build",
+        "target": "jianghuai",
+        "troops": null,
+        "general": null,
+        "detail": "屯田两淮、造舟泗口习淮流；简骑三千益玄甲——来岁临江或图荆楚，皆以此为本。",
+        "wishes": "淮上成唐之东藩，进战退守有资。"
+      }
+    ],
+    "108": [
+      {
+        "kind": "diplo",
+        "target": "ming",
+        "troops": null,
+        "general": null,
+        "detail": "岁终致书金陵：以淮为界之盟犹在，江左可安；若再举，来岁水师临江——和战之门，为明留一扇。",
+        "wishes": "明或纳界保境，唐得专固新地。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "岁终朝正，兄弟同谒太庙告淮事；剖符定来岁——水师大成则临江，荆楚先而巴蜀后；承乾日侍兵间。",
+        "wishes": "共治经决战而愈固，来岁之计定于庙堂。"
+      }
+    ]
+  },
+  "diplomacy": [
+    {
+      "to": "donghan",
+      "proposal": "会盟",
+      "terms": "共伐江淮：汉出下邳蹙徐州之背、唐出汴泗当正面；许淮东盐铁市舶分润；唐骑永不出井陉，汴梁之局听宋自便。"
+    },
+    {
+      "to": "song",
+      "proposal": "借道",
+      "terms": "唐师假汴道出汴泗，岁粟十五万照输；汴城宗社秋毫无犯；明若北犯，唐水师援汴、洛宫西幸之约如故。"
+    },
+    {
+      "to": "ming",
+      "proposal": "警告",
+      "terms": "汴泗请会，以淮为界则盟好如故；江淮之局明自择之——先礼后兵之终章，再举则水师临江。"
+    }
+  ],
+  "self_note": "假宋道而不夺汴，宋渐成藩；以徐泗之利驱汉、劳其众。建成年迫四旬，周公之诏亦是留给承乾的锁。"
+}

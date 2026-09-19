@@ -1,0 +1,241 @@
+{
+  "faction": "donghan",
+  "phase": 9,
+  "strategy": "观衅取淮：坐观唐明摊牌于中原，联宋保汴、续盟市马而阴自育骑；候明师西顾，耿弇出郯、马成溯泗、贾复继进，复徐泗而止于淮，不赌国运；帝誓师而不亲征，太子录尚书事成班子；度田柔推、降卒厚安，持盈待变。",
+  "months": {
+    "97": [
+      {
+        "kind": "diplo",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "贺正长安：岁粟五万、北马六千如故价续市，盐铁偿其半；唐主盟如故、军情共籍于洛；叩唐明中原之约和战之期，预陈淮为汉界。",
+        "wishes": "盟续马至，唐明之局先知于洛。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "云台岁首大议定「观衅取淮」：唐明若构兵，耿弇出郯、马成溯泗、贾复继进；吴汉备黎阳、冯异壁虎牢；帝不亲征，坐镇洛阳节度。",
+        "wishes": "庙算先定，进退在我。"
+      }
+    ],
+    "98": [
+      {
+        "kind": "diplo",
+        "target": "song",
+        "troops": null,
+        "general": null,
+        "detail": "聘汴申兄弟之盟：岁粟六万虎牢递运如约；正告「西幸南归」两门皆饵——汴为汉宋共保，唐若假道，城不可入；水师联哨淮泗如故。",
+        "wishes": "宋挺立，中原之盾不折。"
+      },
+      {
+        "kind": "build",
+        "target": "shandong",
+        "troops": null,
+        "general": null,
+        "detail": "徐泗前屯：沂州郯城筑垒储粮，移济南之粟于前；登莱快船入泗习战，邺场续造蒙冲火船——南进之资先集于郯。",
+        "wishes": "进兵之资，先集于前。"
+      }
+    ],
+    "99": [
+      {
+        "kind": "spy",
+        "target": "ming",
+        "troops": null,
+        "general": null,
+        "detail": "觇金陵和战之议：徐达所向、蓝玉何往、楼船集于何港；淮北怨豪名册岁一更新，檄草先具——调兵先旬日而知。",
+        "wishes": "明之调兵，先旬日在我图。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "马政自立：置苑马监于渤海故苑，登莱盐利专充马价，唐厩之外自育自市——毋令马缰久在人手。",
+        "wishes": "三岁之后，铁骑之本不假于人。"
+      }
+    ],
+    "100": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "太子庄录尚书事：邓禹总师傅、桓荣经筵、郭况阴兴并侍东宫；帝万机之半付之，节劳养体——南征之岁中枢有副。",
+        "wishes": "班子成而帝心逸。"
+      },
+      {
+        "kind": "diplo",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "使长安约三事：唐若与明战，兵毋入汴城、毋废宋之社稷、淮北徐泗之地汉自取之；岁粟加额佐军，舟师挠淮为应。",
+        "wishes": "约成则明折、宋存、汉得淮。"
+      }
+    ],
+    "101": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "誓师于邺：帝飨将士，推赤心置人腹中，诏「朕不亲跨淮，功归诸君」；厚养出征之家——年五十有三，最后一战付将帅与东宫。",
+        "wishes": "将帅效死，帝体不疲。"
+      },
+      {
+        "kind": "battle",
+        "target": "jianghuai",
+        "troops": 4,
+        "general": "耿弇",
+        "detail": "候唐明构兵、明师西顾：耿弇铁骑出郯夜袭彭城，传檄淮北怨豪为应；叠阵铳炮渐逼，得徐泗而止，毋轻入水网。",
+        "wishes": "彭城传檄而下，淮北望汉如望岁。"
+      }
+    ],
+    "102": [
+      {
+        "kind": "battle",
+        "target": "jianghuai",
+        "troops": 1.5,
+        "general": "马成",
+        "detail": "舟师溯泗：快船蒙冲绝徐达之饷、火船夜扰淮阴之泊；护陆师之侧，毋与明楼船战于洪泽大湖。",
+        "wishes": "水陆相济，徐达首尾不能相顾。"
+      },
+      {
+        "kind": "battle",
+        "target": "jianghuai",
+        "troops": 2,
+        "general": "贾复",
+        "detail": "车营继进徇下邳：铳炮攻城而开生路，降者全活编伍、徙内陆厚粮之；耿弇游骑南抵淮堧而止。",
+        "wishes": "下邳次第而定，淮界在我。"
+      }
+    ],
+    "103": [
+      {
+        "kind": "internal",
+        "target": "jianghuai",
+        "troops": null,
+        "general": null,
+        "detail": "新复之政：蠲徐泗逋租、赈饥、戮墨吏，用怨豪守乡土；吴汉毋入徐——纵掠之戒，前事不忘。",
+        "wishes": "得地而人心定。"
+      },
+      {
+        "kind": "move",
+        "target": "hebei",
+        "troops": 2,
+        "general": "冯异",
+        "detail": "西备之师：冯异出壁虎牢成皋之隘、吴汉壁黎阳如故，烽燧河舟一日不撤——唐胜而骄，此门益坚。",
+        "wishes": "盟好之中，门户自持。"
+      }
+    ],
+    "104": [
+      {
+        "kind": "diplo",
+        "target": "song",
+        "troops": null,
+        "general": null,
+        "detail": "汴若有急：汉舟骑出虎牢为掎角，约潘美守汴口；宋毋开门揖唐——兄弟之盟祸福同之，徐泗之粟可济汴。",
+        "wishes": "宋存则中原不全入唐。"
+      },
+      {
+        "kind": "spy",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "觇唐胜于明几何、世民所向、两府之隙——唐若尽驱明师而北顾，则淮堧增垒、水砦列泗以备；册其虚实旬日一更。",
+        "wishes": "唐之极盛，先见而先备。"
+      }
+    ],
+    "105": [
+      {
+        "kind": "battle",
+        "target": "jianghuai",
+        "troops": 6,
+        "general": "耿弇",
+        "detail": "徐达若并力北争：并贾复之军敛兵凭郯下之垒，铳炮叠阵挫其锐；火船夜扰、奇骑断饷，间以檄谕淮民——客军久则自惰。",
+        "wishes": "明师挫于坚城，淮界以固。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "帝以谶问南征休咎：郑兴对「臣不为谶」，帝默然良久，赏其直而谶书归兰台——军国之计终决于人事。",
+        "wishes": "谶不能惑，柔道自胜。"
+      }
+    ],
+    "106": [
+      {
+        "kind": "internal",
+        "target": "jianghuai",
+        "troops": null,
+        "general": null,
+        "detail": "度田柔推于徐泗：如东平故事，隐田渐籍、以爵易粟；郭耿元勋之家赐爵免勘如故——军实增而豪右不惊。",
+        "wishes": "度田之结，又柔解一寸。"
+      },
+      {
+        "kind": "diplo",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "岁中申盟：贺唐师之捷，重申淮为汉界、共制明于江南；请市马加额三千，盐铁金帛偿之——盟好岁固。",
+        "wishes": "界定而盟续，北马岁增。"
+      }
+    ],
+    "107": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "安插叙功：徐泗降卒徙内陆厚粮编伍，毋令聚边；云台预叙南征功，太子主宴劳将士——功臣善终，二代之望归东宫。",
+        "wishes": "降者归心，将帅用命。"
+      },
+      {
+        "kind": "build",
+        "target": "jianghuai",
+        "troops": null,
+        "general": null,
+        "detail": "淮堧之守：徐、泗、淮阴列烽置戍、增陴列铳，快船巡淮如哨海之法——以淮为界，为十年之守。",
+        "wishes": "得地能守，进退有凭。"
+      }
+    ],
+    "108": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "岁终上计：校兵粮船马铳之数；云台大议——唐盛明削宋孤，来岁联宋固淮、观唐两府之隙；帝春秋渐高，身后之局预定。",
+        "wishes": "持盈待变，进退在我。"
+      },
+      {
+        "kind": "diplo",
+        "target": "ming",
+        "troops": null,
+        "general": null,
+        "detail": "使金陵议休兵：淮为界、各守其土，通盐市以苏淮民——明得专力西对唐，两虎相持，汉收渔利。",
+        "wishes": "明专于唐，淮界息兵。"
+      }
+    ]
+  },
+  "diplomacy": [
+    {
+      "to": "tang",
+      "proposal": "会盟",
+      "terms": "尊唐主盟如故，岁粟五万、北马六千如价续市；约三事：唐兵毋入汴城、毋废宋之社稷、淮北徐泗归汉自取；军情共籍于洛，唐水师毋入渤海。"
+    },
+    {
+      "to": "song",
+      "proposal": "会盟",
+      "terms": "岁粟六万如约；汴为汉宋共保之地，唐若逼汴，汉出虎牢为掎角；徐泗既复盐粟互济——毋受「西幸南归」两门之饵。"
+    },
+    {
+      "to": "ming",
+      "proposal": "互不侵犯",
+      "terms": "以淮为界各守其土：明专力对唐，汉不逾淮、通盐市以苏淮民；若犯淮界，汉绝其江海之漕，与唐东西连兵共蹙之。"
+    }
+  ],
+  "self_note": "誓师而不亲跨淮，功归将帅东宫；市马于唐而阴自育之；宋必存、明不遽灭、唐不独胜——三州之汉乃可与两强齿。"
+}
