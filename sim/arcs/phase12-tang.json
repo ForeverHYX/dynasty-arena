@@ -1,0 +1,246 @@
+{
+  "faction": "tang",
+  "phase": 12,
+  "strategy": "先汴后邺：三面合围、赏先榜、开生门，逆破汉援而一鼓下汴；乘胜以窦融故事檄汉，围邺击援、赦刘氏收河北；岭南以朱标书招文忠，逾岭浮海为后盾；括户均田消化八州，世民以金石之誓、两房合流终局。",
+  "months": {
+    "133": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "太庙剖符伐宋：世民假黄钺总水陆，苏定方西南、平阳水师、元吉北路，尉迟恭备汉于徐泗；承乾监国长安，真金北衙巡云朔。",
+        "wishes": "师出以正，两府一心，汴未攻而庙算先定。"
+      },
+      {
+        "kind": "diplo",
+        "target": "donghan",
+        "troops": null,
+        "general": null,
+        "detail": "最后之约：岁市加额、市舶尽通、还俘如故；只求今年汉师毋渡河援汴——助汴则曲在汉，唐北门之师自待之。",
+        "wishes": "汉徘徊于盟约与利害之间，纵来援亦先失其直。"
+      }
+    ],
+    "134": [
+      {
+        "kind": "battle",
+        "target": "zhongyuan",
+        "troops": 6,
+        "general": "李世民",
+        "detail": "先击野战之屏：玄甲衔枚夜薄中牟，破曹翰应变军于野——拔汴外之屏，檄降者不杀。",
+        "wishes": "汴城裸于垒，围局一举而成。"
+      },
+      {
+        "kind": "move",
+        "target": "zhongyuan",
+        "troops": 3,
+        "general": "苏定方",
+        "detail": "出洛阳壁成皋之东与世民连营，洛口敖仓转馈不绝；汴漕三面皆断，唯开东面纵民。",
+        "wishes": "三面之势合围，汴成陆困之局。"
+      }
+    ],
+    "135": [
+      {
+        "kind": "battle",
+        "target": "zhongyuan",
+        "troops": 2.5,
+        "general": "平阳公主",
+        "detail": "水师夜薄汴口：火舟乘上风焚四迭沉舟，铳舰轰锁台断三重铁锁；张弘范授节度，沙囊湿帆防火。",
+        "wishes": "汴门之闩拔，舟师入汴绝其水路。"
+      },
+      {
+        "kind": "spy",
+        "target": "song",
+        "troops": null,
+        "general": null,
+        "detail": "房玄龄纵间汴中：结迁民之怨为内应，觇火药砲位虚实；兼缉李处耘反间，谤本预焚。",
+        "wishes": "城未攻而内先裂，谍战先胜一局。"
+      }
+    ],
+    "136": [
+      {
+        "kind": "battle",
+        "target": "zhongyuan",
+        "troops": 9,
+        "general": "李世民",
+        "detail": "合围汴梁：世民壁东北、苏定方壁西南、平阳扼汴口；炮昼夜轰而围三阙一，禁屠令与破城赏格先榜。",
+        "wishes": "围而俟其自变，攻心与攻城并举。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "新附八州消化：明降吏大计黜陟，括户均田、义仓常平行于江淮蜀荆；围卒三番迭休，老弱归屯。",
+        "wishes": "师老之疲释于内，久战而根本愈固。"
+      }
+    ],
+    "137": [
+      {
+        "kind": "battle",
+        "target": "donghan",
+        "troops": 3,
+        "general": "李世民",
+        "detail": "谍知耿弇出郯之期，留苏定方护围，自以玄甲夜驰逆击汉援于汴东——半渡邀击，虎牢故智三发。",
+        "wishes": "援破则汴气夺，河北十年不敢南望。"
+      },
+      {
+        "kind": "move",
+        "target": "hedong",
+        "troops": 1.5,
+        "general": "薛万彻",
+        "detail": "冯异若乘虚出井陉：坚壁勿战、烽燧相继，真金游骑出云朔蹙其粮道——北门之铁不改。",
+        "wishes": "汉东西两路皆不得逞。"
+      }
+    ],
+    "138": [
+      {
+        "kind": "battle",
+        "target": "zhongyuan",
+        "troops": 9,
+        "general": "李世民",
+        "detail": "再举总攻：穴城炮集、夜梯迭登；仍开一门纵民，榜德昭开门则封汴国公世袭如隋杨勇故事。",
+        "wishes": "内怨外绝，汴破只欠一炬而全活为功。"
+      },
+      {
+        "kind": "diplo",
+        "target": "ming",
+        "troops": null,
+        "general": null,
+        "detail": "招岭南：朱标亲笔书附常妃安问驰番禺——沐英故事：世守如故唯易其旗，市舶如故、明祀不绝。",
+        "wishes": "文忠奉表则兵不血刃，南海传檄而定。"
+      }
+    ],
+    "139": [
+      {
+        "kind": "battle",
+        "target": "zhongyuan",
+        "troops": 10,
+        "general": "李世民",
+        "detail": "汴下总攻：穴城炮发、内应启门，禁屠令行；德昭若降，全活汴民者录首功。",
+        "wishes": "天下之枢入手，中原传檄而定。"
+      },
+      {
+        "kind": "internal",
+        "target": "zhongyuan",
+        "troops": null,
+        "general": null,
+        "detail": "抚汴：市不易肆、籍降卒别军简将抚之；汴渠漕运即复，迁民赦归其乡，蠲被兵地逋赋。",
+        "wishes": "胜国之民为唐所用，饷路自此而活。"
+      }
+    ],
+    "140": [
+      {
+        "kind": "diplo",
+        "target": "donghan",
+        "troops": null,
+        "general": null,
+        "detail": "窦融之檄：去帝号奉唐正朔，封汉公世袭、庙祀可保，云台诸将甄用；拒则秋高马肥三道北出。",
+        "wishes": "不战屈河北之半，战亦先夺其心。"
+      },
+      {
+        "kind": "move",
+        "target": "hebei",
+        "troops": 8,
+        "general": "李世民",
+        "detail": "北征布势：世民还军河内临河，苏定方壁井陉，尉迟恭出琅琊，真金游骑摇幽燕之背——三道之势成。",
+        "wishes": "河北震动，山东先摇。"
+      }
+    ],
+    "141": [
+      {
+        "kind": "battle",
+        "target": "hebei",
+        "troops": 8,
+        "general": "李世民",
+        "detail": "渡河击邺：乘破汴之气夜渡黎阳，破吴汉河防之戍，长围邺都；檄河北吏民各安其业，降者不杀。",
+        "wishes": "邺围而河北心摇，传檄定者过半。"
+      },
+      {
+        "kind": "battle",
+        "target": "shandong",
+        "troops": 2.5,
+        "general": "尉迟恭",
+        "detail": "徇青齐：出琅琊檄登莱——汉援尽在河北，青齐之守孤；降者世守，耿纯马成有归义前例。",
+        "wishes": "断汉左臂，山东传檄而下。"
+      }
+    ],
+    "142": [
+      {
+        "kind": "battle",
+        "target": "hebei",
+        "troops": 8,
+        "general": "李世民",
+        "detail": "围邺待援：耿弇悉锐南还，留壁护围，自以玄甲逆击于漳水之阳；冯异出井陉则苏定方蹙其后。",
+        "wishes": "邺与援俱碎于一役，河北野战之骨尽折。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "建成东幸汴洛：蠲中原一岁逋赋，谒孔林旌遗贤，漕枢即安——北征之饷自此而输，中原遂为根本。",
+        "wishes": "得汴而安汴，天下之枢转为唐用。"
+      }
+    ],
+    "143": [
+      {
+        "kind": "battle",
+        "target": "hebei",
+        "troops": 8,
+        "general": "李世民",
+        "detail": "邺下总攻：穴城炮集、援绝粮尽之际一鼓登城；城破之日优礼刘氏——汉有再造民功，唐不绝汉祀。",
+        "wishes": "邺破而河北定，赦书所至望风。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "赦汉之格：刘氏去帝号封汉公世袭，耿弇冯异吴汉仍兵柄甄用，降卒编籍不杀——降者归心，唐汉一家。",
+        "wishes": "云台之将尽为唐用，河北不烦再战。"
+      }
+    ],
+    "144": [
+      {
+        "kind": "battle",
+        "target": "lingnan",
+        "troops": 3,
+        "general": "平阳公主",
+        "detail": "岭南收局：逾岭出大庾会番禺，舟师浮海夹之；朱标书再至——文忠若奉表，世守如沐英故事。",
+        "wishes": "十二州尽入版图，混一告成于本年。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "太庙告混一，封禅议起；金石之誓藏庙：秦王功与国同休、辅政如周公永为家法，太子妃（秦王出）之嗣承两房之统。",
+        "wishes": "封无可封者以共定之名锁之，玄武之雷终不发。"
+      }
+    ]
+  },
+  "diplomacy": [
+    {
+      "to": "donghan",
+      "proposal": "互不侵犯",
+      "terms": "岁市加额、市舶尽通、还俘如故；只求今年汉师毋渡河援汴、骑不出井陉——助汴则曲在汉，北门之师自待之。"
+    },
+    {
+      "to": "song",
+      "proposal": "称臣",
+      "terms": "最后之门：开门则封汴国公世袭如隋杨勇故事，宗庙吏民可保；拒则炮尽发，毋悔。"
+    },
+    {
+      "to": "donghan",
+      "proposal": "称臣",
+      "terms": "窦融故事：去帝号奉唐正朔，封汉公世袭、庙祀可保，云台诸将甄用；拒则三道北出。"
+    },
+    {
+      "to": "ming",
+      "proposal": "称臣",
+      "terms": "沐英故事：世守如故唯易其旗，市舶通番如故、明祀不绝；朱标亲笔为信，文忠奉表则兵不入岭南。"
+    }
+  ],
+  "self_note": "灭明易消化难：抚新附即战力。世民不走裂土禅让，以金石之誓并两房之统锁死——周公终局。"
+}

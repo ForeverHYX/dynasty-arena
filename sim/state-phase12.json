@@ -1,0 +1,27 @@
+{
+  "month": 144,
+  "factions": {
+    "qin":     {"name": "秦", "leader": "胡亥", "troops": 0.3, "food": 0, "morale": 15, "stability": 10, "regions": [], "alive": false, "notes": "亡国（36月）。嬴政服丹暴崩、沙丘矫诏、王贲萧关殉国，李斯胡亥被执送长安——秦焰早熄，旧档存照"},
+    "han":     {"name": "汉(西汉)", "leader": "刘邦", "troops": 0, "food": 0, "morale": 10, "stability": 10, "regions": [], "alive": false, "notes": "国除（44月）。沛侯刘邦酒疾暴作薨于金陵围城（120月），金陵城破寓公星散——旧档存照"},
+    "sui":     {"name": "隋", "leader": "杨勇", "troops": 0, "food": 0, "morale": 15, "stability": 10, "regions": [], "alive": false, "notes": "国除。杨勇安于汴梁隋国公位，部众早编入宋军。本岁汴梁易主，隋公之宅亦入唐图——旧档存照"},
+    "donghan": {"name": "汉(东汉)", "leader": "刘庄", "troops": 10.0, "food": 17, "morale": 78, "stability": 80, "regions": ["hebei", "shandong"], "alive": true, "notes": "帝崩与新君之年：光武帝刘秀崩于雒阳（143月，年四十六——感疾屡作积劳成瘵，天道早收于史册享年之前），刘庄即位，三诏守成、邓禹辅政，灯灭之夜汉不乱寸许。三路履盟救汴而汴终破（141月）：冯异围魏顿于上党之险、海道被张弘范所截、耿弇蹙泗而全师还。窦融之檄峻拒、黎阳半渡破玄甲，太行三陉漳水河防岁修为常，纳宋遗君臣于邺宫联哨海道——守陉待变，哀兵而治"},
+    "tang":    {"name": "唐", "leader": "李建成", "troops": 13.0, "food": 12, "morale": 98, "stability": 78, "regions": ["hedong", "guanzhong", "longxi", "mobei", "jianghuai", "jiangnan", "bashu", "jingchu", "zhongyuan"], "alive": true, "notes": "下汴之年：中牟破曹翰、长围半载——汴口初攻挫、攻城三却折七千、敖仓粮台被焚师几饥、九锡真报之谤复起，而秋霖暴涨天收其锁（140月血战开汴口）、迁民怨户举火内应（141月汴梁破），宋除而德昭北渡。乘胜渡黎阳半渡受挫于吴汉贾复、徇青齐挫于沂山叠阵——河北之剑卷刃。窦融之檄遭拒；岭南文忠奉表削号称藩（兵不入岭孙不入朝，沐英故事）而籍未入图。世民四辞九锡自请解柄、金石之誓藏庙，两房之统并承——九州在手，陉漳与岭南留给来岁"},
+    "song":    {"name": "宋", "leader": "赵德昭", "troops": 3.0, "food": 4, "morale": 72, "stability": 56, "regions": [], "alive": false, "notes": "国除（中原失于141月）。秤沉之答战至最后一刻：曹彬起复立三阵、潘美四守汴口、曹翰焚粮台而战死宣化门，潘美李处耘被执槛送长安。德昭祭庙焚檄、君臣数万夜渡白马，汉以郡国待之邺宫奉宋祀——汴可失统不亡，「血而不降」落成实笔"},
+    "yuan":    {"name": "元", "leader": "真金", "troops": 0, "food": 0, "morale": 15, "stability": 10, "regions": [], "alive": false, "notes": "国除（93月）。真金奉世祖主内附封归义王，本岁游骑巡云朔蹙冯异之馈，为唐守北门如故"},
+    "ming":    {"name": "明", "leader": "李文忠(摄政)", "troops": 0.9, "food": 17, "morale": 59, "stability": 58, "regions": ["lingnan"], "alive": true, "notes": "削号称藩之年：卑辞买得一岁（受表缓议）、五岭叠石为城、汉械阴济两头下注；朱标亲笔书至而常妃泣、文忠缓之。汴亡飓风之后（141月船场毁、瘴疫起）终作决断——尽削尊号称唐藩、岁贡分利，唐许世守岭南、兵毋入岭、皇孙毋入朝：忠者存祀，幼主不入长安。南洋田庄岁储、海船常备，「社稷有二」之钥自掌——祀存南海，籍未入唐图"}
+  },
+  "regions": {
+    "longxi":    {"name": "陇右凉州", "owner": "tang",    "pop": 161, "grain": 5, "garrison": 0},
+    "guanzhong": {"name": "关中",     "owner": "tang",    "pop": 388, "grain": 6, "garrison": 0},
+    "hedong":    {"name": "河东",     "owner": "tang",    "pop": 299, "grain": 9, "garrison": 0},
+    "hebei":     {"name": "河北",     "owner": "donghan", "pop": 435, "grain": 6, "garrison": 0},
+    "zhongyuan": {"name": "中原",     "owner": "tang",    "pop": 432, "grain": 6, "garrison": 0},
+    "shandong":  {"name": "山东",     "owner": "donghan", "pop": 290, "grain": 5, "garrison": 0},
+    "bashu":     {"name": "巴蜀",     "owner": "tang",    "pop": 347, "grain": 8, "garrison": 0},
+    "jingchu":   {"name": "荆楚",     "owner": "tang",    "pop": 335, "grain": 9, "garrison": 0},
+    "jianghuai": {"name": "江淮",     "owner": "tang",    "pop": 264, "grain": 4, "garrison": 0},
+    "jiangnan":  {"name": "江南",     "owner": "tang",    "pop": 462, "grain": 8, "garrison": 0},
+    "lingnan":   {"name": "岭南",     "owner": "ming",    "pop": 151, "grain": 6, "garrison": 0},
+    "mobei":     {"name": "漠北",     "owner": "tang",    "pop": 74,  "grain": 1, "garrison": 0}
+  }
+}

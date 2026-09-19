@@ -1,0 +1,241 @@
+{
+  "faction": "song",
+  "phase": 12,
+  "strategy": "秤沉之答：不称臣不质子，还价去帝号为兄弟之国，以「受降必出天子」一语裂长安两府；断漕缰饿唐三面之师，联汉举烽死守汴门；北幸预演渡河续统——汴存祀不移，汴破统不亡。",
+  "months": {
+    "133": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "元正庙算定沉秤之答：不称臣、不质子，去帝号止于兄弟之国；德昭亲告太祖太宗庙，檄天下布唐胁汴灭国之罪，举国守汴门。",
+        "wishes": "秤沉而志不沉，汴门即国门。"
+      },
+      {
+        "kind": "diplo",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "还价唐廷：去帝号、称宋王、岁贡金帛、世为兄弟——不内附、不质子、不入朝；受降册礼必天子亲颁，军前不得专受。",
+        "wishes": "价议入长安，受降之争先起于两府。"
+      }
+    ],
+    "134": [
+      {
+        "kind": "move",
+        "target": "zhongyuan",
+        "troops": 13,
+        "general": "曹彬",
+        "detail": "曹彬总中外军布三阼：潘美水陆五万壁汴口当平阳舟师，曹翰三万壁郑州当宛洛，德昭与彬以五万居汴梁为活兵。",
+        "wishes": "三面各有其守，汴梁自为枢纽。"
+      },
+      {
+        "kind": "diplo",
+        "target": "donghan",
+        "troops": null,
+        "general": null,
+        "detail": "举烽促盟：唐师一动，汉出井陉压河东、耿弇蹙徐泗之背；宋岁粟倍输济汉，密定北幸——汴若不守，宋廷渡河，汉存宋统。",
+        "wishes": "汴洛一体成战线，唐锋分于河北。"
+      }
+    ],
+    "135": [
+      {
+        "kind": "build",
+        "target": "zhongyuan",
+        "troops": null,
+        "general": null,
+        "detail": "坚壁清野毕工：汴外积聚徙空、井泉窒、衢道掘断；汴口沉舟第五迭、火柜床弩倍储——顿兵之城，先饿其军。",
+        "wishes": "唐师至则野无所掠，攻无所乘。"
+      },
+      {
+        "kind": "spy",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "谍注剖符：北伐之帅属谁、粮台所在、受降之议；散语长安「灭宋之功尽归秦王」——只传真章，不加伪语。",
+        "wishes": "受降之争即疑生之争，剖符自迟。"
+      }
+    ],
+    "136": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "粮缰反断：罢代运、绝岁市、封汴口商艘，一石不北；商舶尽转海道南行——仰汴者饥，走海者继。",
+        "wishes": "三面之师的饷，从此自带干粮。"
+      },
+      {
+        "kind": "battle",
+        "target": "tang",
+        "troops": 13,
+        "general": "曹彬",
+        "detail": "唐三道来犯则守而不野：汴口锁砲逆击、郑州深壁挫锋，纵世民顿于汴梁坚城；飞烽约汉俱动，蹙其背于河北。",
+        "wishes": "三面顿于坚城，背火起于河北。"
+      }
+    ],
+    "137": [
+      {
+        "kind": "diplo",
+        "target": "ming",
+        "troops": null,
+        "general": null,
+        "detail": "海槽加额输番禺，密约文忠：唐师北聚则出潮惠扰其南疆、绝其市舶——一隅牵一军，守俟北变。",
+        "wishes": "岭南不死，唐师不得尽北。"
+      },
+      {
+        "kind": "battle",
+        "target": "tang",
+        "troops": 3,
+        "general": "曹翰",
+        "detail": "汉骑若渡河击河东，应变军即出虎牢蹙宛洛馈道，按分法收汴西——得粮即还不顿于坚，两家刀不相逢。",
+        "wishes": "变至之日，宋旗先出虎牢。"
+      }
+    ],
+    "138": [
+      {
+        "kind": "battle",
+        "target": "tang",
+        "troops": 6,
+        "general": "潘美",
+        "detail": "平阳舟师若强攻汴口：五迭沉舟锁帆、火船乘上风、两岸砲座夹射，逐出即敛——水门不失，三面缺一。",
+        "wishes": "唐水师再挫于锁下，汴门之闸仍在。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "举国同忾：募义勇巡漕输粮、录士民守陴之劳，功臣阁预书战功第五榜——守土之名化为守土之实。",
+        "wishes": "围城愈久，汴心愈固。"
+      }
+    ],
+    "139": [
+      {
+        "kind": "spy",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "九锡第三火只用真章：长安邸报「赏止九锡」原文密散泗上军中，与还价之议相激——功高之疑，唐人自家浇油。",
+        "wishes": "散本已焚，真报难缴，谤自内生。"
+      },
+      {
+        "kind": "internal",
+        "target": "zhongyuan",
+        "troops": null,
+        "general": null,
+        "detail": "秋收大计：核田户口、常平平粜、蠲围城逋赋；浚井分坊、施药防疫——汴梁要经得起一载之围。",
+        "wishes": "仓政井然，围不能困。"
+      }
+    ],
+    "140": [
+      {
+        "kind": "move",
+        "target": "hebei",
+        "troops": 1,
+        "general": null,
+        "detail": "西幸案改北幸：洛门已唐，虎牢外即苏定方之师；神主宗族先渡藏黎阳、舟楫常集白马津——汴存祀不移，汴危身不陷。",
+        "wishes": "退路改河不改海，最坏之门先支半扇。"
+      },
+      {
+        "kind": "build",
+        "target": "zhongyuan",
+        "troops": null,
+        "general": null,
+        "detail": "储一载之围：粮械分三仓、砲箭再倍；海舶南槽不绝，岁计商利养军——纵围经年，汴门不降。",
+        "wishes": "围一载而饥在城外。"
+      }
+    ],
+    "141": [
+      {
+        "kind": "diplo",
+        "target": "donghan",
+        "troops": null,
+        "general": null,
+        "detail": "岁中固盟画终局之底：唐师老于汴下，则联军徐收河东、划河而治亦足为天下之终——存宋存汉，在此一线。",
+        "wishes": "以划河为底线，两弱共持其衡。"
+      },
+      {
+        "kind": "spy",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "觇变专谍：受降之争、九锡三辞、岭南之役、长安两府信使疏密——变起一驿驰汴，檄匣即启。",
+        "wishes": "天下之变，先知于汴。"
+      }
+    ],
+    "142": [
+      {
+        "kind": "battle",
+        "target": "tang",
+        "troops": 3,
+        "general": "曹翰",
+        "detail": "候敌饥疲，曹翰以锐夜出虎牢掠宛洛馈道、焚其粮台，得粮即还——敌饥我饱，日削三军之气。",
+        "wishes": "馈道夜惊，唐师自乱其序。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "讲武堂三期出官补军位；录阵殁恤其孤，德昭亲哭于阵——汴门之战，君与士同命。",
+        "wishes": "军心不散，将才相续。"
+      }
+    ],
+    "143": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "冬储大阅：功臣阁第五榜图形、政记书「守汴之年」，武举第四届并开——胜则史册有光，败则渡河有据。",
+        "wishes": "内治记账，国史不虚。"
+      },
+      {
+        "kind": "diplo",
+        "target": "donghan",
+        "troops": null,
+        "general": null,
+        "detail": "北幸细则：汉以邺宫馆宋神主、联哨及海道；唐若破汴，宋水师海槽尽属联军——汴可失，河与海不可失。",
+        "wishes": "城亡而统不亡，河海续宋。"
+      }
+    ],
+    "144": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "郊祀庙算收束三案：唐顿则联汉划河、唐变则出虎牢俱进、汴破则北渡续统；史馆书「天下之枢，血而不降」。",
+        "wishes": "来岁之门，宋以血自启。"
+      },
+      {
+        "kind": "spy",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "岁终大谍：长安两府、唐军粮台、岭南河北兵粮重绘一图；剖符之帅、受降之争、九锡之局并注——图成庙算随更。",
+        "wishes": "天下之底，岁岁在汴。"
+      }
+    ]
+  },
+  "diplomacy": [
+    {
+      "to": "donghan",
+      "proposal": "会盟",
+      "terms": "攻守同盟落为战时之约：唐师犯汴，汉出井陉压河东、耿弇蹙徐泗之背，宋岁粟倍输；汴若不守，宋廷渡河依汉续统，联守河北，划河而治为终局底线。"
+    },
+    {
+      "to": "tang",
+      "proposal": "互不侵犯",
+      "terms": "还价驳檄：去帝号、称宋王、岁贡金帛、世为兄弟之国，兵舰毋过汴口；不内附、不质子、不入朝，受降册礼必天子亲颁——军前专受者，宋不受也。"
+    },
+    {
+      "to": "ming",
+      "proposal": "贸易",
+      "terms": "海槽岁粟加额续输番禺、宋旗护明海舶如故；密约文忠：唐师北聚则出潮惠扰其南、绝其市舶——一隅牵一军，守俟北变共图再举。"
+    }
+  ],
+  "self_note": "还价非降，受降归天子一语专为裂两府而设；神主先渡黎阳，是渡河续统的第一步棋。"
+}

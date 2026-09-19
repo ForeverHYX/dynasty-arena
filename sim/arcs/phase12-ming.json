@@ -1,0 +1,241 @@
+{
+  "faction": "ming",
+  "phase": 12,
+  "strategy": "卑辞事唐买一岁：去号称臣岁贡，兵毋入岭、孙毋入朝为底线；五岭为城、南海为池，屯田造舰铸小南朝；阴结汴洛掎角、密置南洋退步——候唐内变则奋起，不然奉幼主浮海存明祀。",
+  "months": {
+    "133": [
+      {
+        "kind": "diplo",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "遣使奉表长安：去帝号、岁贡方物、市舶之利岁分其三；乞世守岭南、兵毋入岭。唐方谋汴必先南抚——每议一寸，缓一月",
+        "wishes": "唐师专意北向，岭南买得一岁"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "番禺立宗庙奉太祖、马后之祀，正月幼主临轩受朝；文忠率百官誓「社稷在南海」——檄告江左遗民：岭南有君",
+        "wishes": "正朔既立，遗民知所归"
+      }
+    ],
+    "134": [
+      {
+        "kind": "build",
+        "target": "lingnan",
+        "troops": null,
+        "general": "李文忠",
+        "detail": "缮梅关、阳山、揭阳三道：凿隘叠石、增戍置烽；烟瘴险地以险补兵——岭道即城墙，一夫可拒",
+        "wishes": "唐师自桂岭来，顿于瘴隘"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "万兵三分：岭戍四千守关、水营四千习战珠江、机动二千屯番禺；土兵客兵兼籍——小而可用，进退有据",
+        "wishes": "军制成，水陆两不相误"
+      }
+    ],
+    "135": [
+      {
+        "kind": "build",
+        "target": "lingnan",
+        "troops": null,
+        "general": null,
+        "detail": "复开番禺船场：福船广船并造，岁计战舰二十、火船十；焦山之训立为军规——舟师但守海口，不出大洋搏阵",
+        "wishes": "水师再立，海口有恃"
+      },
+      {
+        "kind": "spy",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "检校南移：广州湾外置烽哨，先答一问——唐师来岁所向，北汴抑或南岭？平阳舟师一南泊即举烽；兼探长安两府之隙",
+        "wishes": "唐之动向，先一月而知"
+      }
+    ],
+    "136": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "屯田经略岭南：韶桂垦田、徙遗民实峒，户帖鱼鳞之册先行——明法立则岭南非客土，客土成本土",
+        "wishes": "粮饷渐自给，根基下移"
+      },
+      {
+        "kind": "diplo",
+        "target": "song",
+        "troops": null,
+        "general": null,
+        "detail": "密使谢汴岁饷改泊之德；以药材、火药铳谱附海槽北输，商籍往来——唐虽诘，不见其柄",
+        "wishes": "汴门多守一日，岭南多活一日"
+      }
+    ],
+    "137": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "俚帅峒豪入籍授世职、通婚姻，峒丁籍为土兵；私通唐使之峒豪抚而不诛、徙其众——岭南是明的，也是俚的",
+        "wishes": "土客一家，谷道兵源两稳"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "称臣表播于行在，遗老伏阙痛哭劾摄政辱先帝社稷；文忠免冠自任：「骂名我任，明祀我保」——不诛一言者，延议而后行",
+        "wishes": "骂名归一人，人心不散"
+      }
+    ],
+    "138": [
+      {
+        "kind": "diplo",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "遣舶使占城、三佛齐、阇婆：互市厚结其主，阴购滨海屯垦之地、岁储粮械——退步置于国门之外",
+        "wishes": "南洋有明之田庄，进退有据"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "流亡之制：海船十艘常备，帆具火食月检；常妃皇孙行装密制、随驾名录预编——「社稷有二」之智，文忠亲掌其钥",
+        "wishes": "番禺纵有变，幼主一夜出海"
+      }
+    ],
+    "139": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "开番庠立侍讲：老儒日讲、常妃亲课，祖训录为课本；幼主虽襁褓，礼不可废——十年后此子须知祖宗之江何在",
+        "wishes": "幼主长于忠义，不长于逸"
+      },
+      {
+        "kind": "diplo",
+        "target": "donghan",
+        "troops": null,
+        "general": null,
+        "detail": "报聘谢海道存问；密约掎角：唐北顿于汴，则汉出井陉、明制其南——虚名不书，实事暗行，市舶岁通登莱",
+        "wishes": "汉宋北吸唐力，岭压自减"
+      }
+    ],
+    "140": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "唐若挟朱标「还皇孙于其父」为牌——文忠先檄天下：先帝遗训「君降非嗣绝」，皇孙嗣统已告天地；名分之战先落于笔",
+        "wishes": "质子之牌出而无名"
+      },
+      {
+        "kind": "spy",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "反谍广州湾：缉唐细作；纵假语「岭南已暗结南洋、自安为唐藩」——使唐信南疆无事，专意北向",
+        "wishes": "唐不以南为意，岁贡买实"
+      }
+    ],
+    "141": [
+      {
+        "kind": "battle",
+        "target": "tang",
+        "troops": 0.5,
+        "general": "李文忠",
+        "detail": "唐偏师若南试：闭珠江口，沉船铁锁、铳台层轰，火船但乘夜焚其泊——峒兵绕出桂岭断其饷；焦山之败不复",
+        "wishes": "唐师挫于海口，知岭南价高"
+      },
+      {
+        "kind": "diplo",
+        "target": "song",
+        "troops": null,
+        "general": null,
+        "detail": "汴围若急：请汉宋以「存明祀」檄天下——唐灭人之祀，诸侯之心自离；明虽一州，可为义旗之杆",
+        "wishes": "道义在外，唐并天下之本增"
+      }
+    ],
+    "142": [
+      {
+        "kind": "diplo",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "岁贡之舶如期北上：方物金帛如约、表文卑之又卑——贡舶即谍舶，长安两府之实随贡而归",
+        "wishes": "唐受贡缓兵，谍随礼入"
+      },
+      {
+        "kind": "build",
+        "target": "lingnan",
+        "troops": null,
+        "general": null,
+        "detail": "屯门、虎跳门铳台成，烽传连锁番禺；舶入内澳、仓粮分贮以备秋飓——不求胜唐，求唐知难",
+        "wishes": "南征之价高于所得，即胜"
+      }
+    ],
+    "143": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "鱼鳞户帖成籍、蠲逋恤峒，岁终计户口之增——亡国之政，反全于海隅；行在百司渐成小朝廷之制",
+        "wishes": "岭南渐成明土，非寄居之地"
+      },
+      {
+        "kind": "spy",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "岁终大谍：汴役胜负、平阳舟师之向、长安两府储位之隙；并候沐英之信——发丧三日而降者，心未必死",
+        "wishes": "四数在手，进退不失时"
+      }
+    ],
+    "144": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "三案定纲：汴存则倚汉宋再磨一年；汴亡唐师南——则奉表尽削尊号以存祀，不许则皇孙浮海、文忠死番禺；祖训录增「岭海」一章",
+        "wishes": "进退皆先置，明祀不随城亡"
+      },
+      {
+        "kind": "diplo",
+        "target": "donghan",
+        "troops": null,
+        "general": null,
+        "detail": "岁终并聘汴洛，谢一年海道之通：唐若内变或北败，明舟师出海断其市舶——南面之枢，愿为两家之刃",
+        "wishes": "盟不书于纸，绳已系两家"
+      }
+    ]
+  },
+  "diplomacy": [
+    {
+      "to": "tang",
+      "proposal": "称臣",
+      "terms": "去帝号、岁贡方物、市舶之利岁分其三；乞世守岭南——兵毋入岭、吏民如故、皇孙毋入朝为底线"
+    },
+    {
+      "to": "song",
+      "proposal": "会盟",
+      "terms": "阴盟：药材火器附海槽北输、商籍为掩；汴存则岭南存，唐变则南北同动"
+    },
+    {
+      "to": "donghan",
+      "proposal": "会盟",
+      "terms": "掎角密约：唐顿于汴则汉出井陉、明制其南；市舶岁通登莱，虚名不书"
+    }
+  ],
+  "self_note": "称臣是壳，海船与南洋田庄是真；买尽岁月只赌两事——长安之雷、汴门之守。"
+}

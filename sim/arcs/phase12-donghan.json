@@ -1,0 +1,241 @@
+{
+  "faction": "donghan",
+  "phase": 12,
+  "strategy": "唐三面逼汴，汴存则河北有藩。汉不称臣：冯异出井陉捣上党为围魏，耿弇蹙泗口断世民之饷，海道继汴、连横残明；汴若亡，敛守太行漳河，清野待唐内变。帝深居颐养，东宫亲政，顾命之局成于生前。",
+  "months": {
+    "133": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "云台大议「存汴即存汉」：绝称臣之议——汉室宗庙不祀异姓；亦不聚兵汴下赌决战。三路履盟：井陉捣上党、郯城蹙泗口、海道继汴饷。帝但持大体。",
+        "wishes": "名不正者唐，兵不聚者汉。"
+      },
+      {
+        "kind": "diplo",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "报唐还俘复市之好：市舶如故；正告「唐犯汴则汉履攻守之盟，曲在唐」。和门留一线：罢汴围、存宋祀，则共尊唐主盟——称臣勿复言。",
+        "wishes": "唐若知两线之害，汴围或解于口舌。"
+      }
+    ],
+    "134": [
+      {
+        "kind": "battle",
+        "target": "hedong",
+        "troops": 3,
+        "general": "冯异",
+        "detail": "冯异出井陉捣上党：围魏救赵，直指唐根本晋阳；勿攻坚城，据险断沁水粮道、抚上党吏民——汴下唐军之背，自此不得安。",
+        "wishes": "长安闻晋阳之警，汴下之师自还。"
+      },
+      {
+        "kind": "diplo",
+        "target": "song",
+        "troops": null,
+        "general": null,
+        "detail": "驰汴践盟：宋婴城清野、毋浪战出；汉海舶粟五万石由黄河故道转输继之，谍报三日一通，约「城存与存」。",
+        "wishes": "汴中知饷不绝，守心铁矣。"
+      }
+    ],
+    "135": [
+      {
+        "kind": "battle",
+        "target": "jianghuai",
+        "troops": 2.8,
+        "general": "耿弇",
+        "detail": "耿弇出郯蹙泗口：游骑焚漕艘、断世民西进之饷；壁郯为脊，毋渡沂水半步——沂水之血，不可再洒。",
+        "wishes": "世民饷绌，汴围自缓。"
+      },
+      {
+        "kind": "build",
+        "target": "shandong",
+        "troops": null,
+        "general": null,
+        "detail": "朐港益集舟师火船，登莱海船并海道饷汴；马成护漕，遇唐舟则夜行昼伏——汴城命脉，悬于海道。",
+        "wishes": "海道一通，围城不饥。"
+      }
+    ],
+    "136": [
+      {
+        "kind": "diplo",
+        "target": "ming",
+        "troops": null,
+        "general": null,
+        "detail": "三弱连横：汉舶通番禺，济李文忠粮械火药，约其乘唐师北聚而扰唐南疆；檄潜伏江南之明遗「候期而动」。",
+        "wishes": "唐南疆一乱，八州皆是兵。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "帝深居颐养，手定「戒庄书」：柔道守成、度田毋停、功臣毋诛、汴亡则守山河毋浪战——身后之政，一句一句写定。",
+        "wishes": "主少而政不乱，全凭此书。"
+      }
+    ],
+    "137": [
+      {
+        "kind": "move",
+        "target": "hedong",
+        "troops": 3,
+        "general": "冯异",
+        "detail": "上党进退之衡：唐回师则敛入井陉据险毋战，唐不救则略定上党、绝沁水；大军勿出滏口一步——得失皆可，全师为上。",
+        "wishes": "围魏之兵，进退在我。"
+      },
+      {
+        "kind": "spy",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "长安两府之册岁三更：世民顿汴久则谤自起，汉止觇毋扇；并籍江南蜀荆新附之怨、岭南之期、唐储之隙。",
+        "wishes": "唐之内变，先旬在洛。"
+      }
+    ],
+    "138": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "东宫亲政成常课：刘庄御前殿决事、邓禹侍坐、云台奏事以闻；帝五日一见但听大体——班子全面接管，国柄平稳移于新主。",
+        "wishes": "帝在与不在，汉政如一。"
+      },
+      {
+        "kind": "move",
+        "target": "hebei",
+        "troops": 2.5,
+        "general": "吴汉",
+        "detail": "吴汉谨黎阳、河内列烽：唐若乘胜北向，毁渡沉舟、清野南岸，背漳水而阵——北门之钥，不以怒开门。",
+        "wishes": "唐锋虽锐，渡河即陷死地。"
+      }
+    ],
+    "139": [
+      {
+        "kind": "diplo",
+        "target": "song",
+        "troops": null,
+        "general": null,
+        "detail": "与宋存亡之约：汴若终不守，宋主君臣北渡，汉以郡国待之、奉其宗庙；约毋献城、毋称臣——存宋之祀，即存天下忠义之望。",
+        "wishes": "有退路者，守城愈坚。"
+      },
+      {
+        "kind": "battle",
+        "target": "jianghuai",
+        "troops": 1.5,
+        "general": "马成",
+        "detail": "马成舟师入淮袭泗口唐屯：火船夜焚其漕、快船掠其岸仓，得手即还——以水制水，挠其饷而已，毋恋战。",
+        "wishes": "泗口火起，世民回顾。"
+      }
+    ],
+    "140": [
+      {
+        "kind": "build",
+        "target": "hebei",
+        "troops": null,
+        "general": null,
+        "detail": "邺场军器大作：叠阵铳炮益铸、车营拒马配于四军——玄甲之对在阵不在骑；牧苑岁简军骑三千补耿弇。",
+        "wishes": "骑对骑我马足，阵对阵我炮利。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "战时经制：常平仓转军需有度、盐铁专榷充饷；明遗降卒厚粮编伍、毋令聚边——受降之政，军兴不改。",
+        "wishes": "兵增而粮不乏，降者皆为汉用。"
+      }
+    ],
+    "141": [
+      {
+        "kind": "move",
+        "target": "hebei",
+        "troops": 1.8,
+        "general": "贾复",
+        "detail": "秋防之备：贾复突骑屯邺为策应；唐若舍汴攻汉，四门敛兵避锐、清野百里，纵其深入而断其归——以空间换玄甲之血。",
+        "wishes": "玄甲入河北，即入铁围。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "外家之令：两宫尊崇如故，阴郭外家毋封侯、毋预政，著为永令——后宫之局，定于帝之未崩。",
+        "wishes": "身后毋有垂帘之祸。"
+      }
+    ],
+    "142": [
+      {
+        "kind": "diplo",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "和门最后一开：唐罢汴围、复宋社稷，则汉岁市如初、共尊唐主盟、划河为界两帝并尊；必灭宋则汉并力山河，鱼死网破唐亦自伤。",
+        "wishes": "留一线和平，免十年兵祸。"
+      },
+      {
+        "kind": "build",
+        "target": "hebei",
+        "troops": null,
+        "general": null,
+        "detail": "太行三陉（井陉、滏口、壶关）增壁储粟，漳水仓转粮——河北山川之守自此岁修为常，最后的抵抗自和门关闭之日起。",
+        "wishes": "陉壁既成，唐虽百万无所用之。"
+      }
+    ],
+    "143": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "顾命实操：帝召太子暨云台榻前定付托——邓禹录尚书辅政、冯异督四门诸军、耿弇都督徐泗、吴汉典北军；赏功臣厚而不假国柄。",
+        "wishes": "灯灭之夜，汉不乱寸许。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "冬防恤军：四门益薪炭医药、军属厚养；岁终校阅，亡卒勿诛而籍其苦——哀兵之冬，人心即城。",
+        "wishes": "冬深而军心愈凝。"
+      }
+    ],
+    "144": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "岁终大计：校兵粮马船，东宫亲读簿、云台议来岁——汴存则联宋固盟，汴亡则河北山川为局；帝但闻成数而已。",
+        "wishes": "付托之局，年终一验而过。"
+      },
+      {
+        "kind": "diplo",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "岁终聘问：汴在则固盟、汴亡则纳宋遗君臣；番禺续约毋绝；长安——唐内变未起则毋聘，起则使者在道矣。",
+        "wishes": "天下之变，汉皆有备而后有应。"
+      }
+    ]
+  },
+  "diplomacy": [
+    {
+      "to": "tang",
+      "proposal": "警告",
+      "terms": "唐犯汴则汉履攻守之盟（井陉、泗口、海道三路俱动），曲在唐；罢汴围、存宋祀，则汉岁市如初、共尊唐主盟、划河为界——称臣之议勿复言。"
+    },
+    {
+      "to": "song",
+      "proposal": "会盟",
+      "terms": "汴洛一体：汉三路救汴、海道继饷五万石、谍报共享；宋婴城清野毋浪战、毋献城、毋称臣；汴若终不守，宋室君臣北渡，汉以郡国待之、存其社稷。"
+    },
+    {
+      "to": "ming",
+      "proposal": "会盟",
+      "terms": "三弱连横：汉舶济番禺粮械火药，李文忠乘唐师北聚而扰其南疆；江南明遗候檄而动；事成则岭南之祀永存、海市长通。"
+    }
+  ],
+  "self_note": "帝年五十六，血气既衰；戒东宫：不称臣、不浪战，汴亡则守陉待变。所虑者郭氏乘隙、玄甲北渡。"
+}
