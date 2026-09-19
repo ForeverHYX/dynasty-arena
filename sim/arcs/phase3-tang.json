@@ -1,0 +1,246 @@
+{
+  "faction": "tang",
+  "phase": 3,
+  "strategy": "西征复仇定关中：李靖专方面，护饷缓进不蹈覆辙；世民方面在东不在西，备刘秀而不纵其功。内起复文静、抑裴寂以安功臣；外申盟于汉、市马于元、阴济于宋。得关中则两州合一，挟共主以观山东。",
+  "months": {
+    "25": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "复刘文静官爵，令参赞西征军务而不典兵；厚赏蒲津、泾阳旧校，宣谕「首议西征、不咎既往」。",
+        "wishes": "功臣寒心渐解，谋主复用，人思自效。"
+      },
+      {
+        "kind": "diplo",
+        "target": "donghan",
+        "troops": null,
+        "general": null,
+        "detail": "遣使河北：贺东汉中原之捷，以河为界再续互不侵犯一载，益通关市；阳为恭贺，阴觇其军锋所向。",
+        "wishes": "东约续成，刘秀不北渡，唐专意西征。"
+      }
+    ],
+    "26": [
+      {
+        "kind": "build",
+        "target": "hedong",
+        "troops": null,
+        "general": null,
+        "detail": "转粟实河曲、蒲津二仓，重造蒲津浮桥，预置护桥楼船；大治云梯冲车，为再征之资。",
+        "wishes": "粮支半年，桥成械足，师出无乏。"
+      },
+      {
+        "kind": "diplo",
+        "target": "yuan",
+        "troops": null,
+        "general": null,
+        "detail": "遣使漠北续约市马二千，以盐铁缯帛偿之；元骑若南牧，唐不问——市养其好而不引其锋。",
+        "wishes": "北马继至，漠北兵不及河东。"
+      }
+    ],
+    "27": [
+      {
+        "kind": "diplo",
+        "target": "han",
+        "troops": null,
+        "general": null,
+        "detail": "遣使申张良旧盟：唐出蒲津、汉出陇山共毙秦，关中归唐、陇右归汉，事成通关市、岁市马。",
+        "wishes": "秦两线受敌，汉不先我入关中。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "大阅拜帅：李靖为关中道行军元帅将十二万；世民领陕东道行台镇蒲坂、上党，兵止四万；建成监国晋阳。",
+        "wishes": "任专柄分，西征有人，两府各安。"
+      }
+    ],
+    "28": [
+      {
+        "kind": "battle",
+        "target": "guanzhong",
+        "troops": 12,
+        "general": "李靖",
+        "detail": "渡蒲津复冯翊：先立桥头坚垒，护桥军环卫饷道，步步为营不蹈断粮覆辙；传檄除秦苛法，降者免赋一岁。",
+        "wishes": "冯翊传檄而定，粮道万全。"
+      },
+      {
+        "kind": "move",
+        "target": "hedong",
+        "troops": 2,
+        "general": "平阳公主",
+        "detail": "娘子军护饷：沿河置烽堡，督转粟济军前，抚辑新附流亡。",
+        "wishes": "饷道无一失，军前粮械自继。"
+      }
+    ],
+    "29": [
+      {
+        "kind": "battle",
+        "target": "guanzhong",
+        "troops": 12,
+        "general": "李靖",
+        "detail": "调尉迟恭、秦琼隶靖麾下——用其勇而离其府；深沟高垒与王翦相持，轻骑绝渭水粮道，焚渭汭屯聚，不浪战。",
+        "wishes": "秦军饷绌气堕，渭北门户洞开。"
+      },
+      {
+        "kind": "spy",
+        "target": "qin",
+        "troops": null,
+        "general": null,
+        "detail": "行间咸阳：布「王翦病笃、赵高用事」流言，构扶苏与近臣之隙；结关中怨民豪帅，约为内应。",
+        "wishes": "咸阳君臣相疑，城头自有举火者。"
+      }
+    ],
+    "30": [
+      {
+        "kind": "battle",
+        "target": "guanzhong",
+        "troops": 12,
+        "general": "李靖",
+        "detail": "合围长安：绝樵采外援，械攻其郛；王翦若出则据垒挫之，豪右内应若起则内外夹击；顿兵则敛据渭北待变。",
+        "wishes": "长安城破，关中传檄而定。"
+      },
+      {
+        "kind": "internal",
+        "target": "guanzhong",
+        "troops": null,
+        "general": null,
+        "detail": "军前政令：降者不杀，秦卒编义从；开仓赈饥、废秦苛敛——民心向背即攻守之本。",
+        "wishes": "秦卒倒戈，粮因于敌。"
+      }
+    ],
+    "31": [
+      {
+        "kind": "internal",
+        "target": "guanzhong",
+        "troops": null,
+        "general": null,
+        "detail": "关中若定：免租一岁，用隋旧吏、收秦卒为府兵；渊入长安劳军，宴耆老，渐易秦法为唐制。",
+        "wishes": "四塞归唐，人心渐附，粮道西续。"
+      },
+      {
+        "kind": "diplo",
+        "target": "song",
+        "troops": null,
+        "general": null,
+        "detail": "遣商队出王屋，阴输盐铁于虎牢、汴梁助宋守，阳守中立；觇东汉顿兵之弊，存宋以为东蔽。",
+        "wishes": "汴梁久围不陷，东汉之血长流于坚城之下。"
+      }
+    ],
+    "32": [
+      {
+        "kind": "move",
+        "target": "guanzhong",
+        "troops": 6,
+        "general": "李靖",
+        "detail": "靖留镇关中：分戍陇山、萧关、武关，防汉军与元骑乘隙；大修长安城守。",
+        "wishes": "新土四塞复固，敌不敢乘。"
+      },
+      {
+        "kind": "internal",
+        "target": "guanzhong",
+        "troops": null,
+        "general": null,
+        "detail": "建成入长安抚军监政，魏征行均田编户；天策将士别加金帛——两府并慰，功名均分如旧。",
+        "wishes": "东宫得抚定之名，天策无怨词。"
+      }
+    ],
+    "33": [
+      {
+        "kind": "move",
+        "target": "hedong",
+        "troops": 4,
+        "general": "李世民",
+        "detail": "闻东汉有北向之议：世民谨守上党、滏口之险，渊密戒「守而不战，功在社稷」；彼若渡河，凭险挫之毋野战。",
+        "wishes": "东汉顿于坚险，东境不启战端。"
+      },
+      {
+        "kind": "spy",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "谍陇右、巴蜀觇汉军向背，踪秦宗室残部；汴梁攻守、漠北马情，旬日并报，烽燧毋懈。",
+        "wishes": "四方虚实尽知，先事为备。"
+      }
+    ],
+    "34": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "籍关中户口，罢西征之师三成归农，转饷减半；盐铁之利西输长安，两州之力渐并为一。",
+        "wishes": "兵精粮足，耗省而实倍。"
+      },
+      {
+        "kind": "build",
+        "target": "guanzhong",
+        "troops": null,
+        "general": null,
+        "detail": "移监牧于泾渭之间，续市漠北马以实玄甲；缮长安仓廪府库。",
+        "wishes": "马政甲骑冠诸军，根本益固。"
+      }
+    ],
+    "35": [
+      {
+        "kind": "diplo",
+        "target": "song",
+        "troops": null,
+        "general": null,
+        "detail": "正使如汴梁：请隋主杨勇迁跸长安，唐尊奉如初、岁输帛粟；宋若许之，约为睦邻共制东汉。",
+        "wishes": "共主在手，伐罪有名，旧隋之土望风。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "解裴寂枢务，授虚衔礼遇归第，为文静一案平功臣之怨；文静复预机务，谋主归位。",
+        "wishes": "功臣之论始息，朝局归一。"
+      }
+    ],
+    "36": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "岁除盟于晋祠：渊率建成、世民、元吉刑白马，誓兄弟共安唐室、世无相戕；太子监国长安，秦王开府陕东。",
+        "wishes": "两府各安其分——雷伏于地，终岁未发。"
+      },
+      {
+        "kind": "build",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "缮长安、蒲津、上党三戍，广储粮械；精练府兵义从，为来岁天下之变先为不可胜。",
+        "wishes": "进战退守俱备，静观山东成败。"
+      }
+    ]
+  },
+  "diplomacy": [
+    {
+      "to": "donghan",
+      "proposal": "互不侵犯",
+      "terms": "以河为界再相安一载，益通关市、市马牛，唐不助宋与东汉为敌。"
+    },
+    {
+      "to": "han",
+      "proposal": "会盟",
+      "terms": "申张良旧盟共毙秦：唐出蒲津、汉出陇山，关中归唐、陇右归汉，事成通关市。"
+    },
+    {
+      "to": "yuan",
+      "proposal": "贸易",
+      "terms": "盐铁缯帛岁市战马二千，边市如故，互不侵轶。"
+    },
+    {
+      "to": "song",
+      "proposal": "贸易",
+      "terms": "阴通盐铁于虎牢以助宋守汴梁；请尊隋主杨勇为共主，唐奉其正朔。"
+    }
+  ],
+  "self_note": "渊年五十七，倦勤渐深；密诏建成：万一事不可讳，待世民以爵不以兵。防之愈密，其怨愈深——玄武门之雷终在。"
+}

@@ -1,0 +1,251 @@
+{
+  "faction": "ming",
+  "phase": 4,
+  "strategy": "树大招风，卑辞事东汉纵其吞宋，阴输粟续宋命使两虎久斗；先蜀后北：檄罪出峡，火器楼船夜破瞿塘，水陆传檄定蜀全上游；功臣之案止诛首恶、废相不兴大狱；蜀定则即帝位建大明，授徐达来春淮泗北伐之略。",
+  "months": {
+    "37": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "岁首大计定『先蜀后北』：汉新败藩篱未固，巴蜀天府再养必成陈友谅；蜀定则南方混一，帝号徐图。标儿监国，善长转饷",
+        "wishes": "庙算先定，师出之序不摇"
+      },
+      {
+        "kind": "spy",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "谍网三路并进：蜀中瞿塘剑阁戍守与阴平使节往来、汴洛战守之势、唐元泾陇之衅与天策府怨望，逐月密报金陵",
+        "wishes": "蜀虚实与北局皆先知"
+      }
+    ],
+    "38": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "刘基舆疾奉遗策：『蜀人离心可传檄，瞿塘天险当以火器楼船夜破；刘秀必不弃汴，淮可无虞』。录其策，太医诊视，阴覆验胡医之方",
+        "wishes": "先生遗策为军中纲，医案续得实"
+      },
+      {
+        "kind": "build",
+        "target": "jianghuai",
+        "troops": null,
+        "general": "李文忠",
+        "detail": "缮淮淝防线：寿春合肥钟离置戍楼烽堠，水师分屯巢湖京口；檄诸将：东汉若北趋汴则谨守而已，不启衅",
+        "wishes": "北门锁钥在我，西征无后顾"
+      }
+    ],
+    "39": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "刘基讣至（或病笃不起）则辍朝亲祭、追封诚意伯。医案既实发之：胡惟庸进药鸩杀国士，诛惟庸一人不连坐——马后泣谏，功臣之家得全；李善长老病免相，政归六部世子",
+        "wishes": "首恶伏诛而军心不摇，柄不下移"
+      },
+      {
+        "kind": "diplo",
+        "target": "donghan",
+        "troops": null,
+        "general": null,
+        "detail": "遣使洛阳贺中都之成，请续淮为界互市，盐茶倍市；密语『汴主新立，此天赐中兴之资』——纵其兵锋北向，我得专力西",
+        "wishes": "东汉北趋汴梁，不窥我淮"
+      }
+    ],
+    "40": [
+      {
+        "kind": "diplo",
+        "target": "han",
+        "troops": null,
+        "general": null,
+        "detail": "檄数刘邦：阴遣使剑阁阴平结唐元，缮甲谋复荆楚——绝盟之衅在汉不在明；令缚送谋主自明，否则王师问罪。先礼后兵",
+        "wishes": "罪在汉而兵在明，史笔不咎我"
+      },
+      {
+        "kind": "move",
+        "target": "jingchu",
+        "troops": 13,
+        "general": "徐达",
+        "detail": "徐达水陆十三万潜集夷陵归州，楼船火器毕备；蓝玉释戴罪为前锋，检校随军录其过；对外扬言防东汉，锋藏于峡",
+        "wishes": "大军齐峡口，雷霆一击"
+      }
+    ],
+    "41": [
+      {
+        "kind": "battle",
+        "target": "bashu",
+        "troops": 5,
+        "general": "沐英",
+        "detail": "沐英舟师夜薄瞿塘：火器楼船轰两岸石垒，死士凿沉铁锁横江，火攻其连舟——鄱阳故智用于峡江；夺巫山秭归，峡门洞开",
+        "wishes": "瞿塘天险一夕而破，蜀门在我"
+      },
+      {
+        "kind": "diplo",
+        "target": "song",
+        "troops": null,
+        "general": null,
+        "detail": "商舶自淮南阴输粟于汴，岁五万石，以金银缯偿：宋存一日，东汉兵锋一日不南——坐山观虎，两虎俱疲",
+        "wishes": "汴梁久守，东汉顿于坚城"
+      }
+    ],
+    "42": [
+      {
+        "kind": "battle",
+        "target": "bashu",
+        "troops": 12,
+        "general": "徐达",
+        "detail": "徐达陆路十二万乘胜拔夔万，进围江州；檄谕蜀吏民：降者秋毫无犯，官不改署；啖巴郡豪帅为内应，蜀中民心已摇",
+        "wishes": "江州合围，巴东传檄而定"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "军令：毋杀降毋掠子女，蓝玉部曲犯令者军前杖之；楚淮新附州县积义仓、修陂塘以备天灾，有灾即赈，民心归附",
+        "wishes": "仁声先于兵至，新附渐固"
+      }
+    ],
+    "43": [
+      {
+        "kind": "battle",
+        "target": "bashu",
+        "troops": 12,
+        "general": "徐达",
+        "detail": "江州克或降：分道深入，沐英循外水趋犍为，蓝玉率铁骑内水趣涪城会成都；刘邦若走剑阁则蹑而追之，勿使北联唐元",
+        "wishes": "水陆并进，成都成囊中"
+      },
+      {
+        "kind": "internal",
+        "target": "jianghuai",
+        "troops": null,
+        "general": "李文忠",
+        "detail": "手敕李文忠守淮之策：东汉若乘我西征犯淮，坚壁清野勿浪战，水师夜绝颍泗漕道——彼顿兵坚城，粮尽自走",
+        "wishes": "淮上不血而自守，敌不得逞"
+      }
+    ],
+    "44": [
+      {
+        "kind": "battle",
+        "target": "bashu",
+        "troops": 8,
+        "general": "蓝玉",
+        "detail": "蓝玉八万先驱至成都，徐达大军继之；围而缓攻，攻心为先：檄许礼遇刘氏君臣，萧何张良养之不杀；开门者原，巷战者诛",
+        "wishes": "成都自内部瓦解，巴蜀底定"
+      },
+      {
+        "kind": "internal",
+        "target": "bashu",
+        "troops": null,
+        "general": null,
+        "detail": "定蜀初令：免粮一年，戢兵禁杀降；收蜀卒汰弱编伍散其部曲；若刘邦就执，封侯虚位养之，不付兵柄——如韩信故事",
+        "wishes": "天府入版图而无后乱"
+      }
+    ],
+    "45": [
+      {
+        "kind": "internal",
+        "target": "bashu",
+        "troops": null,
+        "general": null,
+        "detail": "经略蜀中：置郡县用旧吏，攒造户帖；蓝玉留镇夔巫，沐英镇成都，兵柄三分不相属——骄将在外，中权在己，档仍密存",
+        "wishes": "蜀安而兵柄不专于一将"
+      },
+      {
+        "kind": "build",
+        "target": "bashu",
+        "troops": null,
+        "general": null,
+        "detail": "修都江堰大堰，垦蜀田置屯；缮剑阁阴平栈道烽戍，既固蜀守亦为异日北出之资；岭南开市舶司通蕃货益钱粮",
+        "wishes": "天府之利尽出，四州五州血脉贯通"
+      }
+    ],
+    "46": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "定官制：罢中书省，权归六部，府县直达御前；设卫所兵农合一，按察司廉访贪墨——胡案之弊以制度塞之，不以刀兵",
+        "wishes": "相权永废，政柄一归于上"
+      },
+      {
+        "kind": "spy",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "谍网大布北疆：汴梁属宋耶汉耶、东汉兵疲几何、唐天策府之衅几时发、元真金汉法之争——皆北伐之机，逐月绘图",
+        "wishes": "北方之衅开时，我师已备"
+      }
+    ],
+    "47": [
+      {
+        "kind": "build",
+        "target": "jianghuai",
+        "troops": null,
+        "general": "徐达",
+        "detail": "北伐战备：淮泗汉水两岸置粮台转般仓，造炮车编步骑，水师习汴泗之流；选将练兵，期来春大举",
+        "wishes": "粮械山积，王师旦夕可发"
+      },
+      {
+        "kind": "diplo",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "远交近攻：遣使唐通汉中陇道互市，明认唐有关陇之局，约『各安西土，唐不援蜀不助东汉』；别遣使元，续茶马之市",
+        "wishes": "北方愈纷，南愈可乘"
+      }
+    ],
+    "48": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "蜀会既定、南方混一：郊天即皇帝位，国号大明建元，立马氏为后、标为太子；檄告天下：民久苦兵，大明将混一寰宇",
+        "wishes": "正位号以系四海之望"
+      },
+      {
+        "kind": "move",
+        "target": "jianghuai",
+        "troops": 15,
+        "general": "徐达",
+        "detail": "召徐达还金陵授北伐方略：来春大举，淮泗趋中原，水师绝汴漕为奇，荆襄出汉水为牵；先固后动，一战定乾坤",
+        "wishes": "庙算成，北伐只欠东风"
+      }
+    ]
+  },
+  "diplomacy": [
+    {
+      "to": "donghan",
+      "proposal": "互不侵犯",
+      "terms": "续淮为界各守其民，盐茶之市倍之；贵朝有事于汴，明不北窥"
+    },
+    {
+      "to": "song",
+      "proposal": "贸易",
+      "terms": "淮南商舶岁输粟五万石济汴，宋以金银缯帛偿之，商道不绝"
+    },
+    {
+      "to": "han",
+      "proposal": "警告",
+      "terms": "缚送阴结唐元、谋复荆楚之主谋自明，否则王师问罪——绝盟之责在汉不在明"
+    },
+    {
+      "to": "tang",
+      "proposal": "会盟",
+      "terms": "通使互市于汉中陇道，明认唐有关陇，唐不援蜀、不助东汉攻明"
+    },
+    {
+      "to": "yuan",
+      "proposal": "贸易",
+      "terms": "阴平茶马互市如故，市而不盟，不声张"
+    }
+  ],
+  "self_note": "胡案止诛首恶，大狱不作——马后在、标儿在；蓝玉骄而留蜀镇，兵柄三分，档密存留与标儿。帝号即于蜀定，北伐实缓至来春。"
+}

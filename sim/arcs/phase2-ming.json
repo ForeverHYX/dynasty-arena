@@ -1,0 +1,246 @@
+{
+  "faction": "ming",
+  "phase": 2,
+  "strategy": "北门倚宋为屏，西邻汉楚最忌。二年仍奉九字：高墙积粮备灾，恭顺两边；谍网挑宋汉相攻、间韩信刘季君臣。俟其兵结淮上，徐达常遇春水师顺流，鄱阳故智火攻聚歼，一举定荆楚上游；胜而不骄，仍缓称王不出头。",
+  "months": {
+    "13": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": "李善长",
+        "detail": "岁首劝农：江南岭南广屯田、修陂塘水利，州县普设义仓积粟，以备水旱天灾",
+        "wishes": "仓廪益实，灾年有备，民心愈固"
+      },
+      {
+        "kind": "spy",
+        "target": null,
+        "troops": null,
+        "general": "刘基",
+        "detail": "检校总汇北局：秦隋潼关、宋东汉济水、秦元陇右三线战守虚实，逐月密报",
+        "wishes": "诸强所攻所守尽知，择隙预图"
+      }
+    ],
+    "14": [
+      {
+        "kind": "diplo",
+        "target": "song",
+        "troops": null,
+        "general": null,
+        "detail": "遣使汴梁续互不侵犯一载，漕市加丰；请结姻亲固邻好，辞气愈恭居下",
+        "wishes": "宋信我恭顺，北面益安"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "增造楼船火器扩鄱阳水师；常遇春练选锋，蓝玉练骁骑，重申毋屠降令",
+        "wishes": "水陆皆精，骄兵知儆"
+      }
+    ],
+    "15": [
+      {
+        "kind": "spy",
+        "target": "han",
+        "troops": null,
+        "general": null,
+        "detail": "行间汉廷：布流言于蜀中，言韩信王楚拥兵自重、阴结北朝，益刘邦之疑",
+        "wishes": "刘季疑韩信，君臣相掣，楚备自弛"
+      },
+      {
+        "kind": "build",
+        "target": "jiangnan",
+        "troops": null,
+        "general": "徐达",
+        "detail": "京口采石二线江防完工，扩建金陵仓城广储粮秣，沿江烽堠相望",
+        "wishes": "江防天成，储积益厚"
+      }
+    ],
+    "16": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "党争渐激：胡惟庸干政日亲，刘基为淮西党所挤求退不得；元璋阳裁阴纵，记档不发",
+        "wishes": "两党相持，柄不旁落，其奸皆入档"
+      },
+      {
+        "kind": "spy",
+        "target": "jingchu",
+        "troops": null,
+        "general": null,
+        "detail": "谍入荆楚：密绘江汉水道与水师营垒，探韩信楚军虚实及江陵仓储",
+        "wishes": "荆楚虚实尽在掌中"
+      }
+    ],
+    "17": [
+      {
+        "kind": "diplo",
+        "target": "han",
+        "troops": null,
+        "general": null,
+        "detail": "遣使江陵卑辞修好，请互不侵犯，以江南茶丝易蜀马；检校随使团潜入楚地",
+        "wishes": "汉不加兵，马源渐通，楚中益懈"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "夏粮亲核诸仓；恤贫免逋惩贪如故；若遇水旱，即发义仓赈济、竭租减赋",
+        "wishes": "岁虽有变民不流离，仁声日隆"
+      }
+    ],
+    "18": [
+      {
+        "kind": "spy",
+        "target": "song",
+        "troops": null,
+        "general": null,
+        "detail": "阴布流言于宋汉两军之间，构曹彬与韩信之隙，挑宋汉构兵于淮上",
+        "wishes": "两虎相伤于淮，我得坐观其弊"
+      },
+      {
+        "kind": "move",
+        "target": "jiangnan",
+        "troops": 12,
+        "general": "徐达",
+        "detail": "水师主力十二万集结彭蠡，日夜操火攻之阵；外示休牧，韬光不出",
+        "wishes": "示弱于外，锋藏于内，敌不为备"
+      }
+    ],
+    "19": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "御前密议：与刘基徐达定西取荆楚方略——候汉宋兵结，即顺流西指，一战定上游",
+        "wishes": "谋定后动，庙算先胜"
+      },
+      {
+        "kind": "spy",
+        "target": "han",
+        "troops": null,
+        "general": null,
+        "detail": "确认淮上战况与楚境守备；若韩信东出，克日报金陵，水师即启锚",
+        "wishes": "得其空虚实报，战机不失"
+      }
+    ],
+    "20": [
+      {
+        "kind": "battle",
+        "target": "jingchu",
+        "troops": 15,
+        "general": "徐达",
+        "detail": "汉宋构兵则水陆十五万顺流西上：楼船示弱诱楚水师出云梦，四面火攻聚歼——鄱阳故智",
+        "wishes": "楚水师尽没，江汉门户洞开"
+      },
+      {
+        "kind": "move",
+        "target": "jiangnan",
+        "troops": 3,
+        "general": "常遇春",
+        "detail": "若汉宋未构兵，则选锋屯池口佯动牵制，全军按兵候变，绝不先启衅",
+        "wishes": "随机应变，仍不出头"
+      }
+    ],
+    "21": [
+      {
+        "kind": "battle",
+        "target": "jingchu",
+        "troops": 8,
+        "general": "常遇春",
+        "detail": "水战既捷，常十万率选锋八万夜登北岸，袭江陵外郭，焚其舟仓绝其归路",
+        "wishes": "江陵孤立，楚地腹背受敌"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "捷后戒骄：手书前线毋屠降毋掠民，降者编伍或给粮遣散；检校随军录诸将过",
+        "wishes": "仁声先于兵至，楚民归心"
+      }
+    ],
+    "22": [
+      {
+        "kind": "battle",
+        "target": "jingchu",
+        "troops": 6,
+        "general": "常遇春",
+        "detail": "乘胜追奔扫清外围，三战三捷进围江陵，断其粮道水援",
+        "wishes": "孤城势穷出降，荆楚底定"
+      },
+      {
+        "kind": "internal",
+        "target": "jingchu",
+        "troops": null,
+        "general": null,
+        "detail": "荆楚若定：徐达镇江陵约法安民，免粮减赋，存问豪族，编户练乡兵",
+        "wishes": "新附安堵，产出渐复"
+      }
+    ],
+    "23": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "大胜之后蓝玉部曲犯禁夺田，元璋亲究斩犯令者以立威；马后泣谏，稍宽其胁从",
+        "wishes": "恩威并立，骄兵知儆而功臣侧目"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "刘基忧愤成疾，胡惟庸自请挟医视疾，元璋许之而阴令检校录其医方",
+        "wishes": "若医有奸，据档他日除胡，一举两得"
+      }
+    ],
+    "24": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "岁终大计：常十万若积劳暴卒则辍朝亲祭、录其子；蓝玉渐进统选锋，徐达总军务",
+        "wishes": "哀荣收军心；尖刀有继，然骄将掌兵祸福难料"
+      },
+      {
+        "kind": "move",
+        "target": "jiangnan",
+        "troops": 4,
+        "general": "徐达",
+        "detail": "沿江诸军仍屯采石京口南岸要津，北望中原之变而不越雷池，来年再图",
+        "wishes": "群雄视明为守，无合纵之名"
+      }
+    ]
+  },
+  "diplomacy": [
+    {
+      "to": "song",
+      "proposal": "互不侵犯",
+      "terms": "续盟一载，各守江界，通漕互市如故"
+    },
+    {
+      "to": "song",
+      "proposal": "联姻",
+      "terms": "请以宋室女妻明世子朱标，结姻修好共保长江"
+    },
+    {
+      "to": "han",
+      "proposal": "互不侵犯",
+      "terms": "楚蜀与江南各安其分，以茶丝易蜀马"
+    },
+    {
+      "to": "yuan",
+      "proposal": "贸易",
+      "terms": "密使以茶帛易漠北马匹，不声张"
+    }
+  ],
+  "self_note": "西取荆楚，借韩信刘季相疑；常十万若三连战，天命难违任之。胡惟庸之奸、蓝玉之骄皆录档，留为后图。"
+}

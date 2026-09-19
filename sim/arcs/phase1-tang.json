@@ -1,0 +1,233 @@
+{
+  "faction": "tang",
+  "phase": 1,
+  "strategy": "据险养威，稳中进取。内修均田屯盐，外市陇漠战马；东和刘秀、北结忽必烈，坐观秦隋、宋汉相噬。俟关中或中原有隙，以世民乘虚一击；李靖、平阳备边守根本。阳赏两府、阴抑天策兵柄，以缓家务之雷。",
+  "months": {
+    "1": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "建成监国：均田劝农，开屯汾涑，立租庸调；裴寂督盐铁以充军实。",
+        "wishes": "仓廪渐实，流民归附，河东大治。"
+      },
+      {
+        "kind": "diplo",
+        "target": "yuan",
+        "troops": null,
+        "general": null,
+        "detail": "刘文静使漠北，以盐铁缯帛市战马，结忽必烈之好，示弱于北。",
+        "wishes": "得战马千匹，北疆买安。"
+      }
+    ],
+    "2": [
+      {
+        "kind": "build",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "置监牧兴马政，收陇右、漠北所市之马，扩玄甲突骑；世民董其事而兵不过三万。",
+        "wishes": "突骑成军，甲马俱足。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "广纳豪杰：延山东豪俊、隋室旧臣，降者厚抚，量才授职，绝不轻杀。",
+        "wishes": "四方才俊辐辏晋阳。"
+      }
+    ],
+    "3": [
+      {
+        "kind": "diplo",
+        "target": "donghan",
+        "troops": null,
+        "general": null,
+        "detail": "遣使约刘秀：以河为界，互不侵犯一载，各取所向；实为缓东之计。",
+        "wishes": "东线得安，可专意西、南。"
+      },
+      {
+        "kind": "build",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "修蒲津浮桥，缮河防，储粮于河曲仓，为西窥关中之资。",
+        "wishes": "浮桥通，军实足支半年。"
+      }
+    ],
+    "4": [
+      {
+        "kind": "move",
+        "target": "hedong",
+        "troops": 2,
+        "general": "平阳公主",
+        "detail": "娘子军屯上党，抚集流亡、招降纳叛，东顾河北，为河东屏藩。",
+        "wishes": "沿边豪帅纳款，河北动静皆知。"
+      },
+      {
+        "kind": "spy",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "细作入关中觇秦隋兵势，又伏汴梁探禁军虚实，举烽为号。",
+        "wishes": "两国虚实尽在掌握。"
+      }
+    ],
+    "5": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "量入为出：汰弱补强，赏晋阳从义旧部，纾民力以足军食。",
+        "wishes": "士饱马腾，民心益固。"
+      },
+      {
+        "kind": "build",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "李靖按兵晋阳，督造攻械、教练士卒；渊惜其才而未轻用，留为后图。",
+        "wishes": "器械精利，一军可用。"
+      }
+    ],
+    "6": [
+      {
+        "kind": "move",
+        "target": null,
+        "troops": 6,
+        "general": "李世民",
+        "detail": "世民率军屯蒲津，耀兵河上：秦隋若相攻，则待其敝；关中晏然则只屯不击。",
+        "wishes": "关中震恐，杨坚分兵西顾。"
+      },
+      {
+        "kind": "spy",
+        "target": "song",
+        "troops": null,
+        "general": null,
+        "detail": "谍汴梁：禁军若倾众南趋江淮，即举烽以闻，为南击张本。",
+        "wishes": "宋军动向旬日报闻。"
+      }
+    ],
+    "7": [
+      {
+        "kind": "battle",
+        "target": "guanzhong",
+        "troops": 8,
+        "general": "李世民",
+        "detail": "若隋师西御秦兵、蒲坂空虚，则渡河薄城，徇冯翊诸城；隋备严整则敛军还屯，不轻掷一矢。",
+        "wishes": "蒲坂守将开门降，潼关以东望风。"
+      }
+    ],
+    "8": [
+      {
+        "kind": "battle",
+        "target": "zhongyuan",
+        "troops": 9,
+        "general": "李世民",
+        "detail": "俟宋禁军南渡淮泗、汴梁空虚，玄甲出轘辕疾趋中原；宋师未出则按兵如故。",
+        "wishes": "一战破其留守，中原传檄而定。"
+      },
+      {
+        "kind": "move",
+        "target": "hedong",
+        "troops": 2,
+        "general": "平阳公主",
+        "detail": "娘子军继进为后援，护粮道，抚新附之民，接应世民。",
+        "wishes": "粮道无虞，降者安置得所。"
+      }
+    ],
+    "9": [
+      {
+        "kind": "battle",
+        "target": "zhongyuan",
+        "troops": 5,
+        "general": "李世民",
+        "detail": "乘胜徇下州县，受降编为义从；若顿兵坚城，则敛兵凭河，毋贪毋躁。",
+        "wishes": "州县望风归附，兵不血刃者众。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "渊亲抚世民之军，厚赏将士；收兵符之半，以李靖分领其众，阳为体恤。",
+        "wishes": "军心安而将柄渐归朝廷。"
+      }
+    ],
+    "10": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "世民还晋阳，拜天策上将、许开府以荣之；建成总东宫兵，魏征辅之，两府礼遇均等。",
+        "wishes": "两府相安，怨望不形于色。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "抚定新附：免租一岁，编户均田，降将量授职任，示天下以广。",
+        "wishes": "新附州县安堵，四方闻风来投。"
+      }
+    ],
+    "11": [
+      {
+        "kind": "move",
+        "target": "hedong",
+        "troops": 4,
+        "general": "李靖",
+        "detail": "靖初获方面之任，督师屯东境，凭河设防，兼练奇正；刘秀若并山东，必睨河东。",
+        "wishes": "河北不敢西窥，东境晏然。"
+      },
+      {
+        "kind": "diplo",
+        "target": "qin",
+        "troops": null,
+        "general": null,
+        "detail": "再申陇右马市，岁市战马；阴觇秦人东望关中之意，勿使并力于我。",
+        "wishes": "战马继至，秦志在关中而不在河东。"
+      }
+    ],
+    "12": [
+      {
+        "kind": "build",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "岁终缮甲储粮，增募新军，蒲津、轘辕两仓益积，为来岁西进之资。",
+        "wishes": "粮可支一岁，来春可举。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "岁除计相：文静以马市功进位，裴寂留守有劳，两端并赏，渊居中两慰之。",
+        "wishes": "功臣各安其位，怨望暂伏。"
+      }
+    ]
+  },
+  "diplomacy": [
+    {
+      "to": "yuan",
+      "proposal": "贸易",
+      "terms": "以盐铁缯帛市漠北战马，岁市千匹，边市两利。"
+    },
+    {
+      "to": "qin",
+      "proposal": "贸易",
+      "terms": "河东盐铁易陇右良马，开关市，互不刺探军情。"
+    },
+    {
+      "to": "donghan",
+      "proposal": "互不侵犯",
+      "terms": "以黄河为界，一年之内不相攻伐，各取所向。"
+    }
+  ],
+  "self_note": "文静、裴寂水火，两端并赏恐压不住；世民一胜声已震东宫。渊阴收兵符、以靖分势，畏家门之祸甚于强邻。"
+}

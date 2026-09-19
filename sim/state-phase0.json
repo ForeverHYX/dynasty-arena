@@ -1,0 +1,27 @@
+{
+  "month": 0,
+  "factions": {
+    "qin":     {"name": "秦", "leader": "嬴政",   "troops": 18, "food": 18, "morale": 78, "stability": 78, "regions": ["longxi"],    "alive": true, "notes": "据陇右凉州，弩阵精良，蓄马极多"},
+    "han":     {"name": "汉", "leader": "刘邦",   "troops": 18, "food": 22, "morale": 75, "stability": 72, "regions": ["bashu"],     "alive": true, "notes": "王巴蜀，约法三章，栈道未修"},
+    "donghan": {"name": "汉", "leader": "刘秀",   "troops": 19, "food": 20, "morale": 82, "stability": 75, "regions": ["hebei"],     "alive": true, "notes": "据河北，云台诸将，民心归附"},
+    "sui":     {"name": "隋", "leader": "杨坚",   "troops": 18, "food": 24, "morale": 76, "stability": 85, "regions": ["guanzhong"], "alive": true, "notes": "有关中四塞，府兵制度整饬"},
+    "tang":    {"name": "唐", "leader": "李渊",   "troops": 19, "food": 21, "morale": 79, "stability": 76, "regions": ["hedong"],    "alive": true, "notes": "晋阳起兵之基，玄甲突骑，诸子并立"},
+    "song":    {"name": "宋", "leader": "赵匡胤", "troops": 20, "food": 20, "morale": 80, "stability": 74, "regions": ["zhongyuan"], "alive": true, "notes": "拥中原禁军，强干弱枝，四战之地"},
+    "yuan":    {"name": "元", "leader": "忽必烈", "troops": 21, "food": 12, "morale": 84, "stability": 70, "regions": ["mobei"],     "alive": true, "notes": "控弦之士天下无对，然粮秣仰给于外"},
+    "ming":    {"name": "明", "leader": "朱元璋", "troops": 17, "food": 28, "morale": 80, "stability": 77, "regions": ["jiangnan"],  "alive": true, "notes": "高筑墙广积粮缓称王，水师冠绝"}
+  },
+  "regions": {
+    "longxi":    {"name": "陇右凉州", "owner": "qin",     "pop": 180, "grain": 7,  "garrison": 0},
+    "guanzhong": {"name": "关中",     "owner": "sui",     "pop": 420, "grain": 12, "garrison": 0},
+    "hedong":    {"name": "河东",     "owner": "tang",    "pop": 300, "grain": 9,  "garrison": 0},
+    "hebei":     {"name": "河北",     "owner": "donghan", "pop": 450, "grain": 11, "garrison": 0},
+    "zhongyuan": {"name": "中原",     "owner": "song",    "pop": 520, "grain": 13, "garrison": 0},
+    "shandong":  {"name": "山东",     "owner": "neutral", "pop": 320, "grain": 9,  "garrison": 8},
+    "bashu":     {"name": "巴蜀",     "owner": "han",     "pop": 380, "grain": 14, "garrison": 0},
+    "jingchu":   {"name": "荆楚",     "owner": "neutral", "pop": 350, "grain": 10, "garrison": 7},
+    "jianghuai": {"name": "江淮",     "owner": "neutral", "pop": 300, "grain": 9,  "garrison": 7},
+    "jiangnan":  {"name": "江南",     "owner": "ming",    "pop": 480, "grain": 15, "garrison": 0},
+    "lingnan":   {"name": "岭南",     "owner": "neutral", "pop": 150, "grain": 6,  "garrison": 5},
+    "mobei":     {"name": "漠北",     "owner": "yuan",    "pop": 90,  "grain": 3,  "garrison": 0}
+  }
+}

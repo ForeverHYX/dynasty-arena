@@ -1,0 +1,246 @@
+{
+  "faction": "yuan",
+  "phase": 3,
+  "strategy": "白灾既过，真金理财养草原、市粮于秦明、抚诸王弭路线之争；筑上都、练骑炮合击。候汉军东顾，伯颜复取残破陇右为跳板；密约唐东西分秦，候秦师东出，帝亲征以回回炮下关中，行汉法据四塞而争天下。",
+  "months": {
+    "25": [
+      {
+        "kind": "internal",
+        "target": "mobei",
+        "troops": null,
+        "general": "真金",
+        "detail": "真金领财计推白灾善后：广仓贷种畜于贫牧，减羊马税三成，续市外粟；劝农省刑，儒臣信用立。",
+        "wishes": "畜群复孳，牧民归心，仓廪渐实。"
+      },
+      {
+        "kind": "internal",
+        "target": "mobei",
+        "troops": null,
+        "general": "忽必烈",
+        "detail": "春朝大宴诸王行忽里勒台：增守旧宗王食邑、许从征分卤获；宣示汉法不革、真金储位不移。",
+        "wishes": "路线之争暂弭，诸王拱卫效命。"
+      }
+    ],
+    "26": [
+      {
+        "kind": "diplo",
+        "target": "qin",
+        "troops": null,
+        "general": null,
+        "detail": "遣使长安续萧关边市：岁马千匹易粟五万石，边界息兵；厚结其使，示漠北无意南下。",
+        "wishes": "秦三面受敌必贪北安，粮与时两得。"
+      },
+      {
+        "kind": "spy",
+        "target": "han",
+        "troops": null,
+        "general": null,
+        "detail": "细作入陇右：曹参屯兵几何、凉州城堞仓廪、阴平道戍守、羌豪向背；兼察江陵韩信旧部怨望。",
+        "wishes": "汉西虚实尽知，隙至即知所先。"
+      }
+    ],
+    "27": [
+      {
+        "kind": "build",
+        "target": "mobei",
+        "troops": null,
+        "general": "刘秉忠",
+        "detail": "刘秉忠董营上都于金莲川：宫阙仓廨次第立；扩河套屯田，增驿传别站，漠南遂为根本。",
+        "wishes": "草原有定鼎之所，进退有据。"
+      },
+      {
+        "kind": "diplo",
+        "target": "ming",
+        "troops": null,
+        "general": null,
+        "detail": "通好金陵：岁以良马千匹易茶粮，商路不涉兵事；南北各安其所，两不相问。",
+        "wishes": "东南粮至，明汉相持愈深，我无东顾。"
+      }
+    ],
+    "28": [
+      {
+        "kind": "build",
+        "target": "mobei",
+        "troops": null,
+        "general": "伯颜",
+        "detail": "大阅括马补白灾之耗：骑、炮、汉军合编演练，炮手万户随骑行军；签探马赤补诸部缺额。",
+        "wishes": "将二十万如将一人，师出即为雷霆。"
+      },
+      {
+        "kind": "spy",
+        "target": "qin",
+        "troops": null,
+        "general": null,
+        "detail": "行间咸阳：重赂赵高左右，布「扶苏握兵、诸公子危」流言；兼画潼关蒲津戍守与渭漕粮道图。",
+        "wishes": "秦廷内疑，储位生波，边备自乱。"
+      }
+    ],
+    "29": [
+      {
+        "kind": "diplo",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "密使至蒲坂：续马市，密约秋后共分秦——唐出蒲津取冯翊，我出陇坂取长安，先入者有之。",
+        "wishes": "唐粮尽必动，约为犄角；实则先入长安者王。"
+      },
+      {
+        "kind": "internal",
+        "target": "mobei",
+        "troops": null,
+        "general": "真金",
+        "detail": "真金预拟南征军律：入塞毋掠、市易如故、降者不杀，汉军世侯先导招抚；违令者军法无赦。",
+        "wishes": "关中闻我为义师，城邑可传檄而定。"
+      }
+    ],
+    "30": [
+      {
+        "kind": "move",
+        "target": "longxi",
+        "troops": 12,
+        "general": "伯颜",
+        "detail": "大军阴集萧关外边墙，粮械先运，引而不发；候汉军东下救楚或明楚开战，即越边墙而发。",
+        "wishes": "汉西空虚之隙一至，师发如电。"
+      },
+      {
+        "kind": "diplo",
+        "target": "han",
+        "troops": null,
+        "general": null,
+        "detail": "遣使江陵：送还陇右俘口三千，贺汉王抚有陇右，请开边市、罢边警，两国修好。",
+        "wishes": "刘邦谓我无南意，陇右守备愈弛。"
+      }
+    ],
+    "31": [
+      {
+        "kind": "battle",
+        "target": "longxi",
+        "troops": 12,
+        "general": "伯颜",
+        "detail": "出萧关直捣凉州：轻骑先绝水陆粮道，诱曹参出城会战于野，铁骑合围；羌豪阴约为内应。",
+        "wishes": "野战歼曹参之军，凉州成孤城。"
+      },
+      {
+        "kind": "move",
+        "target": "longxi",
+        "troops": 3,
+        "general": "史天泽",
+        "detail": "史天泽护粮廊节节跟进，传檄陇右诸城：只诛抗拒，降者安堵；阴收韩信旧部怨卒。",
+        "wishes": "诸城瓦解，陇右传檄而定。"
+      }
+    ],
+    "32": [
+      {
+        "kind": "battle",
+        "target": "longxi",
+        "troops": 12,
+        "general": "伯颜",
+        "detail": "回回炮昼夜轰凉州，阙围一面以纳降；城中韩信旧部怨夺符之事，可约为内应开门。",
+        "wishes": "拔凉州，马场粮仓俱入囊中。"
+      },
+      {
+        "kind": "internal",
+        "target": "longxi",
+        "troops": null,
+        "general": null,
+        "detail": "得陇右：用羌豪守土，籍马场补栏，开渠屯田，徙漠北一部实边；禁掠，抚残破之民。",
+        "wishes": "陇右复苏，成南下大屯。"
+      }
+    ],
+    "33": [
+      {
+        "kind": "build",
+        "target": "longxi",
+        "troops": null,
+        "general": null,
+        "detail": "缮凉州城堞为前进大屯，粮械毕集，回回炮半数移陇坂诸戍；汉若自阴平来争，游骑绝其道。",
+        "wishes": "进可叩关中，退可蔽漠北。"
+      },
+      {
+        "kind": "spy",
+        "target": "qin",
+        "troops": null,
+        "general": null,
+        "detail": "谍候关中：王翦病状、主力是否东出拒唐，扶苏胡亥之隙深浅；驿传一日三至不辍。",
+        "wishes": "秦师东出之日报至，即日誓师。"
+      }
+    ],
+    "34": [
+      {
+        "kind": "battle",
+        "target": "guanzhong",
+        "troops": 14,
+        "general": "忽必烈",
+        "detail": "若秦主力东出拒唐，帝亲征出陇坂：轻骑先绝渭漕、焚栎阳积聚，回回炮拔陇州汧阳，直指长安。",
+        "wishes": "关中门户洞开，秦人腹背受敌。"
+      },
+      {
+        "kind": "move",
+        "target": "guanzhong",
+        "troops": 4,
+        "general": "史天泽",
+        "detail": "史天泽率汉军世侯拓地招抚：申军律毋掠，开仓赈饥，秦新附未固之民可倒戈相迎。",
+        "wishes": "郡县望风，兵不血刃而地辟。"
+      }
+    ],
+    "35": [
+      {
+        "kind": "battle",
+        "target": "guanzhong",
+        "troops": 14,
+        "general": "忽必烈",
+        "detail": "长安城下：秦师回援则会战泾渭之野，铁骑炮阵合歼之；坚壁则回回炮昼夜轰城，以内应为应。",
+        "wishes": "破援拔城，关中底定，嬴政就擒。"
+      },
+      {
+        "kind": "diplo",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "移檄蒲坂：元唐修好，以泾渭为界各取所得；唐若渝盟西渡，铁骑不难返旆相向。",
+        "wishes": "唐人认界而退，关中归于一主。"
+      }
+    ],
+    "36": [
+      {
+        "kind": "internal",
+        "target": "guanzhong",
+        "troops": null,
+        "general": "真金",
+        "detail": "真金留长安开宣抚司：复农桑、薄赋敛、用秦故吏、禁诸部侵掠；抚关中新附，渐成王业之基。",
+        "wishes": "关中大安，汉法成效天下共见。"
+      },
+      {
+        "kind": "internal",
+        "target": "mobei",
+        "troops": null,
+        "general": "忽必烈",
+        "detail": "岁末论功：卤获分赐诸王将士，表真金定策之功以固储位；帝还上都，伯颜经略陇右备汉。",
+        "wishes": "恩威两全，路线之争化为并进之力。"
+      }
+    ]
+  },
+  "diplomacy": [
+    {
+      "to": "qin",
+      "proposal": "贸易",
+      "terms": "岁以马千匹易粟五万石，续萧关边市，边界息兵。"
+    },
+    {
+      "to": "ming",
+      "proposal": "贸易",
+      "terms": "岁以良马千匹易茶粮，商路不涉兵事，南北各安其所。"
+    },
+    {
+      "to": "tang",
+      "proposal": "会盟",
+      "terms": "秋后共分秦土：唐出蒲津、元出陇坂，先入长安者有之，互不攻伐。"
+    },
+    {
+      "to": "han",
+      "proposal": "贸易",
+      "terms": "送还陇右俘口，开边市，两国西陲息兵。"
+    }
+  ],
+  "self_note": "南下两窗口：汉军东顾则取陇右，秦师东出则下关中；唐盟貌合神离，先入长安者得之；军律禁掠非仁，为久据计。"
+}

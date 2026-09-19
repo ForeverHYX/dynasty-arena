@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>天命争鼎 · 推演进行中</title>
+<style>
+  :root { color-scheme: dark; }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { background:#0b0e14; color:#cdd6e4; font-family:"PingFang SC","Microsoft YaHei",system-ui,sans-serif; min-height:100vh; padding:28px; }
+  .wrap { max-width:1200px; margin:0 auto; }
+  h1 { font-size:30px; color:#d4af37; letter-spacing:6px; font-weight:700; }
+  .sub { color:#7f8ba0; margin:6px 0 22px; font-size:14px; letter-spacing:1px; }
+  .panel { background:linear-gradient(180deg,#121826,#0e1320); border:1px solid #2a3a55; border-radius:10px; padding:18px 20px; margin-bottom:18px; box-shadow:inset 0 1px 0 rgba(120,160,255,.06); }
+  .ptitle { color:#d4af37; font-size:15px; letter-spacing:3px; margin-bottom:12px; display:flex; justify-content:space-between; align-items:center; }
+  .now { font-size:22px; color:#fff; }
+  .bar { height:8px; background:#1c2436; border-radius:4px; overflow:hidden; }
+  .bar > i { display:block; height:100%; background:linear-gradient(90deg,#8a6d1f,#d4af37); border-radius:4px; transition:width .6s; }
+  .meta { display:flex; gap:26px; margin:10px 0 14px; color:#9aa7bd; font-size:13px; flex-wrap:wrap; }
+  .meta b { color:#e8eef7; font-variant-numeric:tabular-nums; }
+  .grid { display:grid; grid-template-columns:repeat(4,1fr); gap:12px; }
+  .card { border:1px solid #24324c; border-radius:8px; padding:12px; background:#0f1523; }
+  .card.dead { opacity:.45; filter:grayscale(.8); }
+  .crest { display:inline-flex; width:34px; height:34px; border-radius:6px; align-items:center; justify-content:center; font-size:17px; font-weight:700; color:#0b0e14; margin-right:9px; vertical-align:middle; }
+  .lname { font-size:14px; color:#e8eef7; }
+  .rname { font-size:12px; color:#8fa0ba; margin-top:2px; }
+  .stat { margin-top:9px; font-size:11px; color:#8fa0ba; display:flex; align-items:center; gap:7px; }
+  .stat .bar { flex:1; height:5px; }
+  .stat .bar > i { background:#5b8def; }
+  .regions b { color:#d4af37; font-size:18px; font-variant-numeric:tabular-nums; }
+  .notes { margin-top:8px; font-size:11px; color:#7f8ba0; line-height:1.5; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
+  .ev { border-left:3px solid #2a3a55; padding:7px 12px; margin-bottom:8px; background:#0d1220; border-radius:0 6px 6px 0; }
+  .ev .t { font-size:13px; color:#e8eef7; font-weight:600; }
+  .ev .t .m { color:#d4af37; font-variant-numeric:tabular-nums; margin-right:8px; font-size:12px; }
+  .ev .d { font-size:12px; color:#93a1b8; margin-top:3px; line-height:1.55; }
+  .ev.war { border-left-color:#e0503c; } .ev.diplomacy { border-left-color:#4fc3f7; }
+  .ev.crisis { border-left-color:#e8893c; } .ev.internal,.ev.economy { border-left-color:#46b98c; }
+  .ev.politics { border-left-color:#d4af37; } .ev.character { border-left-color:#9d8ec9; }
+  .tag { font-size:10px; color:#0b0e14; background:#d4af37; border-radius:3px; padding:1px 5px; margin-left:8px; vertical-align:1px; }
+  .who{white-space:nowrap}
+  .who i{font-style:normal;font-size:9px;line-height:1;border:1px solid;border-radius:3px;padding:0 3px;margin-left:2px;vertical-align:1px;background:rgba(0,0,0,.35)}
+  .pulse { display:inline-block; width:9px; height:9px; border-radius:50%; background:#e0503c; margin-right:8px; animation:pl 1.1s infinite; }
+  @keyframes pl { 50% { opacity:.25; } }
+  .done-link { display:block; text-align:center; background:linear-gradient(180deg,#3a2f10,#241d08); border:1px solid #d4af37; color:#ffd968; font-size:18px; letter-spacing:3px; padding:16px; border-radius:10px; text-decoration:none; margin-bottom:18px; }
+  .done-link:hover { filter:brightness(1.2); }
+  .foot { color:#5d6a80; font-size:12px; text-align:center; margin-top:26px; line-height:1.7; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div id="finalLink" style="display:none"><a class="done-link" href="index.html">★ 推演已完成 —— 点击进入完整沙盘 index.html ★</a></div>
+  <h1>天 命 争 鼎</h1>
+  <div class="sub">八帝同世 · 多智能体实时推演 —— 本页自动刷新（每 4 秒），推演完成后从顶部入口进入完整沙盘</div>
+
+  <div class="panel">
+    <div class="ptitle"><span><span class="pulse"></span>推演进行中</span><span class="now" id="now">—</span></div>
+    <div class="meta" id="meta"></div>
+    <div class="bar"><i id="pbar" style="width:0%"></i></div>
+  </div>
+
+  <div class="panel">
+    <div class="ptitle">天下大势 · 实时</div>
+    <div class="grid" id="factions"></div>
+  </div>
+
+  <div class="panel">
+    <div class="ptitle">最新大事记 <span style="color:#5d6a80;font-size:12px;letter-spacing:0">最近 14 条</span></div>
+    <div id="events"></div>
+  </div>
+
+  <div class="foot">本页数据由多智能体系统实时生成：8 个势力代理（秦/汉/东汉/隋/唐/宋/元/明）逐 12 月提交方略，「天道」裁定代理对撞裁定战争与外交，史官撰写终局。<br>所有事件均为 AI 架空推演，非真实历史。</div>
+</div>
+<script>
+const F = {qin:"#8f9bb0",han:"#c94b3c",donghan:"#6da85e",sui:"#a06cc9",tang:"#e0ad3c",song:"#4fa387",yuan:"#4f83d9",ming:"#d4628f"};
+const NM = {qin:"秦",han:"汉·西",donghan:"汉·东",sui:"隋",tang:"唐",song:"宋",yuan:"元",ming:"明"};
+const esc = s => String(s==null?"":s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const FSHORT={qin:"秦",han:"汉西",donghan:"东汉",sui:"隋",tang:"唐",song:"宋",yuan:"元",ming:"明"};
+let CHAR={},__re=null;
+function anno(t){
+  if(!Object.keys(CHAR).length||!t)return esc(t);
+  if(!__re){const k=Object.keys(CHAR).sort((a,b)=>b.length-a.length).map(x=>x.replace(/[.*+?^${}()|[\]\\]/g,"\\$&"));__re=new RegExp("("+k.join("|")+")","g");}
+  return esc(t).replace(__re,m=>{const f=CHAR[m];return (f&&F[f])?`<span class="who">${m}<i style="color:${F[f]};border-color:${F[f]}">${FSHORT[f]}</i></span>`:m;});
+}
+async function tick(){
+  try{
+    const d = await (await fetch("progress.json?"+Date.now(),{cache:"no-store"})).json();
+    if(d.characters) CHAR=d.characters;
+    document.getElementById("finalLink").style.display = d.final_ready ? "block":"none";
+    document.getElementById("now").textContent = d.now_label + " · 第" + d.current_phase + "轮推演中";
+    document.getElementById("meta").innerHTML =
+      `已完成 <b>${d.months_done}</b> 个月（<b>${(d.months_done/12).toFixed(1)}</b> 年）` +
+      ` · 天道已裁定 <b>${d.phase}</b> 轮 · 累计事件 <b>${d.events_total}</b> 条` +
+      ` · 当前轮已交卷方略：<b>${d.submitted_arcs.map(x=>NM[x]||x).join("/")||"—"}</b>`;
+    document.getElementById("pbar").style.width = Math.min(100, d.months_done/120*100) + "%";
+    document.getElementById("factions").innerHTML = d.factions.sort((a,b)=>b.n_regions-a.n_regions).map(f=>{
+      const c = F[f.id]||"#888";
+      return `<div class="card${f.alive?"":" dead"}">
+        <span class="crest" style="background:${c}">${esc(f.name[0])}</span>
+        <span class="lname">${esc(f.leader)}</span>
+        <div class="rname">${NM[f.id]||f.id} · ${f.n_regions} 州${f.alive?"":" · 已亡"}</div>
+        <div class="stat">兵<b style="color:#cdd6e4;font-variant-numeric:tabular-nums">${f.troops}</b><span class="bar"><i style="width:${Math.min(100,f.troops/30*100)}%;background:${c}"></i></span></div>
+        <div class="stat">民<span class="bar"><i style="width:${f.morale}%;background:#46b98c"></i></span>${f.morale}</div>
+        <div class="stat">稳<span class="bar"><i style="width:${f.stability}%;background:#5b8def"></i></span>${f.stability}</div>
+        <div class="notes">${esc(f.notes)}</div>
+      </div>`;}).join("");
+    document.getElementById("events").innerHTML = d.recent_events.slice().reverse().map(e=>
+      `<div class="ev ${e.type}"><div class="t"><span class="m">${esc(e.month)}月</span>${esc(e.title)}${e.inter?'<span class="tag">交锋</span>':""}</div><div class="d">${anno(e.desc)}</div></div>`).join("") || "—";
+  }catch(err){
+    window.__tickErr = (err&&err.message)+" @ "+((err&&err.stack)||"").split("\n")[1];
+    document.getElementById("meta").textContent = "等待推演数据…" ;
+  }
+}
+tick(); setInterval(tick, 4000);
+</script>
+</body>
+</html>

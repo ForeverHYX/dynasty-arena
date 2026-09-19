@@ -1,0 +1,63 @@
+{
+  "faction": "qin",
+  "phase": 3,
+  "strategy": "固本蓄锐以拆合纵：市马于漠北，间唐两府，乱楚摇汉，构隋裔自残。乘韩信见废、汉军东分，王贲蒙恬夏出陇山复故土，徙民实边复马政，以间尽除虎牢隋裔。暮岁服丹求仙，遣扶苏监军于边，储位悬而不决。",
+  "months": {
+    "25": [
+      {"kind": "internal", "target": "guanzhong", "troops": null, "general": null, "detail": "李斯岁修郑白渠，括关中隐户附籍，薄赋缓徭；新卒入营训练，李信戴罪部勒之。", "wishes": "粮籍并增，民怨稍纾。"},
+      {"kind": "diplo", "target": "yuan", "troops": null, "general": null, "detail": "萧关市增额：岁市马三千，粟帛易牛羊；真金新掌财计，漠北惜市，必约束诸部。", "wishes": "北边无警，铁骑复建。"}
+    ],
+    "26": [
+      {"kind": "build", "target": "guanzhong", "troops": null, "general": null, "detail": "修陈仓故道，粮械分储陇山口诸堡；渭汭舟车衔尾转运，密为西讨之资。", "wishes": "师出陇山，粮道不中绝。"},
+      {"kind": "spy", "target": "tang", "troops": null, "general": null, "detail": "尉缭伪作天策府通秦之书，阴流晋阳；李渊益疑世民，收兵符、夺诸卫之议起。", "wishes": "唐两府内阋，无暇西顾。"}
+    ],
+    "27": [
+      {"kind": "spy", "target": "han", "troops": null, "general": null, "detail": "重金散谣荆楚：淮阴侯无罪，狡兔死走狗烹。楚军旧部汹汹，汉廷分兵监楚，陇上益单。", "wishes": "汉军东顾，陇右空虚。"},
+      {"kind": "internal", "target": "guanzhong", "troops": null, "general": null, "detail": "扶苏观政数谏宽刑缓役，忤旨；赵高侍侧阴言公子柔。政不罪亦不用，烦其仁而储议未决。", "wishes": "磨砺扶苏，敛其书生气。"}
+    ],
+    "28": [
+      {"kind": "diplo", "target": "tang", "troops": null, "general": null, "detail": "遣使蒲坂续互不侵犯，增盐马市；阳谨守约，实断其西顾之念，使我专力于陇。", "wishes": "东门安堵，唐自相斗。"},
+      {"kind": "move", "target": "longxi", "troops": 2, "general": "蒙恬", "detail": "蒙恬将二万屯陇山烽塞，牧马示形，轻骑日觇汉屯；曹参分守要害，虚实尽呈。", "wishes": "尽得陇上部署以待。"}
+    ],
+    "29": [
+      {"kind": "battle", "target": "longxi", "troops": 7.5, "general": "王贲", "detail": "乘楚地汹汹、蜀援辽远，王贲率七万五千出陇坻，弩阵为锋直扑狄道上邽，期一鼓复故土。", "wishes": "陇右底定，故土重光。"},
+      {"kind": "battle", "target": "longxi", "troops": 1.5, "general": "李信", "detail": "李信自请万五千倍道袭阴平，焚栈阁绝蜀援；政手书戒曰：毋轻进，毁道即还。", "wishes": "栈道一断，陇上汉军成孤。"}
+    ],
+    "30": [
+      {"kind": "battle", "target": "longxi", "troops": 8, "general": "王贲", "detail": "尉缭先金结羌豪为内应；王贲合军与汉决战陇上，蒙恬侧出蹑其背，务求大胜以复州。", "wishes": "歼其陇上之军，威震巴蜀。"},
+      {"kind": "internal", "target": "longxi", "troops": null, "general": null, "detail": "传檄陇右：复秦故爵，除汉新苛调，胁从勿问；秦时遗民争为向导。", "wishes": "郡县望风，人心思旧。"}
+    ],
+    "31": [
+      {"kind": "internal", "target": "longxi", "troops": null, "general": null, "detail": "徙关中三万户实陇右，给牛种田宅；复凉州马场，严马政岁课，缮陇山塞。", "wishes": "新附速化，马畜复聚。"},
+      {"kind": "move", "target": "guanzhong", "troops": null, "general": null, "detail": "王贲留镇陇右，蒙恬还屯萧关备胡；李信扼陇坻之险，与汉相望于山而不出。", "wishes": "西土既固，转饷不劳。"}
+    ],
+    "32": [
+      {"kind": "spy", "target": "sui", "troops": null, "general": null, "detail": "尉缭密结虎牢：扬杨勇将缚广谢秦，又许杨广执兄献关、裂土自王；兄弟相图，客廷自乱。", "wishes": "隋裔自相剪除，不烦秦兵。"},
+      {"kind": "diplo", "target": "song", "troops": null, "general": null, "detail": "秦使至虎牢：缚送杨氏母子则复市、平粜济汴；否则约罢烽起，崤函无宁日。", "wishes": "宋廷进退失据，隋裔失所。"}
+    ],
+    "33": [
+      {"kind": "spy", "target": "tang", "troops": null, "general": null, "detail": "斥候遍河东：两府若兵戎相向，即以金帛购唐将、散其众；我军临河观衅，毋先渡。", "wishes": "唐乱则河防空虚，为我所乘。"},
+      {"kind": "move", "target": "guanzhong", "troops": 3, "general": "王翦", "detail": "王翦强起，将三万屯郑华备唐乘乱渡河；老将咳而临戎：『臣死不离行阵。』", "wishes": "东门有老成之守。"}
+    ],
+    "34": [
+      {"kind": "internal", "target": null, "troops": null, "general": null, "detail": "卢生奏录图书『亡秦者胡也』，政以为漠北胡骑，益饬萧关塞备；徐巿请入海求仙药，政始服金丹，精神乍旺。", "wishes": "药效如神，天命在朕。"},
+      {"kind": "internal", "target": "longxi", "troops": null, "general": null, "detail": "收陇右民间兵器输咸阳，销以铸金人；隳无用之垒，销兵弭盗以威示新附。", "wishes": "新土帖然，内乱无资。"}
+    ],
+    "35": [
+      {"kind": "internal", "target": "guanzhong", "troops": null, "general": null, "detail": "群臣再请立太子；政服丹讳言死，不答。诏扶苏监军陇坻，蒙恬将边兵佐之；赵高典符玺，胡亥从幸。", "wishes": "扶苏历练成器，边军归心。"},
+      {"kind": "build", "target": "guanzhong", "troops": null, "general": null, "detail": "缮陇坻道为驰道，咸阳西抵狄道，转漕减耗；岁末大阅咸阳，赏复陇之功。", "wishes": "转输利便，来岁东向无乏。"}
+    ],
+    "36": [
+      {"kind": "internal", "target": "guanzhong", "troops": null, "general": null, "detail": "政服丹愈勤，日阅奏牍百二十斤如故；体时燥热，太医谏而不听。李斯阿谀固宠，庶政益总于上。", "wishes": "乾纲独运，国无留事。"},
+      {"kind": "diplo", "target": "han", "troops": null, "general": null, "detail": "遣使成都，约以陇山为界各守其土，复阴平互市；阳修好以息西线，阴饲其楚地之疾。", "wishes": "西线两载无事，朕得专东。"}
+    ]
+  },
+  "diplomacy": [
+    {"to": "yuan", "proposal": "贸易", "terms": "萧关市增额：岁市马三千、牛羊以万计，粟帛相易；诸部犯塞则立绝其市。"},
+    {"to": "tang", "proposal": "互不侵犯", "terms": "秦不越河、唐不渡蒲津，盐马市如故；秦唐各安其家事。"},
+    {"to": "song", "proposal": "警告", "terms": "缚送杨氏母子则复市、平价粜粟济汴；否则前约尽罢，崤函烽燧不休。"},
+    {"to": "han", "proposal": "互不侵犯", "terms": "秦复陇右即止，以陇山为界各守其土，复阴平互市。"},
+    {"to": "donghan", "proposal": "互不侵犯", "terms": "东西悬远，各安其土，通使不绝。"}
+  ],
+  "self_note": "陇右故土、杨氏余裔皆朕之疾。丹药燥热，朕不信天命。扶苏仁而去国，赵高谨而近玺——朕未之决，亦未之惧。"
+}

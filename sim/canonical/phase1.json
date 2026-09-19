@@ -1,0 +1,1168 @@
+{
+  "phase": 1,
+  "events": [
+    {
+      "month": 1,
+      "type": "war",
+      "faction": "song",
+      "region": "jianghuai",
+      "title": "曹彬下江淮",
+      "desc": "曹彬率禁军十二万出汴泗顺淮东下，先传檄后开战，淮右守军半数开城。合肥一战守军溃散，宋军折一万五千，收降卒万五千，尽得淝淮舟粮之资。江淮入宋，漕运财赋大增。",
+      "actors": [
+        "赵匡胤",
+        "曹彬"
+      ],
+      "inter": true,
+      "delta": {
+        "troops": {
+          "song": -1.5
+        },
+        "regions": {
+          "jianghuai": "song"
+        },
+        "morale": {
+          "song": 2
+        },
+        "food": {
+          "song": 2
+        }
+      }
+    },
+    {
+      "month": 1,
+      "type": "war",
+      "faction": "yuan",
+      "region": "longxi",
+      "title": "铁骑焚陇右",
+      "desc": "伯颜率轻骑十万大迂回绕出漠南，突入陇右腹地，避城焚粮，掠牛马数十万计。秦边军猝不及防，仓廪被焚，元军满载北归。漠北春荒得解，陇右处处焦土。",
+      "actors": [
+        "忽必烈",
+        "伯颜",
+        "嬴政"
+      ],
+      "inter": true,
+      "delta": {
+        "troops": {
+          "yuan": -0.5,
+          "qin": -0.5
+        },
+        "food": {
+          "yuan": 6,
+          "qin": -6
+        },
+        "morale": {
+          "qin": -4
+        },
+        "stability": {
+          "qin": -2
+        }
+      }
+    },
+    {
+      "month": 1,
+      "type": "internal",
+      "faction": "qin",
+      "region": "longxi",
+      "title": "编户与塞垣",
+      "desc": "李斯编户陇右、颁秦律、同度量衡，以军功爵扩募新卒；蒙恬发刑徒数万筑塞垣于北境，且筑且屯。徭役繁重，陇右民始有怨言，「秦法如网」之语渐起。",
+      "actors": [
+        "嬴政",
+        "李斯",
+        "蒙恬"
+      ],
+      "inter": false,
+      "delta": {
+        "troops": {
+          "qin": 1.5
+        },
+        "stability": {
+          "qin": -1
+        }
+      }
+    },
+    {
+      "month": 1,
+      "type": "politics",
+      "faction": "donghan",
+      "region": "shandong",
+      "title": "汉使抚齐鲁",
+      "desc": "冯异持节东行，宣刘秀威德，赦旧恶、许豪帅署置如故，先通孔孟儒宗与盐铁大姓。齐鲁郡县观望者多倾心北附，宋人闻之亦遣人西来争结，为日后齐地之争埋下引线。",
+      "actors": [
+        "刘秀",
+        "冯异"
+      ],
+      "inter": false,
+      "delta": {
+        "stability": {
+          "donghan": 1
+        }
+      }
+    },
+    {
+      "month": 1,
+      "type": "internal",
+      "faction": "han",
+      "region": "bashu",
+      "title": "明修栈道",
+      "desc": "樊哙大张旗鼓修复褒斜栈道，扬言东出陈仓；萧何趁势劝农屯田、平物价，蜀中仓廪渐实。关陇诸雄闻汉修道，皆笑刘邦守户之犬，不复以蜀为意。",
+      "actors": [
+        "刘邦",
+        "萧何",
+        "樊哙"
+      ],
+      "inter": false,
+      "delta": {
+        "food": {
+          "han": 3
+        }
+      }
+    },
+    {
+      "month": 2,
+      "type": "war",
+      "faction": "yuan",
+      "region": "longxi",
+      "title": "再掠萧关外",
+      "desc": "伯颜再入陇右就食，驱丁口牛马北归。蒙恬率四万据萧关坚壁清野，弩阵不辍，元军诱战不得，野无所掠，只得半载而归。秦军士气稍振，塞下烽燧自此夜夜相望。",
+      "actors": [
+        "伯颜",
+        "蒙恬"
+      ],
+      "inter": true,
+      "delta": {
+        "troops": {
+          "yuan": -0.4,
+          "qin": -0.3
+        },
+        "food": {
+          "yuan": 3,
+          "qin": -1
+        },
+        "morale": {
+          "qin": 2
+        }
+      }
+    },
+    {
+      "month": 2,
+      "type": "politics",
+      "faction": "han",
+      "region": null,
+      "title": "陈平行间关陇",
+      "desc": "陈平持重金入关陇，流言于陇右、关中之间，构嬴政与杨坚之隙。秦隋互疑，斥候频出，两家的目光都盯住对方，南面巴蜀遂无人问津，刘邦得以安枕练兵。",
+      "actors": [
+        "刘邦",
+        "陈平"
+      ],
+      "inter": true,
+      "delta": {
+        "stability": {
+          "qin": -1,
+          "sui": -1
+        }
+      }
+    },
+    {
+      "month": 2,
+      "type": "economy",
+      "faction": "sui",
+      "region": "guanzhong",
+      "title": "营大兴缮关河",
+      "desc": "杨坚征发营建大兴城，广通仓储粟；潼关、蒲坂津缮城积械，四塞门枢皆固。贺若弼简练府兵，讲武陇山之东，关中防御与储积冠于诸州。",
+      "actors": [
+        "杨坚",
+        "贺若弼"
+      ],
+      "inter": false,
+      "delta": {
+        "food": {
+          "sui": -2
+        },
+        "stability": {
+          "sui": 2
+        }
+      }
+    },
+    {
+      "month": 2,
+      "type": "internal",
+      "faction": "ming",
+      "region": "jiangnan",
+      "title": "高墙广积粮",
+      "desc": "李善长兴屯田、攒造户帖清丈田亩，秋粮尽入官仓；徐达增筑京口、采石江防要塞，鄱阳水师日夜操练。元璋申明军纪，检校四出，诸将隐私尽在掌握。",
+      "actors": [
+        "朱元璋",
+        "李善长",
+        "徐达",
+        "刘基"
+      ],
+      "inter": false,
+      "delta": {
+        "food": {
+          "ming": 4
+        },
+        "stability": {
+          "ming": 2
+        }
+      }
+    },
+    {
+      "month": 3,
+      "type": "war",
+      "faction": "donghan",
+      "region": "shandong",
+      "title": "夜渡取五城",
+      "desc": "耿弇率步骑八万夜渡大河，五城连下；盐铁大姓为内应，守军半数倒戈。顽抗者溃于历城之下，降者三万愿留编伍。冯异后继招抚，降者不杀，山东传檄而定，并入东汉。",
+      "actors": [
+        "刘秀",
+        "耿弇",
+        "冯异"
+      ],
+      "inter": true,
+      "delta": {
+        "troops": {
+          "donghan": 0.7
+        },
+        "regions": {
+          "shandong": "donghan"
+        },
+        "morale": {
+          "donghan": 2
+        },
+        "food": {
+          "donghan": -1
+        }
+      }
+    },
+    {
+      "month": 3,
+      "type": "war",
+      "faction": "ming",
+      "region": "jianghuai",
+      "title": "徐达渡江击淮",
+      "desc": "徐达率水陆九万渡江，趁宋军新得淮甸、立足未稳，水师遮护瓜洲渡口。江岸野战明军小胜，夺瓜洲、扬州桥头堡；然庐州、寿阳宋军坚壁，淮西不能下，明军折一万二千人。",
+      "actors": [
+        "朱元璋",
+        "徐达",
+        "曹彬"
+      ],
+      "inter": true,
+      "delta": {
+        "troops": {
+          "ming": -1.2,
+          "song": -1.8
+        },
+        "morale": {
+          "ming": 1,
+          "song": -1
+        }
+      }
+    },
+    {
+      "month": 3,
+      "type": "diplomacy",
+      "faction": "tang",
+      "region": null,
+      "title": "唐汉弭兵",
+      "desc": "建成监国半年，河东均田劝农大治；刘文静使河北，与刘秀约以黄河为界互不侵犯一载、通关市。东线既安，唐得专意西望蒲津；市马漠北则因元人索盟而搁置。",
+      "actors": [
+        "李渊",
+        "李建成",
+        "刘文静",
+        "刘秀"
+      ],
+      "inter": true,
+      "delta": {
+        "stability": {
+          "tang": 1,
+          "donghan": 1
+        }
+      }
+    },
+    {
+      "month": 3,
+      "type": "politics",
+      "faction": "sui",
+      "region": null,
+      "title": "离强合弱计",
+      "desc": "长孙晟持金帛阴结漠南怨望诸部，扬言汉法派卖草原于南朝；元廷颁汉法官制，守旧宗王本已侧目，阿里不哥遂阴结诸王、断驿掠部。草原将乱，忽必烈闻警。",
+      "actors": [
+        "杨坚",
+        "长孙晟",
+        "忽必烈",
+        "阿里不哥"
+      ],
+      "inter": true,
+      "delta": {
+        "stability": {
+          "yuan": -3
+        }
+      }
+    },
+    {
+      "month": 3,
+      "type": "diplomacy",
+      "faction": "han",
+      "region": null,
+      "title": "奉表隋不受",
+      "desc": "刘邦卑辞厚币，奉表称臣于隋，乞通互市、勿加兵于蜀；杨坚方经略西陲，受其方物而不应盟约。韩信大军趁机前出巴东，屯于鱼复，舟粮械毕集，只待顺流之令。",
+      "actors": [
+        "刘邦",
+        "杨坚",
+        "韩信"
+      ],
+      "inter": true,
+      "delta": {
+        "food": {
+          "han": -1
+        }
+      }
+    },
+    {
+      "month": 4,
+      "type": "war",
+      "faction": "han",
+      "region": "jingchu",
+      "title": "暗渡定荆楚",
+      "desc": "韩信新拜大将军，率十万舟师出巴东顺流直下，明修栈道之疑兵尽出其效。江陵守军不意汉军自天而下，一战而溃，豪族开城。刘邦行约法三章，荆楚传檄而定，编户得兵。",
+      "actors": [
+        "刘邦",
+        "韩信",
+        "萧何"
+      ],
+      "inter": true,
+      "delta": {
+        "troops": {
+          "han": 1.0
+        },
+        "regions": {
+          "jingchu": "han"
+        },
+        "morale": {
+          "han": 3
+        },
+        "food": {
+          "han": 2
+        }
+      }
+    },
+    {
+      "month": 4,
+      "type": "war",
+      "faction": "ming",
+      "region": "jianghuai",
+      "title": "夜袭庐州挫",
+      "desc": "常遇春率选锋六万夜扑庐州，云梯火器齐发。潘美回援，坚城之上箭石如雨，明军攻至天明不克，折兵一万。常遇春愤而尽杀俘虏，徐达按剑切责，元璋手书申饬「毋屠降」。",
+      "actors": [
+        "朱元璋",
+        "常遇春",
+        "潘美"
+      ],
+      "inter": true,
+      "delta": {
+        "troops": {
+          "ming": -1.0,
+          "song": -0.5
+        },
+        "morale": {
+          "ming": -2,
+          "song": 1
+        },
+        "stability": {
+          "ming": -1
+        }
+      }
+    },
+    {
+      "month": 4,
+      "type": "diplomacy",
+      "faction": "sui",
+      "region": null,
+      "title": "汴渭通市",
+      "desc": "隋使入汴，与宋约各守疆埸互不加兵，以中原丝茶易关中粟马，边市通商。赵匡胤乐得西境无事，好整以暇治水师、储军械。隋东南两线暂安，唯西面陇山风声渐紧。",
+      "actors": [
+        "杨坚",
+        "赵匡胤",
+        "赵普"
+      ],
+      "inter": true,
+      "delta": {
+        "food": {
+          "sui": 2,
+          "song": 2
+        }
+      }
+    },
+    {
+      "month": 4,
+      "type": "internal",
+      "faction": "sui",
+      "region": "guanzhong",
+      "title": "大索貌阅",
+      "desc": "高颎主大索貌阅，括隐户、行输籍定样，藏户无所遁形。关中在籍户口激增，兵源赋入倍增，义仓益满。三省六部新制与均田并行，隋之制度机器轰然加速。",
+      "actors": [
+        "杨坚",
+        "高颎",
+        "苏威"
+      ],
+      "inter": false,
+      "delta": {
+        "troops": {
+          "sui": 2
+        },
+        "food": {
+          "sui": 4
+        },
+        "stability": {
+          "sui": 2
+        }
+      }
+    },
+    {
+      "month": 4,
+      "type": "crisis",
+      "faction": "yuan",
+      "region": "mobei",
+      "title": "北还靖内乱",
+      "desc": "汉法新令激变，阿里不哥联结诸王断驿掠部。忽必烈自将十一万兼程北还，先檄谕诸王赦胁从、诛魁首；伯颜持重留镇漠南，严阵以待，秦军不得乘虚而入。草原内战拉开帷幕。",
+      "actors": [
+        "忽必烈",
+        "阿里不哥",
+        "伯颜"
+      ],
+      "inter": false,
+      "delta": {
+        "stability": {
+          "yuan": -2
+        }
+      }
+    },
+    {
+      "month": 5,
+      "type": "crisis",
+      "faction": "yuan",
+      "region": "mobei",
+      "title": "昔木土大猎",
+      "desc": "忽必烈铁骑张两翼合围，昔木土脑儿之野大破阿里不哥叛军，穷追三日。魁首伏诛，胁从诸部尽赦，叛党田畜分赉有功。草原帖然，汗权独尊，然汉地政务因此放缓一年。",
+      "actors": [
+        "忽必烈",
+        "阿里不哥",
+        "伯颜"
+      ],
+      "inter": false,
+      "delta": {
+        "troops": {
+          "yuan": -1.5
+        },
+        "morale": {
+          "yuan": 4
+        },
+        "stability": {
+          "yuan": 6
+        },
+        "characters": [
+          {
+            "name": "阿里不哥",
+            "faction": "yuan",
+            "status": "被诛"
+          }
+        ]
+      }
+    },
+    {
+      "month": 5,
+      "type": "crisis",
+      "faction": "donghan",
+      "region": "hebei",
+      "title": "度田激起风潮",
+      "desc": "度田清丈至河内，豪强隐田无所遁形，大姓姻亲首告抗命，诸郡哄然而起。刘秀雷霆柔道并行：耿纯诛首乱渠帅以徇，郭氏隐田暂缓不问。乱平而度田得行七八，豪强怀怨者众。",
+      "actors": [
+        "刘秀",
+        "耿纯"
+      ],
+      "inter": false,
+      "delta": {
+        "stability": {
+          "donghan": -4
+        },
+        "food": {
+          "donghan": 2
+        }
+      }
+    },
+    {
+      "month": 5,
+      "type": "war",
+      "faction": "qin",
+      "region": "longxi",
+      "title": "陇骑出塞逐元",
+      "desc": "王贲率陇右铁骑五万出陇坂侧击，蒙恬开壁蹑后，趁元军分心北乱，袭其殿后辎重，夺回牛马数万。伯颜奉命北顾，不与纠缠，敛兵退入漠南。塞下之围暂解，秦得畜产以实军食。",
+      "actors": [
+        "嬴政",
+        "王贲",
+        "蒙恬",
+        "伯颜"
+      ],
+      "inter": true,
+      "delta": {
+        "troops": {
+          "qin": -0.3,
+          "yuan": -0.6
+        },
+        "food": {
+          "qin": 2,
+          "yuan": -2
+        },
+        "morale": {
+          "qin": 2
+        }
+      }
+    },
+    {
+      "month": 6,
+      "type": "diplomacy",
+      "faction": "ming",
+      "region": null,
+      "title": "明宋划江而治",
+      "desc": "三月淮上拉锯，明宋皆疲。朱元璋遣使奉表汴梁，辞气恭顺；两下罢兵：明军让出瓜洲桥头堡，宋全有江淮，两国互不侵犯、通漕互市。元璋语左右：「先让他替我挡北边的刀。」",
+      "actors": [
+        "朱元璋",
+        "赵匡胤",
+        "徐达"
+      ],
+      "inter": true,
+      "delta": {
+        "morale": {
+          "ming": 1,
+          "song": 2
+        },
+        "stability": {
+          "ming": 2,
+          "song": 1
+        },
+        "food": {
+          "song": 2
+        }
+      }
+    },
+    {
+      "month": 6,
+      "type": "diplomacy",
+      "faction": "song",
+      "region": null,
+      "title": "宋汉弭兵互市",
+      "desc": "刘秀与赵匡胤各遣使，约以大河为界互不相犯一载，通漕贸易、共禁剽掠、还流民。宋无北顾之忧，汉无南面之虑，各自东西张开手脚。唯齐地归属盟书语焉不详，日后必起争端。",
+      "actors": [
+        "赵匡胤",
+        "赵普",
+        "刘秀"
+      ],
+      "inter": true,
+      "delta": {
+        "stability": {
+          "song": 2,
+          "donghan": 2
+        },
+        "food": {
+          "song": 1,
+          "donghan": 1
+        }
+      }
+    },
+    {
+      "month": 6,
+      "type": "diplomacy",
+      "faction": "qin",
+      "region": null,
+      "title": "密盟议而不合",
+      "desc": "尉缭密使入河东，约唐共击杨坚：唐拊其背，秦出陇坂，事成关中归秦、河东归唐。李渊笑纳金帛，只允互市，不肯歃血；市马漠北亦碰壁而归。三家各怀算盘，关中战云越积越低。",
+      "actors": [
+        "嬴政",
+        "尉缭",
+        "李渊"
+      ],
+      "inter": true,
+      "delta": {
+        "food": {
+          "tang": 1
+        },
+        "stability": {
+          "tang": 1
+        }
+      }
+    },
+    {
+      "month": 7,
+      "type": "war",
+      "faction": "sui",
+      "region": "longxi",
+      "title": "隋师袭陇右",
+      "desc": "高颎画策，乘秦元相耗，杨素率十万出陇山乘弊而入，韩擒虎前锋披靡。蒙恬三万据隘死守，折兵一万二，退保狄道、萧关。隋野战大胜，围上邽，郡县望风，然诸城不下。",
+      "actors": [
+        "杨坚",
+        "杨素",
+        "韩擒虎",
+        "蒙恬"
+      ],
+      "inter": true,
+      "delta": {
+        "troops": {
+          "sui": -0.7,
+          "qin": -1.2
+        },
+        "morale": {
+          "qin": -5,
+          "sui": 3
+        },
+        "stability": {
+          "qin": -3
+        },
+        "food": {
+          "sui": -3,
+          "qin": -2
+        }
+      }
+    },
+    {
+      "month": 7,
+      "type": "war",
+      "faction": "qin",
+      "region": "longxi",
+      "title": "王翦倾国东出",
+      "desc": "嬴政拜王翦为大将，尽举国兵十三万会于陇坂；翦出征前后请美田宅以安君心，政大笑厚赐之。传檄数隋之罪，关中震动，杨坚急召杨素回师，西线气氛骤然逆转。",
+      "actors": [
+        "嬴政",
+        "王翦",
+        "杨坚"
+      ],
+      "inter": true,
+      "delta": {
+        "morale": {
+          "qin": 2,
+          "sui": -2
+        }
+      }
+    },
+    {
+      "month": 7,
+      "type": "war",
+      "faction": "tang",
+      "region": "guanzhong",
+      "title": "玄甲渡蒲津",
+      "desc": "世民探得隋军主力西出、蒲坂空虚，率八万玄甲渡河，蒲坂守将开门降，冯翊诸城望风。唐军不杀降、市不改肆，关中东北一角尽入唐手。杨坚东有世民、西有王翦，两线告急。",
+      "actors": [
+        "李世民",
+        "平阳公主",
+        "杨坚"
+      ],
+      "inter": true,
+      "delta": {
+        "troops": {
+          "tang": 0.5,
+          "sui": -1.0
+        },
+        "morale": {
+          "tang": 3,
+          "sui": -2
+        },
+        "stability": {
+          "sui": -2
+        }
+      }
+    },
+    {
+      "month": 7,
+      "type": "war",
+      "faction": "han",
+      "region": "jianghuai",
+      "title": "淮上初试锋",
+      "desc": "韩信率八万自荆楚东出趣合肥，多设奇变，半渡而击。曹彬严阵以待，禁军背淝水列阵，汉军三进三出不得过，折兵八千。韩信勒兵而退：「宋军方盛，先固荆楚。」",
+      "actors": [
+        "韩信",
+        "曹彬"
+      ],
+      "inter": true,
+      "delta": {
+        "troops": {
+          "han": -0.8,
+          "song": -0.4
+        },
+        "morale": {
+          "han": -2,
+          "song": 1
+        }
+      }
+    },
+    {
+      "month": 8,
+      "type": "war",
+      "faction": "qin",
+      "region": "guanzhong",
+      "title": "陇关汧渭之战",
+      "desc": "王翦乘隋军君臣相疑、西师未返，十三万强逾陇山，弩阵先登，冲车并举。贺若弼、韩擒虎九万众迎战于汧渭，大溃，隋折二万五千。秦因粮于敌，尽夺仓廪，兵锋直指长安。",
+      "actors": [
+        "王翦",
+        "贺若弼",
+        "韩擒虎"
+      ],
+      "inter": true,
+      "delta": {
+        "troops": {
+          "qin": -1.5,
+          "sui": -2.5
+        },
+        "food": {
+          "qin": 4,
+          "sui": -4
+        },
+        "morale": {
+          "qin": 5,
+          "sui": -6
+        },
+        "stability": {
+          "sui": -4
+        }
+      }
+    },
+    {
+      "month": 8,
+      "type": "war",
+      "faction": "ming",
+      "region": "lingnan",
+      "title": "偏师定岭南",
+      "desc": "李文忠率七万沿赣水南下直趋番禺，传檄诸峒，誓师毋掠民毋妄杀。峒豪闻明军仁声，半数纳款，负隅者一鼓而下。岭南入明，番禺开港，市舶之利自此渐丰。",
+      "actors": [
+        "朱元璋",
+        "李文忠"
+      ],
+      "inter": true,
+      "delta": {
+        "troops": {
+          "ming": -0.4
+        },
+        "regions": {
+          "lingnan": "ming"
+        },
+        "morale": {
+          "ming": 2
+        },
+        "food": {
+          "ming": 2
+        }
+      }
+    },
+    {
+      "month": 8,
+      "type": "internal",
+      "faction": "song",
+      "region": "zhongyuan",
+      "title": "杯酒释兵权",
+      "desc": "赵匡胤宴石守信、高怀德、王审琦诸宿将，讽以「富贵自养」。诸将次日皆称疾解兵，禁军尽归三衙。帝不杀一人而兵权集于上，然方面之才顿缺，唯曹彬、潘美堪当一面。",
+      "actors": [
+        "赵匡胤",
+        "赵普",
+        "曹彬"
+      ],
+      "inter": false,
+      "delta": {
+        "stability": {
+          "song": 5
+        },
+        "morale": {
+          "song": 1
+        }
+      }
+    },
+    {
+      "month": 8,
+      "type": "war",
+      "faction": "donghan",
+      "region": null,
+      "title": "汉军止步淮上",
+      "desc": "冯异率八万出鲁南循淮而进，楼船步骑并进，却见宋军重兵沿淮列戍、坚壁清野。刘秀闻讯即敕止兵：「宋新得淮，锋不可犯。」全军改屯彭城，南下之期移于来年，专候中原之变。",
+      "actors": [
+        "刘秀",
+        "冯异",
+        "曹彬"
+      ],
+      "inter": true,
+      "delta": {
+        "food": {
+          "donghan": -1
+        }
+      }
+    },
+    {
+      "month": 9,
+      "type": "war",
+      "faction": "sui",
+      "region": "longxi",
+      "title": "陇山血战突围",
+      "desc": "杨素得长安急报，弃围自陇山道东还，王贲五万铁骑扼隘邀击。隋军弃辎重、血战三昼夜，折二万人方得出山。韩擒虎断后死战，陇右隋军远征以惨败收场，关陇得失自此易势。",
+      "actors": [
+        "杨素",
+        "韩擒虎",
+        "王贲"
+      ],
+      "inter": true,
+      "delta": {
+        "troops": {
+          "sui": -2.0,
+          "qin": -0.8
+        },
+        "morale": {
+          "sui": -3,
+          "qin": 2
+        },
+        "food": {
+          "sui": -2
+        }
+      }
+    },
+    {
+      "month": 9,
+      "type": "war",
+      "faction": "qin",
+      "region": "guanzhong",
+      "title": "李信中伏渭南",
+      "desc": "李信自请轻兵四万倍道绝渭南粮道，恃勇深入。杨素回援之军恰至，反设伏围之，秦军折一万五千，李信仅以身免。嬴政责而不诛：「再败者军法无赦。」王翦戒诸将专候总攻。",
+      "actors": [
+        "李信",
+        "杨素",
+        "王翦",
+        "嬴政"
+      ],
+      "inter": true,
+      "delta": {
+        "troops": {
+          "qin": -1.5,
+          "sui": -0.4
+        },
+        "morale": {
+          "qin": -3,
+          "sui": 3
+        }
+      }
+    },
+    {
+      "month": 9,
+      "type": "internal",
+      "faction": "tang",
+      "region": "hedong",
+      "title": "收兵符两府赏",
+      "desc": "世民蒲坂一战声震东宫，李渊亲抚其军、厚赏将士，却收兵符之半，以李靖分领其众，阳为体恤。建成总东宫兵，魏征辅之，两府礼遇均等。诸将看在眼里，河东风向悄悄在变。",
+      "actors": [
+        "李渊",
+        "李世民",
+        "李建成",
+        "魏征"
+      ],
+      "inter": false,
+      "delta": {
+        "stability": {
+          "tang": -1
+        },
+        "morale": {
+          "tang": 1
+        }
+      }
+    },
+    {
+      "month": 10,
+      "type": "war",
+      "faction": "qin",
+      "region": "guanzhong",
+      "title": "王翦破长安",
+      "desc": "王翦合十五万总攻长安，弩阵器械并举，昼夜急攻，城破。杨素拼死断后，保杨坚、高颎东奔潼关，关中易手归秦。元谍行反间布流言，以王翦先请田宅自污，嬴政终不为所动。",
+      "actors": [
+        "王翦",
+        "杨坚",
+        "杨素",
+        "嬴政"
+      ],
+      "inter": true,
+      "delta": {
+        "troops": {
+          "qin": -2.0,
+          "sui": -3.0
+        },
+        "regions": {
+          "guanzhong": "qin"
+        },
+        "morale": {
+          "qin": 5,
+          "sui": -5
+        },
+        "stability": {
+          "sui": -8
+        },
+        "food": {
+          "qin": 3,
+          "sui": -3
+        }
+      }
+    },
+    {
+      "month": 10,
+      "type": "war",
+      "faction": "song",
+      "region": "shandong",
+      "title": "宋师东征谒孔林",
+      "desc": "曹彬率十二万东征齐鲁，军过曲阜谒孔林、禁焚掠，先礼后兵。然齐鲁已入东汉版图年余，耿弇、冯异重兵相待。宋军顿于齐界，师出无名之势渐显，汴梁朝堂争论不休。",
+      "actors": [
+        "赵匡胤",
+        "曹彬",
+        "赵普"
+      ],
+      "inter": true,
+      "delta": {
+        "food": {
+          "song": -2
+        },
+        "morale": {
+          "song": -1
+        }
+      }
+    },
+    {
+      "month": 10,
+      "type": "internal",
+      "faction": "han",
+      "region": "jingchu",
+      "title": "韩信请封假王",
+      "desc": "韩信使至江陵，请封「假楚王」以镇新附。刘邦大怒，张良蹑足附耳，帝转瞬改容：「大丈夫定诸侯，即为真王，何假之有！」乃许韩信王楚地、益兵三万，忌惮亦埋于心底。",
+      "actors": [
+        "刘邦",
+        "韩信",
+        "张良"
+      ],
+      "inter": false,
+      "delta": {
+        "troops": {
+          "han": 1.5
+        },
+        "stability": {
+          "han": -1
+        },
+        "morale": {
+          "han": 2
+        }
+      }
+    },
+    {
+      "month": 11,
+      "type": "war",
+      "faction": "yuan",
+      "region": "longxi",
+      "title": "伯颜围凉州",
+      "desc": "伯颜率十四万衔枚南出，大迂回直捣凉州，轻骑绝其水陆粮道，合围阙隅。蒙恬、王贲合七万凭城拒守，野战不利退入孤城。陇右烽火四起，秦两线作战，关中新附之地面露惶色。",
+      "actors": [
+        "伯颜",
+        "史天泽",
+        "蒙恬",
+        "王贲"
+      ],
+      "inter": true,
+      "delta": {
+        "troops": {
+          "yuan": -0.6,
+          "qin": -0.8
+        },
+        "morale": {
+          "qin": -3,
+          "yuan": 1
+        },
+        "stability": {
+          "qin": -2
+        },
+        "food": {
+          "yuan": -3,
+          "qin": -2
+        }
+      }
+    },
+    {
+      "month": 11,
+      "type": "character",
+      "faction": "sui",
+      "region": null,
+      "title": "杨素殁于潼关",
+      "desc": "长安既失，隋朝廷百官东奔潼关，杨素裹创断后，却追兵于渭南，呕血数升。至关而卒，军民皆哭。杨坚抚柩大恸：「折朕一臂！」高颎收残部凭关拒守，隋廷至此仅余潼关一线。",
+      "actors": [
+        "杨坚",
+        "杨素",
+        "高颎",
+        "韩擒虎"
+      ],
+      "inter": true,
+      "delta": {
+        "characters": [
+          {
+            "name": "杨素",
+            "faction": "sui",
+            "status": "战死"
+          }
+        ],
+        "troops": {
+          "sui": -0.5
+        },
+        "morale": {
+          "sui": -3
+        },
+        "stability": {
+          "sui": -5
+        }
+      }
+    },
+    {
+      "month": 11,
+      "type": "crisis",
+      "faction": "song",
+      "region": null,
+      "title": "齐地对峙弭兵",
+      "desc": "曹彬十二万与耿弇、冯异十三万隔济水对峙月余，盟约岌岌可危。两雄皆不愿首开战端：宋新定淮甸、宿将解兵；汉不忍弃盟。曹彬按兵东归，留潘美屯濮州遥制，齐鲁遂定于东汉。",
+      "actors": [
+        "曹彬",
+        "耿弇",
+        "赵匡胤",
+        "刘秀"
+      ],
+      "inter": true,
+      "delta": {
+        "morale": {
+          "song": -2,
+          "donghan": 1
+        },
+        "stability": {
+          "song": -2
+        }
+      }
+    },
+    {
+      "month": 11,
+      "type": "diplomacy",
+      "faction": "han",
+      "region": null,
+      "title": "秦汉边市成",
+      "desc": "汉使入陇，与秦约互不相犯，以蜀锦布帛易陇马千匹，互市于阴平道口。两国各取所需：秦得锦帛以饷关中新附，汉得战马以实江陵骑兵。西陲暂安，唯天下人皆知，此约系于一线。",
+      "actors": [
+        "刘邦",
+        "嬴政",
+        "萧何"
+      ],
+      "inter": true,
+      "delta": {
+        "food": {
+          "han": -1,
+          "qin": 1
+        },
+        "morale": {
+          "han": 1
+        }
+      }
+    },
+    {
+      "month": 11,
+      "type": "war",
+      "faction": "tang",
+      "region": "guanzhong",
+      "title": "唐弃冯翊西归",
+      "desc": "秦军入长安，玄甲孤悬冯翊，背后大河将冰。世民不愿以八万当王翦十五万，尽迁冯翊户口降卒渡河，焚蒲津浮桥而归。李渊遣使贺秦，暗里增戍蒲坂——秦唐蜜月止于一水。",
+      "actors": [
+        "李世民",
+        "李渊",
+        "王翦"
+      ],
+      "inter": true,
+      "delta": {
+        "troops": {
+          "tang": 1.0
+        },
+        "morale": {
+          "tang": -1
+        },
+        "food": {
+          "tang": 2
+        }
+      }
+    },
+    {
+      "month": 12,
+      "type": "war",
+      "faction": "yuan",
+      "region": "longxi",
+      "title": "回回炮退元军",
+      "desc": "西域匠人献回回炮至，昼夜轰城，凉州女墙尽塌。然王贲轻骑断元军粮廊，漠北大雪，人马饥冻。伯颜攻不克、食无继，驱陇右丁口牛马北归解围去。秦保陇右，然残破不堪。",
+      "actors": [
+        "伯颜",
+        "蒙恬",
+        "王贲"
+      ],
+      "inter": true,
+      "delta": {
+        "troops": {
+          "yuan": -0.8,
+          "qin": -1.0
+        },
+        "food": {
+          "yuan": 3,
+          "qin": -2
+        },
+        "morale": {
+          "yuan": -3,
+          "qin": 3
+        },
+        "stability": {
+          "yuan": -2
+        }
+      }
+    },
+    {
+      "month": 12,
+      "type": "war",
+      "faction": "qin",
+      "region": "guanzhong",
+      "title": "秦军临潼关",
+      "desc": "王贲分兵屯渭汭，与潼关隋军夹关对峙；关中全境郡县设吏，唯潼关犹悬隋帜。杨坚、高颎凭险死守，遣使四出乞援，唐宋汉皆礼遇其使而不发兵。隋社稷存亡，悬于来年。",
+      "actors": [
+        "杨坚",
+        "高颎",
+        "王贲"
+      ],
+      "inter": true,
+      "delta": {
+        "food": {
+          "qin": -1,
+          "sui": -1
+        },
+        "morale": {
+          "qin": 1
+        }
+      }
+    },
+    {
+      "month": 12,
+      "type": "internal",
+      "faction": "qin",
+      "region": "guanzhong",
+      "title": "关中怨声渐起",
+      "desc": "秦并关中即行郡县，徙隋宗室豪强于陇右，编户征兵；又大修驰道，役及万家。一年两大战两大役，关陇民力已疲，「伐无道」之语始闻于市井。嬴政不恤，催课如故。",
+      "actors": [
+        "嬴政",
+        "李斯"
+      ],
+      "inter": false,
+      "delta": {
+        "troops": {
+          "qin": 1.5
+        },
+        "stability": {
+          "qin": -3
+        },
+        "food": {
+          "qin": 2
+        }
+      }
+    }
+  ]
+}

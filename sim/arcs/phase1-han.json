@@ -1,0 +1,246 @@
+{
+  "faction": "han",
+  "phase": 1,
+  "strategy": "敛翼蜀中，明修栈道以骄敌，卑辞称臣以缓隋；萧何积粟，陈平行间构秦隋之隙。韩信出蜀，先定荆楚，再收江淮；张良结唐制隋。韩信功高请封，忍而予之以尽其才，祸留异日。首年成三州之基，来岁争衡关陇。",
+  "months": {
+    "1": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "萧何镇蜀：约法省刑、劝课农桑、开屯田、平物价，储粟练兵，为出蜀之本。",
+        "wishes": "仓廪渐实，民心愈附，兵甲日整。"
+      },
+      {
+        "kind": "build",
+        "target": "bashu",
+        "troops": null,
+        "general": "樊哙",
+        "detail": "明修栈道：大张旗鼓修复褒斜故道，扬言东出陈仓以骄关陇之敌，实兼为出蜀铺路。",
+        "wishes": "栈道渐成，秦隋轻汉不设备。"
+      }
+    ],
+    "2": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "人事：筑坛具礼，登坛拜韩信为大将军，曹参、灌婴、樊哙悉受节度；张良、陈平参赞帷幄。",
+        "wishes": "诸将虽有不平而军令归一，韩信得展其才。"
+      },
+      {
+        "kind": "spy",
+        "target": "qin",
+        "troops": null,
+        "general": null,
+        "detail": "陈平持重金间关陇：流言于陇右关中之间，构嬴政与杨坚之隙，使二虎相争不暇南顾。",
+        "wishes": "秦隋相疑，关陇无暇图蜀。"
+      }
+    ],
+    "3": [
+      {
+        "kind": "diplo",
+        "target": "sui",
+        "troops": null,
+        "general": null,
+        "detail": "卑辞厚币，奉表称臣于隋，乞通互市，请隋勿加兵于蜀——骄敌缓兵之计。",
+        "wishes": "杨坚慢汉，以为守户之犬，南方之事隋不与闻。"
+      },
+      {
+        "kind": "move",
+        "target": "bashu",
+        "troops": 10,
+        "general": "韩信",
+        "detail": "韩信大军前出巴东，屯鱼复，舟粮械毕集，扬言北出陈仓，实待顺流之令。",
+        "wishes": "出蜀之势已成，敌不能测所向。"
+      }
+    ],
+    "4": [
+      {
+        "kind": "battle",
+        "target": "jingchu",
+        "troops": 10,
+        "general": "韩信",
+        "detail": "暗度之计用于荆楚：明修栈道以疑关陇，潜师出巴东顺流袭江陵，奇正相生，先绝其援。",
+        "wishes": "大胜定江汉，守军瓦解，荆楚传檄而定。"
+      },
+      {
+        "kind": "move",
+        "target": "jingchu",
+        "troops": 2,
+        "general": "周勃",
+        "detail": "周勃以偏师出夷陵，据江汉隘口护粮道，兼防江南明军西窥，接应韩信。",
+        "wishes": "粮道不绝，明军不敢西向。"
+      }
+    ],
+    "5": [
+      {
+        "kind": "internal",
+        "target": "jingchu",
+        "troops": null,
+        "general": null,
+        "detail": "荆楚若下：刘邦行约法三章于荆楚，除苛禁、用豪族、开仓赈贫，新附民心大悦。",
+        "wishes": "江汉归心，编户渐复，得兵三万。"
+      },
+      {
+        "kind": "build",
+        "target": "jingchu",
+        "troops": null,
+        "general": "灌婴",
+        "detail": "江陵大治舟师：伐木造船，募云梦渔儿为水卒，操练江上，以备朱元璋顺流之争。",
+        "wishes": "水师初成，足扼大江上游。"
+      }
+    ],
+    "6": [
+      {
+        "kind": "spy",
+        "target": "ming",
+        "troops": null,
+        "general": null,
+        "detail": "陈平遣谍入江南，觇朱元璋水师屯戍虚实，并行反间于其将帅之间。",
+        "wishes": "知明虚实，其将帅自相疑贰，不轻犯荆楚。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "萧何转漕：巴蜀之粟浮江而下屯于江陵，广储军食，量民力以征兵。",
+        "wishes": "江陵屯粮可支大军一岁。"
+      }
+    ],
+    "7": [
+      {
+        "kind": "battle",
+        "target": "jianghuai",
+        "troops": 8,
+        "general": "韩信",
+        "detail": "韩信自荆楚东出趣合肥，多设奇变，半渡而击，绝其粮援，先传檄江淮豪右。",
+        "wishes": "再收大胜，尽定江淮，兵锋北接中原。"
+      },
+      {
+        "kind": "move",
+        "target": "jianghuai",
+        "troops": 2,
+        "general": "曹参",
+        "detail": "曹参率部继进，镇抚新下城邑，督运粮械，为韩信后劲。",
+        "wishes": "新地安堵，大军无后顾之忧。"
+      }
+    ],
+    "8": [
+      {
+        "kind": "internal",
+        "target": "jianghuai",
+        "troops": null,
+        "general": null,
+        "detail": "江淮若定：约法三章于淮甸，通淝淮漕运，抚集流亡，择其豪右为守令。",
+        "wishes": "淮甸底定，漕路南通江汉。"
+      },
+      {
+        "kind": "diplo",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "遣使密盟李渊，约为犄角：唐出河东窥关中，汉出陈仓牵隋，共弱杨坚，事成各不相侵。",
+        "wishes": "唐隋相耗于北，汉得从容经营南方。"
+      }
+    ],
+    "9": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "诸军休整：考课殿最，升赏有功，修缮城郭关隘，增练新兵，广储粮秣。",
+        "wishes": "兵精粮足，士马复振。"
+      },
+      {
+        "kind": "spy",
+        "target": "sui",
+        "troops": null,
+        "general": null,
+        "detail": "张良阴图关中山川形势，谍杨坚兵食虚实、府兵屯戍，为来岁出陈仓张本。",
+        "wishes": "关中虚实尽在掌握，进退有据。"
+      }
+    ],
+    "10": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "韩信使至请封假王，上怒，张良蹑足附耳——乃顺水推舟，许韩信王楚地、益其兵，隐忍用其才。",
+        "wishes": "韩信感奋效死，建功愈力；祸留异日。"
+      },
+      {
+        "kind": "build",
+        "target": "bashu",
+        "troops": null,
+        "general": null,
+        "detail": "增修栈道驰道，置驿传，教习士卒、修缮兵甲，通阴平小道以窥陇右。",
+        "wishes": "来岁北出关陇，道路俱通。"
+      }
+    ],
+    "11": [
+      {
+        "kind": "internal",
+        "target": "bashu",
+        "troops": null,
+        "general": null,
+        "detail": "命吕后与萧何共镇巴蜀，抚民征兵、督运粮械；阴察诸将家口动静，以备不虞。",
+        "wishes": "后方固若磐石，转漕不绝。"
+      },
+      {
+        "kind": "diplo",
+        "target": "qin",
+        "troops": null,
+        "general": null,
+        "detail": "与嬴政约互市：以蜀锦布帛易秦马，市马于边，兼为羁縻，缓秦东顾之心。",
+        "wishes": "得马千匹，秦亦暂不南图。"
+      }
+    ],
+    "12": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "岁终大计：论功行赏、抚恤阵殁，置郡县、编户齐民；与张良定来岁方略，出陈仓或争中原，待时而动。",
+        "wishes": "三州之基立，来岁可争关陇。"
+      },
+      {
+        "kind": "move",
+        "target": "jingchu",
+        "troops": 10,
+        "general": "韩信",
+        "detail": "韩信军屯江陵，整训水陆诸军，扼江汉之口，内固荆楚淮甸，外观天下之变。",
+        "wishes": "大军成掎角，来春一举可北可东。"
+      }
+    ]
+  },
+  "diplomacy": [
+    {
+      "to": "sui",
+      "proposal": "称臣",
+      "terms": "汉王奉表称臣、岁贡方物，乞隋勿加兵于蜀，许通互市。"
+    },
+    {
+      "to": "ming",
+      "proposal": "互不侵犯",
+      "terms": "巴蜀荆楚归汉经略，江南岭南明自取之，两不相犯。"
+    },
+    {
+      "to": "tang",
+      "proposal": "会盟",
+      "terms": "唐出河东窥关中，汉出陈仓为牵制，共弱杨坚，事成关陇各照约分，互不相侵。"
+    },
+    {
+      "to": "qin",
+      "proposal": "贸易",
+      "terms": "以蜀锦布帛易秦马，互市于阴平道口，两不交兵。"
+    }
+  ],
+  "self_note": "称臣、许封皆权宜。吕后阴记韩信，白马之盟暗萌；唐盟利大则可背，史笔任之。上所深忌者，韩信也。"
+}

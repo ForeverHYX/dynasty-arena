@@ -1,0 +1,241 @@
+{
+  "faction": "yuan",
+  "phase": 4,
+  "strategy": "先南后东：伯颜出阴平袭巴蜀，据天府以解粮命门；真金行汉法抚秦陇蜀，广储备白灾；反间唐两府候其内变，乱则出陇坂取关中；市于唐、贸于明，纵明东向争衡，无暇窥蜀。",
+  "months": {
+    "37": [
+      {
+        "kind": "internal",
+        "target": "longxi",
+        "troops": null,
+        "general": "真金",
+        "detail": "陇右复业：籍户劝农、修渠复马场，粮产务复战前之数；徙漠北部万户实边，羌豪守土如故。",
+        "wishes": "陇右复苏成南下大屯，粮械自足。"
+      },
+      {
+        "kind": "diplo",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "续泾渭马市：岁马千匹易粟五万石，界上息兵；厚其使者，示我无东意。",
+        "wishes": "唐安心消化秦地，我得以专师南下。"
+      }
+    ],
+    "38": [
+      {
+        "kind": "build",
+        "target": "mobei",
+        "troops": null,
+        "general": "刘秉忠",
+        "detail": "广仓尽储，上都宫阙毕工；诸部预择漠南冬场，羊马入暖厩，驿传大雪先警。",
+        "wishes": "白灾来而不乱，仓廪可支一冬。"
+      },
+      {
+        "kind": "spy",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "反间长安晋阳：布「天策功高不赏、东宫欲夺兵柄」流言，重赂两府左右日日浸润。",
+        "wishes": "玄武门之雷早发，唐室内争自耗。"
+      }
+    ],
+    "39": [
+      {
+        "kind": "move",
+        "target": "longxi",
+        "troops": 9,
+        "general": "伯颜",
+        "detail": "大军阴集凉州，粮械先运阴平道口；张弘范汉军三万屯祁山外为疑兵。",
+        "wishes": "师集而不露形，剑阁汉中之守分兵北顾。"
+      },
+      {
+        "kind": "diplo",
+        "target": "han",
+        "troops": null,
+        "general": null,
+        "detail": "先礼后兵，移檄成都：去帝号、纳岁贡、称藩储粟，则铁骑不入蜀。",
+        "wishes": "刘邦若屈则兵不血刃；拒亦先寒其守心。"
+      }
+    ],
+    "40": [
+      {
+        "kind": "battle",
+        "target": "bashu",
+        "troops": 9,
+        "general": "伯颜",
+        "detail": "裹毡衔枚出阴平小道，逾摩天岭直插江油，夺涪水仓廪；勿攻坚城，因粮于敌。",
+        "wishes": "蜀口洞开，汉军被迫出险来争。"
+      },
+      {
+        "kind": "battle",
+        "target": "bashu",
+        "troops": 3,
+        "general": "张弘范",
+        "detail": "出祁山佯趋汉中，牵制剑阁守军；沿途传檄招抚，申毋掠令以收蜀心。",
+        "wishes": "守军分而不合，蜀北传檄而定。"
+      }
+    ],
+    "41": [
+      {
+        "kind": "battle",
+        "target": "bashu",
+        "troops": 9,
+        "general": "伯颜",
+        "detail": "诱汉军出成都平原会战：铁骑张两翼，炮阵居中；韩信旧部怨卒阵前可招倒戈。",
+        "wishes": "野战歼其主力，成都成孤城。"
+      },
+      {
+        "kind": "spy",
+        "target": "han",
+        "troops": null,
+        "general": null,
+        "detail": "反间成都：布「钟室未冷、诛功臣未已」流言，阴啖周勃樊哙以封侯世禄。",
+        "wishes": "蜀中君臣相疑，守城之志先溃。"
+      }
+    ],
+    "42": [
+      {
+        "kind": "move",
+        "target": "longxi",
+        "troops": 4.5,
+        "general": "史天泽",
+        "detail": "东线持重：坚壁陇坻萧关，凭险勿战；唐若乘我南下来犯，驿召伯颜偏师回援。",
+        "wishes": "两线之中北门不失。"
+      },
+      {
+        "kind": "battle",
+        "target": "bashu",
+        "troops": 9,
+        "general": "伯颜",
+        "detail": "回回炮列营合围成都，阙北门以纳降；礼萧何、全宗庙，刘邦遁则蹑追南中。",
+        "wishes": "巴蜀底定，天府仓廪尽入版图。"
+      }
+    ],
+    "43": [
+      {
+        "kind": "internal",
+        "target": "bashu",
+        "troops": null,
+        "general": "真金",
+        "detail": "抚蜀新政：薄赋复农桑、用蜀吏、禁诸部抄掠；秦陇蜀三道宣抚司统于真金。",
+        "wishes": "蜀民安堵，汉法成效天下共见。"
+      },
+      {
+        "kind": "move",
+        "target": "bashu",
+        "troops": null,
+        "general": null,
+        "detail": "蜀粮北运：金牛道转粟实凉州广仓，徙诸部万户分戍剑阁蜀口。",
+        "wishes": "粮命门自此稍宽，军食不仰漠北。"
+      }
+    ],
+    "44": [
+      {
+        "kind": "build",
+        "target": "mobei",
+        "troops": null,
+        "general": null,
+        "detail": "白灾大备：开仓赈部、破雪保畜、轻徭减税；大军留蜀就食，漠北减驻。",
+        "wishes": "灾而不乱，畜群得保其半。"
+      },
+      {
+        "kind": "battle",
+        "target": "guanzhong",
+        "troops": 4.5,
+        "general": "史天泽",
+        "detail": "唐两府若兵戎相见：出陇坂袭泾州萧关，掠其边而不深入，观其变而进。",
+        "wishes": "关中西户早启，秦遗民可为内应。"
+      }
+    ],
+    "45": [
+      {
+        "kind": "build",
+        "target": "bashu",
+        "troops": null,
+        "general": "张弘范",
+        "detail": "督造江船、练水军于巴渝：蜀江楼船渐成，为东下荆楚之备。",
+        "wishes": "水战之短渐补，窥荆楚有具。"
+      },
+      {
+        "kind": "internal",
+        "target": "mobei",
+        "troops": null,
+        "general": "忽必烈",
+        "detail": "帝还上都将养圣体，真金总揽秦陇蜀军国重事；储君历练，国本益固。",
+        "wishes": "圣躬安而国本固，不因讳而生乱。"
+      }
+    ],
+    "46": [
+      {
+        "kind": "internal",
+        "target": "mobei",
+        "troops": null,
+        "general": "真金",
+        "detail": "雪灾若至：开广仓、徙部就漠南，鬻蜀粟赈漠北；驿传四出，毋令一部失所。",
+        "wishes": "灾而民不散、怨不生，诸部愈附。"
+      },
+      {
+        "kind": "spy",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "结王贲旧部与关中秦遗民：思故国者约为内应，画长安城防两府兵屯之图。",
+        "wishes": "关中人心可用，唐之虚实尽握。"
+      }
+    ],
+    "47": [
+      {
+        "kind": "battle",
+        "target": "guanzhong",
+        "troops": 12,
+        "general": "伯颜",
+        "detail": "唐内乱正酣则大举：蜀师东还并陇上之军，伯颜出陇坂，回回炮拔陇州，会猎泾渭。",
+        "wishes": "关中四塞入手，成东西对峙之局。"
+      },
+      {
+        "kind": "move",
+        "target": "longxi",
+        "troops": null,
+        "general": null,
+        "detail": "转蜀粟实陇坂大营，驿传调度诸军；唐若未乱，则持重敛兵，巩固所得。",
+        "wishes": "进退有据，不受挫于坚城之下。"
+      }
+    ],
+    "48": [
+      {
+        "kind": "internal",
+        "target": "mobei",
+        "troops": null,
+        "general": "忽必烈",
+        "detail": "上都大典：立真金为皇太子告天地；蜀陇卤获分赐诸王将校，汉法旧制并进国是。",
+        "wishes": "储位定而诸王帖，路线之争化为并进。"
+      },
+      {
+        "kind": "diplo",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "界上续市，泾渭为界各守；若已得关中，则以河为界议和，先固所得。",
+        "wishes": "西局底定，来岁专图东进。"
+      }
+    ]
+  },
+  "diplomacy": [
+    {
+      "to": "tang",
+      "proposal": "贸易",
+      "terms": "续泾渭马市：岁马千匹易粟五万石，界上息兵，互不攻伐。"
+    },
+    {
+      "to": "han",
+      "proposal": "称臣",
+      "terms": "去帝号称藩、岁贡粟十万石、质子于上都，则铁骑不入蜀。"
+    },
+    {
+      "to": "ming",
+      "proposal": "贸易",
+      "terms": "岁以良马千匹易茶粮，商路如故；蜀江之事各安其所，互不相问。"
+    }
+  ],
+  "self_note": "南下为主、东进候变：唐不盟而市，正可稳之；白灾恐再至，军屯蜀中就食；朕体渐衰，真金须早定名分。"
+}

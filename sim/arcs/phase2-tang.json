@@ -1,0 +1,246 @@
+{
+  "faction": "tang",
+  "phase": 2,
+  "strategy": "东南结好以孤秦：续约东汉、通好宋元。纳流亡隋廷，收其卒臣，挟共主之名讨秦复关中；俟元骑入陇，李靖受方面西征，就食于敌以解兵广粮薄。世民用而不纵，兵不逾五万、功不专任；建成监国抚关中，两府异地而处。",
+  "months": {
+    "13": [
+      {
+        "kind": "diplo",
+        "target": "sui",
+        "troops": null,
+        "general": null,
+        "detail": "输粟济潼关，密请杨坚迁驾蒲坂：唐尊为共主、供乘舆军食，共图兴复关中；隋若不迁，许纳其溃卒。",
+        "wishes": "隋廷穷蹙来投，唐得法统与降卒，秦失吞并之口实。"
+      },
+      {
+        "kind": "build",
+        "target": "hedong",
+        "troops": null,
+        "general": "李靖",
+        "detail": "李靖移督河防：缮蒲坂守具、增义仓储粟备荒；秦若乘怒来攻，恃河拒之不浪战。",
+        "wishes": "河防完固，秦军不得飞渡，灾年亦有备。"
+      }
+    ],
+    "14": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "隋廷若东迁：厚礼安置百官；收其精卒三万为义从，余众罢归屯田；高颎、韩擒虎量才授职，绝不轻杀。",
+        "wishes": "降者归心，兵得三万而不加重粮乏，朝士辐辏。"
+      },
+      {
+        "kind": "spy",
+        "target": "qin",
+        "troops": null,
+        "general": null,
+        "detail": "细作入关中，觇王翦、王贲屯所与仓廪虚实，策动新附豪帅为内应，举烽报闻。",
+        "wishes": "秦军布防与民怨尽在掌握，内应先伏。"
+      }
+    ],
+    "15": [
+      {
+        "kind": "diplo",
+        "target": "donghan",
+        "troops": null,
+        "general": null,
+        "detail": "文静再使河北续约：以河为界互不侵犯又一年，益以盐铁市其马牛，稳住东线。",
+        "wishes": "前约到期而新约立，刘秀专心南向中原，东境无警。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "建成监国劝农课屯，浮户归农以纾粮乏；裴寂总转饷，文静使外——两人异处，以弭其争。",
+        "wishes": "仓粟渐增，文静裴寂不获同朝构陷。"
+      }
+    ],
+    "16": [
+      {
+        "kind": "diplo",
+        "target": "yuan",
+        "troops": null,
+        "general": null,
+        "detail": "密使漠北市马二千，且约元骑秋高入掠陇右，唐出河东；缯帛盐铁偿其军实。",
+        "wishes": "秋高马肥，元骑果入陇右，秦两线告急。"
+      },
+      {
+        "kind": "move",
+        "target": "hedong",
+        "troops": 4,
+        "general": "李世民",
+        "detail": "世民将玄甲四万移屯蒲坂为西征后劲，阴复蒲津浮桥；渊驻晋阳遥制诸军。",
+        "wishes": "浮桥暗成，大军云集而秦人不觉。"
+      }
+    ],
+    "17": [
+      {
+        "kind": "battle",
+        "target": "guanzhong",
+        "troops": 10,
+        "general": "李靖",
+        "detail": "奉隋旗号渡蒲津讨秦：传檄除秦苛法、归者免赋一年；先断渭水粮道，避王翦锋不浪战。",
+        "wishes": "关中郡县杀秦吏响应，秦军粮道渐绝。"
+      },
+      {
+        "kind": "move",
+        "target": "hedong",
+        "troops": 2,
+        "general": "平阳公主",
+        "detail": "平阳将娘子军出轘辕耀兵备宋，护南面；谍汴梁报宋军动静。",
+        "wishes": "宋人不敢西顾，南面无警。"
+      }
+    ],
+    "18": [
+      {
+        "kind": "battle",
+        "target": "guanzhong",
+        "troops": 12,
+        "general": "李靖",
+        "detail": "乘元骑入陇、秦军西顾：夜袭其屯粮营聚，世民玄甲为前锋突击，功归节制；若王翦亲当，敛兵据险相持。",
+        "wishes": "秦屯粮尽焚，关中野战军溃，长安孤立。"
+      },
+      {
+        "kind": "internal",
+        "target": "guanzhong",
+        "troops": null,
+        "general": null,
+        "detail": "军行所至开仓赈饥、废秦苛敛；收秦降卒编义从、降将授职；关中民苦秦久，多杀秦吏应唐。",
+        "wishes": "降者如归，兵源粮秣就地自继。"
+      }
+    ],
+    "19": [
+      {
+        "kind": "battle",
+        "target": "guanzhong",
+        "troops": 12,
+        "general": "李靖",
+        "detail": "合围长安，攻械云梯并举，绝其樵采外援；秦军若东归来援，世民玄甲邀击于野。",
+        "wishes": "长安城破，关中传檄而定，唐遂有两河之固。"
+      },
+      {
+        "kind": "build",
+        "target": "hedong",
+        "troops": null,
+        "general": null,
+        "detail": "转漕河东、河曲仓粟济军前，益募郡卒补耗；晋阳守备付建成。",
+        "wishes": "军前无乏，根本不摇。"
+      }
+    ],
+    "20": [
+      {
+        "kind": "internal",
+        "target": "guanzhong",
+        "troops": null,
+        "general": null,
+        "detail": "关中若定：奉隋帝居长安，尊礼不使预政；渊开霸府总百揆，均田免租一岁以安新附。",
+        "wishes": "挟共主以令诸侯，关中人心大定，粮道自纾。"
+      },
+      {
+        "kind": "move",
+        "target": "guanzhong",
+        "troops": 6,
+        "general": "李靖",
+        "detail": "李靖留镇关中，分屯陇关、蒲坂诸隘；世民引玄甲还河东东境，备东汉渝盟。",
+        "wishes": "秦不能反扑，东面亦备。"
+      }
+    ],
+    "21": [
+      {
+        "kind": "internal",
+        "target": "guanzhong",
+        "troops": null,
+        "general": null,
+        "detail": "建成西行抚关中，魏征行均田、编降户；东宫得抚定之功，天策将士别加金帛，两府并慰。",
+        "wishes": "功臣两府各得其分，怨望不形于色。"
+      },
+      {
+        "kind": "diplo",
+        "target": "song",
+        "troops": null,
+        "general": null,
+        "detail": "遣使贺汴梁，申互不侵犯、通盐铁之市；阴觇宋军东向之谋。",
+        "wishes": "宋唐弭兵互市，宋专意对东汉。"
+      }
+    ],
+    "22": [
+      {
+        "kind": "build",
+        "target": "guanzhong",
+        "troops": null,
+        "general": null,
+        "detail": "缮长安城守、陇关隘垒，收流民垦荒广屯，关中仓廪渐实。",
+        "wishes": "四塞益固，屯粮自给有余。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "汰义从老弱归农，籍降者为府兵；监牧移同、华，续市漠北马益玄甲。",
+        "wishes": "兵精而耗省，突骑益强。"
+      }
+    ],
+    "23": [
+      {
+        "kind": "spy",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "谍陇右觇秦元胜负，谍齐鲁备东汉渝盟，谍汴梁觇宋之动向；烽燧毋懈。",
+        "wishes": "三方虚实旬日报闻，先事为备。"
+      },
+      {
+        "kind": "internal",
+        "target": "guanzhong",
+        "troops": null,
+        "general": null,
+        "detail": "渊幸长安劳军，宴关中耆老降臣，定赋役、渐改秦隋旧制为唐律。",
+        "wishes": "关中奉唐如旧朝，赋役既定人心遂安。"
+      }
+    ],
+    "24": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "岁除朝会：申宫卫之禁、定两府仪制；建成居长安辅政，世民统军居外，各安其分。",
+        "wishes": "两府异地相安，家务之雷暂不引燃。"
+      },
+      {
+        "kind": "build",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "广储来岁粮秣、缮甲兵；观秦元相毙、中原之变，先为不可胜以待之。",
+        "wishes": "粮足械精，来岁进退自如。"
+      }
+    ]
+  },
+  "diplomacy": [
+    {
+      "to": "sui",
+      "proposal": "会盟",
+      "terms": "迎杨坚迁跸河东，唐供粮械、尊为共主，共讨秦以复关中。"
+    },
+    {
+      "to": "donghan",
+      "proposal": "互不侵犯",
+      "terms": "以河为界再相安一载，通关市，盐铁市马牛。"
+    },
+    {
+      "to": "song",
+      "proposal": "互不侵犯",
+      "terms": "各守疆埸不相攻，通盐铁之利。"
+    },
+    {
+      "to": "yuan",
+      "proposal": "贸易",
+      "terms": "盐铁缯帛岁市战马二千匹；密约元骑秋掠陇右，事成许分秦地。"
+    }
+  ],
+  "self_note": "文静裴寂异处谗塞；世民功不专、兵不过五万，怨必积——愈畏玄武门愈不敢纵。渊年五十五，立储讳深。"
+}

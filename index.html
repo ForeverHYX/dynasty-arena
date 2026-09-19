@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>天命争鼎 · 八帝同世</title>
+<style>
+:root{
+  --bg:#070a10; --panel:rgba(13,18,30,.92); --line:#2a3a55; --line-soft:#1c2940;
+  --gold:#d4af37; --gold-soft:#8a6d1f; --red:#e0503c; --cyan:#4fc3f7;
+  --text:#cdd6e4; --text-dim:#8fa0ba; --text-faint:#5d6a80;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{height:100%}
+body{background:var(--bg);color:var(--text);font-family:"PingFang SC","Microsoft YaHei",system-ui,sans-serif;overflow:hidden;font-size:14px}
+#app{display:flex;flex-direction:column;height:100vh}
+.num{font-variant-numeric:tabular-nums}
+.kai{font-family:"Kaiti SC","STKaiti",serif}
+
+/* ── 顶栏 ── */
+#topbar{display:flex;align-items:center;gap:16px;padding:10px 18px;background:var(--panel);border-bottom:1px solid var(--line);backdrop-filter:blur(8px);z-index:30}
+#brand{display:flex;align-items:baseline;gap:10px;white-space:nowrap}
+#brand b{color:var(--gold);font-size:20px;letter-spacing:4px}
+#brand span{color:var(--text-faint);font-size:11px;letter-spacing:1px}
+#ym{font-size:20px;color:#fff;min-width:150px;text-align:center;letter-spacing:2px}
+.ctrl{display:flex;align-items:center;gap:8px}
+button{background:#141c2e;color:var(--text);border:1px solid var(--line);border-radius:6px;padding:6px 12px;cursor:pointer;font-size:13px;transition:.15s}
+button:hover{border-color:var(--gold);color:#fff}
+button.on{background:#2a2410;border-color:var(--gold);color:var(--gold)}
+#slider{flex:1;display:flex;align-items:center;gap:10px;min-width:200px}
+#monthRange{flex:1;-webkit-appearance:none;height:6px;background:linear-gradient(90deg,var(--gold) var(--p,0%),#1c2436 var(--p,0%));border-radius:3px;outline:none}
+#monthRange::-webkit-slider-thumb{-webkit-appearance:none;width:16px;height:16px;border-radius:50%;background:var(--gold);border:2px solid #0b0e14;cursor:pointer;box-shadow:0 0 6px rgba(212,175,55,.7)}
+#endBadge{font-size:12px;color:var(--gold);border:1px solid var(--gold-soft);border-radius:6px;padding:4px 10px;white-space:nowrap}
+/* ── 主区 ── */
+#main{flex:1;position:relative;overflow:hidden}
+#map{position:absolute;inset:0;width:100%;height:100%;cursor:grab;background:radial-gradient(1200px 700px at 55% 42%,#0c1322 0%,#070a10 70%)}
+#map.drag{cursor:grabbing}
+.region polygon{stroke:#05070b;stroke-width:.8;cursor:pointer;transition:filter .2s}
+.region text.rname{fill:rgba(255,255,255,.55);font-size:12px;pointer-events:none;text-anchor:middle;paint-order:stroke;stroke:rgba(0,0,0,.65);stroke-width:2.4px;letter-spacing:3px}
+.wildpoly{fill:#141a26;stroke:#1e2836;stroke-width:.6;pointer-events:none}
+.wildname{fill:#3d4a5e;font-size:10px;letter-spacing:4px;text-anchor:middle;pointer-events:none}
+.region.dim polygon{filter:brightness(.35) saturate(.4)}
+.region.hot polygon{filter:brightness(1.25)}
+.region.flip polygon{animation:flipP 1.2s ease}
+@keyframes flipP{0%{stroke:var(--gold);stroke-width:4;filter:brightness(2)}100%{stroke:#05070b;stroke-width:2.5}}
+.city{cursor:pointer}
+.city circle{fill:#e8e4d4;stroke:#05070b;stroke-width:1.5}
+.city.cap rect{fill:var(--gold);stroke:#05070b;stroke-width:1.5}
+.city text{fill:#f2f5fa;font-size:10px;text-anchor:middle;paint-order:stroke;stroke:rgba(0,0,0,.75);stroke-width:2px;pointer-events:none}
+.city.dim{opacity:.3}
+.city:hover circle,.city:hover rect{filter:brightness(1.5)}
+.evmark{pointer-events:auto;cursor:pointer}
+.evmark text{font-size:13px;text-anchor:middle;paint-order:stroke;stroke:rgba(0,0,0,.8);stroke-width:2.5px}
+.evmark circle{opacity:.35;animation:evPulse 1.6s infinite}
+@keyframes evPulse{0%{r:9;opacity:.5}100%{r:22;opacity:0}}
+.crest-label{pointer-events:none}
+.crest-label rect{opacity:.92;stroke:#05070b;stroke-width:1.5}
+.crest-label text{fill:#fff;font-size:15px;font-weight:700;text-anchor:middle;dominant-baseline:central;letter-spacing:2px}
+#tooltip{position:absolute;display:none;background:rgba(8,11,18,.96);border:1px solid var(--line);border-radius:8px;padding:10px 14px;font-size:12px;color:var(--text-dim);pointer-events:none;z-index:50;max-width:260px;line-height:1.7;box-shadow:0 4px 18px rgba(0,0,0,.6)}
+#tooltip b{color:#fff;font-size:13px}
+#tooltip .gold{color:var(--gold)}
+
+/* ── 浮层 ── */
+.hud{position:absolute;background:var(--panel);border:1px solid var(--line);border-radius:10px;backdrop-filter:blur(8px);z-index:20;box-shadow:0 4px 20px rgba(0,0,0,.45)}
+#factionPanel{left:14px;top:14px;width:236px;max-height:54%;overflow-y:auto;padding:10px}
+#factionPanel h3,#feedPanel h3{font-size:12px;color:var(--gold);letter-spacing:3px;margin:2px 4px 8px;font-weight:600}
+.fcard{display:flex;align-items:center;gap:8px;padding:7px 8px;border:1px solid var(--line-soft);border-radius:8px;margin-bottom:7px;cursor:pointer;transition:.15s;background:rgba(20,28,46,.4)}
+.fcard:hover{border-color:var(--gold)}
+.fcard.dead{opacity:.45;filter:grayscale(.7)}
+.fcard.sel{border-color:var(--gold);background:rgba(42,36,16,.5)}
+.crest{display:inline-flex;width:30px;height:30px;border-radius:6px;align-items:center;justify-content:center;font-size:15px;font-weight:700;color:#fff;flex:none;text-shadow:0 1px 2px rgba(0,0,0,.6)}
+.finfo{flex:1;min-width:0}
+.finfo .l1{color:#e8eef7;font-size:13px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.finfo .l2{display:flex;gap:8px;color:var(--text-faint);font-size:11px;margin-top:2px}
+.finfo .l2 b{color:var(--text-dim)}
+.microbars{display:flex;flex-direction:column;gap:3px;width:52px;flex:none}
+.mb{height:4px;background:#1c2436;border-radius:2px;overflow:hidden}
+.mb i{display:block;height:100%;border-radius:2px}
+.deadmark{font-size:10px;color:var(--red);border:1px solid var(--red);padding:1px 4px;border-radius:3px;flex:none}
+#feedPanel{left:14px;bottom:14px;width:340px;max-height:40%;overflow:hidden;display:flex;flex-direction:column;padding:10px}
+#feed{overflow-y:auto;flex:1;padding-right:4px}
+.ev{border-left:3px solid var(--line);background:rgba(13,18,32,.8);border-radius:0 6px 6px 0;padding:6px 10px;margin-bottom:6px;animation:evIn .3s ease;cursor:pointer}
+@keyframes evIn{from{opacity:0;transform:translateY(-8px)}to{opacity:1}}
+.ev:hover{filter:brightness(1.25)}
+.ev .t{font-size:12px;color:#e8eef7;font-weight:600}
+.ev .t .m{color:var(--gold);font-size:11px;margin-right:6px}
+.ev .d{font-size:11px;color:var(--text-dim);margin-top:2px;line-height:1.5;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.who{white-space:nowrap}
+.who i{font-style:normal;font-size:9px;line-height:1;border:1px solid;border-radius:3px;padding:0 3px;margin-left:2px;vertical-align:1px;opacity:.95;background:rgba(0,0,0,.35)}
+.tag{font-size:9px;color:#0b0e14;background:var(--gold);border-radius:3px;padding:1px 4px;margin-left:6px;vertical-align:1px}
+.ev.war{border-left-color:var(--red)} .ev.politics{border-left-color:var(--gold)}
+.ev.internal{border-left-color:#46b98c}.ev.diplomacy{border-left-color:var(--cyan)}
+.ev.economy{border-left-color:#d9a441}.ev.crisis{border-left-color:#e8893c}
+.ev.character{border-left-color:#9d8ec9}
+#detail{right:14px;top:14px;width:360px;max-height:calc(100% - 28px);overflow-y:auto;padding:16px;display:none}
+#detail h2{font-size:17px;color:#fff;margin-bottom:2px;display:flex;align-items:center;gap:8px}
+#detail .sub2{font-size:12px;color:var(--text-faint);margin-bottom:10px}
+#detail .close{position:absolute;right:10px;top:10px;border:none;background:none;color:var(--text-faint);font-size:16px}
+#detail .close:hover{color:#fff}
+#detail .sec{margin-top:12px;padding-top:10px;border-top:1px solid var(--line-soft)}
+#detail .sec h4{font-size:12px;color:var(--gold);letter-spacing:2px;margin-bottom:6px}
+#detail .kv{display:flex;justify-content:space-between;font-size:12px;color:var(--text-dim);line-height:2}
+#detail .kv b{color:#e8eef7}
+#detail p{font-size:12px;color:var(--text-dim);line-height:1.8}
+.mini{display:flex;align-items:center;gap:8px;font-size:11px;color:var(--text-dim);margin-bottom:5px}
+.mini .mb{flex:1}
+.statline{display:flex;align-items:center;gap:8px;font-size:11px;color:var(--text-dim);margin:4px 0}
+.statline .mb{flex:1;height:5px}
+.statline b{width:46px;text-align:right;color:#e8eef7}
+.mrow{font-size:12px;color:var(--text-dim);line-height:1.9;border-left:2px solid var(--line-soft);padding-left:10px;margin:6px 0}
+.mrow b{color:#e8eef7}
+/* 底栏 */
+#bottombar{display:flex;align-items:center;gap:14px;padding:8px 16px;background:var(--panel);border-top:1px solid var(--line);backdrop-filter:blur(8px);z-index:30;overflow-x:auto}
+.fstrip{display:flex;align-items:center;gap:6px;border:1px solid var(--line-soft);border-radius:7px;padding:3px 8px;cursor:pointer;white-space:nowrap;transition:.15s;flex:none}
+#bottombar{gap:8px;padding:8px 12px}
+.fstrip:hover{border-color:var(--gold)}
+.fstrip .nm{font-size:12px;color:#e8eef7}
+.fstrip .st{font-size:11px;color:var(--text-faint)}
+.fstrip b{color:var(--gold)}
+.fstrip.dead{opacity:.4}
+#legend{display:flex;gap:10px;font-size:11px;color:var(--text-faint);margin-left:auto;align-items:center;white-space:nowrap}
+.lgi{display:inline-flex;align-items:center;gap:4px}
+.lgi i{width:9px;height:9px;border-radius:2px;display:inline-block}
+#modalBtns{display:flex;gap:8px;margin-left:8px}
+/* 弹窗 */
+.modal{position:fixed;inset:0;background:rgba(4,6,10,.8);z-index:100;display:none;align-items:center;justify-content:center;backdrop-filter:blur(4px)}
+.modal.show{display:flex}
+.mbox{background:#0d1322;border:1px solid var(--line);border-radius:12px;width:min(960px,92vw);max-height:88vh;overflow-y:auto;padding:26px 30px;position:relative}
+.mbox h2{color:var(--gold);letter-spacing:4px;font-size:20px;margin-bottom:14px}
+.mbox .close{position:absolute;right:14px;top:12px;border:none;background:none;color:var(--text-faint);font-size:18px}
+#chartModes{display:flex;gap:8px;margin-bottom:14px;flex-wrap:wrap}
+#chartSvg{width:100%;height:auto;background:#0a0f1b;border:1px solid var(--line-soft);border-radius:8px}
+.rankrow{display:flex;align-items:center;gap:12px;margin-bottom:10px}
+.rankrow .rk{width:26px;height:26px;border-radius:50%;background:#1c2436;color:var(--gold);display:flex;align-items:center;justify-content:center;font-weight:700;flex:none}
+.rankrow .bar{flex:1;height:8px;background:#1c2436;border-radius:4px;overflow:hidden}
+.rankrow .bar i{display:block;height:100%}
+.tp{border-left:3px solid var(--gold);padding:6px 12px;margin-bottom:10px;background:rgba(20,28,46,.5);border-radius:0 8px 8px 0}
+.tp .t{color:#e8eef7;font-weight:600;font-size:13px}
+.tp .w{font-size:12px;color:var(--text-dim);margin-top:3px;line-height:1.7}
+#spoiler{position:absolute;inset:0;display:flex;flex-direction:column;gap:14px;align-items:center;justify-content:center;background:rgba(10,14,22,.85);backdrop-filter:blur(10px);border-radius:12px;z-index:5}
+#spoiler button{font-size:15px;letter-spacing:2px;padding:10px 26px}
+.fate{font-size:12px;color:var(--text-dim);line-height:1.9}
+.fate b{color:#e8eef7}
+::-webkit-scrollbar{width:8px;height:8px}
+::-webkit-scrollbar-thumb{background:#24324c;border-radius:4px}
+::-webkit-scrollbar-track{background:transparent}
+@media (max-width:1560px){#legend{display:none}}
+@media (max-width:1100px){#feedPanel{display:none}#factionPanel{width:200px}}
+</style>
+</head>
+<body>
+<div id="app">
+  <div id="topbar">
+    <div id="brand"><b class="kai">天命争鼎</b><span>八帝同世 · 多智能体推演</span></div>
+    <div id="ym" class="kai">—</div>
+    <div class="ctrl">
+      <button id="btnPlay" title="空格键">▶ 播放</button>
+      <button id="spd05">0.5x</button><button id="spd1" class="on">1x</button><button id="spd2">2x</button>
+    </div>
+    <div id="slider"><span class="num" id="mlabel" style="color:var(--text-faint);font-size:11px">1/N</span><input type="range" id="monthRange" min="1" max="12" value="1"></div>
+    <div id="endBadge" style="display:none"></div>
+  </div>
+
+  <div id="main">
+    <svg id="map" viewBox="0 0 1000 780"></svg>
+    <div id="tooltip"></div>
+
+    <div class="hud" id="factionPanel"><h3>天下诸侯</h3><div id="flist"></div></div>
+    <div class="hud" id="feedPanel"><h3>天下大势 · 快讯</h3><div id="feed"></div></div>
+    <div class="hud" id="detail"><button class="close" id="dClose">✕</button><div id="dBody"></div></div>
+  </div>
+
+  <div id="bottombar">
+    <div id="strips" style="display:flex;gap:8px"></div>
+    <div id="legend"></div>
+    <div id="modalBtns">
+      <button id="btnChart">📈 数据图表</button>
+      <button id="btnEnd">🏁 天下终局</button>
+    </div>
+  </div>
+</div>
+
+<div class="modal" id="chartModal"><div class="mbox">
+  <button class="close" id="cClose">✕</button><h2>势力曲线 · 三十六月风云</h2>
+  <div id="chartModes"></div><svg id="chartSvg" viewBox="0 0 900 420"></svg>
+  <div style="margin-top:10px;font-size:11px;color:var(--text-faint)" id="chartHint"></div>
+</div></div>
+
+<div class="modal" id="endModal"><div class="mbox">
+  <button class="close" id="eClose">✕</button><h2>天下终局 · 史官曰</h2>
+  <div id="endBody" style="position:relative"></div>
+  <div id="spoiler"><div style="font-size:15px;color:var(--gold);letter-spacing:3px">剧透警告</div><button id="unveil">我知道了，揭晓结局</button></div>
+</div></div>
+
+<script>
+let SIM=null, M=1, N=12, timer=null, speed=1400, selFaction=null, selRegion=null;
+
+const $=id=>document.getElementById(id);
+const esc=s=>(s==null?"":String(s)).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const FIDS=["qin","han","donghan","sui","tang","song","yuan","ming"];
+const TYPE_ICON={war:"⚔",politics:"🏛",internal:"🌾",diplomacy:"🤝",economy:"💰",crisis:"⚡",character:"💀"};
+const TYPE_COLOR={war:"#e0503c",politics:"#d4af37",internal:"#46b98c",diplomacy:"#4fc3f7",economy:"#d9a441",crisis:"#e8893c",character:"#9d8ec9"};
+const TYPE_NAME={war:"战争",politics:"政令",internal:"内政",diplomacy:"外交",economy:"经济",crisis:"危机",character:"人物"};
+
+async function boot(){
+  try{ SIM=await (await fetch("sim/web/sim-data.json?t="+Date.now(),{cache:"no-store"})).json(); }
+  catch(e){ document.body.innerHTML='<div style="padding:40px;color:#cdd6e4">数据加载失败：'+esc(e.message)+'</div>'; return; }
+  N=SIM.meta.months_total; document.title=SIM.meta.title;
+  const h=location.hash.match(/m(\d+)/); M=Math.min(N, h?+h[1]:1);
+  $("monthRange").max=N;
+  buildMap(); buildLegend(); render();
+  if(SIM.meta.end_reason && SIM.meta.end_reason!=="ongoing"){ $("endBadge").textContent="终局 · "+SIM.meta.end_reason_cn; $("endBadge").style.display="block"; }
+}
+/* ───────── 地图（真实省界）───────── */
+let gRegions={}, gCities=[], gCrests={}, gEvmarks=null, curView=[0,0,1000,780];
+function buildMap(){
+  const svg=$("map");
+  let s='<defs><filter id="glow"><feGaussianBlur stdDeviation="2.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>';
+  s+='<rect x="-40" y="-40" width="1080" height="860" fill="#080d16"/>';
+  // 海洋波纹
+  s+='<g opacity=".45">';
+  for(let i=0;i<6;i++){ const y=250+i*90; s+=`<path d="M 850 ${y} q 10 -8 20 0 t 20 0 t 20 0 t 20 0 t 20 0 t 20 0" stroke="#4fc3f7" stroke-width="1.3" fill="none" opacity="${.55-i*.08}"/>`; }
+  s+='</g>';
+  // 江河（真实走向）
+  const riv=SIM.rivers||{};
+  if(riv.huang) s+='<polyline points="'+riv.huang.map(p=>p.join(",")).join(" ")+'" fill="none" stroke="rgba(200,175,90,.5)" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>';
+  if(riv.chang) s+='<polyline points="'+riv.chang.map(p=>p.join(",")).join(" ")+'" fill="none" stroke="rgba(110,165,225,.5)" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round"/>';
+  svg.innerHTML=s;
+  const layer=document.createElementNS("http://www.w3.org/2000/svg","g"); svg.appendChild(layer);
+  // 化外之地（西域/青藏/辽东等）
+  const wild=document.createElementNS("http://www.w3.org/2000/svg","g");
+  for(const pr of (SIM.provinces||[])){
+    if(!pr.wild) continue;
+    for(const pts of pr.polys){
+      const p=document.createElementNS("http://www.w3.org/2000/svg","polygon");
+      p.setAttribute("points",pts.map(q=>q.join(",")).join(" "));
+      p.setAttribute("class","wildpoly");
+      wild.appendChild(p);
+    }
+    const c=polyCentroidOf(pr.polys);
+    if(c){ const t=document.createElementNS("http://www.w3.org/2000/svg","text");
+      t.setAttribute("x",c[0]);t.setAttribute("y",c[1]);t.setAttribute("class","wildname");t.textContent=pr.wild;
+      wild.appendChild(t); }
+  }
+  layer.appendChild(wild);
+  // 十二州（省份归组）
+  for(const rid in SIM.regions){
+    const r=SIM.regions[rid];
+    const g=document.createElementNS("http://www.w3.org/2000/svg","g");
+    g.setAttribute("class","region"); g.dataset.rid=rid;
+    for(const pr of (SIM.provinces||[])){
+      if(pr.region!==rid) continue;
+      for(const pts of pr.polys){
+        const p=document.createElementNS("http://www.w3.org/2000/svg","polygon");
+        p.setAttribute("points",pts.map(q=>q.join(",")).join(" "));
+        p.addEventListener("click",ev=>{ev.stopPropagation();showRegion(rid);});
+        p.addEventListener("mousemove",ev=>tip(ev,`<b>${esc(r.name)}</b><br><span class="gold">${esc(ownerName(rid))}</span><br>人口 ${r.pop}万 · 月粮 ${r.grain}万石<br>${esc(r.terrain)}`));
+        p.addEventListener("mouseleave",()=>hideTip());
+        g.appendChild(p);
+      }
+    }
+    const t=document.createElementNS("http://www.w3.org/2000/svg","text");
+    t.setAttribute("class","rname kai"); t.setAttribute("x",r.label[0]); t.setAttribute("y",r.label[1]); t.textContent=r.name;
+    g.appendChild(t);
+    layer.appendChild(g);
+    gRegions[rid]={g};
+  }
+  // 城市
+  for(const rid in SIM.regions){
+    const r=SIM.regions[rid];
+    for(const c of r.cities){
+      const cg=document.createElementNS("http://www.w3.org/2000/svg","g");
+      cg.setAttribute("class","city"+(c.n===r.capital?" cap":"")); cg.dataset.city=c.n; cg.dataset.rid=rid;
+      if(c.n===r.capital){ const rc=document.createElementNS("http://www.w3.org/2000/svg","rect"); rc.setAttribute("x",c.x-4);rc.setAttribute("y",c.y-4);rc.setAttribute("width",8);rc.setAttribute("height",8);cg.appendChild(rc); }
+      else{ const cc=document.createElementNS("http://www.w3.org/2000/svg","circle"); cc.setAttribute("cx",c.x);cc.setAttribute("cy",c.y);cc.setAttribute("r",3.4);cg.appendChild(cc); }
+      const ct=document.createElementNS("http://www.w3.org/2000/svg","text");
+      ct.setAttribute("x",c.x);ct.setAttribute("y",c.y-8);ct.textContent=c.n;cg.appendChild(ct);
+      layer.appendChild(cg); gCities.push(cg);
+      cg.addEventListener("click",ev=>{ev.stopPropagation();showCity(rid,c.n);});
+      cg.addEventListener("mousemove",ev=>tip(ev,`<b>${esc(c.n)}</b> ${c.n===r.capital?'<span class="gold">州治</span>':""}<br>${esc(r.name)} · <span class="gold">${esc(ownerName(rid))}</span><br>人口 ${c.pop}万<br>${esc(c.note)}`));
+      cg.addEventListener("mouseleave",()=>hideTip());
+    }
+  }
+  gEvmarks=document.createElementNS("http://www.w3.org/2000/svg","g"); svg.appendChild(gEvmarks);
+  // 平移缩放
+  let drag=null;
+  svg.addEventListener("mousedown",ev=>{drag={x:ev.clientX,y:ev.clientY,v:[...curView]};svg.classList.add("drag");});
+  window.addEventListener("mouseup",()=>{drag=null;svg.classList.remove("drag");});
+  svg.addEventListener("mousemove",ev=>{
+    if(!drag)return; const r=svg.getBoundingClientRect(), k=curView[2]/r.width;
+    const dx=(ev.clientX-drag.x)*k, dy=(ev.clientY-drag.y)*k;
+    curView=[drag.v[0]-dx,drag.v[1]-dy,drag.v[2],drag.v[3]]; svg.setAttribute("viewBox",curView.join(" "));
+  });
+  svg.addEventListener("wheel",ev=>{
+    ev.preventDefault(); const r=svg.getBoundingClientRect();
+    const mx=curView[0]+(ev.clientX-r.left)/r.width*curView[2], my=curView[1]+(ev.clientY-r.top)/r.height*curView[3];
+    const f=ev.deltaY>0?1.18:0.85; let w=curView[2]*f,h=curView[3]*f;
+    w=Math.max(340,Math.min(1300,w)); h=w*0.78;
+    curView=[mx-(mx-curView[0])*(w/curView[2]), my-(my-curView[1])*(h/curView[3]), w, h];
+    svg.setAttribute("viewBox",curView.map(x=>x.toFixed(1)).join(" "));
+  },{passive:false});
+  svg.addEventListener("click",ev=>{ if(ev.target===svg){ hideDetail(); } });
+}
+function polyCentroidOf(polys){
+  let best=null,bn=0;
+  for(const pts of polys){ if(pts.length>bn){bn=pts.length;best=pts;} }
+  if(!best)return null;
+  let x=0,y=0; best.forEach(p=>{x+=p[0];y+=p[1];});
+  return [x/best.length, y/best.length];
+}
+function ownerAt(rid,m){ return (SIM.ownership[String(m)]||{})[rid]||"neutral"; }
+function ownerName(rid){ const o=ownerAt(rid,M); return o==="neutral"?"中立守土":(SIM.factions[o]?SIM.factions[o].name+" · "+SIM.factions[o].leader:o); }
+function centroid(poly){ let x=0,y=0; poly.forEach(p=>{x+=p[0];y+=p[1];}); return [x/poly.length,y/poly.length]; }
+
+/* ───────── 渲染当月 ───────── */
+function render(){
+  $("ym").textContent=SIM.meta.months_label[M-1]||M+"月";
+  $("mlabel").textContent=M+" / "+N;
+  const sl=$("monthRange"); sl.value=M; sl.style.setProperty("--p",((M-1)/(N-1)*100)+"%");
+  history.replaceState(null,"","#m"+M);
+  // 州色 + 易手闪烁
+  for(const rid in gRegions){
+    const o=ownerAt(rid,M), prev=ownerAt(rid,M-1);
+    const col=o==="neutral"?"#5d5a4e":SIM.factions[o].color;
+    gRegions[rid].g.querySelectorAll("polygon").forEach(p=>{
+      p.setAttribute("fill",col);
+      p.setAttribute("fill-opacity",o==="neutral"?0.5:0.75);
+    });
+    if(prev!==undefined && o!==prev){ gRegions[rid].g.classList.remove("flip"); void gRegions[rid].g.getBoundingClientRect(); gRegions[rid].g.classList.add("flip"); }
+  }
+  // 势力纹章标签（画在势力最大州附近）
+  drawCrests();
+  // 事件标记
+  drawEventMarks();
+  // 高亮选择
+  for(const rid in gRegions){
+    const show= !selFaction || ownerAt(rid,M)===selFaction;
+    gRegions[rid].g.classList.toggle("dim",!show);
+    gRegions[rid].g.classList.toggle("hot",!!selRegion&&rid===selRegion);
+  }
+  gCities.forEach(c=>c.classList.toggle("dim",!!selFaction&&ownerAt(c.dataset.rid,M)!==selFaction));
+  renderFactionList(); renderFeed(); renderStrips();
+}
+function drawCrests(){
+  const svg=$("map");
+  for(const k in gCrests){ gCrests[k].remove(); delete gCrests[k]; }
+  const byF={};
+  for(const rid in SIM.regions){ const o=ownerAt(rid,M); if(o!=="neutral"){ (byF[o]=byF[o]||[]).push(rid); } }
+  for(const fid in byF){
+    const rids=byF[fid]; if(!rids.length) continue;
+    // 面积加权：取该势力诸州中面积最大的州治城市附近放纹章
+    let best=null,bn=0;
+    rids.forEach(rid=>{
+      const polys=(SIM.provinces||[]).filter(pr=>pr.region===rid).flatMap(pr=>pr.polys);
+      const pts=[].concat(...polys);
+      if(pts.length>bn){ bn=pts.length; best=SIM.regions[rid].label; }
+    });
+    if(!best) continue;
+    const [cx,cy]=best;
+    const f=SIM.factions[fid];
+    const g=document.createElementNS("http://www.w3.org/2000/svg","g"); g.setAttribute("class","crest-label");
+    const w=Math.max(46,f.name.length*18+14);
+    const rc=document.createElementNS("http://www.w3.org/2000/svg","rect");
+    rc.setAttribute("x",cx-w/2);rc.setAttribute("y",cy-14);rc.setAttribute("width",w);rc.setAttribute("height",26);rc.setAttribute("rx",4);
+    rc.setAttribute("fill",f.color); rc.setAttribute("opacity",".85");
+    const tx=document.createElementNS("http://www.w3.org/2000/svg","text");
+    tx.setAttribute("x",cx);tx.setAttribute("y",cy); tx.textContent=f.crest+" · "+f.name;
+    tx.setAttribute("class","kai");
+    g.appendChild(rc);g.appendChild(tx); svg.insertBefore(g,gEvmarks); gCrests[fid]=g;
+  }
+}
+function drawEventMarks(){
+  gEvmarks.innerHTML="";
+  const evs=SIM.timeline[String(M)]||[];
+  const seen={};
+  for(const e of evs){
+    if(!e.region||!SIM.regions[e.region])continue;
+    const r=SIM.regions[e.region];
+    let pos=null;
+    if(e.city){ const c=r.cities.find(c=>c.n===e.city); if(c)pos=[c.x,c.y]; }
+    if(!pos){ const c=r.cities[0]; pos=[c.x,c.y]; }
+    const key=e.region+pos.join(",");
+    if(seen[key]){ continue; } seen[key]=1;
+    const g=document.createElementNS("http://www.w3.org/2000/svg","g"); g.setAttribute("class","evmark");
+    const col=TYPE_COLOR[e.type]||"#d4af37";
+    const ci=document.createElementNS("http://www.w3.org/2000/svg","circle");
+    ci.setAttribute("cx",pos[0]);ci.setAttribute("cy",pos[1]);ci.setAttribute("r",9);ci.setAttribute("fill",col);
+    const it=document.createElementNS("http://www.w3.org/2000/svg","text");
+    it.setAttribute("x",pos[0]);it.setAttribute("y",pos[1]+4.5);it.textContent=TYPE_ICON[e.type]||"•";
+    g.appendChild(ci);g.appendChild(it);gEvmarks.appendChild(g);
+    g.addEventListener("click",ev=>{ev.stopPropagation();showEvent(e);});
+    g.addEventListener("mousemove",ev=>tip(ev,`<b>${esc(e.title)}</b><br><span class="gold">${esc(e.actors||"")}</span>`));
+    g.addEventListener("mouseleave",()=>hideTip());
+  }
+}
+/* ───────── 面板 ───────── */
+function renderFactionList(){
+  $("flist").innerHTML=FIDS.filter(f=>SIM.factions[f]).map(f=>{
+    const F=SIM.factions[f], p=SIM.power[f];
+    const dead=(p.regions[M-1]===0);
+    const dRegions=(p.regions[M-1]||0)-(p.regions[M-2]??p.regions[M-1]);
+    return `<div class="fcard${dead?" dead":""}${selFaction===f?" sel":""}" data-f="${f}">
+      <span class="crest" style="background:${F.color}">${F.crest}</span>
+      <div class="finfo"><div class="l1">${esc(F.leader)} <span style="color:${F.color}">${F.name}</span>${dead?'<span class="deadmark">亡</span>':""}</div>
+      <div class="l2"><span><b class="num">${p.regions[M-1]}</b>州</span><span>兵<b class="num">${fmt(p.troops[M-1])}</b>万</span><span class="num" style="color:${dRegions>0?"#46b98c":dRegions<0?"#e0503c":"#5d6a80"}">${dRegions>0?"▲"+dRegions:dRegions<0?"▼"+(-dRegions):""}</span></div></div>
+      <div class="microbars">
+        <div class="mb"><i style="width:${Math.min(100,p.troops[M-1]/30*100)}%;background:${F.color}"></i></div>
+        <div class="mb"><i style="width:${p.food[M-1]/40*100}%;background:#d9a441"></i></div>
+        <div class="mb"><i style="width:${p.morale[M-1]}%;background:#46b98c"></i></div>
+        <div class="mb"><i style="width:${p.stability[M-1]}%;background:#5b8def"></i></div>
+      </div></div>`;
+  }).join("");
+  document.querySelectorAll(".fcard").forEach(el=>el.addEventListener("click",()=>showFaction(el.dataset.f)));
+}
+function renderStrips(){
+  $("strips").innerHTML=FIDS.filter(f=>SIM.factions[f]).map(f=>{
+    const F=SIM.factions[f], p=SIM.power[f];
+    const dead=(p.regions[M-1]===0);
+    return `<div class="fstrip${dead?" dead":""}" data-f="${f}"><span class="crest" style="background:${F.color};width:22px;height:22px;font-size:11px">${F.crest}</span>
+      <span class="nm">${F.name}</span><span class="st">州<b class="num">${p.regions[M-1]}</b> · 兵<b class="num">${fmt(p.troops[M-1])}</b>万</span></div>`;
+  }).join("");
+  document.querySelectorAll(".fstrip").forEach(el=>{
+    el.addEventListener("click",()=>showFaction(el.dataset.f));
+    el.addEventListener("mouseenter",()=>{selFaction=el.dataset.f;render();});
+    el.addEventListener("mouseleave",()=>{selFaction=null;render();});
+  });
+}
+function renderFeed(){
+  const evs=SIM.timeline[String(M)]||[];
+  $("feed").innerHTML=evs.length?evs.map(e=>`<div class="ev ${e.type}" data-ev='${esc(JSON.stringify(e))}'>
+    <div class="t"><span class="m num">${e.month}月</span>${esc(e.title)}${e.inter?'<span class="tag">交锋</span>':""}</div>
+    <div class="d">${anno(e.desc)}</div></div>`).join("")+'<div style="text-align:center;color:var(--text-faint);font-size:11px;padding:4px">— 以上 '+SIM.meta.months_label[M-1]+' —</div>'
+  :'<div style="color:var(--text-faint);padding:14px;text-align:center">本月天下无事</div>';
+  document.querySelectorAll("#feed .ev").forEach(el=>el.addEventListener("click",()=>{ const e=JSON.parse(el.dataset.ev); jumpTo(e.month); showEvent(e); }));
+  $("feed").scrollTop=0;
+}
+const fmt=v=>(Math.round(v*10)/10).toFixed(1).replace(/\.0$/,"");
+/* 人名势力角标：把事件文本里的人名替换为带彩色角标的 span */
+const FSHORT={qin:"秦",han:"汉西",donghan:"东汉",sui:"隋",tang:"唐",song:"宋",yuan:"元",ming:"明"};
+let __annoRe=null;
+function anno(text){
+  if(!SIM.characters) return esc(text);
+  if(!__annoRe){
+    const keys=Object.keys(SIM.characters).sort((a,b)=>b.length-a.length)
+      .map(k=>k.replace(/[.*+?^${}()|[\]\\]/g,"\\$&"));
+    __annoRe=new RegExp("("+keys.join("|")+")","g");
+  }
+  return esc(text).replace(__annoRe,(m)=>{
+    const f=SIM.characters[m];
+    if(!f||!SIM.factions[f]) return m;
+    return `<span class="who">${m}<i style="color:${SIM.factions[f].color};border-color:${SIM.factions[f].color}">${FSHORT[f]||SIM.factions[f].name}</i></span>`;
+  });
+}
+/* ───────── 详情卡 ───────── */
+function show(html){ $("dBody").innerHTML=html; $("detail").style.display="block"; }
+function hideDetail(){ $("detail").style.display="none"; }
+$("dClose").onclick=hideDetail;
+function showRegion(rid){
+  selRegion=rid; render(); const r=SIM.regions[rid]; const o=ownerAt(rid,M);
+  const evs=[]; for(let m=1;m<=N;m++){ (SIM.timeline[String(m)]||[]).forEach(e=>{ if(e.region===rid) evs.push(e); }); }
+  const F=o!=="neutral"?SIM.factions[o]:null;
+  show(`<h2>${esc(r.name)}</h2><div class="sub2">${esc(r.terrain)}</div>
+    <div class="kv"><span>归属</span><b style="color:${F?F.color:"#9a927e"}">${F?F.name+" · "+F.leader:"中立守土"}</b></div>
+    <div class="kv"><span>人口</span><b>${r.pop} 万</b></div>
+    <div class="kv"><span>月产粮</span><b>${r.grain} 万石</b></div>
+    <div class="kv"><span>州治</span><b>${esc(r.capital)}</b></div>
+    <div class="sec"><h4>城邑</h4>${r.cities.map(c=>`<div class="mrow"><b>${esc(c.n)}</b>${c.n===r.capital?"（州治）":""} · ${c.pop}万<br>${esc(c.note)}</div>`).join("")}</div>
+    <div class="sec"><h4>本州大事（${evs.length}）</h4>${evs.slice(-14).reverse().map(e=>`<div class="mrow" style="cursor:pointer" onclick="jumpTo(${e.month})"><span class="num" style="color:var(--gold)">${e.month}月</span> ${TYPE_ICON[e.type]||""} <b>${esc(e.title)}</b></div>`).join("")||"<p>无大事</p>"}</div>`);
+}
+function showCity(rid,name){
+  const r=SIM.regions[rid]; const c=r.cities.find(x=>x.n===name); if(!c)return;
+  const evs=[]; for(let m=1;m<=N;m++){ (SIM.timeline[String(m)]||[]).forEach(e=>{ if(e.region===rid&&(!e.city||e.city===name)) evs.push(e); }); }
+  const o=ownerAt(rid,M), F=o!=="neutral"?SIM.factions[o]:null;
+  const recent=evs.length?evs[evs.length-1]:null;
+  show(`<h2>${esc(c.n)}${c.n===r.capital?' <span style="font-size:11px;color:var(--gold)">州治</span>':""}</h2><div class="sub2">${esc(r.name)} · ${F?F.name:"中立守土"}</div>
+    <div class="kv"><span>人口</span><b>${c.pop} 万</b></div>
+    <div class="kv"><span>形胜</span><b>${esc(c.note)}</b></div>
+    ${recent?`<div class="sec"><h4>现状</h4><p>${anno(recent.desc)}</p></div>`:""}
+    <div class="sec"><h4>此地大事（${evs.length}）</h4>${evs.slice(-12).reverse().map(e=>`<div class="mrow" style="cursor:pointer" onclick="jumpTo(${e.month})"><span class="num" style="color:var(--gold)">${e.month}月</span> ${TYPE_ICON[e.type]||""} <b>${esc(e.title)}</b><br><span style="color:var(--text-faint)">${anno(e.desc)}</span></div>`).join("")||"<p>无大事</p>"}</div>`);
+}
+function showEvent(e){
+  const F=e.faction&&SIM.factions[e.faction]?SIM.factions[e.faction]:null;
+  const d=e.delta||{};
+  const chips=[];
+  const dT=d.troops||{},dF=d.food||{},dM=d.morale||{},dS=d.stability||{};
+  for(const f in dT) chips.push(`<span style="color:${SIM.factions[f]?SIM.factions[f].color:"#888"}">${SIM.factions[f]?SIM.factions[f].name:f} 兵${dT[f]>0?"+":""}${dT[f]}万</span>`);
+  for(const f in dM) chips.push(`<span style="color:${SIM.factions[f]?SIM.factions[f].color:"#888"}">${SIM.factions[f]?SIM.factions[f].name:f} 民心${dM[f]>0?"+":""}${dM[f]}</span>`);
+  const regs=Object.keys(d.regions||{});
+  show(`<h2>${TYPE_ICON[e.type]||""} ${esc(e.title)}</h2>
+    <div class="sub2">${e.month}月（${SIM.meta.months_label[e.month-1]}） · ${TYPE_NAME[e.type]||e.type}${e.inter?' · <span style="color:var(--gold)">多国交锋</span>':""}</div>
+    <p>${anno(e.desc)}</p>
+    ${e.actors&&e.actors.length?`<div class="sec"><h4>当事人</h4><p>${e.actors.map(a=>{const f=SIM.characters&&SIM.characters[a];const F=f&&SIM.factions[f];return F?`<span class="who" style="color:#e8eef7">${esc(a)}<i style="color:${F.color};border-color:${F.color}">${FSHORT[f]}</i></span>`:esc(a);}).join(" · ")}</p></div>`:""}
+    ${regs.length?`<div class="sec"><h4>疆域变动</h4>${regs.map(r=>`<div class="kv"><span>${esc(SIM.regions[r]?SIM.regions[r].name:r)}</span><b style="color:var(--gold)">→ ${SIM.factions[d.regions[r]]?SIM.factions[d.regions[r]].name:d.regions[r]}</b></div>`).join("")}</div>`:""}
+    ${chips.length?`<div class="sec"><h4>数值影响</h4><p>${chips.join("　")}</p></div>`:""}
+    ${e.region?`<div class="sec"><p style="cursor:pointer;color:var(--cyan)" onclick="showRegion('${e.region}')">→ 查看 ${esc(SIM.regions[e.region].name)}</p></div>`:""}`);
+}
+function showFaction(f){
+  const F=SIM.factions[f]; if(!F)return; const p=SIM.power[f];
+  const dead=p.regions[N-1]===0;
+  const myRegions=Object.keys(SIM.ownership[String(N)]).filter(r=>SIM.ownership[String(N)][r]===f);
+  show(`<h2><span class="crest" style="background:${F.color};width:34px;height:34px;font-size:16px">${F.crest}</span> ${F.name} · ${esc(F.leader)}</h2>
+    <div class="sub2">${dead?"已亡":"现存"}${F.leader_title?" · "+esc(F.leader_title):""}</div>
+    <p>${esc(F.bio)}</p>
+    <div class="sec"><h4>方略</h4><p>${esc(F.doctrine)}</p></div>
+    <div class="sec"><h4>当前国力（${SIM.meta.months_label[M-1]}）</h4>
+      <div class="statline"><span style="width:34px">州</span><div class="mb"><i style="width:${p.regions[M-1]/12*100}%;background:${F.color}"></i></div><b class="num">${p.regions[M-1]}</b></div>
+      <div class="statline"><span style="width:34px">兵</span><div class="mb"><i style="width:${Math.min(100,p.troops[M-1]/30*100)}%;background:${F.color}"></i></div><b class="num">${fmt(p.troops[M-1])}万</b></div>
+      <div class="statline"><span style="width:34px">粮</span><div class="mb"><i style="width:${Math.min(100,p.food[M-1]/40*100)}%;background:#d9a441"></i></div><b class="num">${fmt(p.food[M-1])}万石</b></div>
+      <div class="statline"><span style="width:34px">民心</span><div class="mb"><i style="width:${p.morale[M-1]}%;background:#46b98c"></i></div><b class="num">${Math.round(p.morale[M-1])}</b></div>
+      <div class="statline"><span style="width:34px">稳定</span><div class="mb"><i style="width:${p.stability[M-1]}%;background:#5b8def"></i></div><b class="num">${Math.round(p.stability[M-1])}</b></div></div>
+    <div class="sec"><h4>幕僚团</h4>${F.ministers.map(m=>`<div class="mrow"><b>${esc(m.name)}</b>（${esc(m.role)}）${esc(m.note)}</div>`).join("")}</div>
+    ${F.leader_fate?`<div class="sec"><h4>君主结局</h4><p>${esc(F.leader_fate)}</p>${(F.minister_fates||[]).map(m=>`<div class="mrow"><b>${esc(m.name)}</b> ${esc(m.fate)}</div>`).join("")}</div>`:""}`);
+}
+/* ───────── 图表弹窗 ───────── */
+const CHART_MODES=[["regions","州数"],["troops","兵力(万)"],["food","粮储(万石)"],["morale","民心"],["stability","稳定"]];
+let chartMode="regions";
+$("btnChart").onclick=()=>{ buildChartModes(); drawChart(); $("chartModal").classList.add("show"); };
+$("cClose").onclick=()=>$("chartModal").classList.remove("show");
+function buildChartModes(){
+  $("chartModes").innerHTML=CHART_MODES.map(([k,n])=>`<button data-k="${k}" class="${k===chartMode?"on":""}">${n}</button>`).join("");
+  document.querySelectorAll("#chartModes button").forEach(b=>b.onclick=()=>{chartMode=b.dataset.k;buildChartModes();drawChart();});
+}
+function drawChart(){
+  const svg=$("chartSvg"); const W=900,H=420,L=52,R=16,T=24,B=40;
+  const iw=W-L-R, ih=H-T-B;
+  let maxV=12; if(chartMode!=="regions") maxV=Math.max(10,...FIDS.flatMap(f=>SIM.power[f][chartMode]))*1.1;
+  const X=m=>L+(m-1)/(N-1)*iw, Y=v=>T+ih-v/maxV*ih;
+  let s=`<rect width="${W}" height="${H}" fill="#0a0f1b"/>`;
+  for(let i=0;i<=4;i++){ const y=T+ih*i/4; s+=`<line x1="${L}" y1="${y}" x2="${W-R}" y2="${y}" stroke="#1c2940"/><text x="${L-8}" y="${y+4}" fill="#5d6a80" font-size="10" text-anchor="end">${Math.round(maxV*(4-i)/4)}</text>`; }
+  for(let yr=1;yr<=Math.ceil(N/12);yr++){ const m=Math.min(N,yr*12); s+=`<line x1="${X(m)}" y1="${T}" x2="${X(m)}" y2="${T+ih}" stroke="#1c2940" stroke-dasharray="3 4"/><text x="${X(m)}" y="${H-22}" fill="#5d6a80" font-size="10" text-anchor="middle">天命${yr}年末</text>`; }
+  const shown=FIDS.filter(f=>SIM.factions[f]&&SIM.power[f].regions.some(v=>v>0));
+  for(const f of shown){
+    const F=SIM.factions[f], p=SIM.power[f][chartMode];
+    const pts=p.map((v,i)=>`${X(i+1).toFixed(1)},${Y(v).toFixed(1)}`).join(" ");
+    s+=`<polyline points="${pts}" fill="none" stroke="${F.color}" stroke-width="${f===selFaction?3:1.8}" opacity="${selFaction&&f!==selFaction?.35:1}"/>`;
+    s+=`<circle cx="${X(M)}" cy="${Y(p[M-1])}" r="3.4" fill="${F.color}"/>`;
+  }
+  s+=`<line x1="${X(M)}" y1="${T}" x2="${X(M)}" y2="${T+ih}" stroke="#d4af37" stroke-width="1.4"/>`;
+  s+=`<text x="${X(M)}" y="${T-8}" fill="#d4af37" font-size="11" text-anchor="middle">${M}月</text>`;
+  svg.innerHTML=s;
+  $("chartHint").innerHTML=shown.map(f=>`<span class="lgi" style="margin-right:12px"><i style="background:${SIM.factions[f].color}"></i>${SIM.factions[f].name}</span>`).join("");
+}
+/* ───────── 终局弹窗 ───────── */
+$("btnEnd").onclick=()=>{ buildEnd(); $("endModal").classList.add("show"); if(M>=N)$("spoiler").style.display="none"; };
+$("eClose").onclick=()=>$("endModal").classList.remove("show");
+$("unveil").onclick=()=>$("spoiler").style.display="none";
+function buildEnd(){
+  const ep=SIM.epilogue;
+  $("endBody").innerHTML=`
+    <div style="font-size:22px;color:#fff;letter-spacing:3px;margin-bottom:4px" class="kai">${esc(ep.end_reason_cn||"—")}</div>
+    <p style="color:var(--text-dim);line-height:1.9;font-size:13px;margin-bottom:16px">${esc(ep.world_verdict)}</p>
+    ${ep.turning_points&&ep.turning_points.length?`<h4 style="color:var(--gold);letter-spacing:2px;font-size:13px;margin:14px 0 10px">关键转折</h4>${ep.turning_points.map(t=>`<div class="tp"><div class="t"><span class="num" style="color:var(--gold)">${t.month}月</span> ${esc(t.title)}</div><div class="w">${esc(t.why)}</div></div>`).join("")}`:""}
+    ${ep.ranking&&ep.ranking.length?`<h4 style="color:var(--gold);letter-spacing:2px;font-size:13px;margin:14px 0 10px">天命排名</h4>${ep.ranking.map((r,i)=>{const F=SIM.factions[r.faction];return `<div class="rankrow"><div class="rk">${i+1}</div><span class="crest" style="background:${F?F.color:"#666"}">${F?F.crest:"?"}</span><b style="width:110px;color:#e8eef7;font-size:13px">${F?F.name+"·"+F.leader:r.faction}</b><span style="width:180px;color:var(--text-dim);font-size:12px">${esc(r.title)}</span><div class="bar"><i style="width:${r.score}%;background:${F?F.color:"#666"}"></i></div><b class="num" style="color:var(--gold)">${r.score}</b></div>`;}).join("")}`:""}
+    <h4 style="color:var(--gold);letter-spacing:2px;font-size:13px;margin:18px 0 10px">八帝终局</h4>
+    ${FIDS.filter(f=>SIM.factions[f]).map(f=>{const F=SIM.factions[f],fe=(ep.fates&&ep.fates[f])||{};return `<div style="margin-bottom:10px"><div style="color:${F.color};font-weight:600;font-size:13px">${F.crest} ${F.name} · ${esc(F.leader)}</div><div class="fate"><b>${esc(fe.leader||"—")}</b>${(fe.ministers||[]).map(m=>`<br>${esc(m.name)}：${esc(m.fate)}`).join("")}</div></div>`;}).join("")}`;
+}
+/* ───────── 图例 ───────── */
+function buildLegend(){
+  $("legend").innerHTML=Object.keys(TYPE_NAME).map(t=>`<span class="lgi"><i style="background:${TYPE_COLOR[t]}"></i>${TYPE_NAME[t]}</span>`).join("")+`<span class="lgi"><i style="background:#5d5a4e"></i>中立</span>`;
+}
+/* ───────── 播放控制 ───────── */
+function jumpTo(m){ M=Math.max(1,Math.min(N,m)); render(); }
+window.jumpTo=jumpTo; window.showRegion=showRegion;
+$("btnPlay").onclick=togglePlay;
+function togglePlay(){ if(timer){stopPlay();}else{ $("btnPlay").textContent="⏸ 暂停"; timer=setInterval(()=>{ if(M>=N){stopPlay();return;} M++; render(); },speed); } }
+function stopPlay(){ clearInterval(timer); timer=null; $("btnPlay").textContent="▶ 播放"; }
+[["spd05",2800],["spd1",1400],["spd2",700]].forEach(([id,sp])=>{
+  $(id).onclick=()=>{ speed=sp; ["spd05","spd1","spd2"].forEach(x=>$(x).classList.toggle("on",x===id)); if(timer){stopPlay();togglePlay();} };
+});
+$("monthRange").addEventListener("input",e=>{ stopPlay(); M=+e.target.value; render(); });
+document.addEventListener("keydown",e=>{
+  if(e.target.tagName==="INPUT")return;
+  if(e.key==="ArrowLeft"){stopPlay();jumpTo(M-1);}
+  if(e.key==="ArrowRight"){stopPlay();jumpTo(M+1);}
+  if(e.code==="Space"){e.preventDefault();togglePlay();}
+  if(e.key==="Escape"){hideDetail();$("chartModal").classList.remove("show");$("endModal").classList.remove("show");}
+});
+/* tooltip */
+function tip(ev,html){ const t=$("tooltip"); t.innerHTML=html; t.style.display="block";
+  const x=Math.min(window.innerWidth-280,ev.clientX+16), y=Math.min(window.innerHeight-120,ev.clientY+14);
+  t.style.left=x+"px"; t.style.top=y+"px"; }
+function hideTip(){ $("tooltip").style.display="none"; }
+boot();
+</script>
+</body>
+</html>

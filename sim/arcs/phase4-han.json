@@ -1,0 +1,251 @@
+{
+  "faction": "han",
+  "phase": 4,
+  "strategy": "卑辞事明买时，萧何深耕巴蜀，灌婴潜治舟师；合纵东汉制明，市马于元，通商于唐。三候观衅：元唐战起则出阴平复陇右，唐室内变则暗度陈仓取关中，明师北陷则顺流争荆楚。上春秋高渐委政太子，吕后萧何受遗辅政，据形胜待天命。",
+  "months": {
+    "37": [
+      {
+        "kind": "internal",
+        "target": "bashu",
+        "troops": null,
+        "general": "萧何",
+        "detail": "萧何治蜀：修都江陂塘，括隐户编伍，广义仓积粟；轻征薄赋安新亡之众，为再举之本。",
+        "wishes": "蜀中大治，粟支五年，民心复固。"
+      },
+      {
+        "kind": "diplo",
+        "target": "ming",
+        "troops": null,
+        "general": "陆贾",
+        "detail": "陆贾使金陵贺正旦：卑辞厚币续汉水之盟，请增茶丝市额——示无远志，骄明懈备。",
+        "wishes": "明信汉无他志，楚境戍备渐弛。"
+      }
+    ],
+    "38": [
+      {
+        "kind": "build",
+        "target": "bashu",
+        "troops": null,
+        "general": "灌婴",
+        "detail": "灌婴潜治舟师巴东：深峡伐木造楼船，募巴渝獠儿为水卒；外托漕运缉盗，舟藏峡内。",
+        "wishes": "水师再成军形不露，足争峡口。"
+      },
+      {
+        "kind": "diplo",
+        "target": "donghan",
+        "troops": null,
+        "general": "张良",
+        "detail": "张良如洛阳说刘秀：明并四州天下惧；约合纵——东汉出淮、宋守汴、汉出上游，共分楚淮。",
+        "wishes": "合纵约成，明陷三面之敌。"
+      }
+    ],
+    "39": [
+      {
+        "kind": "spy",
+        "target": "jingchu",
+        "troops": null,
+        "general": "陈平",
+        "detail": "陈平间行入楚：以楚王刘交见囚为帜，结汉旧吏豪帅；播『汉王悔诛淮阴』之语收楚心。",
+        "wishes": "楚地豪帅阴附，内应在握。"
+      },
+      {
+        "kind": "diplo",
+        "target": "yuan",
+        "troops": null,
+        "general": null,
+        "detail": "复开阴平口市，锦茶易陇马；觇真金抚陇虚实、凉州狄道戍兵多寡，为西讨张本。",
+        "wishes": "得马千匹，陇右虚实尽知。"
+      }
+    ],
+    "40": [
+      {
+        "kind": "build",
+        "target": "bashu",
+        "troops": null,
+        "general": "周勃",
+        "detail": "修金牛阴平栈阁及陈仓故道，粮械分屯汉中武都；三道并通，师出有基。",
+        "wishes": "出蜀三道皆通，进退无碍。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": "樊哙",
+        "detail": "曹参为上将统方面，周勃樊哙灌婴各领一军；录楚陇败卒之归者，明复土赏格励士。",
+        "wishes": "军气复振，人人思复楚陇。"
+      }
+    ],
+    "41": [
+      {
+        "kind": "spy",
+        "target": "tang",
+        "troops": null,
+        "general": "陈平",
+        "detail": "陈平重金入长安：伪为两府通外之书互播猜嫌，『变起玄武』谶语流于市——趣其内变。",
+        "wishes": "两府兵戎相向，关中自乱。"
+      },
+      {
+        "kind": "diplo",
+        "target": "tang",
+        "troops": null,
+        "general": "张良",
+        "detail": "张良使长安贺唐定关中，申盟通关市以安其心；阴觇两府兵籍人心、李渊起居春秋。",
+        "wishes": "唐不疑汉西，变起而汉先知。"
+      }
+    ],
+    "42": [
+      {
+        "kind": "wait",
+        "target": null,
+        "troops": null,
+        "general": "张良",
+        "detail": "张良三候之策：元唐战泾渭则出阴平，唐两府难则出陈仓，明北陷淮汴则出巴东；军集汉中待变。",
+        "wishes": "天下之变一起，汉先得其柄。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "上春秋高，楚败愤惋饮醇伤生；诏太子盈听政，萧何吕后参决庶政——预固国本。",
+        "wishes": "政有攸归，虽有不讳国本不摇。"
+      }
+    ],
+    "43": [
+      {
+        "kind": "battle",
+        "target": "longxi",
+        "troops": 8,
+        "general": "曹参",
+        "detail": "若元唐战起、陇右空虚：曹参八万潜出阴平，羌豪为导，倍道袭凉州狄道，尽驱苑马。",
+        "wishes": "复陇右得马数千，立陇山之守。"
+      },
+      {
+        "kind": "move",
+        "target": "longxi",
+        "troops": 3,
+        "general": "周勃",
+        "detail": "周勃三万继进屯陇坻，塞元骑回援之冲；萧何转漕蜀粟北上，前军食足。",
+        "wishes": "陇右粮道通，可进可守。"
+      }
+    ],
+    "44": [
+      {
+        "kind": "internal",
+        "target": "longxi",
+        "troops": null,
+        "general": "萧何",
+        "detail": "抚陇右：免赋一岁，因羌俗而治，复马苑盐铁之利；徙蜀民实凉州，收遗民为卒。",
+        "wishes": "陇右复为汉土，得马得兵。"
+      },
+      {
+        "kind": "diplo",
+        "target": "yuan",
+        "troops": null,
+        "general": null,
+        "detail": "遣使上都：愿以陇山为界、岁市锦茶；元方东争关中，两线非计，宜各取所需。",
+        "wishes": "元忍而许和，汉得专一面。"
+      }
+    ],
+    "45": [
+      {
+        "kind": "battle",
+        "target": "guanzhong",
+        "troops": 10,
+        "general": "曹参",
+        "detail": "若唐两府兵戎、关中鼎沸：曹参十万暗度陈仓，传檄约法三章、减征之半，先据咸阳。",
+        "wishes": "陈仓下而三秦定，四塞复归汉。"
+      },
+      {
+        "kind": "battle",
+        "target": "jingchu",
+        "troops": 6,
+        "general": "灌婴",
+        "detail": "若唐无变而明师北陷淮汴：灌婴楼船六万出巴东，会楚地内应夺夷陵江陵，传檄楚旧。",
+        "wishes": "三峡复通，荆楚传檄而定。"
+      }
+    ],
+    "46": [
+      {
+        "kind": "internal",
+        "target": "guanzhong",
+        "troops": null,
+        "general": "萧何",
+        "detail": "关中若下：约法三章，封府库待令，用唐秦旧吏，抚两府遗众各安其业；漕粟实长安。",
+        "wishes": "吏民争附，唯恐汉王不为秦王。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": "吕后",
+        "detail": "上自度春秋高，手诏定顾命：太子盈监国，吕后萧何辅政，曹参周勃受遗典兵；秘不下发。",
+        "wishes": "一旦不讳，国不乱于一日。"
+      }
+    ],
+    "47": [
+      {
+        "kind": "move",
+        "target": "guanzhong",
+        "troops": 6,
+        "general": "曹参",
+        "detail": "关中若定：曹参壁陇坻萧关以拒元，樊哙守函谷武关，通蜀陇漕运，缮长安宫府为都。",
+        "wishes": "四塞之国成，进可攻退可守。"
+      },
+      {
+        "kind": "spy",
+        "target": "ming",
+        "troops": null,
+        "general": "陈平",
+        "detail": "陈平纵间金陵：构蓝玉骄横之罪，煽淮西浙东两党之隙；乱其庙算，使无西顾。",
+        "wishes": "明廷内讧，楚淮益摇。"
+      }
+    ],
+    "48": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "岁终大计：定都长安，论功定封，复申白马之盟；通关市与民休息，蓄力来岁东向。",
+        "wishes": "据巴蜀陇右关中，形胜既得。"
+      },
+      {
+        "kind": "diplo",
+        "target": "donghan",
+        "troops": null,
+        "general": "陆贾",
+        "detail": "陆贾东使约合纵伐明：东汉出淮、汉出江陵共分其地；宋唐有变则连横乘之。",
+        "wishes": "合纵再成，明四面受敌。"
+      }
+    ]
+  },
+  "diplomacy": [
+    {
+      "to": "ming",
+      "proposal": "互不侵犯",
+      "terms": "续汉水之盟，增茶丝市舶岁额，汉不逾峡而东，明不溯江而西。"
+    },
+    {
+      "to": "donghan",
+      "proposal": "会盟",
+      "terms": "合纵制明：东汉出淮、宋守汴为援，汉出巴东上游；事成江淮归东汉、荆楚归汉。"
+    },
+    {
+      "to": "yuan",
+      "proposal": "贸易",
+      "terms": "阴平市锦茶易陇马；若汉复陇右，愿以陇山为界、岁市不绝，两不相攻。"
+    },
+    {
+      "to": "tang",
+      "proposal": "互不侵犯",
+      "terms": "申旧盟，通关市于陈仓，以蜀锦易河西马；各守其疆，合观元衅。"
+    },
+    {
+      "to": "song",
+      "proposal": "贸易",
+      "terms": "粜蜀粟十万石助宋守汴，以盐铁之利相酬，共牵东汉于中原。"
+    }
+  ],
+  "self_note": "事明非诚，复仇待时。西取陇、中觊关中皆背盟之利，史笔任之。上疾若笃，吕后萧何秉政，守蜀待变。"
+}

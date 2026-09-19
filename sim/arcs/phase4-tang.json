@@ -1,0 +1,251 @@
+{
+  "faction": "tang",
+  "phase": 4,
+  "strategy": "东主北客：世民乘宋衅出河内定中原北，与东汉战而后和；李靖坚壁陇坻疲元，伺隙复泾陇。迎隋主以正名。厚两府、崇行台酬世民；渊渐不豫，预托孤分权，压玄武门之雷。",
+  "months": {
+    "37": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "分阃定策：世民为陕东道大总管将十万出河内，元吉副之；李靖为西面元帅御陇坻，王贲佐之；建成监国长安，籍秦降为府兵。",
+        "wishes": "东出有主，西守有专，两府各安其分。"
+      },
+      {
+        "kind": "diplo",
+        "target": "yuan",
+        "troops": null,
+        "general": null,
+        "detail": "续泾渭之市：岁市马三千，盐铁缯帛偿之；阳敦邻好，阴觇其回回炮营与虚实。",
+        "wishes": "元骑今岁不南向，唐得专意东事。"
+      }
+    ],
+    "38": [
+      {
+        "kind": "build",
+        "target": "guanzhong",
+        "troops": null,
+        "general": "李靖",
+        "detail": "增筑陇坻、萧关、泾州堡寨，广置烽燧；徙边民入保，积粟泾原——北面先为不可胜。",
+        "wishes": "元若叩关，顿于坚垒之下，粮尽自疲。"
+      },
+      {
+        "kind": "diplo",
+        "target": "donghan",
+        "troops": null,
+        "general": null,
+        "detail": "密使洛阳约中分宋土：汉取汴南，唐取河内以北，划河为界，互市如故。",
+        "wishes": "东汉许约则各分其利，不许亦尽知其志。"
+      }
+    ],
+    "39": [
+      {
+        "kind": "battle",
+        "target": "zhongyuan",
+        "troops": 10,
+        "general": "李世民",
+        "detail": "乘宋新君不稳渡河出河内：先檄后兵，降者不杀；疾徇怀卫诸城，扼敖仓之北，不与东汉争汴。",
+        "wishes": "宋北诸城望风下，得河内形胜与仓粟。"
+      },
+      {
+        "kind": "diplo",
+        "target": "song",
+        "troops": null,
+        "general": null,
+        "detail": "遣使汴梁：请隋公杨勇母子迁跸长安避兵，唐以甥舅之礼尊奉，岁给廪帛。",
+        "wishes": "共主西来，唐伐宋有名，隋旧之土归心。"
+      }
+    ],
+    "40": [
+      {
+        "kind": "battle",
+        "target": "zhongyuan",
+        "troops": 10,
+        "general": "李世民",
+        "detail": "东汉若围汴：世民据河阴敖仓为垒，坐收漕枢，绝汴北之运而不浪战——两虎听其相咬。",
+        "wishes": "汴与东汉相持血枯，唐握漕枢坐收其利。"
+      },
+      {
+        "kind": "internal",
+        "target": "guanzhong",
+        "troops": null,
+        "general": null,
+        "detail": "建成监国关中：行租庸调，编秦隋旧户，抚流亡垦荒；东宫施政以收人望。",
+        "wishes": "关中大治，储位之基日固。"
+      }
+    ],
+    "41": [
+      {
+        "kind": "spy",
+        "target": "song",
+        "troops": null,
+        "general": null,
+        "detail": "行间汴梁：散『晋王欲缚隋公献唐』『曹彬将降』之谣，乱其君臣；结禁军怨校为内应。",
+        "wishes": "汴中自相疑贰，城门旦夕自开。"
+      },
+      {
+        "kind": "battle",
+        "target": "zhongyuan",
+        "troops": 10,
+        "general": "李世民",
+        "detail": "耿弇若回师争河内：玄甲据邙山之险以逸待劳，半渡而击；宋若出城反扑，则背仓一战擒之。",
+        "wishes": "一战破援，中原北部传檄而定。"
+      }
+    ],
+    "42": [
+      {
+        "kind": "battle",
+        "target": "zhongyuan",
+        "troops": 10,
+        "general": "李世民",
+        "detail": "汴若内变：世民整旅入城，市不易肆、不戮一降；礼送杨勇母子西行，曹彬以下量才授任。",
+        "wishes": "汴梁归唐，隋法统入长安，中原人心附。"
+      },
+      {
+        "kind": "diplo",
+        "target": "donghan",
+        "troops": null,
+        "general": null,
+        "detail": "与刘秀会于河上，中分中原：以大河为界各守之，通关市，互不侵犯再续三年。",
+        "wishes": "战而后和，东线遂定，得专西面。"
+      }
+    ],
+    "43": [
+      {
+        "kind": "battle",
+        "target": "yuan",
+        "troops": 9,
+        "general": "李靖",
+        "detail": "元骑秋高叩陇坻：坚壁清野勿与战，纵轻骑绝其饷道；俟其饥疲，夜出奇兵捣其中军。",
+        "wishes": "元师饥疲自溃，陇坻之下卧胡马。"
+      },
+      {
+        "kind": "diplo",
+        "target": "han",
+        "troops": null,
+        "general": null,
+        "detail": "密使成都：约汉出阴平袭陇南制元，唐岁助盐铁缯帛；事成以陇南归汉。",
+        "wishes": "元两面受敌，陇右之守自薄。"
+      }
+    ],
+    "44": [
+      {
+        "kind": "battle",
+        "target": "longxi",
+        "troops": 9,
+        "general": "李靖",
+        "detail": "乘元师溃出陇坻逐北：复泾州及陇山前沿戍堡而止，王贲导路，抚定羌豪。",
+        "wishes": "陇山户牖尽在唐手，凉州门户洞开。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "东征论功：加世民天策上将、开陕东道行台置官；厚赏建成监国之政、元吉副劳——两府并崇。",
+        "wishes": "以官爵酬大功，雷声隆隆而雨未落。"
+      }
+    ],
+    "45": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "召世民还长安献俘议政，前方兵柄分授李靖、平阳公主；行台如故——明尊之而阴析其势。",
+        "wishes": "虎离山而权归中枢，祸胎稍戢。"
+      },
+      {
+        "kind": "build",
+        "target": "zhongyuan",
+        "troops": null,
+        "general": null,
+        "detail": "营河内：修沁汴漕堰，置河阳仓，徙民兵实怀卫——新土为东藩根本。",
+        "wishes": "漕通仓实，中原北域渐为唐基。"
+      }
+    ],
+    "46": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "渊不豫，风疾不能视朝：诏建成监国决庶政，房杜魏征参机务，军国重事榻前白之。",
+        "wishes": "权柄有序过渡，朝野不惊。"
+      },
+      {
+        "kind": "spy",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "谍四出：觇东汉汴后虚实与郭后之衅；察漠北冬雪、上都粮储——陇右可取与否以报。",
+        "wishes": "天下虚实尽知，来岁举有所向。"
+      }
+    ],
+    "47": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "两府之衅白热化：渊两慰并抑，议『太子居长安、秦王镇洛阳』分陕而治，以婚姻固之。",
+        "wishes": "分陕各安，兄弟之兵不见血。"
+      },
+      {
+        "kind": "move",
+        "target": "longxi",
+        "troops": 12,
+        "general": "李靖",
+        "detail": "集兵陇山、储粟泾原：元有白灾内衅则谋凉州，无衅则敛兵守塞——慎不轻发。",
+        "wishes": "可进则进，不可进则完守以待天时。"
+      }
+    ],
+    "48": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "病笃定托：召裴寂、刘文静、建成、世民同受顾命——太子嗣位、秦王辅政、靖主西军，誓于太庙。",
+        "wishes": "遗命分权互制，玄武门之雷压于棺椁之下。"
+      },
+      {
+        "kind": "build",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "岁末三面大备：长安、汴北、陇山缮防储械；练府兵、实监牧，为身后之局立法。",
+        "wishes": "进战退守俱足，身后之局先立。"
+      }
+    ]
+  },
+  "diplomacy": [
+    {
+      "to": "yuan",
+      "proposal": "贸易",
+      "terms": "岁市马三千，盐铁缯帛偿之，泾渭边市如故，互不侵轶。"
+    },
+    {
+      "to": "donghan",
+      "proposal": "会盟",
+      "terms": "中分宋土：汉取汴南、唐取河内以北，划河为界，互市互不侵犯。"
+    },
+    {
+      "to": "han",
+      "proposal": "会盟",
+      "terms": "汉出阴平袭陇南以制元，唐岁助盐铁缯帛，事成陇南归汉。"
+    },
+    {
+      "to": "ming",
+      "proposal": "互不侵犯",
+      "terms": "转口通关市绢茶，各守疆埸；唐不助东汉，明不助宋元。"
+    },
+    {
+      "to": "song",
+      "proposal": "警告",
+      "terms": "奉隋公杨勇母子迁长安避兵，勿使没于兵火，唐以甥舅礼尊奉。"
+    }
+  ],
+  "self_note": "世民功名兵柄皆过盛，建成元吉阴结党；渊遗诏以太子嗣、秦王辅——和稀泥到底，纸能包火唯天知。"
+}

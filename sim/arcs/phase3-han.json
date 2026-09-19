@@ -1,0 +1,251 @@
+{
+  "faction": "han",
+  "phase": 3,
+  "strategy": "诛信定楚，白马盟以固宗室；睦明、市元、粜粮羁宋以孤刘秀；陈平间秦廷促其内变，约唐『先入关中者王之』；曹参出陇山、樊哙暗度陈仓争关中，约法三章收秦民；淮上有变则传檄取淮西。岁末据四州四塞，待天命所归。",
+  "months": {
+    "25": [
+      {
+        "kind": "internal",
+        "target": "longxi",
+        "troops": null,
+        "general": "曹参",
+        "detail": "徙蜀民实陇，免陇赋一岁，复马苑收牧马；缮亭障烽燧，谨斥候以备元骑再至。",
+        "wishes": "残陇渐苏，得马数千，北边有备。"
+      },
+      {
+        "kind": "internal",
+        "target": "jingchu",
+        "troops": null,
+        "general": null,
+        "detail": "厚赏楚军旧部，擢楚豪为守令；陈平缇骑阴录怨望者与明谍秦谍勾连之迹，先为之地。",
+        "wishes": "楚地阴附朝廷，逆状尽在掌握。"
+      }
+    ],
+    "26": [
+      {
+        "kind": "diplo",
+        "target": "yuan",
+        "troops": null,
+        "general": null,
+        "detail": "遣使漠北：以蜀锦茶盐市元马，约铁骑毋入陇右边地；厚结其近臣，觇白灾后虚实。",
+        "wishes": "元允市约，北疆弭兵，得马实骑。"
+      },
+      {
+        "kind": "build",
+        "target": "longxi",
+        "troops": null,
+        "general": "萧何",
+        "detail": "萧何转漕：蜀粟浮嘉陵北运屯狄道下辨；增修陈仓故道与陇山粮道，广储北征之资。",
+        "wishes": "北征粮械足支一岁，出兵无乏。"
+      }
+    ],
+    "27": [
+      {
+        "kind": "spy",
+        "target": "jingchu",
+        "troops": null,
+        "general": "陈平",
+        "detail": "楚旧将勾连外谍事觉，周勃先发收其渠魁，辞连淮阴侯；上秘不宣，密诏吕后如江陵。",
+        "wishes": "乱萌散于未发，罪证在手，信不及觉。"
+      },
+      {
+        "kind": "move",
+        "target": "bashu",
+        "troops": 3,
+        "general": "刘邦",
+        "detail": "上北巡汉中，名为督漕劳军、抚陇右；实离江陵，以吕后周勃行钟室之局。",
+        "wishes": "行在无韩信之目，江陵之局可成。"
+      }
+    ],
+    "28": [
+      {
+        "kind": "internal",
+        "target": "jingchu",
+        "troops": 1.5,
+        "general": "吕后",
+        "detail": "吕后驰至江陵与萧何定计：诈报楚乱已平、诏列侯入贺，萧何绐信虽病强入，缚斩钟室。",
+        "wishes": "信就戮，楚地不惊，兵柄尽归朝廷。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "刑白马而盟：非刘氏而王者天下共击之；封弟刘交为楚王镇江陵，楚旧部首恶办、胁从免。",
+        "wishes": "宗室屏藩立，楚地遂定，异姓之患绝。"
+      }
+    ],
+    "29": [
+      {
+        "kind": "spy",
+        "target": "qin",
+        "troops": null,
+        "general": "陈平",
+        "detail": "陈平携重金入关中：间赵高胡亥与扶苏李斯之隙，布谶撼咸阳；阴觇嬴政病候起居。",
+        "wishes": "秦廷自疑内变将起，敌情先知。"
+      },
+      {
+        "kind": "spy",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "行间唐两府：伪为建成世民往来书，使相猜防；玄武门之火益炽，唐师无暇西争。",
+        "wishes": "唐室内耗，西进之师迟疑不发。"
+      }
+    ],
+    "30": [
+      {
+        "kind": "diplo",
+        "target": "tang",
+        "troops": null,
+        "general": "张良",
+        "detail": "张良使蒲坂申盟共击秦，约『先入咸阳者王关中』：唐渡蒲津，汉出陇山、陈仓两道。",
+        "wishes": "李渊允约出师，秦两线受敌。"
+      },
+      {
+        "kind": "diplo",
+        "target": "song",
+        "troops": null,
+        "general": "陆贾",
+        "detail": "陆贾如汴，粜蜀粟十万石助宋守城，申互市；名为存宋，实羁宋以抗刘秀，收淮右心。",
+        "wishes": "宋续命牵制东汉，汉收仁名洗绝盟之诟。"
+      }
+    ],
+    "31": [
+      {
+        "kind": "move",
+        "target": "longxi",
+        "troops": 12,
+        "general": "曹参",
+        "detail": "北征军毕集：曹参樊哙周勃十二万屯陇山汉中，灌婴五万镇浔阳备明，楼船巡江。",
+        "wishes": "三路之势成，可北可东，楚蜀无虞。"
+      },
+      {
+        "kind": "wait",
+        "target": "guanzhong",
+        "troops": null,
+        "general": null,
+        "detail": "觇关中：嬴政病笃、秦廷内变或唐师西动，三者居一即出师；皆无则储粮练卒待时。",
+        "wishes": "变起于内，汉以全击裂。"
+      }
+    ],
+    "32": [
+      {
+        "kind": "battle",
+        "target": "guanzhong",
+        "troops": 8,
+        "general": "曹参",
+        "detail": "正兵自陇山道下泾原，传檄数秦苛法重役之罪，谕关中父老：诛首恶，降者不诛。",
+        "wishes": "连下陇县雍城，秦军退保咸阳。"
+      },
+      {
+        "kind": "battle",
+        "target": "guanzhong",
+        "troops": 4,
+        "general": "樊哙",
+        "detail": "奇兵暗出陈仓故道（首岁所修栈道），夜袭陈仓，断秦军陇道粮援，与正兵会咸阳郊。",
+        "wishes": "陈仓下，秦首尾不能相救。"
+      }
+    ],
+    "33": [
+      {
+        "kind": "battle",
+        "target": "guanzhong",
+        "troops": 12,
+        "general": "曹参",
+        "detail": "合围咸阳：秦若死战则绝陇道困而攻心，檄谕扶苏李斯；唐若来争，汉先入咸阳据之。",
+        "wishes": "咸阳下或困降，关中归汉。"
+      },
+      {
+        "kind": "internal",
+        "target": "guanzhong",
+        "troops": null,
+        "general": null,
+        "detail": "关中若下：约法三章，废秦苛法，安扶苏、用降臣，收图籍府库，悉封以待上令。",
+        "wishes": "秦民大悦，唯恐汉王不为秦王。"
+      }
+    ],
+    "34": [
+      {
+        "kind": "move",
+        "target": "guanzhong",
+        "troops": 5,
+        "general": "周勃",
+        "detail": "周勃屯萧关备元，樊哙守函谷临晋备唐；通陇右关中驿道，转蜀粟实长安之仓。",
+        "wishes": "四塞有备，新土安堵。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "定都长安之议：因秦故都以制天下；萧何营宫阙置宗庙，太子盈留成都监国。",
+        "wishes": "迁都定基，形胜在手。"
+      }
+    ],
+    "35": [
+      {
+        "kind": "battle",
+        "target": "jianghuai",
+        "troops": 5,
+        "general": "灌婴",
+        "detail": "若汴梁陷、宋室乱：灌婴陆贾以『护漕助宋』出浔阳，传檄寿春合肥，实据淮西。",
+        "wishes": "传檄定淮西，拓土以制明。"
+      },
+      {
+        "kind": "diplo",
+        "target": "ming",
+        "troops": null,
+        "general": null,
+        "detail": "遣使金陵续互不侵犯，增市舶岁额；若争淮，约明『以淮为界』，汉兵不逾淮东南。",
+        "wishes": "明守约观变，不合纵攻汉。"
+      }
+    ],
+    "36": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "岁终大计：封功臣列侯，淮阴案不宣于外；重申白马之盟，太子盈监国，萧何吕后辅政。",
+        "wishes": "四州之基固，宗室君臣各安其位。"
+      },
+      {
+        "kind": "diplo",
+        "target": "donghan",
+        "troops": null,
+        "general": null,
+        "detail": "与东汉申淮界之约，各守疆埸，通中原之市；汉据关中巴蜀形胜，划险而待天命。",
+        "wishes": "东西并立，汉据形胜以待一统之机。"
+      }
+    ]
+  },
+  "diplomacy": [
+    {
+      "to": "yuan",
+      "proposal": "贸易",
+      "terms": "以蜀锦茶盐市元马，请铁骑毋入陇右边地，各守其疆。"
+    },
+    {
+      "to": "tang",
+      "proposal": "会盟",
+      "terms": "共击秦，约『先入咸阳者王关中』：唐渡蒲津、汉出陇山陈仓，事成以函谷为界。"
+    },
+    {
+      "to": "song",
+      "proposal": "贸易",
+      "terms": "粜蜀粟十万石助守汴梁，申互市；宋以淮西市舶之利相酬。"
+    },
+    {
+      "to": "donghan",
+      "proposal": "会盟",
+      "terms": "密约分宋之局：汴梁中原归东汉，淮西归汉，以淮为界互不相逾。"
+    },
+    {
+      "to": "ming",
+      "proposal": "互不侵犯",
+      "terms": "荆楚归汉、江南岭南归明；增市舶岁额，若争淮则约『以淮为界』。"
+    }
+  ],
+  "self_note": "信罪虚实相半，上不问。白马之盟明防异姓，暗防诸吕。助宋实为图淮。唐若先入咸阳，暂认之而图其后。"
+}

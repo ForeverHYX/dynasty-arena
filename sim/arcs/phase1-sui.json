@@ -1,0 +1,231 @@
+{
+  "faction": "sui",
+  "phase": 1,
+  "strategy": "深根固本以制四方：颁新制、索貌阅、置义仓、营大兴，以制度与经济先成怪物；东睦唐宋、远交东汉江南；长孙晟行离强合弱以乱漠北；俟秦元相耗，出陇山乘弊取陇右，得马场蓄突骑；常备不懈，观衅而动。",
+  "months": {
+    "1": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "苏威定律令税制，颁均田，置义仓备荒；三省六部之制推行关中，政令划一。",
+        "wishes": "钱粮产出增，民心益附，仓廪渐实。"
+      },
+      {
+        "kind": "spy",
+        "target": "yuan",
+        "troops": null,
+        "general": "长孙晟",
+        "detail": "长孙晟帅轻骑出塞，尽观漠北虚实：部落离合、粮秣盈竭、汉法派与草原贵族之隙。",
+        "wishes": "尽得元廷派系虚实，为离强合弱张本。"
+      }
+    ],
+    "2": [
+      {
+        "kind": "build",
+        "target": "guanzhong",
+        "troops": null,
+        "general": null,
+        "detail": "营建大兴城，广通仓储粟；潼关、蒲坂津缮城积械，固四塞门枢。",
+        "wishes": "关中防御益固，储粮足支大军一岁。"
+      },
+      {
+        "kind": "diplo",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "遣使河东，与唐约互不侵犯、通盐铁之市，稳东线而观其变。",
+        "wishes": "唐隋相安，东顾无忧。"
+      }
+    ],
+    "3": [
+      {
+        "kind": "spy",
+        "target": "yuan",
+        "troops": null,
+        "general": "长孙晟",
+        "detail": "行离强合弱之策：持金帛阴结漠南怨望诸部，反间谮汉法派卖草原于南朝，使元廷内隙日深。",
+        "wishes": "元廷汉法派与贵族相猜，号令渐不行于诸部。"
+      },
+      {
+        "kind": "build",
+        "target": "guanzhong",
+        "troops": null,
+        "general": "贺若弼",
+        "detail": "简练府兵，韩擒虎、贺若弼分督左右厢，讲武陇山之东，常备不懈。",
+        "wishes": "兵精械足，西略之资具。"
+      }
+    ],
+    "4": [
+      {
+        "kind": "internal",
+        "target": "guanzhong",
+        "troops": null,
+        "general": "高颎",
+        "detail": "高颎主大索貌阅，括天下隐户，行输籍定样；藏户无所遁，户口兵源赋入倍增。",
+        "wishes": "在籍户口激增，征兵与赋税大增。"
+      },
+      {
+        "kind": "diplo",
+        "target": "yuan",
+        "troops": null,
+        "general": null,
+        "detail": "缘边置榷场，以粟易马，市有定数，羁縻其南牧之志。",
+        "wishes": "元得粮暂缓饥困、敛兵就食于秦；隋得战马。"
+      }
+    ],
+    "5": [
+      {
+        "kind": "diplo",
+        "target": "donghan",
+        "troops": null,
+        "general": null,
+        "detail": "遣使河北，与东汉会盟互市，约为兄弟之国；实欲联之以掣河东、中原。",
+        "wishes": "东北有与国，唐宋有所顾忌。"
+      },
+      {
+        "kind": "move",
+        "target": "guanzhong",
+        "troops": 3,
+        "general": "杨素",
+        "detail": "杨素将卒三万屯蒲坂，扼蒲津渡，外示备唐，内俟秦元相耗之变。",
+        "wishes": "东慑唐师，西机可乘。"
+      }
+    ],
+    "6": [
+      {
+        "kind": "spy",
+        "target": "qin",
+        "troops": null,
+        "general": "长孙晟",
+        "detail": "间者入陇，具察秦元战局、陇右守备虚实与山川隘口，绘图以进。",
+        "wishes": "陇右虚实尽在掌中，乘弊之机明。"
+      },
+      {
+        "kind": "internal",
+        "target": "guanzhong",
+        "troops": null,
+        "general": "苏威",
+        "detail": "苏威劝课农桑，罢杂徭；关中大熟，广籴以实诸仓。",
+        "wishes": "仓廪益实，民心愈固。"
+      }
+    ],
+    "7": [
+      {
+        "kind": "battle",
+        "target": "longxi",
+        "troops": 10,
+        "general": "杨素",
+        "detail": "高颎画策：秦元相耗、陇右疲敝，杨素出陇山道乘弊而入，韩擒虎为前锋，蒲坂军为继。",
+        "wishes": "一举下陇右，得马场盐泽，西顾永清。"
+      },
+      {
+        "kind": "internal",
+        "target": "guanzhong",
+        "troops": null,
+        "general": null,
+        "detail": "关中戒严，启义仓以继军食，府兵续补前线；独孤后率嫔御亲纺以助军资。",
+        "wishes": "兵源粮秣源源不绝，民心不摇。"
+      }
+    ],
+    "8": [
+      {
+        "kind": "battle",
+        "target": "longxi",
+        "troops": 5,
+        "general": "韩擒虎",
+        "detail": "若陇右未竟全功，韩擒虎将后军继进，绝敌粮道，传檄胁降诸城。",
+        "wishes": "陇右全定，秦人北窜。"
+      },
+      {
+        "kind": "internal",
+        "target": "longxi",
+        "troops": null,
+        "general": null,
+        "detail": "安集陇右：轻徭薄赋，存问耆老，擢凉州豪帅守土，均田于新附，以怀柔消关陇之隔。",
+        "wishes": "新附州民心渐附，产马如云。"
+      }
+    ],
+    "9": [
+      {
+        "kind": "spy",
+        "target": "yuan",
+        "troops": null,
+        "general": "长孙晟",
+        "detail": "长孙晟阴受漠南诸部官爵金帛，诱其背元内附；使忽必烈号令不出王庭。",
+        "wishes": "元众离散，南牧之锋自挫。"
+      },
+      {
+        "kind": "build",
+        "target": "longxi",
+        "troops": null,
+        "general": null,
+        "detail": "置陇右牧监，广畜战马，选陇右劲卒教以骑战，以为突骑之基。",
+        "wishes": "数岁之后铁骑成军，补骑战之短。"
+      }
+    ],
+    "10": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "创分科举人，策问贡士；招山东江南衣冠入朝授官，破关陇本位之隔。",
+        "wishes": "天下士心渐归，行政得人。"
+      },
+      {
+        "kind": "diplo",
+        "target": "song",
+        "troops": null,
+        "general": null,
+        "detail": "遣使汴梁，与宋互市修好，各守疆埸；中原四战，俟其与东诸侯相持。",
+        "wishes": "宋隋相安，我得专意内治蓄力。"
+      }
+    ],
+    "11": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": "高颎",
+        "detail": "高颎与东宫结姻，辅导益专；晋王广矫饰仁孝邀宠，独孤后意渐属之，二圣议及国本，储位暗流起。",
+        "wishes": "国本之争虽萌，朝局尚安。"
+      },
+      {
+        "kind": "build",
+        "target": "guanzhong",
+        "troops": null,
+        "general": "杨素",
+        "detail": "蒲坂缮攻械、造楼船材，广通仓增储，图来岁东向之资。",
+        "wishes": "器械粮秣具足，东顾有备。"
+      }
+    ],
+    "12": [
+      {
+        "kind": "internal",
+        "target": "guanzhong",
+        "troops": null,
+        "general": "苏威",
+        "detail": "岁杪大计：括户征税既成，会计仓粮兵籍，考课守令，黜贪进廉。",
+        "wishes": "国用日裕，吏治清明，关中仓满。"
+      },
+      {
+        "kind": "move",
+        "target": "guanzhong",
+        "troops": 8,
+        "general": "杨素",
+        "detail": "诸军罢还，分屯潼关、蒲坂、陇上要害，冬训简阅，常备不懈。",
+        "wishes": "关中固若金汤，来岁观衅东向。"
+      }
+    ]
+  },
+  "diplomacy": [
+    {"to": "tang", "proposal": "互不侵犯", "terms": "各守境土，通盐铁之市，不相侵扰"},
+    {"to": "song", "proposal": "互不侵犯", "terms": "汴渭通商，各守疆埸，互不加兵"},
+    {"to": "donghan", "proposal": "会盟", "terms": "约为兄弟之国，互市通好，共掣河东之势"},
+    {"to": "ming", "proposal": "贸易", "terms": "江南丝茶易关中战马盐铁，商道不禁"},
+    {"to": "yuan", "proposal": "贸易", "terms": "缘边榷场以粟易马，市有定数；元骑若南牧则绝市"}
+  ],
+  "self_note": "名为互市，实以粮驱元噬秦，俟其两疲而取陇右马场；东事未备故暂睦唐宋。储位之祸已伏宫闱，帝未之觉。"
+}

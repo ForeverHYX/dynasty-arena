@@ -1,0 +1,251 @@
+{
+  "faction": "ming",
+  "phase": 3,
+  "strategy": "三年缓成,仓廪兵甲甲天下:先楚后淮,一统大江。卑辞骄汉,约秦缀其西,水师顺流火攻聚歼,徐常下江陵定荆楚;宋垂死则受淮南,与东汉划淮两分;即吴王位,缓称帝如故。",
+  "months": {
+    "25": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "岁首大计:仓廪兵甲甲天下,亲定『先楚后淮』之序——汉绝盟屠陇、囚功臣,荆楚可取;宋垂死,留为挡东汉之屏",
+        "wishes": "庙算先胜,师出有名"
+      },
+      {
+        "kind": "spy",
+        "target": null,
+        "troops": null,
+        "general": "刘基",
+        "detail": "刘基舆疾总核谍网:江陵楚军分屯虚实、韩信禁所、汴梁围城战况、陇右汉军动静,逐月密报金陵",
+        "wishes": "敌虚实尽知,战机不失"
+      }
+    ],
+    "26": [
+      {
+        "kind": "diplo",
+        "target": "han",
+        "troops": null,
+        "general": null,
+        "detail": "卑辞厚币使成都贺岁,盛言明畏汉自守、只求保境;茶丝市马如故,骄其志而懈其备",
+        "wishes": "汉不我备,西上无阻"
+      },
+      {
+        "kind": "build",
+        "target": "jiangnan",
+        "troops": null,
+        "general": "徐达",
+        "detail": "楼船火器齐备,粮械夜运湖口;京口江阴扬言增戍防东汉南下,示形于下游而实谋上游",
+        "wishes": "示形惑敌,大战之备悉成"
+      }
+    ],
+    "27": [
+      {
+        "kind": "spy",
+        "target": "han",
+        "troops": null,
+        "general": null,
+        "detail": "行间江陵:散韩信旧部怨望、阴通金陵之流言,使汉廷益疑楚将自缚其手足;啖江汉豪帅为内应",
+        "wishes": "楚军自相疑,城门自内开"
+      },
+      {
+        "kind": "move",
+        "target": "jiangnan",
+        "troops": 15,
+        "general": "徐达",
+        "detail": "水陆十五万昼伏夜发潜集彭蠡湖口,常遇春选锋衔枚至池口;对外仍称防东汉,锋藏于内",
+        "wishes": "大军齐集,雷霆一击"
+      }
+    ],
+    "28": [
+      {
+        "kind": "battle",
+        "target": "jingchu",
+        "troops": 15,
+        "general": "徐达",
+        "detail": "传檄数汉绝盟屠陇、囚戮功臣之罪,水师顺流西上;楼船示弱诱汉水师出洞庭口,四面火攻聚歼——鄱阳故智",
+        "wishes": "汉水师一战尽没,江汉门户洞开"
+      },
+      {
+        "kind": "diplo",
+        "target": "qin",
+        "troops": null,
+        "general": null,
+        "detail": "密使咸阳约夹击:秦出陇山复陇右雪阴平之耻,明取荆楚,事成各得地;秦纵疑不出,亦足缀汉西顾",
+        "wishes": "汉两线不能相救"
+      }
+    ],
+    "29": [
+      {
+        "kind": "battle",
+        "target": "jingchu",
+        "troops": 8,
+        "general": "常遇春",
+        "detail": "水战既捷,选锋夜登北岸疾袭江陵外郭,焚其舟仓,绝江陵夷陵水路;严戒毋杀降",
+        "wishes": "江陵胆落,援绝势孤"
+      },
+      {
+        "kind": "move",
+        "target": "jingchu",
+        "troops": 3,
+        "general": "沐英",
+        "detail": "沐英率舟师先据夷陵扼三峡口,筑垒列烽,备蜀中汉军顺峡东下,护大军侧背",
+        "wishes": "三峡锁钥在我,蜀兵不得出"
+      }
+    ],
+    "30": [
+      {
+        "kind": "battle",
+        "target": "jingchu",
+        "troops": 8,
+        "general": "常遇春",
+        "detail": "邀击汉援军于竟陵沔阳,三战三捷,乘胜扫清外围进围江陵;俘者给粮编伍,毋屠降",
+        "wishes": "援军尽歼,江陵成孤城"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "手敕徐达:抚谕楚民,降者秋毫无犯;常遇春连战积劳,事定即檄还金陵疗养,选锋暂付蓝玉",
+        "wishes": "仁声先至,大将得全"
+      }
+    ],
+    "31": [
+      {
+        "kind": "battle",
+        "target": "jingchu",
+        "troops": 10,
+        "general": "徐达",
+        "detail": "合围总攻、攻心并用:檄谕城中吏民开门者秋毫无犯,暗结豪帅为内应;一战下江陵,荆楚传檄",
+        "wishes": "江陵易帜,楚地底定"
+      },
+      {
+        "kind": "internal",
+        "target": "jingchu",
+        "troops": null,
+        "general": null,
+        "detail": "若得韩信:礼送金陵,封侯厚禄虚位养之,不付兵柄;其旧部择锐编伍、散其部曲",
+        "wishes": "虎离深山,楚地无主战之魂"
+      }
+    ],
+    "32": [
+      {
+        "kind": "internal",
+        "target": "jingchu",
+        "troops": null,
+        "general": "徐达",
+        "detail": "徐达镇江陵:约法安民,免粮一年,存问豪族;收楚降卒汰弱编伍,修城郭烽堠,水师巡江汉",
+        "wishes": "新附安堵,上游形胜尽入我手"
+      },
+      {
+        "kind": "diplo",
+        "target": "han",
+        "troops": null,
+        "general": null,
+        "detail": "遣使成都议和:愿以汉水为界罢兵,尽归俘将,通茶丝之市;使张良得进言,刘邦两线必忍",
+        "wishes": "汉认既成之局,我得专力东方"
+      }
+    ],
+    "33": [
+      {
+        "kind": "spy",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "谍网转盯北局:汴梁存亡、宋廷动向、东汉兵锋所指;兼核淮南守备仓储民心,克日密报金陵",
+        "wishes": "宋亡之日报在先,渡江不失机"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "刘基病笃,遣太医实诊;阴验胡惟庸所进药方,得实而档案不发——天下未略定,不动刀",
+        "wishes": "罪证在握,兴狱候时"
+      }
+    ],
+    "34": [
+      {
+        "kind": "diplo",
+        "target": "song",
+        "troops": null,
+        "general": null,
+        "detail": "使宋廷提『合保淮南』:明出师戍淮御东汉,宋以淮南防区相付;宋存则奉其号,亡则吏民归明",
+        "wishes": "名分在手,淮不血刃而下"
+      },
+      {
+        "kind": "battle",
+        "target": "jianghuai",
+        "troops": 12,
+        "general": "徐达",
+        "detail": "乘宋势穷渡江,传檄淮南:降者不杀、吏不改署、市不易肆;蓝玉先锋取扬州,李文忠趋合肥",
+        "wishes": "淮南传檄而定,淮防在我"
+      }
+    ],
+    "35": [
+      {
+        "kind": "internal",
+        "target": "jianghuai",
+        "troops": null,
+        "general": null,
+        "detail": "安淮:免粮一年,收宋降卒汰弱编伍;缮淮淝防线,屯田置戍,北岸烽堠昼夜望东汉",
+        "wishes": "淮南为藩,北军不得窥江"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "蓝玉新胜骄横,部曲掠淮南子女被告:亲按之,斩首恶,夺其先锋印戴罪留用;马后谏,不大狱,档案密存",
+        "wishes": "骄将知儆而军心不摇,案待后发"
+      }
+    ],
+    "36": [
+      {
+        "kind": "diplo",
+        "target": "donghan",
+        "troops": null,
+        "general": null,
+        "detail": "使刘秀:以淮为界互不相犯,通盐茶之市,两国息民——实纵其西向关中,两分之势成",
+        "wishes": "北兵不南,我得以暇定南方"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "四州既定,即吴王位,立标为世子监国理政;大封功臣,常遇春若卒追封开平王;缓称帝如故,俟混一",
+        "wishes": "名器正而人心系,帝号留待混一"
+      }
+    ]
+  },
+  "diplomacy": [
+    {
+      "to": "han",
+      "proposal": "贸易",
+      "terms": "贺岁通使,茶丝市马如故,卑辞骄其志"
+    },
+    {
+      "to": "qin",
+      "proposal": "会盟",
+      "terms": "密约夹击汉:秦出陇山复陇右,明取荆楚,事成各得之地,茶粮倍市"
+    },
+    {
+      "to": "song",
+      "proposal": "会盟",
+      "terms": "合保淮南:明出师戍淮御东汉,宋以淮南防区与粮饷相付"
+    },
+    {
+      "to": "donghan",
+      "proposal": "互不侵犯",
+      "terms": "以淮为界各安其民,通盐茶之市,两国息民"
+    },
+    {
+      "to": "yuan",
+      "proposal": "贸易",
+      "terms": "茶帛易马如故,密使往来不声张"
+    }
+  ],
+  "self_note": "常遇春连战恐不假年,檄还疗养是真心;韩信得而养之防之;蓝胡档案已厚,天下未定不发,留与标儿。"
+}

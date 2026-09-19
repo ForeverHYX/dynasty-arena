@@ -1,0 +1,241 @@
+{
+  "faction": "yuan",
+  "phase": 1,
+  "strategy": "漠北粮尽在即，正二月铁骑就食于敌，劫陇右积聚以续命；行汉法定官制，必激阿里不哥之乱，亲征平之以一天下之权；中岁蓄粮铸炮、结唐携宋；岁末伯颜大迂回围攻陇右，夺马场粮仓为南下跳板。",
+  "months": {
+    "1": [
+      {
+        "kind": "battle",
+        "target": "longxi",
+        "troops": 10,
+        "general": "伯颜",
+        "detail": "轻骑衔枚出漠南，大迂回绕袭陇右腹里，避坚城，焚积聚，断秦军粮道，因粮于敌。",
+        "wishes": "夺粮掳畜北归，解漠北春荒，秦人震恐。"
+      },
+      {
+        "kind": "move",
+        "target": "longxi",
+        "troops": 6,
+        "general": "史天泽",
+        "detail": "史天泽率汉军屯漠南边墙，护驿道粮廊为伯颜后继，沿途收拢来附降人。",
+        "wishes": "粮道无虞，汉军世侯闻风景从。"
+      }
+    ],
+    "2": [
+      {
+        "kind": "battle",
+        "target": "longxi",
+        "troops": 8,
+        "general": "伯颜",
+        "detail": "再入陇右就食于敌，驱丁口牛马北归，示形欲攻城而实掠野，诱秦军出塞击其半渡。",
+        "wishes": "再获积粟军食自给；过处民心自损，史官书之亦不悔。"
+      },
+      {
+        "kind": "internal",
+        "target": "mobei",
+        "troops": null,
+        "general": "刘秉忠",
+        "detail": "刘秉忠立劝农司，垦漠南、浚渠储粮，颁行汉法第一令。",
+        "wishes": "漠南得田，然守旧宗王侧目。"
+      }
+    ],
+    "3": [
+      {
+        "kind": "internal",
+        "target": "mobei",
+        "troops": null,
+        "general": "刘秉忠",
+        "detail": "颁官制，立中书左右司，用汉臣理文簿钱谷；姚枢、许衡侍讲，省刑薄赋。",
+        "wishes": "政令归一，士人归心，旧贵族怨望日深。"
+      },
+      {
+        "kind": "spy",
+        "target": "mobei",
+        "troops": null,
+        "general": null,
+        "detail": "驿站飞骑四出，密察阿里不哥与守旧诸王会猎之所、阴结之兵。",
+        "wishes": "逆谋先觉，制人而不制于人。"
+      }
+    ],
+    "4": [
+      {
+        "kind": "battle",
+        "target": "mobei",
+        "troops": 11,
+        "general": "忽必烈",
+        "detail": "汉法既行，阿里不哥果联结宗王、断驿掠部。帝自将亲征，兼程北还，先檄谕诸王，赦胁从、诛魁首。",
+        "wishes": "诸王闻风离叛，逆党日孤。"
+      },
+      {
+        "kind": "move",
+        "target": "longxi",
+        "troops": 8,
+        "general": "伯颜",
+        "detail": "伯颜持重留镇漠南，秦若乘我北顾来犯，诱其深入草原而聚歼之。",
+        "wishes": "两线之中南线不失。"
+      }
+    ],
+    "5": [
+      {
+        "kind": "battle",
+        "target": "mobei",
+        "troops": 11,
+        "general": "忽必烈",
+        "detail": "会猎于昔木土脑儿之野，铁骑张两翼合围，大破阿里不哥，穷追勿纵。",
+        "wishes": "内乱平，汗权独尊；汉地政务因之放缓亦所必偿。"
+      },
+      {
+        "kind": "internal",
+        "target": "mobei",
+        "troops": null,
+        "general": null,
+        "detail": "大赏效顺诸王部众牛马金帛，籍叛党田畜分赉有功，恩威并施。",
+        "wishes": "草原帖然，权威大涨。"
+      }
+    ],
+    "6": [
+      {
+        "kind": "internal",
+        "target": "mobei",
+        "troops": null,
+        "general": "姚枢",
+        "detail": "姚枢抚流亡、宽徭役，漠南军屯民垦并举；许衡立学教胄子。",
+        "wishes": "兵燹残破渐复，仓廪渐起。"
+      },
+      {
+        "kind": "spy",
+        "target": "qin",
+        "troops": null,
+        "general": null,
+        "detail": "谍入陇右关中，绘城防粮廪之图，阴结秦地豪帅与西域马商。",
+        "wishes": "秦之虚实尽入掌中。"
+      }
+    ],
+    "7": [
+      {
+        "kind": "build",
+        "target": "mobei",
+        "troops": null,
+        "general": null,
+        "detail": "金莲川筑广仓、大开屯田，徙降户实边，积粟为南征之本。",
+        "wishes": "储粮渐厚，粮命门稍宽。"
+      },
+      {
+        "kind": "internal",
+        "target": "mobei",
+        "troops": null,
+        "general": null,
+        "detail": "榜谕四方：汉军世侯、河西豪帅、诸色匠人来投者授职赐帐，编为探马赤。",
+        "wishes": "降将亡人云集，兵额日增。"
+      }
+    ],
+    "8": [
+      {
+        "kind": "build",
+        "target": "mobei",
+        "troops": null,
+        "general": "刘秉忠",
+        "detail": "命刘秉忠相地金莲川，营都邑宫阙，定鼎漠南以临制汉地。",
+        "wishes": "帝业气象初成，虽费钱粮不惜。"
+      },
+      {
+        "kind": "build",
+        "target": "mobei",
+        "troops": null,
+        "general": null,
+        "detail": "集西域回回匠人，铸巨炮、造攻城之械，教习炮手营阵。",
+        "wishes": "巨炮一成，坚城可下。"
+      }
+    ],
+    "9": [
+      {
+        "kind": "build",
+        "target": "mobei",
+        "troops": null,
+        "general": "伯颜",
+        "detail": "大阅诸军，蒙汉相兼；伯颜演大迂回之阵：轻骑断粮，重骑凿坚。",
+        "wishes": "将二十万如将一人。"
+      },
+      {
+        "kind": "spy",
+        "target": "qin",
+        "troops": null,
+        "general": null,
+        "detail": "行反间于秦，布流言谓其大将阴通漠北，使秦君臣相疑、边备自乱。",
+        "wishes": "秦人自疑其将，阵前先乱。"
+      }
+    ],
+    "10": [
+      {
+        "kind": "move",
+        "target": "longxi",
+        "troops": 14,
+        "general": "伯颜",
+        "detail": "大军阴集漠南，人衔枚马摘铃，粮秣先运于边；驿道千里递警，坐候天时。",
+        "wishes": "师未出而秦不我觉。"
+      },
+      {
+        "kind": "internal",
+        "target": "mobei",
+        "troops": null,
+        "general": null,
+        "detail": "括诸部马匹，征漠南新附之兵，诸王各出从骑以补前战之耗。",
+        "wishes": "军额复满，战马成群。"
+      }
+    ],
+    "11": [
+      {
+        "kind": "battle",
+        "target": "longxi",
+        "troops": 14,
+        "general": "伯颜",
+        "detail": "大迂回直捣凉州，先遣轻骑绝其水陆粮道水源，合围而阙其隅以骇敌心。",
+        "wishes": "秦军出援则野战歼之；其困守则成回回炮献技之局。"
+      },
+      {
+        "kind": "move",
+        "target": "longxi",
+        "troops": 4,
+        "general": "史天泽",
+        "detail": "史天泽护粮廊节节跟进，因敌积粟而食，且抚已降郡县。",
+        "wishes": "粮道不断，降者安堵。"
+      }
+    ],
+    "12": [
+      {
+        "kind": "battle",
+        "target": "longxi",
+        "troops": 13,
+        "general": "伯颜",
+        "detail": "围城打援，回回炮运至即昼夜轰城；秦野战之军若至，先破援而后拔城。",
+        "wishes": "得陇右则马场粮仓俱获，南下跳板成；若久攻不克，西域献炮必至。"
+      },
+      {
+        "kind": "diplo",
+        "target": "song",
+        "troops": null,
+        "general": null,
+        "detail": "遣使入汴，以漠北战马易中原粟米，约通互市、两不相犯。",
+        "wishes": "马到粮来，缓粮命门之急。"
+      }
+    ]
+  },
+  "diplomacy": [
+    {
+      "to": "tang",
+      "proposal": "会盟",
+      "terms": "共图嬴秦：我自漠南北出，唐自河东拊其背；事成陇右归元，唐可专意西进，两家永结盟好。"
+    },
+    {
+      "to": "song",
+      "proposal": "贸易",
+      "terms": "以漠北战马岁易中原粟米十万石，通互市，互不侵犯。"
+    },
+    {
+      "to": "qin",
+      "proposal": "警告",
+      "terms": "毋犯漠南边墙驿道；若肯岁开马市输粟，铁骑可不入陇右。"
+    }
+  ],
+  "self_note": "阿合马藏而不用，恐民怨先沸于国用未充之时；劫陇右实为就食续命，唐盟若成则秦两面受敌。"
+}

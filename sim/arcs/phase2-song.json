@@ -1,0 +1,248 @@
+{
+  "faction": "song",
+  "phase": 2,
+  "strategy": "先南半挫而国策改弦：不与明硬碰水战，续盟缓汉，联唐锁秦，乘弊乃图关中；专意练水师、实仓廪、缮河防；内断赵普晋王之争，以更戍法驭军；观衅而动，衅动则雷发。",
+  "months": {
+    "13": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "雪夜再定策：南则江南水战难硬碰，北则齐鲁劲敌。赵普主蓄力缓图，晋王主西出立威，帝裁：不失盟、不硬碰，固本观衅。",
+        "wishes": "国策改弦既定，众志归一。"
+      },
+      {
+        "kind": "internal",
+        "target": "zhongyuan",
+        "troops": null,
+        "general": null,
+        "detail": "开春录囚慎罚，蠲中原逋赋，罢不急之役，遣使循行问民疾苦。",
+        "wishes": "民心愈固，仁声播于四方。"
+      }
+    ],
+    "14": [
+      {
+        "kind": "build",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "大治水师于汴口、泗州，楼船沙船成列，籍淮甸渔户习舟，为异日图江南之本。",
+        "wishes": "水战之利渐可与明相埒。"
+      },
+      {
+        "kind": "move",
+        "target": "zhongyuan",
+        "troops": 5,
+        "general": "曹彬",
+        "detail": "曹彬将五万东屯济水南岸，与潘美掎角，增壁浚隍，专备汉师南下。",
+        "wishes": "东线壁垒初成，汉军不敢轻渡。"
+      }
+    ],
+    "15": [
+      {
+        "kind": "build",
+        "target": "jianghuai",
+        "troops": null,
+        "general": null,
+        "detail": "缮下蔡、泗州屯所，储粮械于淮口，增置转般仓以通漕。",
+        "wishes": "南线根本自固，转饷不匮。"
+      },
+      {
+        "kind": "spy",
+        "target": "qin",
+        "troops": null,
+        "general": null,
+        "detail": "遣谍入关中，察潼关战守、秦军粮情与「伐无道」民怨虚实，绘图以闻。",
+        "wishes": "关中衅隙在握，乘弊有据。"
+      }
+    ],
+    "16": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "雷有邻击登闻鼓，告赵普堂吏受江南海货、专权蔽主；晋王左右扬其事，两府汹汹。",
+        "wishes": "事闻于上，帝且压且察，朝野侧目。"
+      },
+      {
+        "kind": "diplo",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "遣使约唐连横：共扼秦东出，秦若犯唐则宋出虎牢为援，两国互市易马。",
+        "wishes": "唐宋相结，秦不敢并力东顾。"
+      }
+    ],
+    "17": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "帝裁政争：罢赵普相，以使相出镇河阳；拜薛居正、吕余庆参知政事；赉赐如故事，不罪一人。",
+        "wishes": "相权分而帝躬庶务，朝局暂靖。"
+      },
+      {
+        "kind": "internal",
+        "target": "zhongyuan",
+        "troops": null,
+        "general": null,
+        "detail": "行折中盐法、广置转般仓，汴渠漕利大增，岁入益衍以实国用。",
+        "wishes": "国用日丰，蓄财养兵。"
+      }
+    ],
+    "18": [
+      {
+        "kind": "diplo",
+        "target": "donghan",
+        "troops": null,
+        "general": null,
+        "detail": "大河之约期满，遣使续盟一载：申以河为界，增盐铁互市，各还流民；汉若不许，东垒已具。",
+        "wishes": "盟成则东线再安，不成亦有备。"
+      },
+      {
+        "kind": "move",
+        "target": "zhongyuan",
+        "troops": 4,
+        "general": "潘美",
+        "detail": "申更戍之法：潘美将所部西屯虎牢缮关备秦，济水东垒专属曹彬。",
+        "wishes": "两线各有专将，西陲得屏。"
+      }
+    ],
+    "19": [
+      {
+        "kind": "build",
+        "target": "zhongyuan",
+        "troops": null,
+        "general": null,
+        "detail": "广籴储粮，增筑含嘉、河阳诸仓，务储三年之蓄，兼备河决灾年。",
+        "wishes": "仓廪实，灾年可赈、战时可支。"
+      },
+      {
+        "kind": "spy",
+        "target": "han",
+        "troops": null,
+        "general": null,
+        "detail": "察韩信荆楚兵势，及其请王之后君臣相猜之状，预为行间之基。",
+        "wishes": "汉之虚实与君臣之隙尽在掌中。"
+      }
+    ],
+    "20": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "迁都之议再起：帝以汴无天险复议西迁洛阳，晋王率群臣谏「在德不在险」，帝意郁郁，命先营洛宫。",
+        "wishes": "议虽缓行，据险之谋已萌。"
+      },
+      {
+        "kind": "build",
+        "target": "zhongyuan",
+        "troops": null,
+        "general": null,
+        "detail": "发丁缮虎牢、汜水、河阳三关，增城守械具，西以备秦。",
+        "wishes": "三关如锁，秦锋不得东骛。"
+      }
+    ],
+    "21": [
+      {
+        "kind": "spy",
+        "target": "han",
+        "troops": null,
+        "general": null,
+        "detail": "行间于汉：使人布流言于江陵，言韩信拥楚自重、阴结宋人以自全。",
+        "wishes": "刘韩相疑，西患自解其半。"
+      }
+    ],
+    "22": [
+      {
+        "kind": "diplo",
+        "target": "sui",
+        "troops": null,
+        "general": null,
+        "detail": "密使通杨坚：许济粮械，潼关若终不守可举残部内附，宋兵入戍虎牢，保其宗祀。",
+        "wishes": "存隋即存一堵以限秦。"
+      },
+      {
+        "kind": "battle",
+        "target": "guanzhong",
+        "troops": 6,
+        "general": "曹彬",
+        "detail": "伺衅之师：若关中民变燎原或秦师顿潼关而老，曹彬率六万出虎牢争潼关，东垒凭坚自守；无衅则按兵不出。",
+        "wishes": "衅动则关中可图，衅不动亦全师不损。"
+      }
+    ],
+    "23": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "大阅禁军于西郊，试炮座床弩，申明军律，赏东垒劳苦；定来年庙算：东备汉、西伺秦、南蓄水师。",
+        "wishes": "军实益精，来年进退有度。"
+      },
+      {
+        "kind": "spy",
+        "target": "donghan",
+        "troops": null,
+        "general": null,
+        "detail": "谍察冯异、耿弇布防与齐鲁度田怨豪之状，暗识豪酋为内应之备。",
+        "wishes": "若汉师南下，内应有名可循。"
+      }
+    ],
+    "24": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "岁暮录囚赈孤，蠲来年春赋什一，诏诸州修陂塘、备荒政。",
+        "wishes": "灾年有备，民心愈附。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "郊祀告庙，定来年大略：汉若南犯，曹彬御之，帝驻汴督后劲；诸将惟命。",
+        "wishes": "庙算先定，胜乃可求。"
+      }
+    ]
+  },
+  "diplomacy": [
+    {
+      "to": "donghan",
+      "proposal": "互不侵犯",
+      "terms": "大河之约再续一载，申河界、增盐铁互市、各还流民，齐地现状彼此勿争。"
+    },
+    {
+      "to": "tang",
+      "proposal": "会盟",
+      "terms": "唐宋连横共扼秦东出：秦若犯唐，宋出虎牢为声援；两国互不加兵，通市易马。"
+    },
+    {
+      "to": "han",
+      "proposal": "贸易",
+      "terms": "以中原丝茶易荆楚材货、蜀马，淮汉边市通商，互不加兵。"
+    },
+    {
+      "to": "ming",
+      "proposal": "互不侵犯",
+      "terms": "申前约：宋守淮、明守江，漕市如故，舟楫不入彼水。"
+    },
+    {
+      "to": "sui",
+      "proposal": "称臣",
+      "terms": "潼关若不可守，杨坚举残部内附于宋，宋给粮械、入戍虎牢、保其宗祀。"
+    },
+    {
+      "to": "qin",
+      "proposal": "警告",
+      "terms": "秦若东出潼关犯宋土，宋必西向争关中；各守疆埸则两安。"
+    }
+  ],
+  "self_note": "普罢相而晋王势长，烛影之患当预防；东线曹彬一军系社稷，移兵西向必留后劲。"
+}

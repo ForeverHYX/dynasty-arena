@@ -1,0 +1,251 @@
+{
+  "faction": "donghan",
+  "phase": 3,
+  "strategy": "三年总略：长围汴梁改攻为困，攻心纵民坐毙孤城；西取虎牢洛阳闭秦门户，南徇江淮断宋右臂；校谶正名独奉两汉之朔，间楚挠汉；柔道压储议、抚郭氏固根本；待内变一鼓下汴，定鼎洛阳，成中夏之基。",
+  "months": {
+    "25": [
+      {
+        "kind": "move",
+        "target": "zhongyuan",
+        "troops": 7,
+        "general": "冯异",
+        "detail": "改攻为困：冯异七万长围汴梁，围三阙一，纵民出城就食以耗其储；绝樵采糴贩，寇恂转敖仓粟赡军。",
+        "wishes": "汴梁粮日耗、流民日出，我军坐食无乏。"
+      },
+      {
+        "kind": "internal",
+        "target": "zhongyuan",
+        "troops": null,
+        "general": null,
+        "detail": "攻心令：射书入城「开门者侯、归农给田」；城外设棚粥，纳宋逃兵流民，汰弱编伍、愿归者安置。",
+        "wishes": "守军离心，城中饥声渐闻于外。"
+      }
+    ],
+    "26": [
+      {
+        "kind": "spy",
+        "target": "song",
+        "troops": null,
+        "general": null,
+        "detail": "行间汴梁：散「官家将传位德昭、徙晋王出藩」之语，结晋王府属觇宗室动静；重金购禁军校尉为线。",
+        "wishes": "晋王自危思变，宋廷将相益相疑。"
+      },
+      {
+        "kind": "diplo",
+        "target": "qin",
+        "troops": null,
+        "general": null,
+        "detail": "遣使咸阳约和：崤函为界互不相犯、互市粟帛；贵国与宋算虎牢旧账，汉不预闻。",
+        "wishes": "秦师东咬宋而不东逼我，坐收两虎相耗。"
+      }
+    ],
+    "27": [
+      {
+        "kind": "battle",
+        "target": "zhongyuan",
+        "troops": 4,
+        "general": "耿弇",
+        "detail": "耿弇四万倍道西袭虎牢，郭氏部曲为偏师从征；檄谕杨勇「举地归汉，封侯如窦融」，汴梁围中不敢出援。",
+        "wishes": "虎牢传檄而定，秦人东出之路先闭。"
+      },
+      {
+        "kind": "internal",
+        "target": "hebei",
+        "troops": null,
+        "general": null,
+        "detail": "度田收官诏：隐田既出者勿追既往、罢大狱；郭耿阴邓子弟悉录郎署宿卫，以弥豪强之怨。",
+        "wishes": "度田体面收场，河北根本复固。"
+      }
+    ],
+    "28": [
+      {
+        "kind": "battle",
+        "target": "zhongyuan",
+        "troops": 4,
+        "general": "耿弇",
+        "detail": "自虎牢东指洛阳：先檄后兵，降者不杀、市不易肆；缮宫仓为定鼎之备，汴梁益孤。",
+        "wishes": "洛阳不血刃而下，中原唯余汴一孤城。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "诏诸儒校定图谶，颁「赤伏三验」于郡国：汉家中兴受命，绝盟负约者非正朔。",
+        "wishes": "两汉正统之争明面化，楚地士民摇动。"
+      }
+    ],
+    "29": [
+      {
+        "kind": "diplo",
+        "target": "han",
+        "troops": null,
+        "general": null,
+        "detail": "遣使赍檄入楚，数刘邦绝盟负约、夺功臣兵符之罪；阴遣间使通淮阴侯：汉家自有真主。",
+        "wishes": "刘邦君臣相疑益深，东顾之势自解。"
+      },
+      {
+        "kind": "build",
+        "target": "zhongyuan",
+        "troops": null,
+        "general": "寇恂",
+        "detail": "寇恂缮洛阳仓廪宫庙，徙两河流民实洛阳，修汴渠故道通山东之漕，为定鼎储资。",
+        "wishes": "中夏都会气象初成，军储有攸归。"
+      }
+    ],
+    "30": [
+      {
+        "kind": "battle",
+        "target": "jianghuai",
+        "troops": 6,
+        "general": "吴汉",
+        "detail": "吴汉六万出颍汝徇淮：先檄后兵取颍口、下蔡以渡；帝手书严戒毋掠，置收降簿随军。",
+        "wishes": "淮上诸城开门，宋之右臂渐断；吴汉勿再故态。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "郭氏以虎牢之功封侯益邑，郭后宫中语渐骄；阴党不平，两宫外家暗相倾轧，储议之火渐炽。",
+        "wishes": "以郭氏功收豪强之心，而储位之争自此难遏。"
+      }
+    ],
+    "31": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "群臣交章请立刘庄，郭氏结豪强抗之。帝诏「天下未定不议储」，禁妄议；益封两宫，郭况掌宿卫。",
+        "wishes": "暗流暂压，朝局不溃于前敌方殷之时。"
+      },
+      {
+        "kind": "spy",
+        "target": "song",
+        "troops": null,
+        "general": null,
+        "detail": "觇汴梁：城中杀马为粮、禁军缒城亡逸相继；晋王党羽夜聚之报沓至，饥变可计日。",
+        "wishes": "内变将作，总攻之期可定。"
+      }
+    ],
+    "32": [
+      {
+        "kind": "battle",
+        "target": "jianghuai",
+        "troops": 5,
+        "general": "耿弇",
+        "detail": "耿弇五万自洛阳驰淮会吴汉：突骑卷其翼、吴汉当正面，合击潘美于淮上，求一决而胜。",
+        "wishes": "淮上决战获大胜，江淮遂定。"
+      },
+      {
+        "kind": "diplo",
+        "target": "song",
+        "troops": null,
+        "general": null,
+        "detail": "遣使赍诏入汴招赵匡胤：去帝号奉正朔，封宋公世守汴社，曹潘列侯——窦融故事，祸福惟择。",
+        "wishes": "困城之中降议一开，人心瓦解。"
+      }
+    ],
+    "33": [
+      {
+        "kind": "internal",
+        "target": "jianghuai",
+        "troops": null,
+        "general": "寇恂",
+        "detail": "寇恂抚定淮甸：署守令、免今年租；降卒汰弱归农、精壮隶营，沿淮置戍以备明汉。",
+        "wishes": "江淮人心速附，南疆有备。"
+      },
+      {
+        "kind": "spy",
+        "target": "song",
+        "troops": null,
+        "general": null,
+        "detail": "重金结汴梁禁军校尉，约内应举火为号；复纵「晋王将行废立」之谣，速其内衅。",
+        "wishes": "内外交迫，汴梁变生肘腋。"
+      }
+    ],
+    "34": [
+      {
+        "kind": "battle",
+        "target": "zhongyuan",
+        "troops": 10,
+        "general": "耿弇",
+        "detail": "汴梁总攻：耿弇自淮还师，与冯异、吴汉三道并进，内应举火；先夜射书全城「降者不死」。",
+        "wishes": "内变外迫一鼓而下，中原遂定。"
+      },
+      {
+        "kind": "internal",
+        "target": "zhongyuan",
+        "troops": null,
+        "general": null,
+        "detail": "入城令：毋掠、犯者斩，吴汉部尤戒之；安市民、护宋宗庙，奉玺来归者待以殊礼。",
+        "wishes": "兵不入肆，仁声益振于天下。"
+      }
+    ],
+    "35": [
+      {
+        "kind": "internal",
+        "target": "zhongyuan",
+        "troops": null,
+        "general": null,
+        "detail": "定鼎：帝幸洛阳，立宗庙社稷，诏为中都；收图籍、定法度，籍宋府库以益军资。",
+        "wishes": "汉家中兴定鼎中土，天下拭目归心。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "大封功臣：云台诸将益封食邑不畀吏事；曹彬潘美量才授任，郭阴两氏并加恩泽。",
+        "wishes": "功臣安位、降者得所，柔道驭众如昔。"
+      }
+    ],
+    "36": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "立刘庄为皇太子（方口日角类高帝），尊郭后如故、大封郭氏兄弟子侄，诏「皇后母仪天下」。",
+        "wishes": "储位定而豪强之怨暂纾，然易储暗线未绝。"
+      },
+      {
+        "kind": "move",
+        "target": "zhongyuan",
+        "troops": 6,
+        "general": "耿弇",
+        "detail": "岁末布防：耿弇屯虎牢备秦，冯异镇淮上备明汉，贾复仍守河内，吴汉还镇河北练兵。",
+        "wishes": "四境有备，来岁西向南瞰皆具全势。"
+      }
+    ]
+  },
+  "diplomacy": [
+    {
+      "to": "qin",
+      "proposal": "互不侵犯",
+      "terms": "以崤函为界互不相犯并互市粟帛；贵国与宋之衅，汉不预闻。"
+    },
+    {
+      "to": "han",
+      "proposal": "警告",
+      "terms": "数绝盟负约、夺功臣兵符之罪：两汉并立，正朔在中兴；楚地自了，勿东窥淮上。"
+    },
+    {
+      "to": "tang",
+      "proposal": "贸易",
+      "terms": "续市马粜粮之约，河上各守疆界；唐若西向关中，汉不乘危。"
+    },
+    {
+      "to": "ming",
+      "proposal": "互不侵犯",
+      "terms": "各守疆场：汉师徇淮不逾大江，明师出荆楚我不问；通市如故。"
+    },
+    {
+      "to": "song",
+      "proposal": "称臣",
+      "terms": "去帝号奉汉正朔：封赵氏宋公世守汴社，曹彬潘美皆列侯，禁军解甲归农给田。"
+    }
+  ],
+  "self_note": "立庄诏下而废郭之志已定，柔道徐图；谶可假不可恃；汴梁未下之先，一切抚柔皆为攻心。"
+}

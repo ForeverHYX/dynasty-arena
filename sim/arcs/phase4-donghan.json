@@ -1,0 +1,251 @@
+{
+  "faction": "donghan",
+  "phase": 4,
+  "strategy": "乘宋烛影内变，先檄后兵急拔汴梁，受降编伍以实军；合纵制明而不执牛耳，让盟主于衔恨之汉；市马结唐，阴使唐元相耗于陇坻；正谶归庙算，抚郭安阴，治楼船缮淮守；俟汉楚兵连，乘虚规复淮南，成南北对峙。",
+  "months": {
+    "37": [
+      {
+        "kind": "diplo",
+        "target": "song",
+        "troops": null,
+        "general": null,
+        "detail": "遣使吊祭匡胤、贺新君，赍诏行窦融故事：去帝号奉正朔，封宋公世守汴社，曹潘列侯、禁军厚禄改编。",
+        "wishes": "匡义内不自安而纳款称藩，中原兵不血刃。"
+      },
+      {
+        "kind": "spy",
+        "target": "song",
+        "troops": null,
+        "general": null,
+        "detail": "行间汴梁：布「烛影弑兄」之谣动其君臣；重金结禁军校尉为内应，尽得城中粮储、兵籍与诸将向背。",
+        "wishes": "汴中军心离、内应有约，克期可攻。"
+      }
+    ],
+    "38": [
+      {
+        "kind": "battle",
+        "target": "zhongyuan",
+        "troops": 8,
+        "general": "冯异",
+        "detail": "冯异八万长围汴梁：围三阙一，阙南纵贵官流民南走就明以耗之；吴汉别部绝汴口漕运，严戢毋掠。",
+        "wishes": "汴梁粮道俱绝，明受宋奔众而君臣相疑。"
+      },
+      {
+        "kind": "move",
+        "target": "zhongyuan",
+        "troops": 3,
+        "general": "贾复",
+        "detail": "贾复三万屯陕郡，锁崤函、扼蒲津，备唐乘我东征而西动；邓禹录尚书事镇洛阳，节度诸军。",
+        "wishes": "西线有备，攻汴之师无后顾。"
+      }
+    ],
+    "39": [
+      {
+        "kind": "battle",
+        "target": "zhongyuan",
+        "troops": 5,
+        "general": "耿弇",
+        "detail": "耿弇五万自曹濮倍道南薄汴，与冯异合壁；夜射书「诛首恶、降者不死」，约内应举火，雨夜云梯并进。",
+        "wishes": "内外交迫，汴梁一鼓而下，中原遂定。"
+      },
+      {
+        "kind": "diplo",
+        "target": "ming",
+        "troops": null,
+        "general": null,
+        "detail": "遣使金陵申淮界之约：盐茶通市如故，汴事宋人自取，不烦吴师北渡——稳其兵锋，我得专意于汴。",
+        "wishes": "明人新附楚淮乐于观衅，不遽北向。"
+      }
+    ],
+    "40": [
+      {
+        "kind": "internal",
+        "target": "zhongyuan",
+        "troops": null,
+        "general": null,
+        "detail": "汴梁既定，帝亲入城：毋掠、犯者斩；赵氏封侯奉祀，匡义若降待以宾礼；曹彬潘美量才授任，禁军汰弱编伍。",
+        "wishes": "仁声大振，宋之禁军大半为我所用。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "告庙传檄天下：中原底定，两河齐鲁一体置守；郡县署用本郡贤俊，新附州租调减半，度田缓行。",
+        "wishes": "四方归心，新附之土帖然速安。"
+      }
+    ],
+    "41": [
+      {
+        "kind": "build",
+        "target": "zhongyuan",
+        "troops": null,
+        "general": "寇恂",
+        "detail": "寇恂浚汴渠、缮敖仓，通山东之漕达于洛汴；徙河北宽乡之民实河南，以汴梁为东都漕枢。",
+        "wishes": "漕路既通，百万之粟转输如流。"
+      },
+      {
+        "kind": "diplo",
+        "target": "han",
+        "troops": null,
+        "general": null,
+        "detail": "遣使成都缔两汉宗盟：助粮械楼船之料，约出巴峡复楚；事成楚归汉、淮南归我，正朔各奉，两不相负。",
+        "wishes": "刘邦衔明入骨闻盟必从，明自此两面受敌。"
+      }
+    ],
+    "42": [
+      {
+        "kind": "build",
+        "target": "shandong",
+        "troops": null,
+        "general": "马成",
+        "detail": "马成督山东船场岁输楼船百艘，习水战于济；淮北列戍缮垒——水师惟护漕，毋与明争锋于大江。",
+        "wishes": "水师粗成，淮上有恃，进退有据。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "诏校定图谶藏之兰台：军国大计自今决于庙算，方士毋得预政——谶纬误我师期者再矣。",
+        "wishes": "朝议归实，师期不再为符命所迟。"
+      }
+    ],
+    "43": [
+      {
+        "kind": "diplo",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "遣使长安续粜粮市马之约，崤函互不侵犯再展一载；元若倾国压关中，汉岁助粟佐守，唇齿相保。",
+        "wishes": "唐元相耗于陇坻，西线常安，马政不辍。"
+      },
+      {
+        "kind": "spy",
+        "target": "ming",
+        "troops": null,
+        "general": null,
+        "detail": "觇楚淮：籍荆楚旧豪、淮西怨户之向背，阴结为内应；购金陵近侍，伺蓝玉之狱与水师动静。",
+        "wishes": "楚淮虚实尽在掌，畔至即发。"
+      }
+    ],
+    "44": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "尊郭后如故，郭况以下大封外家；敕两宫亲戚毋豫政事；谒太庙，携太子庄燕见云台诸将以安众心。",
+        "wishes": "郭氏暂安，易储之谣稍弭，朝局不撼于外。"
+      },
+      {
+        "kind": "move",
+        "target": "zhongyuan",
+        "troops": 5,
+        "general": "冯异",
+        "detail": "冯异移镇颍汝缮淮守，吴汉还河北练突骑，贾复仍备西——四面有恃，南向之柄乃在我。",
+        "wishes": "守备四合，蓄势待衅而先为不可胜。"
+      }
+    ],
+    "45": [
+      {
+        "kind": "diplo",
+        "target": "han",
+        "troops": null,
+        "general": null,
+        "detail": "驰约刘邦刻期冬举：汉舟师出巴峡规江陵，我以楼船挠淮运、规淮南；约兵毋逾大江，胜不相弃。",
+        "wishes": "汉楚兵连，明之精甲尽西，淮上遂虚。"
+      },
+      {
+        "kind": "internal",
+        "target": "hebei",
+        "troops": null,
+        "general": "吴汉",
+        "detail": "吴汉简河北突骑，岁终大阅于鄗；寇恂转汴渠粟百万石储颍汝，随军船械毕备。",
+        "wishes": "兵锐粮足，南向之势已成。"
+      }
+    ],
+    "46": [
+      {
+        "kind": "battle",
+        "target": "jianghuai",
+        "troops": 8,
+        "general": "耿弇",
+        "detail": "俟明师西上救楚，耿弇八万乘虚渡淮：避水战，步骑昼夜拔淮北诸城，得寿春即缮守；楼船惟护饷道。",
+        "wishes": "淮北传檄而定，明首尾不能相救。"
+      },
+      {
+        "kind": "spy",
+        "target": "ming",
+        "troops": null,
+        "general": null,
+        "detail": "间金陵：扬「蓝玉拥重兵、楚乱未弭」之语以疑其将；密约楚地豪帅，官军至则举城为应。",
+        "wishes": "明廷自相猜防，楚地内应成列。"
+      }
+    ],
+    "47": [
+      {
+        "kind": "internal",
+        "target": "jianghuai",
+        "troops": null,
+        "general": null,
+        "detail": "新复之土：署守令、免租一岁，缮垒列戍；师若不利则敛入淮北坚壁，毋与明水师决战。",
+        "wishes": "得则固之，不得则守，淮势不摇。"
+      },
+      {
+        "kind": "internal",
+        "target": "zhongyuan",
+        "troops": null,
+        "general": null,
+        "detail": "中原垦政：籍降户垦汴东荒田，豪强隐田暂不问，度田俟人心大定再举；广置常平仓以备凶年。",
+        "wishes": "新附不惊，垦辟日广，仓廪渐实。"
+      }
+    ],
+    "48": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "岁末上计洛阳：受降之众简练，汰弱归农；召邓禹冯异耿弇会议五年大略——淮楚孰先，庙算乃发。",
+        "wishes": "兵精粮足，来岁之举算无遗策。"
+      },
+      {
+        "kind": "diplo",
+        "target": "ming",
+        "troops": null,
+        "general": null,
+        "detail": "移檄金陵：数明绝盟助宋、夺我淮西之罪，声言吊民伐罪——实骄之而徐观其衅，备战为实。",
+        "wishes": "明怒而慎，不敢轻弃淮守，亦不敢大兴。"
+      }
+    ]
+  },
+  "diplomacy": [
+    {
+      "to": "song",
+      "proposal": "称臣",
+      "terms": "去帝号奉汉正朔：封赵氏宋公世守汴社，曹彬潘美列侯，禁军厚禄改编；拒则王师进讨。"
+    },
+    {
+      "to": "ming",
+      "proposal": "互不侵犯",
+      "terms": "淮界各守如故，盐茶通市不废；汴事宋人自取，吴师毋北渡淮。"
+    },
+    {
+      "to": "han",
+      "proposal": "会盟",
+      "terms": "两汉宗盟制明：我助粮械，汉出巴峡复楚、我规淮南；事成楚归汉、淮南归我，正朔各奉，胜不相弃。"
+    },
+    {
+      "to": "tang",
+      "proposal": "贸易",
+      "terms": "续粜粮市马，崤函互不侵犯再展一载；元若倾国压关中，岁助粟佐守，唇齿相保。"
+    },
+    {
+      "to": "yuan",
+      "proposal": "警告",
+      "terms": "铁骑毋东逾河东、南窥崤函；唐元之争汉不预，若残破关中，汉必合诸夏讨之。"
+    }
+  ],
+  "self_note": "谶误我再三，今军国决于庙算；郭后之怨终须一见，姑抚之；纵汉复楚所以敝明，非信汉也；汴若不下，毋顿兵坚城。"
+}

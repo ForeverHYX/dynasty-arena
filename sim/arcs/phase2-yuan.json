@@ -1,0 +1,241 @@
+{
+  "faction": "yuan",
+  "phase": 2,
+  "strategy": "秦并关陇势大，不与死磕。二年先解粮命门：通市宋唐、屯田河套、阿合马理财，扩铸回回炮。谍候秦主力东出，即以大迂回取空虚之陇右，就食于敌，据马场粮仓为跳板；秦若坚壁则敛兵待敝，再拊关中腹心。汉法与聚敛并行，怨毒暗结；白灾有备。",
+  "months": {
+    "13": [
+      {
+        "kind": "internal",
+        "target": "mobei",
+        "troops": null,
+        "general": "阿合马",
+        "detail": "拜阿合马领理财：籍诸部羊马税、榷场抽分、钩考诸王赏赉旧帐，钱粮立集。姚枢、许衡谏聚敛伤民，帝不纳。",
+        "wishes": "国库渐实，民怨暗积，钩子②自此计时。"
+      },
+      {
+        "kind": "diplo",
+        "target": "song",
+        "troops": null,
+        "general": null,
+        "detail": "再遣使汴梁：岁以良马三千匹易粟十万石，护其商路；宋得战马，我得活命之粮。",
+        "wishes": "宋允互市，命门稍解。"
+      }
+    ],
+    "14": [
+      {
+        "kind": "diplo",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "顺唐前请开马市：好马易粟帛，商队假道陇右北缘，不索盟约；秦若梗阻，天下见其隘我。",
+        "wishes": "唐粟西来，多一条活路。"
+      },
+      {
+        "kind": "build",
+        "target": "mobei",
+        "troops": null,
+        "general": null,
+        "detail": "金莲川广仓增廪储粮，发军民垦河套、凿渠引黄，漠南屯田岁增；专备草原白灾。",
+        "wishes": "仓廪渐满，灾来有恃。"
+      }
+    ],
+    "15": [
+      {
+        "kind": "build",
+        "target": "mobei",
+        "troops": null,
+        "general": null,
+        "detail": "扩铸回回炮：西域匠人督造巨炮二十座，立炮手都万户府，习轰城抛火诸阵。",
+        "wishes": "攻坚自此反居上风。"
+      },
+      {
+        "kind": "internal",
+        "target": "mobei",
+        "troops": null,
+        "general": null,
+        "detail": "真金太子领中书令监国，习汉法；刘秉忠颁官制于郡县；大赏诸王田畜金帛以弭旧怨。",
+        "wishes": "汉法愈固，守旧派暂帖。"
+      }
+    ],
+    "16": [
+      {
+        "kind": "spy",
+        "target": "qin",
+        "troops": null,
+        "general": null,
+        "detail": "细作布满陇右关中：王翦主力所在、萧关戍卒几何、凉州仓廪城堞、新附民心，驿传旬报。",
+        "wishes": "秦之虚实尽握，进退有据。"
+      },
+      {
+        "kind": "internal",
+        "target": "mobei",
+        "troops": null,
+        "general": null,
+        "detail": "括冗马牛羊入官厩，大军分番：半就水草牧养、半屯田，月耗省三成，以耐久战与灾年。",
+        "wishes": "马肥仓实，师可久。"
+      }
+    ],
+    "17": [
+      {
+        "kind": "move",
+        "target": "longxi",
+        "troops": 12,
+        "general": "伯颜",
+        "detail": "大军十二万阴集漠南边墙，粮秣先运，衔枚摘铃；谍候秦主力东出潼关即发。",
+        "wishes": "引而不发，秦西顾不敢撤防。"
+      },
+      {
+        "kind": "diplo",
+        "target": "qin",
+        "troops": null,
+        "general": null,
+        "detail": "市书入长安：岁以马千匹易粟五万石、开萧关边市则铁骑不出阴山；不允，秋高马肥复入陇右。",
+        "wishes": "秦允市则罢兵，不允则吾师有名。"
+      }
+    ],
+    "18": [
+      {
+        "kind": "battle",
+        "target": "longxi",
+        "troops": 12,
+        "general": "伯颜",
+        "detail": "若秦主力东出，大迂回越萧关外直捣凉州，回回炮随军，先绝水陆粮道水源；若秦备如故，掠边而返不与死磕。",
+        "wishes": "陇右空虚则凉州合围。"
+      },
+      {
+        "kind": "move",
+        "target": "longxi",
+        "troops": 4,
+        "general": "史天泽",
+        "detail": "汉军护粮廊节节跟进，因敌积粟而食，且屯且进，抚已降部。",
+        "wishes": "粮道不断，降者安堵。"
+      }
+    ],
+    "19": [
+      {
+        "kind": "battle",
+        "target": "longxi",
+        "troops": 13,
+        "general": "伯颜",
+        "detail": "围城打援：诱王贲铁骑出援，野战歼之于凉州之野；回回炮昼夜轰城，阙围一面以骇降心。",
+        "wishes": "破援拔城，马场粮仓入手。"
+      },
+      {
+        "kind": "internal",
+        "target": "mobei",
+        "troops": null,
+        "general": null,
+        "detail": "隆冬白灾高危之月，开广仓赈诸部贫弱，驿传四出预警，诸王长老会议迁场牧地。",
+        "wishes": "灾而不乱，人心愈附。"
+      }
+    ],
+    "20": [
+      {
+        "kind": "internal",
+        "target": "longxi",
+        "troops": null,
+        "general": null,
+        "detail": "若得陇右：仍用其豪帅、宽赋役、籍良马；徙诸部万户实边屯田。未得则抚定边地休士。",
+        "wishes": "陇右为南下跳板，月粮大增。"
+      },
+      {
+        "kind": "build",
+        "target": "longxi",
+        "troops": null,
+        "general": null,
+        "detail": "缮凉州城堞为前进大屯，广仓移粟，回回炮列城头，教陇右民水利。",
+        "wishes": "进拊关中，退蔽漠北。"
+      }
+    ],
+    "21": [
+      {
+        "kind": "battle",
+        "target": "guanzhong",
+        "troops": 10,
+        "general": "伯颜",
+        "detail": "若秦敝：轻骑出陇坂径拊关中腹心，焚渭南积聚、绝漕渠，勿攻坚城，直捣新附未固之腹。",
+        "wishes": "秦漕断两线崩，或逼其西师回援而野歼之。"
+      },
+      {
+        "kind": "internal",
+        "target": "mobei",
+        "troops": null,
+        "general": null,
+        "detail": "许衡、姚枢交章劾阿合马蠹国，帝温言慰儒臣而财柄不移；市井怨声鼎沸。",
+        "wishes": "变在肘腋，姑忍痛用其财。"
+      }
+    ],
+    "22": [
+      {
+        "kind": "move",
+        "target": "longxi",
+        "troops": 8,
+        "general": "史天泽",
+        "detail": "屯萧关-陇坂一线休士牧马，扼秦西顾之路；战马番休，就食陇右仓廪。",
+        "wishes": "持重如山，秦不能西。"
+      },
+      {
+        "kind": "spy",
+        "target": "qin",
+        "troops": null,
+        "general": null,
+        "detail": "谍候秦唐主力会战潼关河东，画其兵力粮道之图，驿传以闻。",
+        "wishes": "战机先觉，制人不制于人。"
+      }
+    ],
+    "23": [
+      {
+        "kind": "battle",
+        "target": "guanzhong",
+        "troops": 12,
+        "general": "忽必烈",
+        "detail": "若秦新败于东，帝自将出陇坂，以回回炮拔陇州、汧阳诸戍，扫清关中西门。",
+        "wishes": "关中门户洞开，秦人震恐。"
+      },
+      {
+        "kind": "internal",
+        "target": "mobei",
+        "troops": null,
+        "general": null,
+        "detail": "岁末括马补军、诸部轮戍归牧；白灾若至，开仓赈济、徙部就漠南草场。",
+        "wishes": "灾年兵不散、部不离。"
+      }
+    ],
+    "24": [
+      {
+        "kind": "internal",
+        "target": "mobei",
+        "troops": null,
+        "general": "阿合马",
+        "detail": "钩考钱谷，国库倍入；汉臣以灾异进谏，帝曰『姑用其才』，怨毒愈结。",
+        "wishes": "钩子②火药只欠火星。"
+      },
+      {
+        "kind": "build",
+        "target": "mobei",
+        "troops": null,
+        "general": null,
+        "detail": "广仓尽满，回回炮四十座、炮手万户成军，春草生即可问鼎关中。",
+        "wishes": "开年大举，粮械两足。"
+      }
+    ]
+  },
+  "diplomacy": [
+    {
+      "to": "song",
+      "proposal": "贸易",
+      "terms": "岁以良马三千匹易粟十万石，开边市、护商路、互不侵犯。"
+    },
+    {
+      "to": "tang",
+      "proposal": "贸易",
+      "terms": "开马市以好马易粟帛，商队假道陇右北缘，不索盟约、不涉军事。"
+    },
+    {
+      "to": "qin",
+      "proposal": "贸易",
+      "terms": "岁以马千匹易粟五万石、开萧关边市；若拒市，秋高马肥铁骑复入陇右。"
+    }
+  ],
+  "self_note": "阿合马之财饮鸩止渴，刺变在意中，真金监国为后手；白灾至则弃掠守仓；得陇右先肥马厉炮，不遽问关中。"
+}

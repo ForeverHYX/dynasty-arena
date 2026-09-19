@@ -1,0 +1,214 @@
+{
+  "faction": "song",
+  "phase": 1,
+  "strategy": "先南后北定策：曹彬仁师岁首下江淮，秋取荆楚，尽收鱼米舟师之利；北以盟好羁縻汉、唐、隋，弭四战之患。中夏无大战则行杯酒释兵权，强干弱枝；岁暮东抚齐鲁，蓄财练水师，坐观北方群雄相噬，为来年之图。",
+  "months": {
+    "1": [
+      {
+        "kind": "battle",
+        "target": "jianghuai",
+        "troops": 12,
+        "general": "曹彬",
+        "detail": "大军出汴泗，顺淮东下；曹彬约军秋毫无犯，先传檄州县，水陆并进取淮右。",
+        "wishes": "江淮传檄而定，兵不血刃，得淝淮舟粮之资。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "置诸道转运使，财赋尽输三司；广籴民间粟以实军储。",
+        "wishes": "财权归中枢，军储日羡。"
+      }
+    ],
+    "2": [
+      {
+        "kind": "move",
+        "target": "jianghuai",
+        "troops": 5,
+        "general": "潘美",
+        "detail": "潘美将五万屯颍州，缮甲练兵，控淮西以备荆楚。",
+        "wishes": "南征之师成掎角。"
+      },
+      {
+        "kind": "internal",
+        "target": "jianghuai",
+        "troops": null,
+        "general": null,
+        "detail": "江淮新附，蠲赋一岁，籍淝淮渔户习水战，任土豪守令以安之。",
+        "wishes": "淮人心附，舟籍渐成军。"
+      }
+    ],
+    "3": [
+      {
+        "kind": "build",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "大治舟师于汴口，造楼船沙船，教习水战，为南征之备。",
+        "wishes": "水师初成，水战之利渐长。"
+      },
+      {
+        "kind": "spy",
+        "target": "ming",
+        "troops": null,
+        "general": null,
+        "detail": "遣谍入江南察明军水师布防，且结荆楚豪酋为内应。",
+        "wishes": "知己知彼，荆楚有内应之助。"
+      }
+    ],
+    "4": [
+      {
+        "kind": "battle",
+        "target": "jingchu",
+        "troops": 11,
+        "general": "曹彬",
+        "detail": "舟师溯汉，步骑出义阳；曹彬先檄后兵，降者不杀，攻坚抚降并行。",
+        "wishes": "荆楚纳款，得云梦泽舟师与江汉之饶。"
+      }
+    ],
+    "5": [
+      {
+        "kind": "move",
+        "target": "zhongyuan",
+        "troops": 8,
+        "general": "曹彬",
+        "detail": "曹彬胜师还屯汴郊休整，荆楚留兵戍之。",
+        "wishes": "士马息养，连续作战之疲得解。"
+      },
+      {
+        "kind": "internal",
+        "target": "jingchu",
+        "troops": null,
+        "general": null,
+        "detail": "抚定荆楚：蠲赋任贤，籍云梦渔户为水军，汉沔漕路始通。",
+        "wishes": "新附安堵，产出渐复。"
+      }
+    ],
+    "6": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "廷议迁都洛阳，据山河之险以汰冗兵；晋王谏「在德不在险」，帝意未决，议寝。",
+        "wishes": "众议得伸，然帝心耿耿。"
+      }
+    ],
+    "7": [
+      {
+        "kind": "build",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "增修汴都城守器械，广筑仓廪储二年粮，备战守。",
+        "wishes": "根本既固，北骑南来不足惧。"
+      },
+      {
+        "kind": "spy",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "谍者四出，察河东、河北、关中及漠北兵势动向以闻。",
+        "wishes": "北疆虚实尽在掌中。"
+      }
+    ],
+    "8": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "杯酒宴石守信、高怀德、王审琦、慕容延钊等，讽以富贵自养；宿将皆称疾解兵，禁军归三衙。",
+        "wishes": "兵权尽集于上，宿将保其荣宠。"
+      }
+    ],
+    "9": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "下制科广取文武，拔曹翰、李处耘等分掌兵柄，补宿将解兵之阙。",
+        "wishes": "新进得用，方面不乏人。"
+      },
+      {
+        "kind": "build",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "益造舟舰、云梯炮座，水师成军，器械之利冠于诸军。",
+        "wishes": "攻具水师皆成，来岁进有所恃。"
+      }
+    ],
+    "10": [
+      {
+        "kind": "battle",
+        "target": "shandong",
+        "troops": 12,
+        "general": "曹彬",
+        "detail": "大军东征，曹彬先礼后兵，军过曲阜谒孔林，禁焚掠；久战之卒以严整补之。",
+        "wishes": "齐鲁慕仁师之风，望风纳款。"
+      }
+    ],
+    "11": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "赵普独相，定策南征功高而专；晋王匡义尹开封收士望。帝置参知政事分相权，两府之隙渐深。",
+        "wishes": "相权稍分，朝局暂安。"
+      },
+      {
+        "kind": "move",
+        "target": "shandong",
+        "troops": 4,
+        "general": "潘美",
+        "detail": "潘美将四万东屯，齐地定则镇彭城抚新附，未定则屯濮州为声援。",
+        "wishes": "东面有屏藩。"
+      }
+    ],
+    "12": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "岁末大阅禁军于南郊，赏南征东讨之功；申明更戍之法，饬边备。",
+        "wishes": "士气复振，来春可再举。"
+      },
+      {
+        "kind": "spy",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "密察唐、汉、隋、元四家兵势粮情与盟好动向，绘舆图以闻。",
+        "wishes": "来年战略有所本。"
+      }
+    ]
+  },
+  "diplomacy": [
+    {
+      "to": "donghan",
+      "proposal": "互不侵犯",
+      "terms": "宋不渡河，汉不窥中原，盐铁互市；齐地若附宋，汉勿争。"
+    },
+    {
+      "to": "sui",
+      "proposal": "贸易",
+      "terms": "以中原丝茶易关中粟马，边市通商，两不相犯。"
+    },
+    {
+      "to": "tang",
+      "proposal": "互不侵犯",
+      "terms": "唐不南渡河，宋不西出虎牢，各安河东中原。"
+    },
+    {
+      "to": "ming",
+      "proposal": "互不侵犯",
+      "terms": "江淮既定，宋守淮、明守江，划界而治，舟楫不入彼水。"
+    }
+  ],
+  "self_note": "释兵权后良将仅曹彬潘美，北防实虚；江淮若为明所先夺，国策改弦之辩将不可免。"
+}

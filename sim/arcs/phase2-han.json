@@ -1,0 +1,251 @@
+{
+  "faction": "han",
+  "phase": 2,
+  "strategy": "连唐制秦、暗度阴平：张良使唐拊关中之背，陈平行间结陇右羌豪，韩信潜出取陇右；对宋守和互市，坐观中原之变；韩信再捷必请益，名予实夺，伪游云梦收其兵符；刘邦不亲征，抚荆楚积粟坐镇，有隙乃图淮上。",
+  "months": {
+    "13": [
+      {
+        "kind": "diplo",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "遣张良使河东密盟：唐渡蒲津拊关中之背，汉出阴平击陇右之虚，陇右归汉、关中归唐，共弱嬴政。",
+        "wishes": "李渊利关中旧壤允盟，秦两线受敌。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "岁首大计：立王太子盈以定国本；萧何吕后共镇巴蜀、括隐户增义仓，潜增兵额，密备师期。",
+        "wishes": "国本固，粮足兵潜增。"
+      }
+    ],
+    "14": [
+      {
+        "kind": "move",
+        "target": "bashu",
+        "troops": 10,
+        "general": "韩信",
+        "detail": "韩信十万潜出汉中，屯阴平道口，声言护边市修栈道，旌旗辎重秘匿山谷，斥候禁出。",
+        "wishes": "秦谍不觉，出陇之势潜成。"
+      },
+      {
+        "kind": "spy",
+        "target": "qin",
+        "troops": null,
+        "general": null,
+        "detail": "陈平重金入陇，播秦将徙陇户实关中之谣，密结怨秦羌豪，图其山川险易约为乡导。",
+        "wishes": "陇右豪帅阴附，秦戍自疑。"
+      }
+    ],
+    "15": [
+      {
+        "kind": "battle",
+        "target": "longxi",
+        "troops": 10,
+        "general": "韩信",
+        "detail": "传檄数秦役重怨积之罪，明告绝互市；韩信出阴平潜行千余里奇袭陇右，羌豪内应，奇正并用。",
+        "wishes": "大胜定陇，降其戍卒，据狄道临洮。"
+      },
+      {
+        "kind": "move",
+        "target": "longxi",
+        "troops": 3,
+        "general": "曹参",
+        "detail": "曹参率三万继进，扼隘护粮道，安集降城；萧何漕粟循金牛嘉陵北运不绝。",
+        "wishes": "粮道无虞，新地安堵。"
+      }
+    ],
+    "16": [
+      {
+        "kind": "diplo",
+        "target": "song",
+        "troops": null,
+        "general": null,
+        "detail": "遣陆贾聘汴梁：贺宋全有江淮，申各守疆埸，请通江汉之市——示东面无事，安宋心而专西事。",
+        "wishes": "宋许互市，东线弭兵。"
+      },
+      {
+        "kind": "internal",
+        "target": "jingchu",
+        "troops": null,
+        "general": null,
+        "detail": "上幸江陵：再申约法、减荆楚赋，擢楚豪为守令；灌婴大治楼船，扼大江上游以慑明宋。",
+        "wishes": "荆楚归心，得卒二万，水师成军。"
+      }
+    ],
+    "17": [
+      {
+        "kind": "internal",
+        "target": "longxi",
+        "troops": null,
+        "general": null,
+        "detail": "若陇右定：置郡免赋一年，因羌俗而治，收牧马置苑监，徙蜀民实陇，与民休息。",
+        "wishes": "残陇渐复，得羌骑马数千。"
+      },
+      {
+        "kind": "diplo",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "遣使趣唐履约：汉已拊陇，唐宜急渡蒲津取关中；迟则秦师西援，约解而势去。",
+        "wishes": "唐出蒲津，秦三面受敌。"
+      }
+    ],
+    "18": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "信若再捷必请益地：上怒复忍，张良蹑足——予益邑虚号安之，密诏曹参分屯陇上要害，征信还镇江陵。",
+        "wishes": "信谢恩南下，兵柄暗移朝廷。"
+      },
+      {
+        "kind": "spy",
+        "target": "donghan",
+        "troops": null,
+        "general": null,
+        "detail": "谍报四出：觇宋东汉大河之约期满后中原动静、明人江上之谋，观衅以待可乘之隙。",
+        "wishes": "天下之变先知，汉得而渔。"
+      }
+    ],
+    "19": [
+      {
+        "kind": "internal",
+        "target": "jingchu",
+        "troops": null,
+        "general": null,
+        "detail": "张良陈平共画伪游云梦：上幸云梦泽，诏楚王韩信来谒，伏甲士于庭，夺其兵符收其亲军。",
+        "wishes": "信就缚无兵可恃，楚军归朝。"
+      },
+      {
+        "kind": "move",
+        "target": "jingchu",
+        "troops": 1.5,
+        "general": "樊哙",
+        "detail": "樊哙率羽林卫行驾，周勃代镇江陵收楚王邸备宿卫，以防变生肘腋。",
+        "wishes": "行在无虞，江陵有备。"
+      }
+    ],
+    "20": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "分楚军三万隶曹参、灌婴、周勃；迁信居江陵，赐甲第钟鼓名为尊宠，留大将军虚号而不与兵。",
+        "wishes": "诸军皆朝廷兵，信怨而无可如何。"
+      },
+      {
+        "kind": "diplo",
+        "target": "ming",
+        "troops": null,
+        "general": null,
+        "detail": "遣使金陵贺定岭南，申巴蜀荆楚与江南岭南互不相犯，许蜀锦茶市番舶，兼觇其江防。",
+        "wishes": "明允守约，东南无虞。"
+      }
+    ],
+    "21": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "广义仓、修陂塘于荆楚巴蜀以备水旱，灾即发廪赈济；省刑罚、举贤才，播汉仁声于四方。",
+        "wishes": "灾而不伤，民心愈固，仁名播于天下。"
+      },
+      {
+        "kind": "spy",
+        "target": "song",
+        "troops": null,
+        "general": null,
+        "detail": "重赂宋商谍淮上：觇曹彬潘美屯戍与禁军虚实，若宋师大举北向，淮上空虚即为汉期。",
+        "wishes": "淮上虚实尽知，动静有据。"
+      }
+    ],
+    "22": [
+      {
+        "kind": "battle",
+        "target": "jianghuai",
+        "troops": 8,
+        "general": "曹参",
+        "detail": "若宋师北向中原、淮上守单：曹参灌婴率水陆八万出浔阳趣合肥，先檄淮右豪族；宋师不北则按兵不出。",
+        "wishes": "乘弊下淮西，复通淝淮，与宋划界。"
+      },
+      {
+        "kind": "move",
+        "target": "jingchu",
+        "troops": 2,
+        "general": "周勃",
+        "detail": "粮械屯浔阳，楼船习战大江；若中原无事，即敛兵还镇，专意关陇。",
+        "wishes": "可东可西，进退有据。"
+      }
+    ],
+    "23": [
+      {
+        "kind": "battle",
+        "target": "guanzhong",
+        "troops": 9,
+        "general": "韩信",
+        "detail": "若未东出而唐师不至：起复韩信持符西征，曹参为副监军，自陇关乘虚趋长安；唐若出师则会而争先。",
+        "wishes": "据关中，迁都之基成，唐不得独有其地。"
+      },
+      {
+        "kind": "move",
+        "target": "longxi",
+        "troops": 2,
+        "general": "周勃",
+        "detail": "周勃二万屯陇关接应，筑亭障谨烽燧，兼防元骑乘乱南下。",
+        "wishes": "后路无虞，北边有备。"
+      }
+    ],
+    "24": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "岁终定封：功臣封列侯，定朝仪尊卑；若得关中则议迁都长安以制天下，置苑马广积粟。",
+        "wishes": "基业愈固，君臣有序，来岁争衡。"
+      },
+      {
+        "kind": "move",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "各军还镇：信归江邸，曹参屯武都，灌婴巡大江，周勃戍陇关，扼要害而观天下之变。",
+        "wishes": "犬牙相制，来春可北可东。"
+      }
+    ]
+  },
+  "diplomacy": [
+    {
+      "to": "tang",
+      "proposal": "会盟",
+      "terms": "汉出阴平取陇右、唐渡蒲津取关中，共击嬴政；陇右归汉、关中归唐，互不相犯。"
+    },
+    {
+      "to": "song",
+      "proposal": "互不侵犯",
+      "terms": "汉不东出淮上，宋不西窥江汉；通江汉之市，以蜀锦茶麻易盐铁。"
+    },
+    {
+      "to": "ming",
+      "proposal": "互不侵犯",
+      "terms": "荆楚巴蜀归汉经略，江南岭南归明所有；申旧约、通市舶，两不相犯。"
+    },
+    {
+      "to": "qin",
+      "proposal": "警告",
+      "terms": "数其役重怨积、朘削关陇之罪，促罢关中徭役；不改则义师代天行罚。"
+    },
+    {
+      "to": "yuan",
+      "proposal": "贸易",
+      "terms": "以蜀锦茶叶市元马，请铁骑毋入陇右边地。"
+    }
+  ],
+  "self_note": "伪游夺符信怨必深，吕后阴伺，白马暗线待时；许唐关中乃饵，利大则背之；上不亲征，坐收人功而防其人。"
+}

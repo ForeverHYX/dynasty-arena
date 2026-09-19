@@ -1,0 +1,246 @@
+{
+  "faction": "song",
+  "phase": 4,
+  "strategy": "新君立威图存：大赦赏军安反侧，复普证金匮、晋邸掌枢；南输明岁饷、西约唐掎角，合纵以孤东汉；六月亲征复虎牢、仁师薄洛阳，抚河南为西京；观衅与明分齐鲁，阴备明盟，修汴洛之守。",
+  "months": {
+    "37": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "大行皇帝发丧，新君大赦天下，免中原夏税什二；封太祖子德昭为郡王、录用先朝旧臣，昭金匮之盟以正大位。",
+        "wishes": "中外释疑，反侧自安。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "复赵普相位使证金匮之约；晋邸旧僚程羽、柴禹锡辈判枢密掌机务；曹彬加同平章事，典禁军如故。",
+        "wishes": "文武各安其位，亲党布列枢要。"
+      }
+    ],
+    "38": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "出内藏金帛大赏三军，厚恤围城阵殁之家；亲录系囚，申严军律，诸将以次陛见结恩。",
+        "wishes": "观望之将感奋，军心遂附新君。"
+      },
+      {
+        "kind": "build",
+        "target": "zhongyuan",
+        "troops": null,
+        "general": null,
+        "detail": "增缮汴梁、敖仓、陈桥守具，治甲胄攻械；敕三关、淮堠谨斥候，备东汉乘丧来犯。",
+        "wishes": "守备周密，敌不敢乘丧轻动。"
+      }
+    ],
+    "39": [
+      {
+        "kind": "diplo",
+        "target": "ming",
+        "troops": null,
+        "general": null,
+        "detail": "密使金陵申划淮之盟：愿岁输粮饷金帛，请明北备东汉；宋专力西事，两国舟楫毋相逾。",
+        "wishes": "南面帖然，得以专意西向。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "开恩科广取文武之士，下诏求直言；草泽听自荐，新朝气象一起。",
+        "wishes": "人才辐辏，收四海士心。"
+      }
+    ],
+    "40": [
+      {
+        "kind": "spy",
+        "target": "donghan",
+        "troops": null,
+        "general": null,
+        "detail": "细作入洛阳：散「新君素无人望、将士不服」之言以骄敌；密结齐鲁度田怨豪与郭氏不平诸将，图洛虎牢虚实。",
+        "wishes": "敌骄而惰，内应暗成。"
+      },
+      {
+        "kind": "move",
+        "target": "zhongyuan",
+        "troops": 8,
+        "general": "曹彬",
+        "detail": "曹彬率八万进屯敖仓成皋，深沟高垒为攻虎牢之基；潘美将步骑三万屯颍昌为声援。",
+        "wishes": "兵临关下，先为不可胜。"
+      }
+    ],
+    "41": [
+      {
+        "kind": "diplo",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "使晋阳约盟：宋复洛虎牢，唐出井陉胁东汉河北；事成以大河、崤函为界，开盐马市，唐兵毋东出陕虢。",
+        "wishes": "东西掎角，东汉首尾难顾。"
+      },
+      {
+        "kind": "build",
+        "target": "zhongyuan",
+        "troops": null,
+        "general": null,
+        "detail": "治云梯炮座洞屋于敖仓，储三月粮械；募流民壮者补禁军，大阅汴郊，誓师有期。",
+        "wishes": "攻守之具毕备，六月可动。"
+      }
+    ],
+    "42": [
+      {
+        "kind": "battle",
+        "target": "donghan",
+        "troops": 10,
+        "general": "赵匡义",
+        "detail": "亲征誓师：檄数刘秀乘丧逼境之罪；帝亲督师十万出敖仓攻虎牢，曹彬为前锋，潘美出轘辕缀洛援。",
+        "wishes": "虎牢一鼓而下，新君之威立。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "以皇弟廷美留守开封，赵普辅之；德昭从军以示无猜，政事悉决行在。",
+        "wishes": "根本有托，亲征无内顾之忧。"
+      }
+    ],
+    "43": [
+      {
+        "kind": "battle",
+        "target": "donghan",
+        "troops": 10,
+        "general": "曹彬",
+        "detail": "虎牢若下，曹彬乘胜西薄洛阳，先檄后兵、降者不杀；帝驻巩洛间督后劲；顿则绝洛口粮道为久持。",
+        "wishes": "仁师薄城，洛阳可传檄而定。"
+      },
+      {
+        "kind": "move",
+        "target": "zhongyuan",
+        "troops": 3,
+        "general": "曹翰",
+        "detail": "曹翰将三万屯陈桥曹州，护汴漕、南备明师，北瞰济上为大军后拒。",
+        "wishes": "漕路根本无虞，进退有据。"
+      }
+    ],
+    "44": [
+      {
+        "kind": "battle",
+        "target": "donghan",
+        "troops": 10,
+        "general": "赵匡义",
+        "detail": "洛阳开门则整众而入、市不易肆；负固则分畚长围，绝陇道水源，亲督昼夜攻之，城破不妄杀。",
+        "wishes": "河南复归，中原人心翕然。"
+      },
+      {
+        "kind": "spy",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "谍候唐军于崤函，兼觇两府争立之隙；唐若东出陕虢，则移兵拒之于崤，使者诘盟。",
+        "wishes": "西衅预知，无背刺之患。"
+      }
+    ],
+    "45": [
+      {
+        "kind": "internal",
+        "target": "zhongyuan",
+        "troops": null,
+        "general": null,
+        "detail": "抚定河南：蠲田租之半，降卒汰弱编伍，吏仍其旧；修洛阳宫阙诏为西京，终太祖迁都之志。",
+        "wishes": "河南安堵，西京根本再立。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "行赏功臣，晋邸旧僚尽据枢要；赵普以师傅领监修国史，宠以虚位而渐疏之；大政独断于上。",
+        "wishes": "亲党布列，新君之权遂一。"
+      }
+    ],
+    "46": [
+      {
+        "kind": "battle",
+        "target": "donghan",
+        "troops": 6,
+        "general": "曹翰",
+        "detail": "若齐鲁怨豪举郡以应，曹翰将六万渡河趋济州，潘美继进，约明夹击分其地；汉军大集则敛保虎牢之险。",
+        "wishes": "与明共分山东，东汉腹背受敌。"
+      },
+      {
+        "kind": "spy",
+        "target": "ming",
+        "troops": null,
+        "general": null,
+        "detail": "谛察金陵：明四州新附、宿将新丧，测其北向虚实；缮汴泗水戍楼船，备其弃盟。",
+        "wishes": "明之动向先知，南门有备。"
+      }
+    ],
+    "47": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "庙算来岁：帝欲乘胜尽复河朔，普与彬交谏「久战兵疲、彊弩之末」；帝阳许休息，攻具阴治不辍。",
+        "wishes": "锐气不堕，而士卒得苏。"
+      },
+      {
+        "kind": "build",
+        "target": "zhongyuan",
+        "troops": null,
+        "general": null,
+        "detail": "徙民实洛阳，缮虎牢成皋之守；修汴洛驰道以便转饷；水师习战于汴泗。",
+        "wishes": "西京条贯成，进可攻退可守。"
+      }
+    ],
+    "48": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "郊祀告庙，以复洛之功上先帝；大犒三军，录山东来附之士；诏来岁息民练兵，观衅而动。",
+        "wishes": "立威既成，国势复振。"
+      },
+      {
+        "kind": "diplo",
+        "target": "han",
+        "troops": null,
+        "general": null,
+        "detail": "遣使成都贺岁，续蜀粟之市；密约汉宋唇齿：明若背盟北犯，两国东西相应。",
+        "wishes": "远结于蜀，孤强明于天下。"
+      }
+    ]
+  },
+  "diplomacy": [
+    {
+      "to": "ming",
+      "proposal": "互不侵犯",
+      "terms": "申划淮之盟：宋岁输粮饷金帛，明北备东汉、舟楫不入汴泗；若共分山东，以济水为界。"
+    },
+    {
+      "to": "tang",
+      "proposal": "会盟",
+      "terms": "宋复洛虎牢，唐出井陉胁东汉河北；事成以大河、崤函为界，盐马互市，唐毋东出陕虢。"
+    },
+    {
+      "to": "donghan",
+      "proposal": "警告",
+      "terms": "还我虎牢洛阳、退出汴西，则划河而治、互市罢兵；不然新君亲问乘丧之罪。"
+    },
+    {
+      "to": "han",
+      "proposal": "贸易",
+      "terms": "续蜀粟之市，金帛粮马相易；明若背盟北犯，汉宋东西相应。"
+    }
+  ],
+  "self_note": "帝欲功业盖乃兄以服太祖旧将；金匮真伪唯普知，用毕当疏；德昭有人望，从军实制之；亲征若败，大位立摇。"
+}

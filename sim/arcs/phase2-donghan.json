@@ -1,0 +1,246 @@
+{
+  "faction": "donghan",
+  "phase": 2,
+  "strategy": "二年之略：度田行深水、法伸姻亲，纵豪怨而必伸国计；粜粮市唐马锁其东顾，联汉密约东西分宋；秋盟满传檄渡济，先檄后战、内应举火，取中原如齐鲁故事；降者编伍，吴汉若掠民必切责抚民。",
+  "months": {
+    "13": [
+      {
+        "kind": "internal",
+        "target": "shandong",
+        "troops": null,
+        "general": null,
+        "detail": "度田二期诏：推之齐鲁，兼核河北余隐；特旨先自疏宗外戚起，田逾制者输租、隐户出籍。",
+        "wishes": "岁入再增，豪强怨毒日深，风波将至。"
+      },
+      {
+        "kind": "diplo",
+        "target": "han",
+        "troops": null,
+        "general": null,
+        "detail": "遣使入楚叙宗盟：并奉高帝正朔而争中兴正统，两汉诏书往复；兼探刘邦东出江淮之意。",
+        "wishes": "正朔之争起而汉宋之隙渐深，楚有东顾之志。"
+      }
+    ],
+    "14": [
+      {
+        "kind": "spy",
+        "target": "zhongyuan",
+        "troops": null,
+        "general": null,
+        "detail": "内应网加密：结汴渠漕吏、仓曹与不满豪吏，密图城防戍籍与济上宋军虚实、宿将解兵后之调度。",
+        "wishes": "汴梁虚实尽得，济西豪吏暗许内应。"
+      },
+      {
+        "kind": "move",
+        "target": "hebei",
+        "troops": 3,
+        "general": "贾复",
+        "detail": "贾复将突骑三万屯河内，扼蒲津、河上诸津，西备唐师乘饥东窥，东为南征右翼。",
+        "wishes": "唐不敢渡河，河北根本无虞。"
+      }
+    ],
+    "15": [
+      {
+        "kind": "internal",
+        "target": "hebei",
+        "troops": null,
+        "general": "耿纯",
+        "detail": "度田及真定郭氏姻田，大姓鼓诸郡哄起——耿纯诛首恶以徇，此番姻亲亦不问，郭后由是怨望。",
+        "wishes": "风波平而法伸于亲贵，阴郭之争自此萌。"
+      },
+      {
+        "kind": "spy",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "谍入河东：察唐仓粮虚实、世民与东宫之隙、兵符分领之制，为它日行间伏子。",
+        "wishes": "唐粮窘之状与两府之隙尽入掌握。"
+      }
+    ],
+    "16": [
+      {
+        "kind": "diplo",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "粜粮十万石市唐马，展限互不相犯一载；纵其西向关中就食，我坐观秦唐相耗。",
+        "wishes": "唐受粮西顾，蒲津晏然，西线大战将起。"
+      },
+      {
+        "kind": "diplo",
+        "target": "han",
+        "troops": null,
+        "general": null,
+        "detail": "密约刘邦东西并进分宋：我出济上取中原，韩信出淮西取江淮，刻日俱发，成事互不相犯。",
+        "wishes": "汉若应约，宋两线受敌必蹶。"
+      }
+    ],
+    "17": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "集议济上之役，以谶决师期：方士奏「太白经天，利在月晦」，帝从谶定渡济之日。",
+        "wishes": "师期由谶而定，恐失先机半月。"
+      },
+      {
+        "kind": "build",
+        "target": "shandong",
+        "troops": null,
+        "general": "寇恂",
+        "detail": "寇恂总转河内积粟屯济北，大治楼船攻具，半岁之粮毕集济上，船械齐备。",
+        "wishes": "战资悉备，一鼓可渡。"
+      }
+    ],
+    "18": [
+      {
+        "kind": "move",
+        "target": "shandong",
+        "troops": 13,
+        "general": "耿弇",
+        "detail": "耿弇将步骑九万屯济北，冯异四万屯鲁南，楼船巨舰列济水，声言校猎，实待师期。",
+        "wishes": "大军压济上，宋人寝食难安。"
+      },
+      {
+        "kind": "internal",
+        "target": "zhongyuan",
+        "troops": null,
+        "general": null,
+        "detail": "传檄中原：数宋元年东征谒林开衅之罪，申「降者封侯、农不易业」之令，先通豪吏漕吏籍名。",
+        "wishes": "中原郡县摇动望风，宋戍离心。"
+      }
+    ],
+    "19": [
+      {
+        "kind": "battle",
+        "target": "zhongyuan",
+        "troops": 9,
+        "general": "耿弇",
+        "detail": "盟期既满师出有名：耿弇夜渡济水，五城奔袭故事直薄濮定、汴东；冯异继进招抚；乘宋宿将解兵调度迟缓。",
+        "wishes": "沿济诸城半开，宋军仓促西缩。"
+      },
+      {
+        "kind": "diplo",
+        "target": "han",
+        "troops": null,
+        "general": null,
+        "detail": "催汉践约：韩信若出淮西，曹彬首尾不能顾；约不成则我专取中原，江淮任汉明自图。",
+        "wishes": "韩信东出，宋两线俱裂。"
+      }
+    ],
+    "20": [
+      {
+        "kind": "battle",
+        "target": "zhongyuan",
+        "troops": 8,
+        "general": "冯异",
+        "detail": "曹彬禁军西还，会战汴东之野：冯异持重当正面，耿弇突骑卷其侧，贾复出虎牢掎角。",
+        "wishes": "禁军挫锐而退，我进薄汴梁。"
+      },
+      {
+        "kind": "move",
+        "target": "zhongyuan",
+        "troops": 3,
+        "general": "吴汉",
+        "detail": "吴汉将三万自彭城继进屯汴东，为攻坚总攻之备；严掠禁先行，置收降簿。",
+        "wishes": "攻具粮秣齐集，合围之势成。"
+      }
+    ],
+    "21": [
+      {
+        "kind": "battle",
+        "target": "zhongyuan",
+        "troops": 3,
+        "general": "吴汉",
+        "detail": "吴汉攻坚取荥阳、敖仓以断汴渠漕运；若纵兵暴掠，帝即下诏切责、抚民如伤以补仁声。",
+        "wishes": "敖仓克而漕运断，掠民之失亦得速弭。"
+      },
+      {
+        "kind": "internal",
+        "target": "zhongyuan",
+        "troops": null,
+        "general": null,
+        "detail": "安集降卒新附：免今年租，降者汰弱归农、精壮隶义从分食诸仓；开仓济流民。",
+        "wishes": "粮足而降卒无哗变，兵额反增。"
+      }
+    ],
+    "22": [
+      {
+        "kind": "battle",
+        "target": "zhongyuan",
+        "troops": 10,
+        "general": "耿弇",
+        "detail": "合围汴梁总攻：耿贾吴三道并进，内应举火为号，飞书城中「降者封侯、市不易肆」。",
+        "wishes": "城内乱起或大胜，汴梁下而中原定。"
+      },
+      {
+        "kind": "spy",
+        "target": "song",
+        "troops": null,
+        "general": null,
+        "detail": "行间汴梁：流言曹彬拥兵观望、潘美怯战、赵普蔽主——宋本兵将分离，谗言易乱其调度。",
+        "wishes": "将相相疑，守军进退失据。"
+      }
+    ],
+    "23": [
+      {
+        "kind": "battle",
+        "target": "zhongyuan",
+        "troops": 8,
+        "general": "冯异",
+        "detail": "乘胜清河南地：冯异徇陈、颍、汝诸城，先檄后兵，受降勿杀；溃宋之众愿归农者给粮。",
+        "wishes": "中原诸郡传檄而定，残宋退保淮上。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "郭后以姻田事怨望，帝抚谕两宫而宠阴氏不移；立刘庄之议起，朝堂暗流初动。",
+        "wishes": "暗流暂伏，储位之争留于来年。"
+      }
+    ],
+    "24": [
+      {
+        "kind": "move",
+        "target": "zhongyuan",
+        "troops": 6,
+        "general": "冯异",
+        "detail": "冯异镇中原、寇恂总理汴渠转漕，大军分戍河济；贾复还屯河内备唐，吴汉还镇河北。",
+        "wishes": "中原既固，兵势东西成犄角。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "岁末上计论功，云台诸将益封而不畀吏事；方士以「赤伏再验」进，帝信符命愈笃。",
+        "wishes": "功臣安位而谶纬益盛，恐启轻敌之渐。"
+      }
+    ]
+  },
+  "diplomacy": [
+    {
+      "to": "han",
+      "proposal": "会盟",
+      "terms": "东西并进分宋：东汉出济上取中原、楚出淮西取江淮，刻日俱发，成事两汉互不相犯。"
+    },
+    {
+      "to": "tang",
+      "proposal": "贸易",
+      "terms": "粜粮十万石市唐马三千，互不侵犯展限一载，唐西向关中汉不乘危、唐亦勿渡河。"
+    },
+    {
+      "to": "ming",
+      "proposal": "互不侵犯",
+      "terms": "各守疆场，汉师不逾淮上，通市无边禁。"
+    },
+    {
+      "to": "song",
+      "proposal": "警告",
+      "terms": "数元年东征谒孔林开衅之罪，盟满即两不相欠；开城者封侯，戍卒归农。"
+    }
+  ],
+  "self_note": "姻田既削，郭后怨望，刘庄尚幼、储位暗线恐乱于后；谶定师期恐误半步；汴梁若下，西望崤函在三年。"
+}

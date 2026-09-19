@@ -1,0 +1,59 @@
+{
+  "faction": "qin",
+  "phase": 1,
+  "strategy": "远交近攻：北凭塞垣疲忽必烈，尉缭间元隋两家君臣；密结唐宋共弱杨坚；秋倾国以王翦出陇坂取关中，因粮于敌。李斯修法度、驰道、长城，役虽重不恤。期一年并陇关，成东出之势。",
+  "months": {
+    "1": [
+      {"kind": "internal", "target": null, "troops": null, "general": null, "detail": "李斯编户陇右、颁秦律、同度量衡，以军功爵扩募；政日阅百二十斤奏牍亲核之。", "wishes": "法度一统，兵源粮秣岁增。"},
+      {"kind": "build", "target": "longxi", "troops": null, "general": "蒙恬", "detail": "发刑徒数万筑塞垣于北境，且筑且屯；徭役繁重，陇右民始有怨言。", "wishes": "长城立而元骑不得长驱。"}
+    ],
+    "2": [
+      {"kind": "spy", "target": "yuan", "troops": null, "general": null, "detail": "尉缭密金入漠北，赂草原旧制诸王，谤行汉法之世臣，离忽必烈君臣。", "wishes": "元廷汉法与草原两派相噬，南顾无力。"},
+      {"kind": "move", "target": "longxi", "troops": 4, "general": "蒙恬", "detail": "蒙恬将四万出屯萧关，坚壁清野，烽燧相望，专备元骑饥而叩塞。", "wishes": "元军来就食，扑空于塞下。"}
+    ],
+    "3": [
+      {"kind": "build", "target": "longxi", "troops": null, "general": null, "detail": "狄道立械营，昼夜锻弩机、云梯、冲车，为西出关中备攻城之具。", "wishes": "攻械齐备，临城加成二成。"},
+      {"kind": "move", "target": "longxi", "troops": 3, "general": "王贲", "detail": "王贲率三万骑屯陇坂，扼关中西口，兼谍隋唐动静，观衅而动。", "wishes": "探得关中守备虚实。"}
+    ],
+    "4": [
+      {"kind": "battle", "target": "longxi", "troops": 4, "general": "蒙恬", "detail": "元军穷饥必犯塞就食。蒙恬据险塞坚壁，以弩阵射其冲锋，勿与浪战，别遣奇兵绝其归路。", "wishes": "元骑顿于塞下，饥疲日甚。"},
+      {"kind": "spy", "target": "sui", "troops": null, "general": null, "detail": "尉缭散金关中，谣杨素功高震主、高颎专政，使杨坚与功臣相疑。", "wishes": "隋君臣离心，关中部署自乱。"}
+    ],
+    "5": [
+      {"kind": "battle", "target": "longxi", "troops": 5, "general": "王贲", "detail": "元军人马饥疲欲退，王贲以陇右铁骑五万自陇坂侧击，蒙恬开壁蹑其后，务歼其主力。", "wishes": "大破元骑，夺畜产以实军食。"}
+    ],
+    "6": [
+      {"kind": "internal", "target": "longxi", "troops": null, "general": null, "detail": "收元廷降附诸部徙置塞下，拣其良马立铁骑营；徙民实边，新附速化。", "wishes": "陇右铁骑成军，北患暂息。"},
+      {"kind": "build", "target": "longxi", "troops": null, "general": null, "detail": "征发郡县大修驰道，东通陇坂以转漕运械，役及万家，怨声渐起。", "wishes": "西兵东出，粮耗减十五。"}
+    ],
+    "7": [
+      {"kind": "internal", "target": null, "troops": null, "general": "王翦", "detail": "拜王翦为大将，倾国之兵悉付之；翦复请美田宅以自安，政大笑厚赐之。", "wishes": "宿将专心，上下无疑。"},
+      {"kind": "move", "target": "longxi", "troops": 13, "general": "王翦", "detail": "王翦将主力十三万会于陇坂，蒙恬留三万备北；传檄隋之罪状，先礼后兵。", "wishes": "大军云集，关中震恐。"}
+    ],
+    "8": [
+      {"kind": "battle", "target": "guanzhong", "troops": 13, "general": "王翦", "detail": "乘隋或与东邻构兵、君臣相疑之隙，逾陇攻其不备；因粮于敌，就食关中仓廪。", "wishes": "首战破隋前军，夺仓廪以济大军。"}
+    ],
+    "9": [
+      {"kind": "battle", "target": "guanzhong", "troops": 4, "general": "李信", "detail": "李信自请轻兵倍道绝渭南粮道以困长安。政许之，手书戒毋轻敌深入。", "wishes": "隋军粮道绝，长安孤悬。"}
+    ],
+    "10": [
+      {"kind": "battle", "target": "guanzhong", "troops": 15, "general": "王翦", "detail": "王翦合诸军总攻，弩阵器械并举，引渭水为兵，务求大胜，斩草除根不留后患。", "wishes": "歼隋主力，据咸阳。"}
+    ],
+    "11": [
+      {"kind": "battle", "target": "guanzhong", "troops": 12, "general": "王贲", "detail": "若隋残部犹守孤城，王贲续围攻之，绝汲道，散榜书溃其守军之心。", "wishes": "关中全境底定，隋亡。"}
+    ],
+    "12": [
+      {"kind": "internal", "target": "guanzhong", "troops": null, "general": null, "detail": "关中新定即郡县之，徙隋宗室豪强于陇右，编户安集，征兵实军。", "wishes": "沃野归秦，粮秣自足。"},
+      {"kind": "spy", "target": "tang", "troops": null, "general": null, "detail": "尉缭入河东，察唐虚实，阴结其诸子宾客，间东宫与天策府之隙。", "wishes": "得唐内情，为二年东出之资。"}
+    ]
+  },
+  "diplomacy": [
+    {"to": "song", "proposal": "贸易", "terms": "以陇马良驹市中原粮铁，岁易粮十万石，商道互保。"},
+    {"to": "donghan", "proposal": "互不侵犯", "terms": "秦居西陲，与河北不相接，各安其土，互不相犯。"},
+    {"to": "han", "proposal": "互不侵犯", "terms": "秦不窥阴平，蜀亦勿东出，相安如旧。"},
+    {"to": "tang", "proposal": "会盟", "terms": "密约共击杨坚：唐出河东拊其背，秦出陇坂；事成关中归秦、河东归唐，秦唐不相侵。"},
+    {"to": "sui", "proposal": "警告", "terms": "秦师将出陇坂：隋去帝号称藩可保宗庙，否则玉石俱焚。"},
+    {"to": "yuan", "proposal": "警告", "terms": "诸部敛迹北归则互市不绝，敢犯塞者，塞下即其葬身之地。"}
+  ],
+  "self_note": "倾国两役，军粮悬于十月；役重必积民怨，恐启伐无道。储位未建，扶苏在军、胡亥在侧。"
+}

@@ -1,0 +1,230 @@
+{
+  "faction": "sui",
+  "phase": 2,
+  "strategy": "以潼关天险存社稷，乞籴宋明以续命，罪己收人心；织关中内应之网，揭「伐无道」之旗，外结唐宋元共弊秦；俟秦三面受敌，出关复渭南、图关中；事不济则敛兵还关待变。盟元饲虎、借唐引狼，皆不得已而为之。",
+  "months": {
+    "13": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "高颎总流亡政务：汰老弱并营伍、计口授粮以延储峙；独孤后出中宫私财、率嫔御纺绩佐军，宫中衣浣濯如故。",
+        "wishes": "残军之食可支至秋，军心不散。"
+      },
+      {
+        "kind": "diplo",
+        "target": "song",
+        "troops": null,
+        "general": null,
+        "detail": "遣使汴梁乞籴：陈「隋亡则秦锋直指中原」之势，愿以潼关为宋西门、以珍器图籍偿直，并请会盟共制秦。",
+        "wishes": "宋许籴粮通市，军食得续。"
+      }
+    ],
+    "14": [
+      {
+        "kind": "diplo",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "独孤后手书李渊，叙独孤氏甥舅之亲；说以秦得关中则蒲津之险在彼，请籴粮互市，约为反秦之盟。",
+        "wishes": "唐济粮结盟，东顾有与。"
+      },
+      {
+        "kind": "spy",
+        "target": "qin",
+        "troops": null,
+        "general": "长孙晟",
+        "detail": "长孙晟遣间入关中：结故隋吏与被徙怨党，散「伐无道」之檄，兼探王贲渭汭大营与诸仓虚实。",
+        "wishes": "内应之基立，秦军虚实尽得。"
+      }
+    ],
+    "15": [
+      {
+        "kind": "build",
+        "target": "guanzhong",
+        "troops": null,
+        "general": "贺若弼",
+        "detail": "贺若弼督缮潼关：增瓮城、积矢石、塞旁径；韩擒虎出屯阌乡为掎角，斥候远至渭南。",
+        "wishes": "关城愈固，秦攻必血偿。"
+      },
+      {
+        "kind": "diplo",
+        "target": "yuan",
+        "troops": null,
+        "general": null,
+        "detail": "遣使漠北约忽必烈：秋高马肥入陇右自掠，秦备西则关中虚；许陇右城邑任元俘掠，隋不加兵。",
+        "wishes": "元骑果动，秦东西交困。"
+      }
+    ],
+    "16": [
+      {
+        "kind": "battle",
+        "target": "qin",
+        "troops": 2,
+        "general": "韩擒虎",
+        "detail": "韩擒虎以锐卒二万夜出断河桥，劫渭汭秦军屯粮、焚攻械，因粮于敌；得手即还，不与主力战。",
+        "wishes": "夺粮数万石济军，秦师顿挫。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "帝下罪己诏，素服减膳；招关中逃户入关就食、编为府兵，高颎辑流亡、明赏罚以振士气。",
+        "wishes": "军民归心，士气渐复。"
+      }
+    ],
+    "17": [
+      {
+        "kind": "diplo",
+        "target": "song",
+        "troops": null,
+        "general": null,
+        "detail": "与宋申盟：秦若东犯或逼潼关，两国相救；宋岁籴粟济隋，隋为宋蔽秦西，事成函谷以东归宋。",
+        "wishes": "宋允发粮牵制，秦不敢悉众攻关。"
+      },
+      {
+        "kind": "move",
+        "target": null,
+        "troops": null,
+        "general": "贺若弼",
+        "detail": "贺若弼增灶张旗为疑兵，夜设火鼓于原上；定守略：秦若来攻，凭堞死守，韩擒虎出奇断粮，烽燧乞援。",
+        "wishes": "王贲疑不敢逼，秦师顿于坚关。"
+      }
+    ],
+    "18": [
+      {
+        "kind": "spy",
+        "target": "qin",
+        "troops": null,
+        "general": "长孙晟",
+        "detail": "长孙晟密约关中义从：冯翊、华阴、郑县故吏歃血，誓「隋帜东举则杀秦吏开城以应」；仓吏为眼线录秦军戍移。",
+        "wishes": "内应网成，一呼可起。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "或谮内应通书两端，帝怒欲按籍大索；高颎以百口保之，独孤后言「社稷在颎」，帝焚状乃止，疑根已种。",
+        "wishes": "内应网得全，然君臣之隙伏焉。"
+      }
+    ],
+    "19": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": "苏威",
+        "detail": "苏威定随军赋式、抚流民籍；帝亲录囚徒、汰贪吏，流亡行在三省考课如一省之政，制度不坠。",
+        "wishes": "行在号令如常，士民益附。"
+      },
+      {
+        "kind": "diplo",
+        "target": "ming",
+        "troops": null,
+        "general": null,
+        "detail": "遣使江南通好于明：以宫中图籍珍玩易粟，且告「秦并关陇必窥天下」，请明勿以粟麦资秦。",
+        "wishes": "明许通市济粮，远交之势成。"
+      }
+    ],
+    "20": [
+      {
+        "kind": "spy",
+        "target": "yuan",
+        "troops": null,
+        "general": "长孙晟",
+        "detail": "长孙晟复使漠南，趣元以秋盛入陇右，示以「秦备西则关中虚」；阴识元廷汉法诸臣，留他日转圜之地。",
+        "wishes": "元骑秋出，秦军西顾。"
+      },
+      {
+        "kind": "move",
+        "target": null,
+        "troops": 3,
+        "general": "韩擒虎",
+        "detail": "简锐卒三万屯阌乡为出击之备，贺若弼以余众固关；约烽燧三举为号，警急即敛兵还关。",
+        "wishes": "出击之兵集，守关之备完。"
+      }
+    ],
+    "21": [
+      {
+        "kind": "battle",
+        "target": "guanzhong",
+        "troops": 4,
+        "general": "韩擒虎",
+        "detail": "若元骑果入陇右、秦军西顾：韩擒虎率四万出关攻华阴，故吏为内应，克则进屯渭南；援窗不开则敛兵还关。",
+        "wishes": "拔华阴渭南，得粮得民，复国之势成。"
+      },
+      {
+        "kind": "internal",
+        "target": "guanzhong",
+        "troops": null,
+        "general": null,
+        "detail": "帝亲署讨秦檄文，数秦焚宗庙、役关中之罪，传檄郡县；义兵所在皆应，故老箪食以迎王师。",
+        "wishes": "关中处处应檄，秦守土内溃之机熟。"
+      }
+    ],
+    "22": [
+      {
+        "kind": "battle",
+        "target": "guanzhong",
+        "troops": 5,
+        "general": "贺若弼",
+        "detail": "若唐渡蒲津、元蹂陇右两牵其力：贺若弼悉锐五万出关合击郑县，义兵断灞桥粮道以窥长安；外援不至则固渭南。",
+        "wishes": "关中义兵并举、秦守内乱，一举复国。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": "高颎",
+        "detail": "高颎总后路：尽发府库金帛随军犒义勇；所下郡县先开仓赈、复隋官守令，期民心既附城自固。",
+        "wishes": "新复之地人心不叛，兵源粮秣有继。"
+      }
+    ],
+    "23": [
+      {
+        "kind": "internal",
+        "target": "guanzhong",
+        "troops": null,
+        "general": null,
+        "detail": "若复关中：均田、罢秦苛役、纵徒免逋、修复宗庙，安集流散；若事不济：还保潼关缮堞死守，以待再举。",
+        "wishes": "关中既复则根本立，不济亦全师保关。"
+      },
+      {
+        "kind": "diplo",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "再修唐好：与唐约分守共秦之势，陇右听唐自取、关中归隋，世为甥舅、通关市不绝，共遏秦东出。",
+        "wishes": "唐隋约成，秦两面受制。"
+      }
+    ],
+    "24": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "岁杪内宴，太子勇侍宴失仪，晋王广素服恤士、誉望日隆；独孤后属意晋王，高颎固谏长幼之序，帝默然。",
+        "wishes": "国本之议暂息，暗流伏于来年。"
+      },
+      {
+        "kind": "move",
+        "target": null,
+        "troops": null,
+        "general": "贺若弼",
+        "detail": "岁暮大阅：贺若弼潼关、韩擒虎渭南（不济则还阌乡），分番戍守、缮械积粟，常备不懈以待来年。",
+        "wishes": "关防整严，来年进退有据。"
+      }
+    ]
+  },
+  "diplomacy": [
+    {"to": "song", "proposal": "会盟", "terms": "秦若东犯或攻潼关则相救；宋岁籴粟济隋，隋为宋蔽秦西；事成关中归隋、函谷以东归宋"},
+    {"to": "tang", "proposal": "会盟", "terms": "甥舅之盟共击秦：唐渡蒲津拊其背，事成陇右归唐、关中归隋，通关市不绝"},
+    {"to": "yuan", "proposal": "会盟", "terms": "约期共弊秦：元骑入陇右任其俘掠，隋出潼关制秦东兵，两不相犯"},
+    {"to": "ming", "proposal": "贸易", "terms": "以宫中图籍珍玩易江南粟米，岁以为常，勿以粮资秦"}
+  ],
+  "self_note": "联元如饲虎、借唐如引狼，饮鸩止渴耳；社稷只此一关，不得不行险。储位暗流与君臣之疑，帝皆未及深省。"
+}

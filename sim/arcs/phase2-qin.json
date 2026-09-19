@@ -1,0 +1,63 @@
+{
+  "faction": "qin",
+  "phase": 2,
+  "strategy": "缓役减赋弭「伐无道」之怨，乱萌立诛不赦。先礼招降潼关，拒则王翦灭隋、斩草除根；边市縻元胡，间计乱唐宋汉以防合纵。岁暮密召扶苏观政，阴为储地；不兴长城大役，蓄力来年东出。",
+  "months": {
+    "13": [
+      {"kind": "internal", "target": "guanzhong", "troops": null, "general": null, "detail": "李斯奏缓驰道、罢不急之役，关中减租一岁，赦隋旧吏量才署用，大酺三日安民。", "wishes": "新附渐安，产出渐复易手之折。"},
+      {"kind": "move", "target": "longxi", "troops": 4, "general": "蒙恬", "detail": "蒙恬将四万复屯萧关，缮烽燧、深沟高壁，且屯且牧，专候元骑春饥叩塞。", "wishes": "元骑犯塞无隙可乘。"}
+    ],
+    "14": [
+      {"kind": "spy", "target": "tang", "troops": null, "general": null, "detail": "尉缭散金河东，厚结天策府宾客，扬建成忌世民之功，使两府相猜而无暇西望。", "wishes": "唐内顾不暇，不敢渡河搆衅。"},
+      {"kind": "diplo", "target": "song", "troops": null, "general": null, "detail": "遣使汴梁申约：秦兵不逾潼关一步，宋亦勿西顾；陇马市中原粮铁，岁额倍之。", "wishes": "东面缓颊，得专意潼关。"}
+    ],
+    "15": [
+      {"kind": "internal", "target": "longxi", "troops": null, "general": null, "detail": "陇右两遭兵燹：给牛种、免租一岁、括流亡附籍；拣良马扩铁骑营，严马政岁课。", "wishes": "残州复苏，铁骑复盛。"},
+      {"kind": "build", "target": "guanzhong", "troops": null, "general": null, "detail": "渭南增广通仓，渭汭集舟车、屯炮械粮秣，漕路自咸阳东通；此非长城之役，期月可就。", "wishes": "军资云集，临关有恃。"}
+    ],
+    "16": [
+      {"kind": "diplo", "target": "sui", "troops": null, "general": null, "detail": "诏谕潼关：去帝号、献关内附，则保杨氏宗庙、迁宗室于咸阳厚养；先礼后兵，限一月。", "wishes": "隋廷举关降，兵不血刃。"},
+      {"kind": "spy", "target": "yuan", "troops": null, "general": null, "detail": "谍入漠南，察诸部马价粮情、伯颜所部戍地，侦其秋冬南下就食之意。", "wishes": "元军动向先知于塞下。"}
+    ],
+    "17": [
+      {"kind": "move", "target": "guanzhong", "troops": 10, "general": "王翦", "detail": "王翦将十万东屯渭汭、华阴，夹关对峙：隋降则受其城，不降则长围困之。", "wishes": "兵临城下，隋廷自溃。"},
+      {"kind": "diplo", "target": "tang", "troops": null, "general": null, "detail": "使入蒲坂：潼关乃秦隋家事，唐毋渡河；秦亦不越河一步，盐马互市两利。", "wishes": "唐观望不救隋。"}
+    ],
+    "18": [
+      {"kind": "battle", "target": "guanzhong", "troops": 10, "general": "王翦", "detail": "隋若拒诏：回回炮昼夜轰城，弩阵迭攻，别遣锐士绝其汲道，散榜书溃守军之心。", "wishes": "首战挫其锋，守军渐摇。"},
+      {"kind": "internal", "target": "guanzhong", "troops": null, "general": null, "detail": "市井「伐无道」讴谣复炽：李斯缉渠魁诛之，胁从勿问；开仓平粜以息浮言。", "wishes": "乱萌消于未发，借旗者失其名。"}
+    ],
+    "19": [
+      {"kind": "move", "target": "guanzhong", "troops": 3, "general": "王贲", "detail": "王贲率三万骑兜击关后，绝其东路粮汲援道，围而不急攻，坐守其敝。", "wishes": "关中残隋粮尽，不攻自乱。"},
+      {"kind": "diplo", "target": "han", "troops": null, "general": null, "detail": "申阴平边市且增其额，锦马岁易各千；密使讽汉：毋容「伐无道」亡命入蜀。", "wishes": "西南无变，乱党无所投。"}
+    ],
+    "20": [
+      {"kind": "battle", "target": "guanzhong", "troops": 12, "general": "王翦", "detail": "守军饥疲，尉缭所结关中降人夜缒为内应；王翦合诸军总攻，务求大胜，斩草除根。", "wishes": "潼关下，高颎就擒，隋亡。"}
+    ],
+    "21": [
+      {"kind": "internal", "target": "guanzhong", "troops": null, "general": null, "detail": "隋亡：迁杨氏宗室于咸阳，外厚养而内严守；散府库大赏三军，籍降卒隶郡县兵籍。", "wishes": "斩草除根，关河皆秦土。"},
+      {"kind": "move", "target": "guanzhong", "troops": 5, "general": "王贲", "detail": "王贲将五万屯潼关，增陴缮守，与蒲坂夹河相望；李信戴罪协守以自赎。", "wishes": "东门锁钥固于秦手。"}
+    ],
+    "22": [
+      {"kind": "internal", "target": null, "troops": null, "general": null, "detail": "李斯屡请早建储副，政不答；阴诏扶苏自塞下归咸阳观政，使习律令钱谷之政。", "wishes": "国本渐定，诸公子各安其位。"},
+      {"kind": "diplo", "target": "yuan", "troops": null, "general": null, "detail": "开萧关边市，以粟帛市漠南马牛，岁有常数；诸部犯塞则立绝其市。", "wishes": "元冬饥有市可籴，掠塞之意自消。"}
+    ],
+    "23": [
+      {"kind": "spy", "target": "donghan", "troops": null, "general": null, "detail": "使间构齐鲁旧衅于宋汉之间，扬宋将复争济水以东，使东方两大相疑不敢合纵。", "wishes": "宋汉生隙，西顾无人。"},
+      {"kind": "move", "target": "longxi", "troops": 3, "general": "蒙恬", "detail": "蒙恬复屯萧关冬防，烽燧相望，塞外坚壁清野，蓄薪粟以守穷冬。", "wishes": "元骑冬掠无所获。"}
+    ],
+    "24": [
+      {"kind": "internal", "target": "guanzhong", "troops": null, "general": null, "detail": "岁终亲核关陇簿计：籍关中民间兵器输咸阳，隳潼关旧垒；大赏灭隋功臣田宅。", "wishes": "偃武之名收兵之实，岁入渐丰。"},
+      {"kind": "spy", "target": "tang", "troops": null, "general": null, "detail": "续间唐两府：扬建成请督关东以制秦、世民功高不赏之谣，观其宫府之变。", "wishes": "唐家务日炽，无暇西向。"}
+    ]
+  },
+  "diplomacy": [
+    {"to": "sui", "proposal": "警告", "terms": "去帝号、献潼关内附，保宗庙、迁宗室于咸阳；一月不答，王师再至，玉石俱焚。"},
+    {"to": "song", "proposal": "互不侵犯", "terms": "秦兵不逾潼关一步，宋勿西顾；陇马市中原粮铁，岁额倍增。"},
+    {"to": "tang", "proposal": "警告", "terms": "潼关乃秦隋家事，唐毋渡河；秦亦不越河，盐马互市两利。"},
+    {"to": "han", "proposal": "贸易", "terms": "阴平边市如故且增额，锦马岁易各千；汉毋容「伐无道」亡命入蜀。"},
+    {"to": "yuan", "proposal": "贸易", "terms": "开萧关边市，粟帛市漠南马牛，岁有常数；诸部犯塞则绝市。"},
+    {"to": "donghan", "proposal": "互不侵犯", "terms": "秦汉东西不相接，各安其土，通使不绝。"}
+  ],
+  "self_note": "灭隋后必遭合纵，故先以市与间拆其局；伐无道须速平勿延。扶苏虽召，赵高侍胡亥于侧，此患朕独知之。"
+}

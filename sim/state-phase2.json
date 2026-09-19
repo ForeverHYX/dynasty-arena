@@ -1,0 +1,27 @@
+{
+  "month": 24,
+  "factions": {
+    "qin":     {"name": "秦", "leader": "嬴政",   "troops": 13.2, "food": 14, "morale": 76, "stability": 56, "regions": ["guanzhong"],            "alive": true,  "notes": "灭隋并潼关而失陇右，三面苦战师老民疲；扶苏观政而储位未定，赵高侍胡亥于侧"},
+    "han":     {"name": "汉", "leader": "刘邦",   "troops": 22.5, "food": 57, "morale": 75, "stability": 67, "regions": ["bashu", "jingchu", "longxi"], "alive": true, "notes": "暗度阴平得陇右旋遭元骑蹂躏；伪游云梦夺韩信兵符，楚地暗流涌动，绝盟攻秦之名天下侧目"},
+    "donghan": {"name": "汉", "leader": "刘秀",   "troops": 20.6, "food": 51, "morale": 81, "stability": 69, "regions": ["hebei", "shandong"],    "alive": true,  "notes": "渡济夺敖仓、尽有汴东而汴梁不克，顿兵坚城；谶纬日盛，郭后怨望、立刘庄之议暗涌"},
+    "sui":     {"name": "隋", "leader": "杨勇",   "troops": 0.7,  "food": 0,  "morale": 15, "stability": 10, "regions": [],                     "alive": false, "notes": "十月潼关陷国亡；先君杨坚崩于虎牢，杨勇奉残部八千寄寓宋境虎牢，杨广阴怀异志"},
+    "tang":    {"name": "唐", "leader": "李渊",   "troops": 21.5, "food": 19, "morale": 78, "stability": 76, "regions": ["hedong"],              "alive": true,  "notes": "李靖西征功败垂成退保河东；文静下狱功臣寒心，两府异地而处，玄武门风声渐紧"},
+    "song":    {"name": "宋", "leader": "赵匡胤", "troops": 17.5, "food": 33, "morale": 75, "stability": 68, "regions": ["zhongyuan", "jianghuai"], "alive": true, "notes": "蝗灾大战两迫，苦守汴梁不失而失敖仓、漕渠半断；纳隋廷绝秦市，晋王势长"},
+    "yuan":    {"name": "元", "leader": "忽必烈", "troops": 18.7, "food": 27, "morale": 79, "stability": 63, "regions": ["mobei"],               "alive": true,  "notes": "大掠陇右满载而归；阿合马遇刺财计归真金，白灾重创赖市粮屯田得不乱，铁骑暂不出阴山"},
+    "ming":    {"name": "明", "leader": "朱元璋", "troops": 19,   "food": 78, "morale": 81, "stability": 79, "regions": ["jiangnan", "lingnan"], "alive": true, "notes": "高墙积粮坐观天下，水师枕戈未发而慑汉于浔阳；党争渐激，刘基病、蓝玉骄，常遇春待时而动"}
+  },
+  "regions": {
+    "longxi":    {"name": "陇右凉州", "owner": "han",     "pop": 180, "grain": 6, "garrison": 0},
+    "guanzhong": {"name": "关中",     "owner": "qin",     "pop": 420, "grain": 12, "garrison": 0},
+    "hedong":    {"name": "河东",     "owner": "tang",    "pop": 300, "grain": 9,  "garrison": 0},
+    "hebei":     {"name": "河北",     "owner": "donghan", "pop": 450, "grain": 11, "garrison": 0},
+    "zhongyuan": {"name": "中原",     "owner": "song",    "pop": 520, "grain": 9,  "garrison": 0},
+    "shandong":  {"name": "山东",     "owner": "donghan", "pop": 320, "grain": 9,  "garrison": 0},
+    "bashu":     {"name": "巴蜀",     "owner": "han",     "pop": 380, "grain": 14, "garrison": 0},
+    "jingchu":   {"name": "荆楚",     "owner": "han",     "pop": 350, "grain": 10, "garrison": 0},
+    "jianghuai": {"name": "江淮",     "owner": "song",    "pop": 300, "grain": 9,  "garrison": 0},
+    "jiangnan":  {"name": "江南",     "owner": "ming",    "pop": 480, "grain": 15, "garrison": 0},
+    "lingnan":   {"name": "岭南",     "owner": "ming",    "pop": 150, "grain": 6,  "garrison": 0},
+    "mobei":     {"name": "漠北",     "owner": "yuan",    "pop": 90,  "grain": 3,  "garrison": 0}
+  }
+}

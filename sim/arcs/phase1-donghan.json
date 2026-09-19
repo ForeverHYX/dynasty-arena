@@ -1,0 +1,212 @@
+{
+  "faction": "donghan",
+  "phase": 1,
+  "strategy": "先固河北：抚豪强、积粮练兵；先檄后兵抚定山东，中岁行度田，豪强必反则半雷霆半柔道处之；秋冬南徇江淮，降者不杀以收人心；缔盟宋唐各安北面，岁末兵屯鲁地瞰中原而不先动，待势而取。",
+  "months": {
+    "1": [
+      {
+        "kind": "internal",
+        "target": "hebei",
+        "troops": null,
+        "general": "寇恂",
+        "detail": "拜寇恂总督河内粮秣，精兵简政、省并冗县，立常平仓积粟；贾复简练突骑，严明部伍。",
+        "wishes": "河北根本益固，仓廪渐实，兵精粮足。"
+      },
+      {
+        "kind": "internal",
+        "target": "shandong",
+        "troops": null,
+        "general": "冯异",
+        "detail": "冯异持节东行传檄山东：宣汉威德，赦其旧恶，豪帅署置如故，先通问孔孟儒宗与盐铁大姓。",
+        "wishes": "齐鲁郡县观望者多倾心内附。"
+      }
+    ],
+    "2": [
+      {
+        "kind": "spy",
+        "target": "shandong",
+        "troops": null,
+        "general": null,
+        "detail": "行间山东：结盐铁大姓与诸城功曹为内应，谍守备虚实，遍谕「降者封侯、去者给粮」之令。",
+        "wishes": "守军离心，诸城暗通款曲。"
+      },
+      {
+        "kind": "build",
+        "target": "hebei",
+        "troops": null,
+        "general": null,
+        "detail": "造攻城械具、缮甲兵，征河北丁壮三万隶诸营，粮秣依寇恂法转输不休。",
+        "wishes": "械具齐备，兵额渐增。"
+      }
+    ],
+    "3": [
+      {
+        "kind": "battle",
+        "target": "shandong",
+        "troops": 8,
+        "general": "耿弇",
+        "detail": "耿弇率步骑八万奔袭，夜渡河而五城连下；冯异后继专司招抚，降者不杀，愿留编伍、愿归给粮。",
+        "wishes": "守军望风开城，山东传檄而定。"
+      }
+    ],
+    "4": [
+      {
+        "kind": "internal",
+        "target": "hebei",
+        "troops": null,
+        "general": null,
+        "detail": "诏度田：清丈田亩、检核隐户瞒田，先自河内魏郡始；郡守纵豪庇户者纠劾以闻。",
+        "wishes": "岁入将增，而豪强怨望暗起。"
+      },
+      {
+        "kind": "internal",
+        "target": "shandong",
+        "troops": null,
+        "general": null,
+        "detail": "抚定山东：署用孔孟旧族为守令，省并县邑，免今年租赋，盐铁渔利仍与民。",
+        "wishes": "新民安堵，齐鲁遂为汉土。"
+      }
+    ],
+    "5": [
+      {
+        "kind": "internal",
+        "target": "hebei",
+        "troops": null,
+        "general": "耿纯",
+        "detail": "大姓抗田起兵则雷霆处之：耿纯讨平首乱，诛渠帅以徇；郭氏姻亲隐田暂缓不问——恩威并行，度田缓行续推。",
+        "wishes": "乱平而度田得行七八，虽失部分豪强欢心，国计得立。"
+      }
+    ],
+    "6": [
+      {
+        "kind": "build",
+        "target": "hebei",
+        "troops": null,
+        "general": null,
+        "detail": "寇恂大积粮于河内；置船场修楼船、习水战以备淮淝，续造械具储攻城之资。",
+        "wishes": "南征之资悉备，水师粗成。"
+      },
+      {
+        "kind": "diplo",
+        "target": "song",
+        "troops": null,
+        "general": null,
+        "detail": "遣使申好赵宋：约互不相犯，以大河为界，通漕渠贸易，共禁剽掠、还流民。",
+        "wishes": "宋许盟约，北境无虞，得专意东南。"
+      }
+    ],
+    "7": [
+      {
+        "kind": "internal",
+        "target": "hebei",
+        "troops": null,
+        "general": null,
+        "detail": "纳郭圣通、厚聘真定郭氏以固河北豪盟，阴丽华之遇不改，两宫并礼；遇南征大计以谶决之，方士言「太白经天，利东南」。",
+        "wishes": "姻盟成而豪强安心；谶言若惑听，南期或有差池。"
+      },
+      {
+        "kind": "spy",
+        "target": "jianghuai",
+        "troops": null,
+        "general": null,
+        "detail": "谍探江淮城戍水道，行间结淝淮大族；扬言汉军将由中原南下，以误其备。",
+        "wishes": "守备虚实尽得，敌疑兵于西而懈于东。"
+      }
+    ],
+    "8": [
+      {
+        "kind": "battle",
+        "target": "jianghuai",
+        "troops": 8,
+        "general": "冯异",
+        "detail": "冯异将八万出山东循淮而南，先檄后兵，楼船步骑并进；贾复率锐卒前锋薄城，约降如山东故事。",
+        "wishes": "淮上豪族开城归附，江淮半定。"
+      }
+    ],
+    "9": [
+      {
+        "kind": "battle",
+        "target": "jianghuai",
+        "troops": 3,
+        "general": "吴汉",
+        "detail": "吴汉将三万溯淮攻坚；严令毋焚掠、犯者立斩，别置吏收降簿，粮不足则先汰弱归农。",
+        "wishes": "坚城下而民不惊，纵有骄兵亦得速责速抚。"
+      },
+      {
+        "kind": "internal",
+        "target": "shandong",
+        "troops": null,
+        "general": null,
+        "detail": "山东江淮降卒数万就食不足：亲诣营垒劳军，汰老弱授田归农，精壮编义从分隶诸将。",
+        "wishes": "哗变之萌消弭，兵额反增。"
+      }
+    ],
+    "10": [
+      {
+        "kind": "internal",
+        "target": "jianghuai",
+        "troops": null,
+        "general": null,
+        "detail": "抚定江淮：署用本地贤俊，修陂堰劝农桑；新得州度田缓行，深戒「可问不可问」之失。",
+        "wishes": "新附州人心渐固，不为豪强所煽。"
+      },
+      {
+        "kind": "build",
+        "target": "hebei",
+        "troops": null,
+        "general": null,
+        "detail": "大练兵：征新卒补诸营，明屯戍更代之法，河内积年之粟转输前线。",
+        "wishes": "兵强粮足，静待中原之变。"
+      }
+    ],
+    "11": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "论功封云台诸将列侯，高秩厚禄而不畀吏事——退功臣、进文吏；帝亲校武备于鄗。",
+        "wishes": "功臣安其富而无跋扈之患，文法修明。"
+      },
+      {
+        "kind": "spy",
+        "target": "zhongyuan",
+        "troops": null,
+        "general": null,
+        "detail": "谍入中原：探宋禁军布防、汴渠仓储与关东士民向背，阴结其不满豪吏为它日内应。",
+        "wishes": "宋之虚实尽在掌中。"
+      }
+    ],
+    "12": [
+      {
+        "kind": "move",
+        "target": "shandong",
+        "troops": 5,
+        "general": "耿弇",
+        "detail": "耿弇将锐卒五万屯鲁，扼河济之会，观宋衅而不先动；冯异还镇江淮抚新附。",
+        "wishes": "大军压中原之东而不先发，宋人寝食难安。"
+      },
+      {
+        "kind": "internal",
+        "target": "hebei",
+        "troops": null,
+        "general": null,
+        "detail": "岁末上计：度田成籍，仓储兵籍皆报；集议来年南向中原、传檄关东之略。",
+        "wishes": "三年之局，先手在汉。"
+      }
+    ]
+  },
+  "diplomacy": [
+    {
+      "to": "song",
+      "proposal": "互不侵犯",
+      "terms": "以大河为界互不相犯一年，通漕贸易、共禁剽掠流民。"
+    },
+    {
+      "to": "tang",
+      "proposal": "互不侵犯",
+      "terms": "河东河北互不相犯，通关市；唐若西向，汉不乘危。"
+    }
+  ],
+  "self_note": "度田终须问及郭耿姻亲，今姑缓之以为后图；谶纬阳信而实用经术；中原禁军精锐非可力取，必待其四面受敌之势成。"
+}

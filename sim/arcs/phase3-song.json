@@ -1,0 +1,251 @@
+{
+  "faction": "song",
+  "phase": 3,
+  "strategy": "蝗后与民休息：免赋修陂、淮漕济汴、募流补军；内迁隋公收其部伍，除肘腋之患；北约会唐胁河北，南稳明、汉；六月曹彬夜袭敖仓，帝出陈桥内外解汴围，传檄复汴东；修石门复黄河漕；岁末幸洛议迁都，金匮定储以备不虞。",
+  "months": {
+    "25": [
+      {
+        "kind": "internal",
+        "target": "zhongyuan",
+        "troops": null,
+        "general": null,
+        "detail": "蝗后大政：诏掘蝗卵、修陂塘，免中原去岁逋赋，义仓赈流民，给麦种劝复业。",
+        "wishes": "二麦得播，流民归农，中原元气渐复。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "尊杨勇为隋国公，赐第汴梁，独孤后就养；简其八千众，锐者分隶诸军，老弱给田，虎牢改戍宋军。",
+        "wishes": "国中之国化于恩礼之间，肘腋之患内消。"
+      }
+    ],
+    "26": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "表授杨广右武卫大将军，赐第别居、厚禄荣之；阴遣亲校察其宾客交通，绝其领兵之望。",
+        "wishes": "恩礼豢之于冠带之下，祸心无由而发。"
+      },
+      {
+        "kind": "build",
+        "target": "zhongyuan",
+        "troops": null,
+        "general": null,
+        "detail": "缮汴口堰闸，增泗州、颍州转般仓，淮漕绕敖仓之断径达汴都，兼修道桥陆运。",
+        "wishes": "漕路半复，汴都不虞悬罄。"
+      }
+    ],
+    "27": [
+      {
+        "kind": "internal",
+        "target": "zhongyuan",
+        "troops": null,
+        "general": null,
+        "detail": "募流民壮者补禁军，汰老弱，增缮弓甲；大阅于南郊，申更戍之法。",
+        "wishes": "军额复盈，士马精练可用。"
+      },
+      {
+        "kind": "diplo",
+        "target": "ming",
+        "troops": null,
+        "general": null,
+        "detail": "遣使申划江旧盟，岁市不绝；以金帛增籴江南米麦以实军储。",
+        "wishes": "南面帖然，饷源有济。"
+      }
+    ],
+    "28": [
+      {
+        "kind": "spy",
+        "target": "donghan",
+        "troops": null,
+        "general": null,
+        "detail": "使人入齐鲁布流言：吴汉屠敖仓、度田夺民业，「赤伏」之运已移；密结怨豪为内应，兼察耿吴粮灶。",
+        "wishes": "齐鲁怨豪暗通，敌军虚实尽在掌中。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "便殿定庙算：曹彬主袭敖仓，潘美牵制陈颍，帝守汴梁为后劲；约会唐家挠河北。",
+        "wishes": "谋定后动，三师一心。"
+      }
+    ],
+    "29": [
+      {
+        "kind": "diplo",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "密使约唐：宋反攻之日，唐渡河胁河北；事成以大河为界，河北地尽归唐，开市盐马。",
+        "wishes": "东汉首尾难顾，唐师为我掎角。"
+      },
+      {
+        "kind": "build",
+        "target": "zhongyuan",
+        "troops": null,
+        "general": null,
+        "detail": "集匠治云梯、炮座、洞屋于汴郊，积薪粮、选锐为突骑；先檄刘秀索还敖仓，师出有名。",
+        "wishes": "攻具既备，反攻名正言顺。"
+      }
+    ],
+    "30": [
+      {
+        "kind": "battle",
+        "target": "donghan",
+        "troops": 10,
+        "general": "曹彬",
+        "detail": "乘夜出汴梁倍道西进，黎明急袭敖仓吴汉，焚其桥粮、一举夺仓城；据汴口以断耿弇馈道。",
+        "wishes": "敖仓复归，围师粮道立断。"
+      },
+      {
+        "kind": "battle",
+        "target": "donghan",
+        "troops": 4,
+        "general": "潘美",
+        "detail": "潘美自宋城出趣陈颍，攻冯异之背，令不得北援敖仓，得城则守之。",
+        "wishes": "冯异绊于南面，耿弇成孤军。"
+      }
+    ],
+    "31": [
+      {
+        "kind": "battle",
+        "target": "donghan",
+        "troops": 10,
+        "general": "赵匡胤",
+        "detail": "帝亲率侍卫马军出陈桥门，与回师之曹彬内外夹击耿弇围城军于汴上，一鼓破之。",
+        "wishes": "汴围遂解，耿弇东走济上。"
+      },
+      {
+        "kind": "internal",
+        "target": "zhongyuan",
+        "troops": null,
+        "general": null,
+        "detail": "传檄汴东五城及陈颍汝：只诛首恶，降者不杀，各安田里，复业者给粮种。",
+        "wishes": "汴东望风反正，兵不血刃。"
+      }
+    ],
+    "32": [
+      {
+        "kind": "battle",
+        "target": "donghan",
+        "troops": 6,
+        "general": "潘美",
+        "detail": "潘美攻拔陈州，与冯异相持于颍上，且耕且守，以护新附之背。",
+        "wishes": "陈颍次第光复，南线有屏。"
+      },
+      {
+        "kind": "internal",
+        "target": "zhongyuan",
+        "troops": null,
+        "general": null,
+        "detail": "修石门堰、浚汴渠，徙江淮之粟实敖仓，复通黄河漕运。",
+        "wishes": "漕渠全通，仓廪复盈，可支久战。"
+      }
+    ],
+    "33": [
+      {
+        "kind": "move",
+        "target": "zhongyuan",
+        "troops": 9,
+        "general": "曹彬",
+        "detail": "曹彬屯敖仓、成皋，深沟高垒，以逸待刘秀河北之援；不轻出济东，免两线之困。",
+        "wishes": "彼劳我逸，守必有成。"
+      },
+      {
+        "kind": "internal",
+        "target": "zhongyuan",
+        "troops": null,
+        "general": null,
+        "detail": "抚新复诸城：蠲今年田租之半，吏用旧人，禁剽掠，流民愿留者授田。",
+        "wishes": "汴东人心遂安，反侧自定。"
+      }
+    ],
+    "34": [
+      {
+        "kind": "battle",
+        "target": "shandong",
+        "troops": 4,
+        "general": "曹翰",
+        "detail": "若齐鲁怨豪举郡内附，曹翰以偏师渡济应之，秋毫无犯；汉军大至则敛兵保汴东。",
+        "wishes": "齐鲁壶浆来迎，不战而定。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "密召赵普自河阳入觐，复预机务，以老谋赞东西之备；朝局再得权衡。",
+        "wishes": "谋主重归枢府，两府复衡。"
+      }
+    ],
+    "35": [
+      {
+        "kind": "battle",
+        "target": "donghan",
+        "troops": 10,
+        "general": "曹彬",
+        "detail": "若刘秀悉众来争敖仓，曹彬凭仓城汴渠以逸待劳，遣轻骑绝其馈道，俟懈而击。",
+        "wishes": "汉师顿于坚城之下，粮尽自溃。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "帝幸洛阳谒洛宫，复议迁都以据山河之险；晋王率群臣谏「在德不在险」，议复寝。",
+        "wishes": "洛京根本渐固，据险之志不堕。"
+      }
+    ],
+    "36": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "夜召晋王与赵普，密书「国有多难、兄终弟及」之约，署识藏于金匮。",
+        "wishes": "万一名分先定，社稷不生内乱。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "郊祀告庙，大犒三军；申三关、淮上之备，潘美还镇淮甸；定来年观衅而动之策。",
+        "wishes": "士饱马腾，进退有据。"
+      }
+    ]
+  },
+  "diplomacy": [
+    {
+      "to": "donghan",
+      "proposal": "警告",
+      "terms": "还我敖仓、退出汴东五城，则复大河之盟、通盐铁市；不然宋必反攻，战端之责不在我。"
+    },
+    {
+      "to": "tang",
+      "proposal": "会盟",
+      "terms": "宋反攻汴东之日，唐渡河胁河北；事成以大河为界，河北归唐、中原归宋，互市盐铁战马。"
+    },
+    {
+      "to": "ming",
+      "proposal": "互不侵犯",
+      "terms": "申划江之约：宋守淮、明守江，舟楫不入彼水；增开籴市，宋以金帛易江南米麦。"
+    },
+    {
+      "to": "han",
+      "proposal": "互不侵犯",
+      "terms": "淮汉之间各守其界、通边市；汉与秦争陇、与明有隙，宋皆不预。"
+    },
+    {
+      "to": "qin",
+      "proposal": "贸易",
+      "terms": "杨氏已内迁受封，宋无意西进；愿复潼关外互市，粮马相易，各守三关之界。"
+    }
+  ],
+  "self_note": "帝年四十七，酒后常有眩疾；金匮约成，烛影之忧独普知之；杨广宾客交通未绝，三关之戍未敢撤。"
+}

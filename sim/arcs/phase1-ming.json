@@ -1,0 +1,233 @@
+{
+  "faction": "ming",
+  "phase": 1,
+  "strategy": "九字真言：高筑墙、广积粮、缓称王。首年绝不抢先出头：通使四方辞气恭顺，坐观北方群雄相攻；先取江淮门户，再抚岭南，屯田积粟、增筑江防，蓄水陆之劲以待天时，谋定后动。",
+  "months": {
+    "1": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": "李善长",
+        "detail": "广积粮：兴屯田水利，攒造户帖清丈田亩，惩贪恤民，秋粮尽入官仓",
+        "wishes": "粮储大增，流民归籍，治下愈固"
+      },
+      {
+        "kind": "spy",
+        "target": null,
+        "troops": null,
+        "general": "刘基",
+        "detail": "检校四出：探江淮、荆楚守备虚实，密察中原、河北诸雄动向",
+        "wishes": "四邻虚实尽入掌中"
+      }
+    ],
+    "2": [
+      {
+        "kind": "build",
+        "target": "jiangnan",
+        "troops": null,
+        "general": "徐达",
+        "detail": "高筑墙：增筑京口、采石江防要塞，扩建鄱阳水师战船，江面日夜操练",
+        "wishes": "江防固若金汤，水师益精"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "整训诸军：徐达练大兵团进止之法，常遇春选锋突击之师，申明军纪",
+        "wishes": "兵精粮足，蓄势以待"
+      }
+    ],
+    "3": [
+      {
+        "kind": "battle",
+        "target": "jianghuai",
+        "troops": 9,
+        "general": "徐达",
+        "detail": "水陆并进渡江击江淮：水师遮护渡口、断淝水援路，常遇春选锋楔入破其野战之众",
+        "wishes": "歼江淮守军主力，合围庐州"
+      }
+    ],
+    "4": [
+      {
+        "kind": "battle",
+        "target": "jianghuai",
+        "troops": 6,
+        "general": "常遇春",
+        "detail": "乘胜攻坚：火器云梯齐发，夜拔庐州；严戒诸军毋屠降、毋掠民",
+        "wishes": "庐州城破，江淮传檄可定"
+      },
+      {
+        "kind": "spy",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "谍报续探：密察荆楚豪帅与巴蜀刘邦有无东出争江淮之意",
+        "wishes": "预知诸侯动向，先为之备"
+      }
+    ],
+    "5": [
+      {
+        "kind": "internal",
+        "target": "jianghuai",
+        "troops": null,
+        "general": "李善长",
+        "detail": "江淮若定：减赋免粮三年，徕流亡垦淝沃之野，修陂堰水利，置江淮行省",
+        "wishes": "新附之民安堵，产出渐复"
+      },
+      {
+        "kind": "build",
+        "target": "jianghuai",
+        "troops": null,
+        "general": "徐达",
+        "detail": "增筑庐州、寿阳城防，屯田置戍，控南北冲要",
+        "wishes": "江淮门户化为坚城"
+      }
+    ],
+    "6": [
+      {
+        "kind": "diplo",
+        "target": "song",
+        "troops": null,
+        "general": null,
+        "detail": "遣使汴梁：奉表修好，请互不侵犯、通漕互市，辞气恭顺居下",
+        "wishes": "北面无警，商路通而财货济"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "广积粮不辍：续屯田、增义仓，征补新兵附旧营操练",
+        "wishes": "仓廪益实，兵额渐充"
+      }
+    ],
+    "7": [
+      {
+        "kind": "spy",
+        "target": null,
+        "troops": null,
+        "general": "刘基",
+        "detail": "坐山观虎斗：谍报网总汇北方群雄战守之势，检校潜入中原、关中探其虚实",
+        "wishes": "知诸强所攻所守，择隙而动"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "马皇后劝课桑麻、恤孤寡；元璋亲裁淮西浙东两党职守，各用其长而抑其争",
+        "wishes": "宫府清简，党争暂伏"
+      }
+    ],
+    "8": [
+      {
+        "kind": "battle",
+        "target": "lingnan",
+        "troops": 7,
+        "general": "李文忠",
+        "detail": "偏师南征：沿赣水南下直趋番禺，传檄诸峒，誓师毋掠民、毋妄杀",
+        "wishes": "峒豪望风归附，番禺开港"
+      },
+      {
+        "kind": "move",
+        "target": "jianghuai",
+        "troops": 2,
+        "general": "沐英",
+        "detail": "沐英偏师移屯庐州，与徐达为犄角，备中原之变",
+        "wishes": "冲要有备"
+      }
+    ],
+    "9": [
+      {
+        "kind": "internal",
+        "target": "lingnan",
+        "troops": null,
+        "general": null,
+        "detail": "岭南若内附：轻徭薄赋，存问诸峒酋长，开番禺市舶以通海道",
+        "wishes": "岭海晏然，市舶之利渐丰"
+      },
+      {
+        "kind": "spy",
+        "target": "han",
+        "troops": null,
+        "general": null,
+        "detail": "密察巴蜀：刘邦修栈道否？有无东出争荆楚之谋",
+        "wishes": "汉之动向先知，荆楚可预图"
+      }
+    ],
+    "10": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "连下两州，蓝玉纵兵小犯禁：元璋命徐达按问，严申纪律，厚赏而明罚",
+        "wishes": "骄兵知儆，将士用命而不敢肆"
+      },
+      {
+        "kind": "build",
+        "target": "jiangnan",
+        "troops": null,
+        "general": null,
+        "detail": "续造漕船战舰，广储粮秣于金陵、庐州两仓，增江防第二线",
+        "wishes": "粮械山积，江防愈固"
+      }
+    ],
+    "11": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "淮西浙东互讦于朝：元璋两罚其魁从、亲加裁断，命刘基参赞军机、李善长专理钱粮",
+        "wishes": "两党各效其力，争端暂抑"
+      },
+      {
+        "kind": "spy",
+        "target": "jingchu",
+        "troops": null,
+        "general": null,
+        "detail": "谍入荆楚：探水师营垒、豪帅心背，为来年先图之地",
+        "wishes": "荆楚虚实尽悉"
+      }
+    ],
+    "12": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "岁终大计：核户帖钱粮、考诸将功过，犒军而申约束，密议来年进取之序",
+        "wishes": "仓粮甲于诸雄，师出有名"
+      },
+      {
+        "kind": "move",
+        "target": "jianghuai",
+        "troops": 3,
+        "general": "徐达",
+        "detail": "徐达率主力移镇庐州，控中原冲要而不北进，示守示弱",
+        "wishes": "群雄视明为守，无东顾之虞"
+      }
+    ]
+  },
+  "diplomacy": [
+    {
+      "to": "song",
+      "proposal": "互不侵犯",
+      "terms": "明宋各守疆界，通漕互市，不相攻伐"
+    },
+    {
+      "to": "han",
+      "proposal": "互不侵犯",
+      "terms": "巴蜀、江楚各安其分，两不相犯"
+    },
+    {
+      "to": "yuan",
+      "proposal": "贸易",
+      "terms": "以茶帛易漠北马匹，密通使节而不声张"
+    }
+  ],
+  "self_note": "缓称王实为缓担责：声望蓄于仁政与胜绩。蓝玉之骄、两党之轧皆记档待发，恐其祸在异日。"
+}
