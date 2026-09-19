@@ -1,0 +1,246 @@
+{
+  "faction": "ming",
+  "phase": 8,
+  "strategy": "大水后固本为先：修圩清军、恩结功臣；外交翻面——平视纳宋为屏，縻元制唐于海，离间唐汉于海岸；候河北衅开，常遇春一刀复齐；汴梁困而不攻，熬至百二十月，州数即天命。",
+  "months": {
+    "85": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "岁首庙算定三步：固本、拆盟、复齐，再赌之议且寝。大水未复，修圩赈饥为第一政；召徐达还金陵面授方略，剖示谗档以诚相见",
+        "wishes": "谗纹当面弥之，将心复如初"
+      },
+      {
+        "kind": "spy",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "谍网重布四路：洛阳云台与胶东汉军之实、长安舟师成军之期、汴中曹赵三人心事、上都市马与漠南诸部之向——逐旬绘图呈金陵",
+        "wishes": "四家一动，金陵先知半旬"
+      }
+    ],
+    "86": [
+      {
+        "kind": "internal",
+        "target": "jiangnan",
+        "troops": null,
+        "general": null,
+        "detail": "江南重建立圩局：以工代赈修苏湖圩堤，免水田逋赋，补种冬麦；马皇后亲董赈务，粥棚恤孤——灾年反收民心",
+        "wishes": "圩成民聚，来岁仓廪复实"
+      },
+      {
+        "kind": "build",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "五州清军练卒：卫所括隐占、汰老弱、补新征，新卒入讲武堂操练；水师陆战营倍练——去岁围汴之耗，岁内补之",
+        "wishes": "兵数复盈，士气复振"
+      }
+    ],
+    "87": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "功臣定置：召蓝玉还授太子太师，领金吾亲军，登莱选锋归李文忠；徐达总督东线如故；厚赏围汴之劳，恩结于铁榜之外",
+        "wishes": "兵柄各安其位，怨气化为爵禄"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "马皇后厚养功臣家眷于京师，子弟入大本堂与皇子同读；太子婚媾常蓝之家——恩为鞘，榜为刃，骄气自消",
+        "wishes": "骄将之族，与国同休"
+      }
+    ],
+    "88": [
+      {
+        "kind": "diplo",
+        "target": "song",
+        "troops": null,
+        "general": null,
+        "detail": "弃称臣之谕，改与宋约为兄弟之国：淮汴复市，明罢围师之半；宋不预四家制明之局，各守其境三年",
+        "wishes": "宋回面南向，唐粟减半"
+      },
+      {
+        "kind": "spy",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "密使长安，出汉元深盟「唐犯河北则元出陇右蹙关中」之条于御前：刘秀以粟縻公于西，阴结元骑于公后——唐之敌岂独明哉",
+        "wishes": "长安自此疑洛阳，四家盟自内裂"
+      }
+    ],
+    "89": [
+      {
+        "kind": "diplo",
+        "target": "yuan",
+        "troops": null,
+        "general": null,
+        "detail": "海道通辽东：舟市漠南诸部，茶铁金帛岁市马三千；使上都告真金：唐舟师成必争辽海——汗宜守碛观变，毋为汉出陇",
+        "wishes": "元骑不出陇，汉盟空转"
+      },
+      {
+        "kind": "build",
+        "target": "shandong",
+        "troops": null,
+        "general": "李文忠",
+        "detail": "登莱缮治：赈疫后流民、籍田安集；舟师大营成，选锋习浮海。常遇春请缨，使练兵海营，戒曰：战候衅发，不轻掷",
+        "wishes": "胶东根深，一刀养利"
+      }
+    ],
+    "90": [
+      {
+        "kind": "move",
+        "target": "jianghuai",
+        "troops": 7,
+        "general": "徐达",
+        "detail": "徐达移壁淮泗，水师集海州，峙而不发；游骑哨胶东，扬言将出——河北衅开之日，即复齐发兵之期",
+        "wishes": "弦满不发，敌不知我何向"
+      },
+      {
+        "kind": "build",
+        "target": "bashu",
+        "troops": null,
+        "general": "沐英",
+        "detail": "缮阴平栈堡、增烽戍，蜀中屯田岁积；唐若窥剑阁，凭险而守耗其粮道——西线以守为攻，东线乃得专意",
+        "wishes": "蜀门无虞，东师无后顾"
+      }
+    ],
+    "91": [
+      {
+        "kind": "battle",
+        "target": "shandong",
+        "troops": 5,
+        "general": "常遇春",
+        "detail": "候唐汉衅开乃发：常遇春领海道选锋夜袭即墨之背，李文忠以正兵出莱州，水师绝其海运——先复胶东内地，再图西进",
+        "wishes": "一战复胶东，老卒全其名"
+      },
+      {
+        "kind": "spy",
+        "target": "donghan",
+        "troops": null,
+        "general": null,
+        "detail": "衅未开则扬声舟师北出直沽图幽州，增灶淮上——刘秀北顾则胶东备薄，唐汉相疑则衅自内生",
+        "wishes": "不战而撼四家之盟"
+      }
+    ],
+    "92": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "朱标再抚军淮上，功臣子弟同营操演；李善长典粮台、刘基赞庙算，两党并用无偏；论前后之劳颁恩有差——怨气未萌，先以恩化",
+        "wishes": "军心附储，上下相安"
+      },
+      {
+        "kind": "diplo",
+        "target": "song",
+        "troops": null,
+        "general": null,
+        "detail": "市缰回手：明粟平价入汴，岁不过十万石而价贱唐粟——汴人半仰我粟，宋存而弱，足为江南屏蔽",
+        "wishes": "汴之命脉，复悬我手"
+      }
+    ],
+    "93": [
+      {
+        "kind": "battle",
+        "target": "shandong",
+        "troops": 6,
+        "general": "李文忠",
+        "detail": "胶东既复则西进：火器楼船循河而上，兵薄济南，徐达出淮为外势，围而不攻，檄谕齐鲁吏民——先声后实",
+        "wishes": "齐鲁传檄而定，山东复全"
+      },
+      {
+        "kind": "internal",
+        "target": "shandong",
+        "troops": null,
+        "general": null,
+        "detail": "复地之政：免一年粮、赈疫饥、戮墨吏，复祀阙里圣人——齐鲁之民，粥须比洛阳的稠",
+        "wishes": "齐心归明，汉遂断臂"
+      }
+    ],
+    "94": [
+      {
+        "kind": "build",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "三吴船场岁出大舰，辽海分舰队常巡直沽外洋——河北之背长悬明刀，汉军岁岁分兵防海",
+        "wishes": "敌分于备海，我专于陆战"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "战罢即召常遇春还金陵疗养，禄赐有加，全其始末；戒诸将毋以功骄人——刀用过即收，鞘在东宫",
+        "wishes": "猛将全始全终，骄芽不生"
+      }
+    ],
+    "95": [
+      {
+        "kind": "diplo",
+        "target": "song",
+        "troops": null,
+        "general": null,
+        "detail": "密约南归：汴若事急，奉赵氏宗庙沿汴入淮，明以王爵礼待，血食不绝——西幸虎牢是投唐，南归金陵是全宋",
+        "wishes": "宋之退路，改道向南"
+      },
+      {
+        "kind": "move",
+        "target": "zhongyuan",
+        "troops": 6,
+        "general": "徐达",
+        "detail": "徐达壁成皋之南候变：唐汉相攻则捣其虚，两家皆静则敛兵护漕——势常在而兵不轻战",
+        "wishes": "中原之变，明执先手"
+      }
+    ],
+    "96": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "岁末大计：复齐则六州为砥，宋为屏、元为棋、唐汉相疑；熬至百二十月，州数即天命——标儿监国，朕亲校兵籍钱粮",
+        "wishes": "天下渐轻，其轻在朕"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "沛侯刘邦疾少间，岁时存问、厚其医药，禄赐如初——汉家这枚棋，养着",
+        "wishes": "奇子留待他日"
+      }
+    ]
+  },
+  "diplomacy": [
+    {
+      "to": "song",
+      "proposal": "互不侵犯",
+      "terms": "平等兄弟之约：淮汴复市、明罢围师之半，宋不预四家制明之局；事急可奉宗庙南归，明以王爵礼待"
+    },
+    {
+      "to": "tang",
+      "proposal": "贸易",
+      "terms": "汴洛通市如故；明不助元不助汉——唐若问鼎河北，明师不出淮，各图其近"
+    },
+    {
+      "to": "yuan",
+      "proposal": "贸易",
+      "terms": "海道通辽东，茶铁金帛市漠南之马；唐舟师若争辽海，明元互闻——市而不盟，不声张"
+    },
+    {
+      "to": "donghan",
+      "proposal": "互不侵犯",
+      "terms": "明还登莱之俘，淮盐之市如故；胶东之属以海为界各守，只求两安，岁币勿须"
+    }
+  ],
+  "self_note": "复齐为的，拆盟为纲；蓝玉之档付标儿；常十万只此一刀；宋屏不可倒、唐不可得汴——熬到第十年，州数赢即是天命。"
+}

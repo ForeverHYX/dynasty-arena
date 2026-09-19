@@ -1,0 +1,246 @@
+{
+  "faction": "donghan",
+  "phase": 8,
+  "strategy": "复兴持盈：让盟主之名于唐，执四国粮马军情之枢于洛；以陆制海——拔登莱绝明辽海之谋，海口坚壁毋战于海；争汴口以活宋，导唐西窥蜀；重整粮台，柔推进度田；帝不亲征养体力，太子观政成班子；徐淮候衅，不赌国运。",
+  "months": {
+    "85": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "云台岁首大议：明治舰辽海欲图河北之背——策定以陆制海：拔登莱之根、挫海口之锋，誓不逐敌于海；兵粮铳械之数岁首校定。",
+        "wishes": "庙算先定，明之奇谋先堕于纸。"
+      },
+      {
+        "kind": "diplo",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "贺正长安：让盟主之名，尊唐为四国约主；岁粟五万如约，申唐专陇蜀、宋守汴、元守碛、汉执粮马军情之枢——军情共籍于洛。",
+        "wishes": "唐受名而专于明，河北之背安。"
+      }
+    ],
+    "86": [
+      {
+        "kind": "build",
+        "target": "hebei",
+        "troops": null,
+        "general": null,
+        "detail": "海防先务：章武、柳河口筑铳台烽堠，徙沿海积粟入坚城，清野以待；吴汉不得离河，冯异专虎牢——门户如铁。",
+        "wishes": "明师浮海来，无所掠而自困。"
+      },
+      {
+        "kind": "spy",
+        "target": "ming",
+        "troops": null,
+        "general": null,
+        "detail": "觇登莱舰期：楼船出否、所向辽海抑直趋渤海？登莱留守几何、怨豪可用者谁——先十日而知，先十日而备。",
+        "wishes": "明之航路，先在我的图上。"
+      }
+    ],
+    "87": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "粮台重建：寇恂既没，邓禹总察度支，耿纯领河内魏郡转漕，复常平、广舟运——胶东海防两线并进，毋令乏兴。",
+        "wishes": "转漕如寇君在时，军不忧粮。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "太子观政：庄侍朝录事、开经筵——邓禹总师傅之任，博士桓荣授经，耿弇暇日教战；郭况阴兴并侍东宫，阴郭同扶国本。",
+        "wishes": "班子文武兼资，帝得节劳养体。"
+      }
+    ],
+    "88": [
+      {
+        "kind": "battle",
+        "target": "hebei",
+        "troops": 3,
+        "general": "吴汉",
+        "detail": "明师若薄海口：纵其登陆，吴汉叠阵铳炮邀击滩头，马成焚其舟于河口；毋逐于海、毋掠滨海——部曲切责如故。",
+        "wishes": "客军悬于滩，一击而溃，归舟成灰。"
+      },
+      {
+        "kind": "internal",
+        "target": "hebei",
+        "troops": null,
+        "general": null,
+        "detail": "檄河北山东：明若焚掠沿海，有司即赈、蠲其岁役——仁暴之辨先收人心，毋令海警滋怨。",
+        "wishes": "海上有警而民心不摇。"
+      }
+    ],
+    "89": [
+      {
+        "kind": "battle",
+        "target": "shandong",
+        "troops": 4,
+        "general": "耿弇",
+        "detail": "明舰既离巢：耿弇铁骑叠阵夜拔黄县，传檄怨豪为应，径围登州——断其海粮，铳炮墩堡渐逼，毋与楼船战于岸外。",
+        "wishes": "登州合围，半岛传檄而定。"
+      },
+      {
+        "kind": "move",
+        "target": "shandong",
+        "troops": 2,
+        "general": "贾复",
+        "detail": "贾复车营继进：抚定即墨以北，护粮台、押俘系——得地贵安，毋令新附复扰。",
+        "wishes": "兵锋之后，鸡犬不惊。"
+      }
+    ],
+    "90": [
+      {
+        "kind": "battle",
+        "target": "shandong",
+        "troops": 3,
+        "general": "耿弇",
+        "detail": "登州轰而缓攻、开一生路：降者全活编伍，徙于内陆厚粮之——毋令降卒聚而生变；不降则克期以炮碎之。",
+        "wishes": "登莱尽复，齐地全而海道我有。"
+      },
+      {
+        "kind": "internal",
+        "target": "shandong",
+        "troops": null,
+        "general": null,
+        "detail": "胶东之政：蠲役赈饥、复盐场之课，孔氏之后与齐士量才授之——礼义之邦以礼收之。",
+        "wishes": "齐人心定，登莱为汉土。"
+      }
+    ],
+    "91": [
+      {
+        "kind": "move",
+        "target": "shandong",
+        "troops": 1.5,
+        "general": "马成",
+        "detail": "马成楼船循海哨之，筑成山之罘烽台，迁明遗船场之匠于邺——半岛反为瞭辽之目、造船之资。",
+        "wishes": "辽海动静，旬日达洛。"
+      },
+      {
+        "kind": "diplo",
+        "target": "song",
+        "troops": null,
+        "general": null,
+        "detail": "汴粟六万如约虎牢递运；约潘美东窥汴口虚实，曹彬毋轻出浪战——汴存则明不得专力东向我。",
+        "wishes": "中原之盾不折，明师两头受制。"
+      }
+    ],
+    "92": [
+      {
+        "kind": "diplo",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "岁中申约：请唐出阴平窥蜀——明之西臂，唐取之则首尾不能相顾；汉以舟师挠淮为应，岁粟马加额佐之。",
+        "wishes": "唐师西向，明五州之体自此拆。"
+      },
+      {
+        "kind": "battle",
+        "target": "zhongyuan",
+        "troops": 1.5,
+        "general": "马成",
+        "detail": "乘秋潦争汴口：火船夜薄锁漕之舰，焚其半则围汴之师自惰——唐楼船若东来会，则并力破锁。",
+        "wishes": "锁漕一折，汴粟复通，明困汴之计烂。"
+      }
+    ],
+    "93": [
+      {
+        "kind": "internal",
+        "target": "shandong",
+        "troops": null,
+        "general": null,
+        "detail": "柔推进度田：东平故堤岁修，新复之地隐田渐籍，以爵易粟如河北故事——军实岁增而豪右不惊。",
+        "wishes": "度田之结，又柔解一寸。"
+      },
+      {
+        "kind": "spy",
+        "target": "ming",
+        "troops": null,
+        "general": null,
+        "detail": "乘明海陆两挫，檄数其罪于淮北荆襄：恤其灾民、结其豪帅、录其流寓之士——徐淮之人心，先一岁而耕之。",
+        "wishes": "淮北望汉旗如望岁。"
+      }
+    ],
+    "94": [
+      {
+        "kind": "spy",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "盟好之中不忘备：觇世民所向、唐水师所之——功名若渴，所向何方？黎阳河防之备，一日不撤。",
+        "wishes": "唐之动，无出我之料。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "帝节劳：万机之半委尚书台，太子分省章奏，云台诸将岁一入觐——岁月方长，养精力以有终始。",
+        "wishes": "君明于上而不疲，政清于下而不乱。"
+      }
+    ],
+    "95": [
+      {
+        "kind": "diplo",
+        "target": "yuan",
+        "troops": null,
+        "general": null,
+        "detail": "续聘上都：岁马六千如约、茶铁先输；使吊姚枢之丧，厚结史天泽；辽海军情共享，明若遁栖辽东，请元骑蹙之于滨海。",
+        "wishes": "北门无虞，铁骑岁增。"
+      },
+      {
+        "kind": "build",
+        "target": "shandong",
+        "troops": null,
+        "general": null,
+        "detail": "葺登莱明遗船场而广之，造哨海快船百艘，习风涛于成山内港——水师自哨海始，不与明争大洋。",
+        "wishes": "海权渐移，徐淮之役有舟可用。"
+      }
+    ],
+    "96": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "岁终上计：校兵粮船铳之数；云台大议——水师渐成、唐约在、汴口通，来岁徐淮可图；决战之期候明之衅，毋先发。",
+        "wishes": "进退之柄，始终在我。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "论功行赏：胶东之役增封耿弇，图功臣于云台——太子一一识其面目；厚养将士家眷，功臣皆得善终之道。",
+        "wishes": "将帅一心，二代之才渐显。"
+      }
+    ]
+  },
+  "diplomacy": [
+    {
+      "to": "tang",
+      "proposal": "会盟",
+      "terms": "尊唐为四国约主（盟主之名让之），汉执粮马军情枢机于洛；岁粟五万续佐，请唐专明之西——出阴平窥蜀最善；唐军毋东渡河，河北汉之根本。"
+    },
+    {
+      "to": "song",
+      "proposal": "会盟",
+      "terms": "岁粟六万虎牢递运如约；汴若有急，汉出虎牢挠明之饷；宋毋私和于明——汴梁存则中原不尽入明。"
+    },
+    {
+      "to": "yuan",
+      "proposal": "贸易",
+      "terms": "岁市马六千、茶盐铁器倍偿；共享辽海军情——明若遁栖辽东滨海，元骑蹙之，汉输军资为谢。"
+    },
+    {
+      "to": "ming",
+      "proposal": "警告",
+      "terms": "辽海之谋吾已知之，登莱亦齐土也；犯河北之背，则汴口淮海四国交兵共蹙之——各守其界，犹可及。"
+    }
+  ],
+  "self_note": "盟主可让枢机必执；以陆制海非争海；唐强亦患，导其西窥乃驱虎；太子早立阴郭并抚，为身后计。"
+}

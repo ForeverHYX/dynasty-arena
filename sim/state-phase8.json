@@ -1,0 +1,27 @@
+{
+  "month": 96,
+  "factions": {
+    "qin":     {"name": "秦", "leader": "胡亥", "troops": 0.3, "food": 0, "morale": 15, "stability": 10, "regions": [], "alive": false, "notes": "亡国。嬴政服丹暴崩于云阳（35月），沙丘矫诏立胡亥、赐死扶苏蒙恬；王贲举萧关残军降唐，赵高戮于军门，李斯胡亥被执送长安。国祚三十六月，旧将王贲亦殉于萧关（57月），秦焰至此而尽"},
+    "han":     {"name": "汉(西汉)", "leader": "刘邦", "troops": 0, "food": 0, "morale": 10, "stability": 10, "regions": [], "alive": false, "notes": "国除（44月）。刘邦仍寓金陵为沛侯，今岁五十七：去岁酒疾几不能言，今岁少间而命又续一年，萧何侍药如故、朱元璋岁时存问厚其医药——距历史享年尚有四载，这枚棋子金陵还押着"},
+    "sui":     {"name": "隋", "leader": "杨勇", "troops": 0, "food": 0, "morale": 15, "stability": 10, "regions": [], "alive": false, "notes": "国除。杨广谋西奔事泄被幽（34月），杨勇安于汴梁隋国公之位，部众早编入宋军"},
+    "donghan": {"name": "汉(东汉)", "leader": "刘秀", "troops": 11.8, "food": 23, "morale": 81, "stability": 76, "regions": ["hebei", "shandong"], "alive": true, "notes": "拔登莱之年：耿弇夜拔黄县、炮碎登州，马成火船绝其海漕，李文忠浮海南退——山东全复、明辽海之谋绝，云台「以陆制海」之策全数兑现。蓝玉焚即墨粮台为一年之挫。让盟主之名于唐而自执粮马军情之枢；元亡之后岁马改仰唐厩——马缰易手，洛阳的算盘另打。太子观政成班子、哨海快船百艘下水，来岁徐淮可图"},
+    "tang":    {"name": "唐", "leader": "李建成", "troops": 18.5, "food": 27, "morale": 90, "stability": 71, "regions": ["hedong", "guanzhong", "longxi", "mobei"], "alive": true, "notes": "灭元之年：倍市尽其马、绝市断其粮、三道出碛、白灾中按辔缓进，上都一役史天泽殉国、张弘范被俘，真金奉主举族内附——漠北入版图（四州），安北都护府立、碛口复市，北马尽归唐厩。李靖封司空图形凌烟，岁终陪祀归第而薨，功成身退之极。然关中夏旱、白灾冻军、阴平栈道被沐英先缮（刀遇鞘）、汴口之锁被宋先复——来岁对明摊牌：铁骑水师并举，先礼后兵之书已至金陵"},
+    "song":    {"name": "宋", "leader": "赵德昭", "troops": 11.5, "food": 24, "morale": 78, "stability": 58, "regions": ["zhongyuan"], "alive": true, "notes": "复漕之年：乘明师东调，潘美夜复汴口、三迭水砦立——三年粮缰一夜挣断，漕权复归于汴。淮汴之约成：明罢围师之半、纳宋为屏，宋出四家制明之局。赵普薨（谥忠献、配享太庙），李处耘实授政事——亲政之局乃全。退路两扇门：唐许西幸洛宫、明许南归王爵，德昭两存之。大阅汴郊、郊祀献捷——夹缝里的宋，第一次握住了主动"},
+    "yuan":    {"name": "元", "leader": "真金", "troops": 0, "food": 0, "morale": 15, "stability": 10, "regions": [], "alive": false, "notes": "国除（93月）。请婚请市而唐倍价尽其马、寻绝其市；药木忽儿绝境犯边授唐以伐名；白灾锁碛、上都城破——史天泽殉国、张弘范被俘，真金不忍部众冻馁，奉世祖主去汗号举族内附。唐封归义王赐第长安，安北都护府抚其部、碛口市复开于唐旗。伯颜遗表「和唐守碛」终成谶——以全部众和之。国祚九十三月"},
+    "ming":    {"name": "明", "leader": "朱元璋", "troops": 11.8, "food": 55, "morale": 75, "stability": 79, "regions": ["jiangnan", "lingnan", "jingchu", "jianghuai", "bashu"], "alive": true, "notes": "三挫固本之年：反间长安碰壁、汴口复于宋、縻元之算第三落空（明使望烟而返）、登莱尽没于耿弇——山东全失（五州），辽海之谋无港可栖。然淮汴之约纳宋为屏、修圩清军灾年收心、朱标抚军结将——内固如铁。刀用过即收，耻记东宫；唐使先礼后兵之书已至——来岁中原之局，堂堂之阵"}
+  },
+  "regions": {
+    "longxi":    {"name": "陇右凉州", "owner": "tang",    "pop": 160, "grain": 5, "garrison": 0},
+    "guanzhong": {"name": "关中",     "owner": "tang",    "pop": 388, "grain": 6, "garrison": 0},
+    "hedong":    {"name": "河东",     "owner": "tang",    "pop": 300, "grain": 9, "garrison": 0},
+    "hebei":     {"name": "河北",     "owner": "donghan", "pop": 440, "grain": 8, "garrison": 0},
+    "zhongyuan": {"name": "中原",     "owner": "song",    "pop": 466, "grain": 7, "garrison": 0},
+    "shandong":  {"name": "山东",     "owner": "donghan", "pop": 288, "grain": 5, "garrison": 0},
+    "bashu":     {"name": "巴蜀",     "owner": "ming",    "pop": 352, "grain": 9, "garrison": 0},
+    "jingchu":   {"name": "荆楚",     "owner": "ming",    "pop": 338, "grain": 9, "garrison": 0},
+    "jianghuai": {"name": "江淮",     "owner": "ming",    "pop": 286, "grain": 8, "garrison": 0},
+    "jiangnan":  {"name": "江南",     "owner": "ming",    "pop": 480, "grain": 13, "garrison": 0},
+    "lingnan":   {"name": "岭南",     "owner": "ming",    "pop": 152, "grain": 6, "garrison": 0},
+    "mobei":     {"name": "漠北",     "owner": "tang",    "pop": 78,  "grain": 1, "garrison": 0}
+  }
+}

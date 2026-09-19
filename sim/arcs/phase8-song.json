@@ -1,0 +1,241 @@
+{
+  "faction": "song",
+  "phase": 8,
+  "strategy": "夹缝再生：乘明师东调、水师北出，一举复汴口断粮缰，复漕通市固本；外交再平衡——固汉姻盟为实际、增市辞唐册、岁币买明默许；内整太祖旧臣、补练禁军；徐观明汉海上之局，虎牢共戍渐代汉，退备不撤。",
+  "months": {
+    "85": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "亲政整枢府：赵普拜太师致仕、其谋尽录国史；李处耘参决政务，台谏经筵亲擢——顾命之权重归御前，而不惊朝局。",
+        "wishes": "相权平稳交接，亲政名副其实。"
+      },
+      {
+        "kind": "diplo",
+        "target": "donghan",
+        "troops": null,
+        "general": null,
+        "detail": "贺正洛阳申兄弟之盟：明汉若战于胶东，宋出汴泗绝明饷为应；汉岁粟如旧，宋偿盐铁绫磁加三成；请约登莱市舶通汴共分。",
+        "wishes": "姻盟由婚书进为战守之实，东臂益固。"
+      }
+    ],
+    "86": [
+      {
+        "kind": "spy",
+        "target": "ming",
+        "troops": null,
+        "general": null,
+        "detail": "谍入金陵登莱汴口：觇明水师北调辽海之期、汴口守御虚实、胶东兵食多寡——复漕的时机与刀口，先我而知。",
+        "wishes": "明之刀口先我而知，庙算豫定应手。"
+      },
+      {
+        "kind": "build",
+        "target": "zhongyuan",
+        "troops": null,
+        "general": null,
+        "detail": "春汛前浚汴渠堰闸、修陂塘堤防，贷种劝麦括粟实仓；赶造楼船火船泊于汴泗——为复汴口之役先备舟楫。",
+        "wishes": "仓渐实舟渐成，兵出有据。"
+      }
+    ],
+    "87": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "募流民壮者补禁军、汰老弱编伍；石守信高怀德等宿将分典教阅，曹彬总核——义社之威与新卒之练合为一军，兵额渐复。",
+        "wishes": "禁军知有新君，将星不因释兵权而乏。"
+      },
+      {
+        "kind": "diplo",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "使长安贺岁：岁市敖仓粟二十万加价三成，申约兵毋东出成皋；微言明新撄大水、蜀富而阴平故道可图——导唐锋向蜀。",
+        "wishes": "唐贪蜀利而容宋，西门之压自分。"
+      }
+    ],
+    "88": [
+      {
+        "kind": "battle",
+        "target": "ming",
+        "troops": 3,
+        "general": "潘美",
+        "detail": "候明水师北调、胶东开战之机：潘美楼船夜袭汴口水砦，火船焚其锁漕；曹彬以四万出壁汴东为应——水陆夹击以复汴口。",
+        "wishes": "粮缰一断漕舟复通，汴梁命脉归己手。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "先檄中外：宋复漕为自赡，市好不绝、戍毋相犯——先安汴中之心，亦塞明兴师之口实。",
+        "wishes": "师出有名，城中帖然。"
+      }
+    ],
+    "89": [
+      {
+        "kind": "move",
+        "target": "zhongyuan",
+        "troops": 2,
+        "general": "曹翰",
+        "detail": "汴口若复：曹翰将二万驰戍缮垒，立三迭水砦护漕；抚汴东流民复业、蠲其逋赋，明商市舶毋绝——示志在漕不在战。",
+        "wishes": "汴口为宋土，漕权复归于汴。"
+      },
+      {
+        "kind": "diplo",
+        "target": "ming",
+        "troops": null,
+        "general": null,
+        "detail": "使金陵告既成：汴口宋自戍，岁币市礼照输、各守其境——「明专东事，毋庸西顾」；以钱帛买默许，和战两手皆备。",
+        "wishes": "明忍而不遽报，复漕之局立定。"
+      }
+    ],
+    "90": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "整合太祖旧臣：石守信高怀德王审琦图形功臣之殿、赐第录子入卫；宿将典教阅、恩科新进典州县——新旧并途各得其所。",
+        "wishes": "太祖之众尽归德昭，朝局浑然。"
+      },
+      {
+        "kind": "build",
+        "target": "zhongyuan",
+        "troops": null,
+        "general": null,
+        "detail": "漕通市兴：浚渠复堰，市易税契渐复，括粟至半岁；增造楼船火船泊汴口，水师渐复旧观。",
+        "wishes": "财赋自赡，命脉不再仰人鼻息。"
+      }
+    ],
+    "91": [
+      {
+        "kind": "battle",
+        "target": "ming",
+        "troops": 2,
+        "general": "潘美",
+        "detail": "明汉既战于海上：潘美楼船出汴泗，夜焚明淮泗转运之艘，得手即还不恋战——绝明东征之饷，即松汴梁之围。",
+        "wishes": "明饷两断于汴泗，汉在胶东多得一分胜算。"
+      },
+      {
+        "kind": "spy",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "长安谍候：世民请东之疏、两宫之隙、关中之粮——唐若欲假道成皋加兵于宋，驰驿先报，庙算豫应。",
+        "wishes": "唐之动静先我而知，西门无虞。"
+      }
+    ],
+    "92": [
+      {
+        "kind": "internal",
+        "target": "zhongyuan",
+        "troops": null,
+        "general": null,
+        "detail": "秋收平粜蠲赋，录阵亡恤孤寡，流亡复业；赵普病笃，亲幸其第执手问疾——三朝谋主，灯将尽矣。",
+        "wishes": "民力渐苏，老臣身后之荣已备。"
+      },
+      {
+        "kind": "battle",
+        "target": "ming",
+        "troops": 5,
+        "general": "曹彬",
+        "detail": "明若罢胶东之师西报：曹彬坚壁深沟毋浪战，潘美绝其饷、汉蹑其后——三面反客为主，待其自弊击其惰归。",
+        "wishes": "汴仍不落之城，明师曝于野而自溃。"
+      }
+    ],
+    "93": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "赵普薨则辍朝三日，赠尚书令、谥忠献，配享太庙，恤其家；李处耘实授政事——半部论语终局，亲政之局乃全。",
+        "wishes": "老臣哀荣备至，权柄平稳归御前。"
+      },
+      {
+        "kind": "diplo",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "唐再申册封则婉拒如初：「兄弟之国可，君臣不可」；增岁市三成为价，密以阴平蜀利啖唐——唐锋向蜀，西门自安。",
+        "wishes": "唐怒可买、唐锋可导，册封之议终寝。"
+      }
+    ],
+    "94": [
+      {
+        "kind": "build",
+        "target": "zhongyuan",
+        "troops": null,
+        "general": null,
+        "detail": "缮汴垒增砲座楼橹，治攻守之具；括舟于汴、储粮巩县——西幸之备阴续不撤，不为外人所知。",
+        "wishes": "守攻两具皆备，退路仍在掌中。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "大阅禁军于汴郊，水陆合操，德昭亲擢其优者入班直；邀唐汉使观礼——耀兵而不出击，战和之价皆增。",
+        "wishes": "军心民心再振，三邻知汴军复振。"
+      }
+    ],
+    "95": [
+      {
+        "kind": "diplo",
+        "target": "donghan",
+        "troops": null,
+        "general": null,
+        "detail": "聘洛阳问海上之局：汉胜则贺之以市舶之约，汉蹙则增粟助饷；约水师联哨淮泗——姻盟由名而实，共扼明之两翼。",
+        "wishes": "明汉相持于海，汴梁坐收漕市之利。"
+      },
+      {
+        "kind": "battle",
+        "target": "ming",
+        "troops": 4,
+        "general": "曹彬",
+        "detail": "明若破汉于海、回窥洛汴：曹彬西壁虎牢与冯异共守，宋卒渐代汉戍洛口——救汉即代汉，虎牢终须姓赵。",
+        "wishes": "虎牢之险入宋手而汉不疑。"
+      }
+    ],
+    "96": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "郊祀告庙献汴口之捷，叙功行赏；史馆进亲政以来政记；庙算来岁：明汉海上胜负、唐蜀之衅——宋之进退随之。",
+        "wishes": "正统军实并固，来岁握有主动。"
+      },
+      {
+        "kind": "diplo",
+        "target": "ming",
+        "troops": null,
+        "general": null,
+        "detail": "岁末三聘：金陵岁币问安如常、长安申市约、洛阳致姻问——刀在鞘中，礼在堂上，三角再平衡。",
+        "wishes": "三邻各安其位，宋再得一岁之养。"
+      }
+    ]
+  },
+  "diplomacy": [
+    {
+      "to": "donghan",
+      "proposal": "会盟",
+      "terms": "兄弟之盟落实：明汉战于胶东，宋出汴泗绝明饷为应；汉岁粟如旧、宋偿盐铁绫磁加三成；登莱复后市舶通汴共分。"
+    },
+    {
+      "to": "tang",
+      "proposal": "互不侵犯",
+      "terms": "宋岁市敖仓粟二十万加价三成，唐兵毋东出成皋；册封之议终辞，永为兄弟通好；唐西图之事宋不预。"
+    },
+    {
+      "to": "ming",
+      "proposal": "贸易",
+      "terms": "汴口复为宋戍、锁漕作废，漕市两通；宋岁币市礼照输、各守其境，明专力东事毋庸西顾。"
+    }
+  ],
+  "self_note": "复汴口为断绳非启战；虎牢共戍乃代汉之渐；西幸之备未撤；唐册可辞不可受；曹彬渐老，兵柄阴移潘美。"
+}

@@ -1,0 +1,246 @@
+{
+  "faction": "yuan",
+  "phase": 8,
+  "strategy": "守碛通市：不反攻、不称臣，以马市婚姻代臣约；市利实岁赐、兵牧合一，弭诸王复陇之躁；送伯颜谢幕，兵柄定于史天泽；译经兴学修史存汉法火种；告汉明辽海之谋、纳河北流附，坐观群雄耗明待变。",
+  "months": {
+    "85": [
+      {
+        "kind": "internal",
+        "target": "mobei",
+        "troops": null,
+        "general": "真金",
+        "detail": "岁首大计定国是三言：不反攻、不称臣、市马立国。岁赐以市利实之；明告诸王——复陇者先丧其市，此先帝弃陇之本意。",
+        "wishes": "守碛之策定于一，复陇之议稍息。"
+      },
+      {
+        "kind": "diplo",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "贺正使入长安：续碛口市马，请增为岁五千匹兼易粟茶铁；重提婚姻——愿尚唐宗室女，聘以良马万匹；唐不出碛，我不入陇。",
+        "wishes": "婚市并成，北门十年无事。"
+      }
+    ],
+    "86": [
+      {
+        "kind": "internal",
+        "target": "mobei",
+        "troops": null,
+        "general": "伯颜",
+        "detail": "伯颜病笃，真金昼视药、夜宿帐下；受遗表四事：和唐守碛、市养诸王、汉法存种、毋轻出碛。录副藏金匮，预议身后恤典。",
+        "wishes": "老臣善终，遗表即国本。"
+      },
+      {
+        "kind": "build",
+        "target": "mobei",
+        "troops": null,
+        "general": null,
+        "detail": "兵牧合一：拣常备二万归部屯牧，官给种马、市利分帐，岁省军粮万石而马产倍增；托名复祖宗兵牧旧制，汉法旧俗两派皆安。",
+        "wishes": "国用渐纾，诸王无词。"
+      }
+    ],
+    "87": [
+      {
+        "kind": "internal",
+        "target": "mobei",
+        "troops": null,
+        "general": "真金",
+        "detail": "若太傅不起：赠太师，谥忠武，配享世祖庙庭、图形功臣阁；兵柄明授史天泽、以张弘范副之，录其子入宿卫——移柄于哀荣之中。",
+        "wishes": "大丧不摇军心，权柄无争。"
+      },
+      {
+        "kind": "internal",
+        "target": "mobei",
+        "troops": null,
+        "general": "许衡",
+        "detail": "国子学扩为太学：王恂领学、郭守敬掌历算；译《孝经》《贞观政要》为国语刊布诸部——汉法之义，先入草原之心。",
+        "wishes": "弦诵之声起于碛北。"
+      }
+    ],
+    "88": [
+      {
+        "kind": "diplo",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "若唐许婚：定称甥舅之国而不称臣，聘礼岁马万匹，碛口市增额并行，婚期约以来春；若未许，则增市额如故，和不断。",
+        "wishes": "以婚姻代臣约，和局上锁。"
+      },
+      {
+        "kind": "spy",
+        "target": "ming",
+        "troops": null,
+        "general": null,
+        "detail": "回回商使自金陵归：明治舰辽海、将图河北之背，驰报洛阳践军情之盟；兼岁市茶铁如故——市门不闭，谍亦不禁。",
+        "wishes": "汉先得海警，我先知明虚实。"
+      }
+    ],
+    "89": [
+      {
+        "kind": "build",
+        "target": "mobei",
+        "troops": null,
+        "general": null,
+        "detail": "大修碛口—上都驿道：三驿一堡，护市军屯道侧；上都开大榷场，中原流寓工贾附籍——商道即国防，市门即长城。",
+        "wishes": "岁入什一实国，货通则边安。"
+      },
+      {
+        "kind": "internal",
+        "target": "mobei",
+        "troops": null,
+        "general": "真金",
+        "detail": "诸王朝会于上都：岁赐如额颁之，市利分录诸王名下；选诸王子弟入太学、入宿卫——以恩结之，以利安之，以学化之。",
+        "wishes": "诸王帖然入觐，驿道无警。"
+      }
+    ],
+    "90": [
+      {
+        "kind": "internal",
+        "target": "mobei",
+        "troops": null,
+        "general": null,
+        "detail": "昔里吉余党药木忽儿等若煽金山诸部复陇：先抚后讨——持金帛诏诸部：叛则丧岁市之利，归则帐落如故。以市利离其党与。",
+        "wishes": "党与不战自散，首恶孤立。"
+      },
+      {
+        "kind": "battle",
+        "target": "mobei",
+        "troops": 2.5,
+        "general": "史天泽",
+        "detail": "若抚之不从：史天泽倍道进讨，张弘范继进绝其北窜；只诛首恶，胁从不问，毋掠市堡驿道——护市即护诸王之利。",
+        "wishes": "一役靖碛北，市道即日复通。"
+      }
+    ],
+    "91": [
+      {
+        "kind": "internal",
+        "target": "mobei",
+        "troops": null,
+        "general": "真金",
+        "detail": "变平，忽里勒台大会于太祖大帐：歃血申守成之盟，岁赐市利永为定例；引遗诏为誓——旧俗不改，汉法并行，复陇之议永息。",
+        "wishes": "守成定于大帐，国是一人。"
+      },
+      {
+        "kind": "diplo",
+        "target": "donghan",
+        "troops": null,
+        "general": null,
+        "detail": "明辽海之谋若炽：岁马增千急输洛阳，军情驿传旬日一报；约明犯河北则元马不绝——盟友之背，即我之边。",
+        "wishes": "汉顶住河北，明无暇西顾。"
+      }
+    ],
+    "92": [
+      {
+        "kind": "diplo",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "若婚期至：亲迎于碛口，婚礼兼汉礼草原之仪，两市夹道同开，边将释警——一婚两俗并见，婚姻之城坚于金城。",
+        "wishes": "唐元为一家，北门终岁不惊。"
+      },
+      {
+        "kind": "build",
+        "target": "mobei",
+        "troops": null,
+        "general": null,
+        "detail": "立文庙于上都，春秋释奠；翰林国史院开局修《世祖实录》——先帝之政书之于史，圣人之道存之于碛北。",
+        "wishes": "史成则汉法之统不绝。"
+      }
+    ],
+    "93": [
+      {
+        "kind": "diplo",
+        "target": "song",
+        "troops": null,
+        "general": null,
+        "detail": "遣使假道唐汉通问汴梁：愿岁市战马数百由洛阳转输；中原士民避兵北走者，驿道护行、太学容之——收士心于患难。",
+        "wishes": "宋得马久撑，士北来而学愈盛。"
+      },
+      {
+        "kind": "spy",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "四裔驿报总汇：唐师东向与否、世民功名所向、明辽海师期、汴梁存亡——三日一报上都，静极观变，不误一动。",
+        "wishes": "天下之变，我先知而不先动。"
+      }
+    ],
+    "94": [
+      {
+        "kind": "build",
+        "target": "mobei",
+        "troops": null,
+        "general": null,
+        "detail": "白灾大备如律：诸部预徙冬场，羊马入暖厩，仓廪实碛口诸驿；市利之粟岁籴三成为储——雪未至而备先足。",
+        "wishes": "雪来不成灾，畜群得全。"
+      },
+      {
+        "kind": "internal",
+        "target": "mobei",
+        "troops": null,
+        "general": null,
+        "detail": "明若大犯河北、兵乱北流：开边纳附，流民编户屯牧，降卒拣壮补军——河北之耗，漠北之补，人畜两增。",
+        "wishes": "弱者转强于无形。"
+      }
+    ],
+    "95": [
+      {
+        "kind": "internal",
+        "target": "mobei",
+        "troops": null,
+        "general": "真金",
+        "detail": "白灾若起：开仓赈部、破雪保畜、暖厩护羔，焚弱畜以全壮；真金坐镇上都调度，毋令一部失所，毋辍一驿之市。",
+        "wishes": "灾而不乱，诸部感德。"
+      },
+      {
+        "kind": "internal",
+        "target": "mobei",
+        "troops": null,
+        "general": null,
+        "detail": "太学岁考不辍：灾年课业如常，真金亲策经义；中土避兵来投之士皆授馆授田——火种愈寒愈明。",
+        "wishes": "文脉不绝于碛北。"
+      }
+    ],
+    "96": [
+      {
+        "kind": "internal",
+        "target": "mobei",
+        "troops": null,
+        "general": "真金",
+        "detail": "岁终上计：市、牧、学、盟四政并书于册；定来岁——守碛通市、火种不熄，坐观明唐汉相争之变，进退在我。",
+        "wishes": "守成又固一年，以待天命。"
+      },
+      {
+        "kind": "diplo",
+        "target": "donghan",
+        "troops": null,
+        "general": null,
+        "detail": "岁聘洛阳续深盟：币马并输贺正；明辽海之衅若开，军情马政之约岁岁重申——合纵之局，碛北不撤。",
+        "wishes": "盟好入第九年而不坠。"
+      }
+    ]
+  },
+  "diplomacy": [
+    {
+      "to": "tang",
+      "proposal": "联姻",
+      "terms": "真金尚唐宗室女，为甥舅之国而不称臣；碛口岁市增为马五千匹易粟茶铁；唐师不出大碛，元骑不入陇右。"
+    },
+    {
+      "to": "donghan",
+      "proposal": "会盟",
+      "terms": "岁马六千如约先输；明若犯河北或辽海有警，军情互报、岁马增千——共制明之北略。"
+    },
+    {
+      "to": "ming",
+      "proposal": "贸易",
+      "terms": "回回商道岁聘互市如故，茶铁丝马交易；明师毋近碛口漠南，犯则绝市。"
+    },
+    {
+      "to": "song",
+      "proposal": "贸易",
+      "terms": "岁市战马数百由洛阳转输汴梁；中原避兵士民北走者，元驿道护行、编户授田。"
+    }
+  ],
+  "self_note": "伯颜必不起，史天泽亦老，预以张弘范接兵柄；遗党必借复陇生事，先抚后讨；唐婚不成则增市额，绝不称臣。"
+}
