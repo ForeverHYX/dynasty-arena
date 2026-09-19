@@ -1,0 +1,246 @@
+{
+  "faction": "donghan",
+  "phase": 7,
+  "strategy": "一州之汉以合纵自固：拆明唐之约、岁粟买唐专西、结元为围魏之援、保宋为中原之盾；严河防井陉半渡而击，度田折军不逼豪右；叠阵成军先试锋，候明顿于汴淮，耿弇陆路出平原复齐——不渡海、不浪战、不赌国运。",
+  "months": {
+    "73": [
+      {
+        "kind": "diplo",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "贺正长安，面呈明使约唐东略、明自定中原之谋，申二汉相攻利归金陵；岁粟五万续输，请唐专陇右。",
+        "wishes": "玄甲罢渡河之议，祸水西引。"
+      },
+      {
+        "kind": "move",
+        "target": "hebei",
+        "troops": 5,
+        "general": "吴汉",
+        "detail": "吴汉壁黎阳，马成楼船循河；贾复扼井陉、耿纯壁滏口，烽燧相属——唐若渡河，半渡而击。",
+        "wishes": "河防如铁，唐不得立岸。"
+      }
+    ],
+    "74": [
+      {
+        "kind": "diplo",
+        "target": "yuan",
+        "troops": null,
+        "general": null,
+        "detail": "使上都：市马五千、茶盐铁倍偿；密约唐若渡河犯河北，元出陇右蹙关中，汉输军资为谢。",
+        "wishes": "陇警一起，唐师自罢。"
+      },
+      {
+        "kind": "internal",
+        "target": "hebei",
+        "troops": null,
+        "general": null,
+        "detail": "安插登莱浮海来归之卒：厚粮编伍隶耿弇，流民籍田而赈——降者归心，毋令哗变。",
+        "wishes": "散卒成军，齐鲁之怨渐归汉。"
+      }
+    ],
+    "75": [
+      {
+        "kind": "internal",
+        "target": "hebei",
+        "troops": null,
+        "general": null,
+        "detail": "度田折军：清丈沿河新垦隐田折粟输军，郭耿真定元勋家赐爵免勘——豪右出粟而不反。",
+        "wishes": "军实岁增，度田之结以柔道解。"
+      },
+      {
+        "kind": "build",
+        "target": "hebei",
+        "troops": null,
+        "general": null,
+        "detail": "军器监岁计：再铸铳炮三百，叠阵教成于河内；邺城楼船二十艘下水，常平籴粟备荒。",
+        "wishes": "器利粮足，守则有余。"
+      }
+    ],
+    "76": [
+      {
+        "kind": "battle",
+        "target": "hebei",
+        "troops": 6,
+        "general": "吴汉",
+        "detail": "唐若渡河：吴汉半渡击于黎阳，马成焚其舟，耿弇铁骑卷其岸，铳炮列河干齐发——毋令立岸。",
+        "wishes": "玄甲折于河上，长安就此盟。"
+      },
+      {
+        "kind": "internal",
+        "target": "hebei",
+        "troops": null,
+        "general": null,
+        "detail": "诏切责军纪：吴汉部敢掠民者斩；战罢抚问被兵之家——推赤心置人腹中。",
+        "wishes": "胜而民不怨，军声民望两全。"
+      }
+    ],
+    "77": [
+      {
+        "kind": "battle",
+        "target": "shandong",
+        "troops": 3,
+        "general": "耿弇",
+        "detail": "试锋：耿弇以叠阵出平原，拔明边垒一二人——盾车前、铳炮继、骑翼之，得手即还。",
+        "wishes": "铳炮之效验于敌，齐鲁知汉且复来。"
+      },
+      {
+        "kind": "spy",
+        "target": "ming",
+        "troops": null,
+        "general": null,
+        "detail": "传檄攻心：恤山东河决之灾、录其流寓之士；怨豪阴受约束，戍兵虚实岁岁在目。",
+        "wishes": "齐鲁人心阴向洛阳。"
+      }
+    ],
+    "78": [
+      {
+        "kind": "build",
+        "target": "hebei",
+        "troops": null,
+        "general": null,
+        "detail": "屯田河内魏郡因粮足食，虎牢金墉增陴列铳，楼船习战于河——为三年持久之计。",
+        "wishes": "河防岁固，可支久战。"
+      },
+      {
+        "kind": "spy",
+        "target": "shandong",
+        "troops": null,
+        "general": null,
+        "detail": "内线加密：登莱怨豪、灾民、海舟戍所粮道，尽入图册——复齐之册先落于纸。",
+        "wishes": "明在山东之虚实，旬日一更新。"
+      }
+    ],
+    "79": [
+      {
+        "kind": "build",
+        "target": "hebei",
+        "troops": null,
+        "general": "耿弇",
+        "detail": "简河北突骑益以归卒并省之兵，市马之骑毕集于邺——耿弇练奔袭复雠之师。",
+        "wishes": "铁骑成军，一击可复齐。"
+      },
+      {
+        "kind": "diplo",
+        "target": "song",
+        "troops": null,
+        "general": null,
+        "detail": "汴粟倍递防明冬举：虎牢递运，宋偿盐铁金帛；戒曹彬毋私和明——唇亡齿寒。",
+        "wishes": "汴梁不内溃，明志不逞于中原。"
+      }
+    ],
+    "80": [
+      {
+        "kind": "battle",
+        "target": "shandong",
+        "troops": 4,
+        "general": "耿弇",
+        "detail": "候明顿于汴淮或唐明相恶：耿弇铁骑出平原径袭济南，毋渡海、避其水师，传檄怨豪为应。",
+        "wishes": "济南传檄而复，齐鲁响应。"
+      },
+      {
+        "kind": "move",
+        "target": "hebei",
+        "troops": 4,
+        "general": "冯异",
+        "detail": "备明之报：冯异严虎牢、吴汉固河防，叠阵凭坚——明若来攻，挫其锐于城下。",
+        "wishes": "我出而门户不摇。"
+      }
+    ],
+    "81": [
+      {
+        "kind": "battle",
+        "target": "shandong",
+        "troops": 5,
+        "general": "冯异",
+        "detail": "济南若下：冯异渡河继进，徇胶东，抚定城邑；守城埠毋战于海——得地贵安。",
+        "wishes": "齐鲁复汉，传檄而定。"
+      },
+      {
+        "kind": "internal",
+        "target": "shandong",
+        "troops": null,
+        "general": null,
+        "detail": "复地之政：蠲河决之租、赈东平之饥、戮墨吏安怨豪——新复之州收拾人心为先。",
+        "wishes": "齐鲁安，明不敢轻进。"
+      }
+    ],
+    "82": [
+      {
+        "kind": "diplo",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "使长安告齐鲁之复，申共制明：唐挠汴北、宋守汴、元蹙陇，四家分其势。",
+        "wishes": "合纵成局，明四面受敌。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "两宫并抚：郭后母家益封如故，太子庄讲武观兵于洛——阴郭并进，谶谣毋作。",
+        "wishes": "宫省帖然，国本愈固。"
+      }
+    ],
+    "83": [
+      {
+        "kind": "build",
+        "target": "shandong",
+        "troops": null,
+        "general": null,
+        "detail": "备明水师之报：铳炮上历城即墨之城，登莱增哨海——毋与战于海，专守城埠。",
+        "wishes": "海道有备，明舟不敢薄岸。"
+      },
+      {
+        "kind": "spy",
+        "target": "ming",
+        "troops": null,
+        "general": null,
+        "detail": "觇金陵之议：徐达东出乎？李文忠浮海乎？调兵所向，先旬日而知，先旬日而备。",
+        "wishes": "明之来路，先知先备。"
+      }
+    ],
+    "84": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "岁终上计：校兵粮铳炮之数，并省诸县节费；云台大议——明四张而衅将至，来岁图之。",
+        "wishes": "庙算先定，进退在我。"
+      },
+      {
+        "kind": "diplo",
+        "target": "yuan",
+        "troops": null,
+        "general": null,
+        "detail": "续聘上都：来岁市马五千，申东西共明之约，岁首再会——合纵之局岁固一日。",
+        "wishes": "元汉之好为汉北门，铁骑岁增。"
+      }
+    ]
+  },
+  "diplomacy": [
+    {
+      "to": "tang",
+      "proposal": "会盟",
+      "terms": "唐罢渡河之谋，汉岁粟五万续佐陇右、马市加额；明若犯虎牢汴梁，唐出河阴挠其后——二汉相争，利归金陵。"
+    },
+    {
+      "to": "yuan",
+      "proposal": "贸易",
+      "terms": "岁市马五千，茶盐铁器倍偿；唐若渡河犯河北，元出陇右蹙关中，汉输军资为谢——围魏救赵之局。"
+    },
+    {
+      "to": "song",
+      "proposal": "会盟",
+      "terms": "岁粟减为六万，虎牢递运，宋以盐铁金帛偿之；汴有急汉出虎牢为援，宋毋私和于明。"
+    },
+    {
+      "to": "ming",
+      "proposal": "警告",
+      "terms": "齐鲁新附、四境皆敌：犯虎牢则叠阵铳炮楼船河网以待；各守河淮，未为晚也。"
+    }
+  ],
+  "self_note": "岁粟买唐不来，宋存则汴为我盾；度田折军不逼郭耿；复齐候衅——雠可忍，国不可赌。"
+}

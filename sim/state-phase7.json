@@ -1,0 +1,27 @@
+{
+  "month": 84,
+  "factions": {
+    "qin":     {"name": "秦", "leader": "胡亥", "troops": 0.3, "food": 0, "morale": 15, "stability": 10, "regions": [], "alive": false, "notes": "亡国。嬴政服丹暴崩于云阳（35月），沙丘矫诏立胡亥、赐死扶苏蒙恬；王贲举萧关残军降唐，赵高戮于军门，李斯胡亥被执送长安。国祚三十六月，旧将王贲亦殉于萧关（57月），秦焰至此而尽"},
+    "han":     {"name": "汉(西汉)", "leader": "刘邦", "troops": 0, "food": 0, "morale": 10, "stability": 10, "regions": [], "alive": false, "notes": "国除（44月）。刘邦仍寓金陵为沛侯，今岁五十六：岁暮酒疾骤作、几不能言，萧何侍药、朱元璋遣太医问疾——「这枚棋子，还不能丢」。距历史享年尚有五载，健康判定年年在悬"},
+    "sui":     {"name": "隋", "leader": "杨勇", "troops": 0, "food": 0, "morale": 15, "stability": 10, "regions": [], "alive": false, "notes": "国除。杨广谋西奔事泄被幽（34月），杨勇安于汴梁隋国公之位，部众早编入宋军"},
+    "donghan": {"name": "汉(东汉)", "leader": "刘秀", "troops": 13.0, "food": 24, "morale": 76, "stability": 71, "regions": ["hebei", "shandong"], "alive": true, "notes": "复齐之年：马成楼船折于汴口、汴渠漕权归明（挫），然耿弇叠阵试锋、径袭济南，冯异继进徇胶东——齐鲁复汉，唯登莱胶东一角仍悬明手。岁马六千结元、姻盟结宋、岁粟五万买唐专西，合纵成局。寇恂病卒，粮台之忧；云台留语：「明四张而衅将至，来岁胶东海上见」"},
+    "tang":    {"name": "唐", "leader": "李建成", "troops": 19.0, "food": 27, "morale": 84, "stability": 67, "regions": ["hedong", "guanzhong", "longxi"], "alive": true, "notes": "凉州之年：薛万彻焚兰州河漕、李靖轰破陇坻、凉州世侯开门——陇右尽归唐（三州），碛口市马通元。九锡议焚于廷、册承乾为太子、秦王辅政如周公，玄武之雷化进制度。然册德昭为藩被拒（德昭只要平等姻盟）、反间金陵被检校勘破、世民壁成皋九月一仗未打而西还——东线无功，功名之壑仍渴"},
+    "song":    {"name": "宋", "leader": "赵德昭", "troops": 10.5, "food": 20, "morale": 70, "stability": 50, "regions": ["zhongyuan"], "alive": true, "notes": "熬围之年：拒明称臣之谕、受唐粟而不受唐册、大婚结汉姻成兄弟之国——平等之盟如愿；反间双管撬明唐之约（宋谍之功）。汴口既失、漕权归明，命脉转倚唐汉两家，西幸之议藏于三人心。赵普感疾乞骸骨，德昭亲政有实，来岁之计系于明唐胜败"},
+    "yuan":    {"name": "元", "leader": "真金", "troops": 10.0, "food": 12, "morale": 52, "stability": 50, "regions": ["mobei"], "alive": true, "notes": "断臂守成之年：兰州漕焚、陇坻破、凉州失——弃陇右退大碛，与唐碛口市马，三十年血仇以市书收场；昔里吉金山之叛讨平、白灾有备、漠南抚绥。姚枢病卒、伯颜病笃，兵事尽委史天泽。「失陇右而不失漠北」——纯草原之国，市门不闭、坐观相耗"},
+    "ming":    {"name": "明", "leader": "朱元璋", "troops": 13.5, "food": 58, "morale": 79, "stability": 81, "regions": ["jiangnan", "lingnan", "jingchu", "jianghuai", "bashu"], "alive": true, "notes": "受挫之年：粮尽汴梁之谋破于唐粟与江南大水，总攻胎死；互不侵犯碰壁、縻元空票（凉州易帜在明使入上都旬日之前）、齐鲁半失于耿弇——退保登莱胶东，围汴之师半移东顾。铁榜九款驭功臣、太子抚军结将心，谗间徐达之计被检校勘破而君臣之隙微生。朱元璋自题「谋人者，人亦谋之」——来岁治舰辽海，自海道图河北之背"}
+  },
+  "regions": {
+    "longxi":    {"name": "陇右凉州", "owner": "tang",    "pop": 158, "grain": 5, "garrison": 0},
+    "guanzhong": {"name": "关中",     "owner": "tang",    "pop": 390, "grain": 7, "garrison": 0},
+    "hedong":    {"name": "河东",     "owner": "tang",    "pop": 300, "grain": 9, "garrison": 0},
+    "hebei":     {"name": "河北",     "owner": "donghan", "pop": 436, "grain": 8, "garrison": 0},
+    "zhongyuan": {"name": "中原",     "owner": "song",    "pop": 463, "grain": 6, "garrison": 0},
+    "shandong":  {"name": "山东",     "owner": "donghan", "pop": 282, "grain": 4, "garrison": 0},
+    "bashu":     {"name": "巴蜀",     "owner": "ming",    "pop": 350, "grain": 9, "garrison": 0},
+    "jingchu":   {"name": "荆楚",     "owner": "ming",    "pop": 335, "grain": 9, "garrison": 0},
+    "jianghuai": {"name": "江淮",     "owner": "ming",    "pop": 283, "grain": 8, "garrison": 0},
+    "jiangnan":  {"name": "江南",     "owner": "ming",    "pop": 478, "grain": 13, "garrison": 0},
+    "lingnan":   {"name": "岭南",     "owner": "ming",    "pop": 150, "grain": 6, "garrison": 0},
+    "mobei":     {"name": "漠北",     "owner": "yuan",    "pop": 86,  "grain": 2, "garrison": 0}
+  }
+}

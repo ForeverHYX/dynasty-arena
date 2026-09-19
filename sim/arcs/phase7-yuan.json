@@ -1,0 +1,241 @@
+{
+  "faction": "yuan",
+  "phase": 7,
+  "strategy": "真金守成：内政为王——屯田河漕充仓、经筵省刑行汉法、厚赐盟誓弭诸王之变；对唐先礼后兵，归俘请盟息死仇，唐师尽东则伯颜一击复泾州而止；深盟东汉、市明观衅，坐视一超与群雄相耗，养西北之根本。",
+  "months": {
+    "73": [
+      {
+        "kind": "internal",
+        "target": "mobei",
+        "troops": null,
+        "general": "真金",
+        "detail": "奉梓宫葬起辇谷，上庙号世祖；柩前誓遵遗诏，汉法旧制并进不改。改元缉熙，大赦天下（阿合马首恶不原），逋赋尽蠲。",
+        "wishes": "大丧不乱，仁政开局，民心渐复。"
+      },
+      {
+        "kind": "diplo",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "告哀使奉真金亲笔书入长安：唐俘老幼尽遣归；请践划陇坻为界之约、增马市——先帝争天下，朕不忍复争。",
+        "wishes": "唐感其诚许盟，西线息兵。"
+      }
+    ],
+    "74": [
+      {
+        "kind": "internal",
+        "target": "mobei",
+        "troops": null,
+        "general": "伯颜",
+        "detail": "伯颜拜太傅录军国重事，史天泽姚枢许衡辅政；真金素服听政，开经筵，姚许日侍讲经；立国子学，举中原流寓儒士。",
+        "wishes": "辅政有柱，儒臣盈庭，新政有纲。"
+      },
+      {
+        "kind": "build",
+        "target": "longxi",
+        "troops": null,
+        "general": null,
+        "detail": "立司农司：凉州营屯扩张，降俘编户授田，浚故渠引水；河套屯垦与兰州河漕相衔，转输之利并归官市。",
+        "wishes": "陇上岁增其入，仓廪渐实。"
+      }
+    ],
+    "75": [
+      {
+        "kind": "internal",
+        "target": "mobei",
+        "troops": null,
+        "general": "真金",
+        "detail": "诸王入朝大会：岁赐倍支遵遗诏，真金亲宴赐金帛，誓草原旧俗永不改；选诸王子弟入国子学读书。",
+        "wishes": "诸王帖然入觐，驿道无警。"
+      },
+      {
+        "kind": "spy",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "细作急入关中河东：世民渡河师期、李靖留镇兵数、长安两府意向，一日一报凉州；兼察诸王私会之谋。",
+        "wishes": "唐军虚实先知，隐患早觉。"
+      }
+    ],
+    "76": [
+      {
+        "kind": "diplo",
+        "target": "donghan",
+        "troops": null,
+        "general": null,
+        "detail": "深盟续增：岁马六千并茶铁先输，共享军情；唐若攻河北，我厚输洛阳以马、陇坻戒备而不击——不背北和，不负东盟。",
+        "wishes": "东汉得马成军，盟约见信于患难。"
+      },
+      {
+        "kind": "build",
+        "target": "longxi",
+        "troops": null,
+        "general": null,
+        "detail": "增缮阴平武都烽戍，徙羌部守隘如律，凉州马场岁检——明师在荆襄巴蜀，南门不敢不锁。",
+        "wishes": "南门无警，专力西北。"
+      }
+    ],
+    "77": [
+      {
+        "kind": "diplo",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "闻世民渡河，遣使长安、洛阳、汴梁倡「保境息民」弭兵之会，愿居间主盟——书生之议虽迂，仁义之名先播于天下。",
+        "wishes": "和议纵不成，仁义之名播于四方。"
+      },
+      {
+        "kind": "spy",
+        "target": "mobei",
+        "troops": null,
+        "general": null,
+        "detail": "细作密报：昔里吉等西北诸王夜会金山，斥汉法「变祖宗旧俗」，谋抗朝会、扰驿断粮——反形已具，先以闻。",
+        "wishes": "变起先知，抚讨不失其序。"
+      }
+    ],
+    "78": [
+      {
+        "kind": "internal",
+        "target": "mobei",
+        "troops": null,
+        "general": "真金",
+        "detail": "抚先于讨：厚赐胁从诸王，誓不改旧俗、不损岁赐；召昔里吉入朝对质——恩至义尽而后言兵。",
+        "wishes": "胁从解体，首恶孤立。"
+      },
+      {
+        "kind": "battle",
+        "target": "mobei",
+        "troops": 3.5,
+        "general": "史天泽",
+        "detail": "若昔里吉拒命而叛：史天泽将汉军蒙古军讨之，伯颜镇上都策应；只诛首恶，胁从不问，毋纵杀掠。",
+        "wishes": "一役定漠北，朝廷知兵而不嗜杀。"
+      }
+    ],
+    "79": [
+      {
+        "kind": "spy",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "驿报候机：唐师顿河北否、李靖分兵东援否、泾州萧关守兵几何；伯颜按图筹策，日与诸将议，不误不躁。",
+        "wishes": "战机至而先知，静如处子。"
+      },
+      {
+        "kind": "move",
+        "target": "longxi",
+        "troops": 6,
+        "general": "伯颜",
+        "detail": "伯颜移节凉州，节度陇上诸军六万；陇坻坚塞岁修，回回炮分垒、深沟增垒——李靖在泾，不先发亦不虚备。",
+        "wishes": "塞固兵齐，攻守之势在我。"
+      }
+    ],
+    "80": [
+      {
+        "kind": "battle",
+        "target": "guanzhong",
+        "troops": 6,
+        "general": "伯颜",
+        "detail": "唐师胶着河北、李靖兵分则誓师：出萧关复泾州外垒，回回炮先摧其台；复故垒而止，毋入关中——老臣最后一战，为陛下取十年之安。",
+        "wishes": "泾州复、全师还，和局自此而立。"
+      },
+      {
+        "kind": "diplo",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "和书先备于帐中：胜则据泾州请盟定界、市且增之；不胜则敛保陇坻，绝不再出——战为和发，不为仇发。",
+        "wishes": "以战促和，西线终底定。"
+      }
+    ],
+    "81": [
+      {
+        "kind": "build",
+        "target": "longxi",
+        "troops": null,
+        "general": null,
+        "detail": "胜则缮泾州故垒筑戍，徙屯户实边，河漕转粟继之；据险而止，不窥关中，不掠一民。",
+        "wishes": "新垒屹立，粮道无虞。"
+      },
+      {
+        "kind": "internal",
+        "target": "mobei",
+        "troops": null,
+        "general": "真金",
+        "detail": "漠北定后抚绥：胁从诸王复位赐地，唯诛倡乱首恶；再会诸王盟于太祖大帐——仁与兵并行不悖。",
+        "wishes": "内难永弭，朝廷之信立于漠北。"
+      }
+    ],
+    "82": [
+      {
+        "kind": "build",
+        "target": "mobei",
+        "troops": null,
+        "general": null,
+        "detail": "白灾预备如上年律：诸部预徙漠南冬场，羊马入暖厩，凉州广仓与河漕冬运并实，雪警驿传先动。",
+        "wishes": "雪来不成灾，畜群得全。"
+      },
+      {
+        "kind": "internal",
+        "target": "mobei",
+        "troops": null,
+        "general": "真金",
+        "detail": "真金再巡漠南诸部：帐中问疾苦，赐茶帛医药，平断狱讼——即位一年，皇帝之仁草原共见。",
+        "wishes": "部民归心，谗言永绝。"
+      }
+    ],
+    "83": [
+      {
+        "kind": "internal",
+        "target": "longxi",
+        "troops": null,
+        "general": "许衡",
+        "detail": "颁省刑约法之诏：汰酷刑、平冤狱、定新令条画；秦陇郡县兴学祀孔，贡举取士之议下群臣杂议。",
+        "wishes": "法平民安，儒风渐被西土。"
+      },
+      {
+        "kind": "build",
+        "target": "longxi",
+        "troops": null,
+        "general": "张弘范",
+        "detail": "河漕再扩：增平底河船二百，河套转般仓再实，水军习战护漕——先帝「水战渐习」之约践之。",
+        "wishes": "漕利岁增，水师渐成。"
+      }
+    ],
+    "84": [
+      {
+        "kind": "internal",
+        "target": "mobei",
+        "troops": null,
+        "general": "真金",
+        "detail": "岁终上计：屯田漕运马市抚绥并书于册；亲录伯颜师徒之功、厚抚其家；定来岁——内修法度、外守和约、候天下之变。",
+        "wishes": "守成之基已固，进退在我。"
+      },
+      {
+        "kind": "diplo",
+        "target": "ming",
+        "troops": null,
+        "general": null,
+        "detail": "回回商使岁聘金陵续互市，兼觇明师所向；明之虚实岁岁在目——市门不闭，阴平不惊。",
+        "wishes": "市门不闭，明不西窥。"
+      }
+    ]
+  },
+  "diplomacy": [
+    {
+      "to": "tang",
+      "proposal": "互不侵犯",
+      "terms": "唐俘尽归，划陇坻为界各守；马市增为岁马千五百易粟八万石；愿尚唐宗室女，结为兄弟婚姻之国。"
+    },
+    {
+      "to": "donghan",
+      "proposal": "会盟",
+      "terms": "岁马六千匹并茶铁先输，共享明军军情；唐若攻河北，元厚输战马、陇坻陈兵为声援，不弃患难之盟。"
+    },
+    {
+      "to": "ming",
+      "proposal": "贸易",
+      "terms": "陇上茶马互市续约如故；明师毋犯阴平武都，犯则绝市。"
+    }
+  ],
+  "self_note": "伯颜老病，泾州是最后一战；昔里吉辈必反，仁至而后兵；弭兵之议纵迂，收的是天下人心。"
+}
