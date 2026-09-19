@@ -1,0 +1,236 @@
+{
+  "faction": "donghan",
+  "phase": 13,
+  "strategy": "不称臣、不浪战、守陉待变：岁修三陉漳防为铁壁，峻法察吏、礼鲁固齐；宋公客邺，用曹彬之守而防德昭之望；商舶阴续番禺为南楔。唐若北举则半渡破之、蹑后焚饷，以胜开和门——划河两帝并尊，国祚宗庙两全。",
+  "months": {
+    "145": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "新君亲政之仪：帝亲录尚书事、日览百奏决庶政；尊邓禹为太傅，朔望咨大政而毋领细务——政由己出，谋咨顾命。",
+        "wishes": "权柄自持，顾命无怨，灯灭之后汉政如一。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "宋公之封定仪：德昭封宋公、世奉宋祀，居邺宫别邸；曹彬授客卿参军事。宋卒别屯为义从军，厚饷而置监军——外礼无缺，内防无隙。",
+        "wishes": "客军为汉之盾，不为肘腋之患。"
+      }
+    ],
+    "146": [
+      {
+        "kind": "build",
+        "target": "hebei",
+        "troops": null,
+        "general": null,
+        "detail": "陉漳岁修大工：井陉滏口壶关增壁窖粮，漳水转仓；黎阳预制沉舟，邺城葺雉堞藏铳台——唐来所见，唯铁壁与漳水。",
+        "wishes": "纵百万之师，顿于陉漳之下。"
+      },
+      {
+        "kind": "internal",
+        "target": "shandong",
+        "troops": null,
+        "general": null,
+        "detail": "帝东幸鲁：祀孔子于阙里，行大射养老之礼，延耆儒问政；因临沂山校阅叠阵——礼以固齐鲁之心，阵以备南来之口。",
+        "wishes": "礼义之邦之心，系汉而不摇。"
+      }
+    ],
+    "147": [
+      {
+        "kind": "move",
+        "target": "hebei",
+        "troops": 3,
+        "general": "吴汉",
+        "detail": "吴汉专任河防：黎阳白马列烽增戍，南岸清野如常，沉舟藏于苇泽——渡具尽毁，北门之钥不以怒开，亦不以懈失。",
+        "wishes": "唐锋至河而自钝。"
+      },
+      {
+        "kind": "spy",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "续册长安：觇唐举兵之期与三向（敖仓、沁道、淮口），兼籍两府之隙、新附四州之怨；止觇毋扇，册唯帝览。",
+        "wishes": "唐之动，先旬在邺。"
+      }
+    ],
+    "148": [
+      {
+        "kind": "build",
+        "target": "hebei",
+        "troops": null,
+        "general": null,
+        "detail": "久守之资：漳滨河间军屯岁益，盐铁专榷充饷，常平仓转军需有度——以二州之产，养十年之守。",
+        "wishes": "仓实陉固，守之愈久。"
+      },
+      {
+        "kind": "diplo",
+        "target": "ming",
+        "troops": null,
+        "general": null,
+        "detail": "海道续盟：登莱商舶赍硝磺火药南行，贾壳为掩毋落形迹；约唐师北举之日，岭南江南候檄而动——南楔长在。",
+        "wishes": "唐北举则南疆处处火起，首尾不能相顾。"
+      }
+    ],
+    "149": [
+      {
+        "kind": "move",
+        "target": "shandong",
+        "troops": 2.5,
+        "general": "冯异",
+        "detail": "沂山大操：冯异校叠阵于沂蒙，铳炮层发以验御骑之实；登莱舟师外海会哨——南口与海门，两门皆先验。",
+        "wishes": "阵成，则玄甲无所骋其锋。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "峻法察吏：二千石功过簿岁校亲览，赃耗不贷；阴郭诸舅毋封侯毋预政，著为新令——法峻而赏厚，上下肃然。",
+        "wishes": "内肃然，则外不敢犯。"
+      }
+    ],
+    "150": [
+      {
+        "kind": "diplo",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "对等通问：遣使如长安，一不称臣、二不入朝；申两帝并尊、划河罢兵互市之议——和门以礼开，亦以礼闭。",
+        "wishes": "长安主和者，得借此为口实。"
+      },
+      {
+        "kind": "internal",
+        "target": "hebei",
+        "troops": null,
+        "general": null,
+        "detail": "清野令：漳南早刈空舍，边民入堡；河北坞壁籍于郡县、受节度，功过相计——民即为兵，堡即为垒。",
+        "wishes": "唐若涉漳，千里无所得食。"
+      }
+    ],
+    "151": [
+      {
+        "kind": "build",
+        "target": "hebei",
+        "troops": null,
+        "general": null,
+        "detail": "秋防实作：粮入堡窖、烽火大操、渡具再毁；四门诸军番休如常——备而不张，以待其至。",
+        "wishes": "备成于无形，唐至而无不禁。"
+      },
+      {
+        "kind": "spy",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "覆师期：敖仓粮集、上党沁道、淮口舟动三处并觇，谍报日奏；唐若并力一门，则先徙民、先伏兵。",
+        "wishes": "知其所向，邀其所短。"
+      }
+    ],
+    "152": [
+      {
+        "kind": "battle",
+        "target": "tang",
+        "troops": 4.5,
+        "general": "吴汉",
+        "detail": "唐若渡黎阳：沉舟并发、断桥毁堰，叠阵背漳水而立，贾复突骑候其半渡而卷之——黎阳故事，令玄甲再饮漳水。",
+        "wishes": "半渡之击，再挫唐锋于河北门外。"
+      },
+      {
+        "kind": "diplo",
+        "target": "ming",
+        "troops": null,
+        "general": null,
+        "detail": "燃南之檄：唐师既北，海舶赍檄入番禺，江南明遗候期并举——南疆之火与漳水之血同发，唐自救不暇。",
+        "wishes": "唐之南疆，处处举烟。"
+      }
+    ],
+    "153": [
+      {
+        "kind": "battle",
+        "target": "zhongyuan",
+        "troops": 2.5,
+        "general": "耿弇",
+        "detail": "耿弇蹑后：乘唐顿于漳，出白马夜趋汴北，焚粮艘支囤于敖仓之翼，得手即还、毋顿坚城——以奔袭还师徒之债。",
+        "wishes": "唐军就食无所，师老自溃。"
+      },
+      {
+        "kind": "move",
+        "target": "shandong",
+        "troops": 1.5,
+        "general": "马成",
+        "detail": "沂山守而海门击：冯异叠阵勿浪战；马成夜袭张弘范外海泊地，火其舟而还——南口倚山，海门倚火。",
+        "wishes": "唐海陆两门，皆不得开。"
+      }
+    ],
+    "154": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "图画云台：二十八将图像云台，殁于王事者配祀，帝亲制赞；摹本传观四门——功臣与国同休，士卒知荣。",
+        "wishes": "云台之图，即是军心。"
+      },
+      {
+        "kind": "build",
+        "target": "shandong",
+        "troops": null,
+        "general": null,
+        "detail": "海疆烽链：登州莱州朐山烽燧相属，沙船火船三百；盐丁渔户编牌甲，奸宄无所容——海门亦如陉漳。",
+        "wishes": "海上有警，先刻而知。"
+      }
+    ],
+    "155": [
+      {
+        "kind": "diplo",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "胜后再申：唐若挫于陉漳，申划河两帝并尊之约，互市十年、各守其祀；不受封、不称臣——和战之柄，执于汉手。",
+        "wishes": "唐知河北不可并，则并尊可成。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "客军成军：曹彬条上守汴六阅月之录，颁四门为教典；义从军受汉法代练，分屯两州——用其长而收其心。",
+        "wishes": "宋之遗恨，化为汉之城守。"
+      }
+    ],
+    "156": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "岁终大计：校兵粮马船之实，叙一岁之功；议来岁——唐和则修耕战以待变，唐战则守如故。",
+        "wishes": "岁岁有备，国祚自长。"
+      },
+      {
+        "kind": "diplo",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "岁终聘问：番禺固海盟，邺宫存宋祀；长安若内变起，使者倍道而往——和门之钥，唯待其变。",
+        "wishes": "天下之变，汉皆有以待之。"
+      }
+    ]
+  },
+  "diplomacy": [
+    {
+      "to": "tang",
+      "proposal": "互不侵犯",
+      "terms": "划河为界、两帝并尊：罢兵则互市十年、各守其祀，汉不称臣、不入朝；唐若举兵北渡，陉漳相见，胜败皆唐自取。"
+    },
+    {
+      "to": "ming",
+      "proposal": "会盟",
+      "terms": "海盟续约：登莱商舶阴济硝磺器械，唐师北举之日，岭南扰其南疆、江南遗民候檄而起；事成则市舶长通，宋明之祀并存。"
+    }
+  ],
+  "self_note": "帝亲决万机而礼尊太傅，外家一无所假；德昭在邺，用其卒、防其望；番禺械迹可焚，谍册唯帝得览。"
+}

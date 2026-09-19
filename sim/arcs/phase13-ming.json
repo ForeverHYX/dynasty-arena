@@ -1,0 +1,241 @@
+{
+  "faction": "ming",
+  "phase": 13,
+  "strategy": "谨臣节以租时：贡不缺、卑不辱；财与名可让，兵、嗣、实治不可让。岭海叠防、受汉之艺、南洋增储；唐逼郡县则先财后虚籍再降号，兵入岭则幼主浮海、文忠死守——正统在岭，祀存则明存。",
+  "months": {
+    "145": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "岁首告庙：幼主临轩受朝，太庙奉太祖马后之祀；表奉唐朔、庙用明历——正统在岭，祀不随削号而削",
+        "wishes": "明统之名，岁岁自固"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "文忠太庙立「归政之约」：主上十六亲政，摄政不世袭；辞殊礼、却劝进——权臣之谤，先塞于誓",
+        "wishes": "忠表于天下，谤息于萧墙"
+      }
+    ],
+    "146": [
+      {
+        "kind": "diplo",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "岁贡如期北上，额自加一成以自效；贡使即耳目——唐师春动所向、平阳舟师泊处、长安储隙，随贡而归",
+        "wishes": "唐锋向北，岭南又租一岁"
+      },
+      {
+        "kind": "build",
+        "target": "lingnan",
+        "troops": null,
+        "general": null,
+        "detail": "秋飓之损补于春：船场复立，岁计海船六、战舰四；浮海之船复常备十艘——退路之钥重铸",
+        "wishes": "船备如旧，进退之据复完"
+      }
+    ],
+    "147": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "番庠开蒙：常妃亲课，祖训录为首课；幼主三岁习「高皇帝起自布衣」——正统之教，自稚龄始",
+        "wishes": "幼主长于祖训，不长于长安"
+      },
+      {
+        "kind": "diplo",
+        "target": "donghan",
+        "troops": null,
+        "general": null,
+        "detail": "海道深一层：请汉铳炮火药之匠附商籍南来，番禺设局自铸，市舶岁酬其利——受械不如受艺",
+        "wishes": "粤中能自铸，械济之险自减"
+      }
+    ],
+    "148": [
+      {
+        "kind": "diplo",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "常妃以幼主名复书朱标：附皇孙习字、诞辰孝敬之仪；宣「君降非嗣绝、嗣统已告天地」——以孝应书，统不夺于父",
+        "wishes": "父子之情不绝，质子之牌无名"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "简峒丁益戍千五，俚帅世职统之；岭戍、水营、机动三分如故——客兵为骨、土兵为肉，兵额向万二渐进",
+        "wishes": "兵虽少而成网，岭道愈密"
+      }
+    ],
+    "149": [
+      {
+        "kind": "build",
+        "target": "lingnan",
+        "troops": null,
+        "general": null,
+        "detail": "五岭筑第二线：桂岭骑田之内增粮台瘠哨、编清野焦土之册——前轻后重，唐师顿关则瘴与空谷继之",
+        "wishes": "关迟其兵，瘴耗其师"
+      },
+      {
+        "kind": "diplo",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "唐师若北攻河北：献「助军」银帛于行营，卑辞颂捷——以财买静，示岭南无贰于南顾",
+        "wishes": "唐以南为忠藩，北顾无后忧"
+      }
+    ],
+    "150": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "南洋岁巡：占城三佛齐岁储加额，增置一庄分飓险；籍义从百家为浮海之备——社稷有二，其一分于外洋",
+        "wishes": "外洋之基愈厚，退路愈宽"
+      },
+      {
+        "kind": "move",
+        "target": "lingnan",
+        "troops": 0.4,
+        "general": null,
+        "detail": "水营四千出屯门，以缉盗为名实演浮海之路：番禺至占城一岁两巡，帆火皆按战时之格",
+        "wishes": "海路熟如户庭，变起即行"
+      }
+    ],
+    "151": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "瘴月卫生之政：军医分戍、轮替避疫、常山槟榔入药册——去岁疫折之戒，兵不损于瘴即胜于瘴",
+        "wishes": "瘴月无折损，戍力常全"
+      },
+      {
+        "kind": "diplo",
+        "target": "donghan",
+        "troops": null,
+        "general": null,
+        "detail": "岁中通问：合谍判唐河北战向；密约烽号——唐师逾岭之日即汉出井陉之期，三十日为限，不书于纸",
+        "wishes": "南北之绳互系，唐难专力一隅"
+      }
+    ],
+    "152": [
+      {
+        "kind": "spy",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "岁中大谍：入图之议有无、置吏之命、平阳舟师之泊、江南屯兵之数——郡县之雷，先一月闻其响",
+        "wishes": "唐议未发，我先有备"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "庙堂密议「让步之梯」：一让财（贡与分利）、二让名（虚籍入图为羁縻）、三让号（王降公）——兵嗣实治不让，梯尽则海",
+        "wishes": "让有次第，退有底线"
+      }
+    ],
+    "153": [
+      {
+        "kind": "build",
+        "target": "lingnan",
+        "troops": null,
+        "general": null,
+        "detail": "秋防工程：内澳泊舰、仓粮分贮四邑、烽传连锁岁修——飓月之备，一如临战",
+        "wishes": "天灾兵祸，同一备御"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "行在吏治：考功铨选岁课、遗老授职、土豪世婚——岭南非一人之明，乃一网之明",
+        "wishes": "小朝廷成制，不系于一身"
+      }
+    ],
+    "154": [
+      {
+        "kind": "diplo",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "秋贡之舶：岁贡后半如约北发；唐若诘难加索，先以市舶加一分应之——以财之泵，泄名之压",
+        "wishes": "索者得财，名分得全"
+      },
+      {
+        "kind": "spy",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "江南遗网但存毋动：候檄未下，一人不先起；兼反间峒中——唐金所结之豪，抚其众而徙其人",
+        "wishes": "内无可乘之隙，外无先发之隙"
+      }
+    ],
+    "155": [
+      {
+        "kind": "battle",
+        "target": "tang",
+        "troops": 0.9,
+        "general": "李文忠",
+        "detail": "唐师若入岭：敛兵险隘迟之，水营沉船锁珠江、铳台层轰，峒兵绝其馈——不求破敌，求师老于瘴",
+        "wishes": "顿兵瘴外，知岭南价高"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "冬至大祭太庙；祖训录增「藩守」章：岁贡不可缺、嗣统不可予、兵毋入岭、梯尽浮海——百年之训书于今日",
+        "wishes": "身后之政，亦如今日之谋"
+      }
+    ],
+    "156": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "岁终三案：唐汉相持则深根再租一年；唐胜而南顾则让梯先行；唐师入岭则幼主先浮海、文忠守番禺死国",
+        "wishes": "三案先置，进退不失时"
+      },
+      {
+        "kind": "diplo",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "岁终表文：谢存祀之恩、恭问朱标起居——使唐自知：全明祀者唐之德，夺明嗣者天下之讥",
+        "wishes": "以唐之德，锁唐之手"
+      }
+    ]
+  },
+  "diplomacy": [
+    {
+      "to": "tang",
+      "proposal": "称臣",
+      "terms": "守沐英故事之诺：岁贡不缺、卑辞如初；兵毋入岭、嗣毋入朝、吏毋代治——唐若须籍，愿以羁縻虚籍入图，实治自守"
+    },
+    {
+      "to": "tang",
+      "proposal": "贸易",
+      "terms": "市舶分利岁加、珍货任择——财可尽予；惟置吏、入朝、实图三者，非财所售"
+    },
+    {
+      "to": "donghan",
+      "proposal": "会盟",
+      "terms": "海道连横深一层：铳炮工匠南来设局、市舶岁酬其利；烽号密约——唐师逾岭三十日内汉出井陉，唐攻河北则明舟扰其南海舶；盟不书纸，唯行于事"
+    }
+  ],
+  "self_note": "贡与财是租，岭防汉艺南洋是真身；梯梯可让，惟嗣与实治让即亡——梯尽之钥，文忠自佩。"
+}

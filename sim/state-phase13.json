@@ -1,0 +1,27 @@
+{
+  "month": 156,
+  "factions": {
+    "qin":     {"name": "秦", "leader": "胡亥", "troops": 0.3, "food": 0, "morale": 15, "stability": 10, "regions": [], "alive": false, "notes": "亡国（36月）。嬴政服丹暴崩、沙丘矫诏、王贲萧关殉国，李斯胡亥被执送长安——秦焰早熄，旧档存照"},
+    "han":     {"name": "汉(西汉)", "leader": "刘邦", "troops": 0, "food": 0, "morale": 10, "stability": 10, "regions": [], "alive": false, "notes": "国除（44月）。沛侯刘邦酒疾暴作薨于金陵围城（120月），金陵城破寓公星散——旧档存照"},
+    "sui":     {"name": "隋", "leader": "杨勇", "troops": 0, "food": 0, "morale": 15, "stability": 10, "regions": [], "alive": false, "notes": "国除。杨勇安于汴梁隋国公位，部众早编入宋军；汴梁入唐后隋公之宅隶唐图——旧档存照"},
+    "donghan": {"name": "汉(东汉)", "leader": "刘庄", "troops": 8.2, "food": 10, "morale": 80, "stability": 78, "regions": ["hebei"], "alive": true, "notes": "失山东而全河北之年：登莱船场夜破、沂山叠阵碎、青齐传檄他属（149月），冯异全师敛入井陉、马成浮海还、刘庄滏口赤心抚败卒而不乱；唐三道伐邺——半渡再挫其锋而钉终入黎阳、井陉反蹙薛万彻、顿兵漳水而耿弇夜焚敖仓（153月）对冲碣石之失；八月早霜而互市市粟于唐。划河之盟（154月）：两帝并尊、互市十年、各守其祀、不相臣属，德昭宋祀仍邺，唐还黎阳之屯。云台图像、曹彬教典颁四门——两帝并立之局成，守成待变，岁岁有备"},
+    "tang":    {"name": "唐", "leader": "李建成", "troops": 11.0, "food": 10, "morale": 97, "stability": 84, "regions": ["hedong", "guanzhong", "longxi", "mobei", "jianghuai", "jiangnan", "bashu", "jingchu", "zhongyuan", "shandong"], "alive": true, "notes": "收官之年：休兵固汴半岁而后海陆复山东——夜袭登莱、沂山破阵、檄定青齐（149月山东入图，渤海为唐所执）；三道伐邺半遂半挫：三渡黎阳血胜得钉、井陉受挫于冯异、碣石焚幽州仓而敖仓反为耿弇所焚，蝗年师老罢攻（153月）；建成不豫、承乾主和，划河之盟两帝并尊（154月）、岭南虚籍入图而兵终不入岭；告庙图形凌烟、封禅泰山（156月），世民拜尚书令辅政如周公、万一之诏藏金匮——十州在手，河北留于子孙，天下底定"},
+    "song":    {"name": "宋", "leader": "赵德昭", "troops": 3.0, "food": 4, "morale": 72, "stability": 60, "regions": [], "alive": false, "notes": "国除（中原失于141月）。宋公客邺：德昭世奉宋祀居邺宫别邸，曹彬为客卿条守汴教典，义从军三万受汉法代练分屯两州；划河之盟后唐请「宋祀复于汴」，德昭辞而不迁——血而不降之后，祀而不返"},
+    "yuan":    {"name": "元", "leader": "真金", "troops": 0, "food": 0, "morale": 15, "stability": 10, "regions": [], "alive": false, "notes": "国除（93月）。真金奉世祖主内附封归义王；本岁云朔游骑集于伐邺之局、为唐外势蹙幽燕之馈——归义守北门，岁岁如常"},
+    "ming":    {"name": "明", "leader": "李文忠(摄政)", "troops": 1.1, "food": 16, "morale": 57, "stability": 61, "regions": ["lingnan"], "alive": true, "notes": "虚籍存祀之年：海盟断于登莱之火、燃南檄沉海被执（153月），两头下注之账摊上桌面；文忠登让梯：进岭南王领岭南都护、州县版籍虚上长安图而吏用其旧、加市舶一分以谢（154月），兵不入岭、嗣不入朝之约不改；忧劳呕血几殆而强起定岁终三案，祖训录增藩守章——名予实守，祀存南海，实治在岭"}
+  },
+  "regions": {
+    "longxi":    {"name": "陇右凉州", "owner": "tang",    "pop": 161, "grain": 5, "garrison": 0},
+    "guanzhong": {"name": "关中",     "owner": "tang",    "pop": 388, "grain": 6, "garrison": 0},
+    "hedong":    {"name": "河东",     "owner": "tang",    "pop": 299, "grain": 9, "garrison": 0},
+    "hebei":     {"name": "河北",     "owner": "donghan", "pop": 424, "grain": 4, "garrison": 0},
+    "zhongyuan": {"name": "中原",     "owner": "tang",    "pop": 428, "grain": 5, "garrison": 0},
+    "shandong":  {"name": "山东",     "owner": "tang",    "pop": 272, "grain": 3, "garrison": 0},
+    "bashu":     {"name": "巴蜀",     "owner": "tang",    "pop": 347, "grain": 8, "garrison": 0},
+    "jingchu":   {"name": "荆楚",     "owner": "tang",    "pop": 335, "grain": 9, "garrison": 0},
+    "jianghuai": {"name": "江淮",     "owner": "tang",    "pop": 264, "grain": 4, "garrison": 0},
+    "jiangnan":  {"name": "江南",     "owner": "tang",    "pop": 462, "grain": 8, "garrison": 0},
+    "lingnan":   {"name": "岭南",     "owner": "ming",    "pop": 152, "grain": 6, "garrison": 0},
+    "mobei":     {"name": "漠北",     "owner": "tang",    "pop": 74,  "grain": 1, "garrison": 0}
+  }
+}
