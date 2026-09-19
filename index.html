@@ -85,6 +85,9 @@ button.on{background:#2a2410;border-color:var(--gold);color:var(--gold)}
 .ev .t{font-size:12px;color:#e8eef7;font-weight:600}
 .ev .t .m{color:var(--gold);font-size:11px;margin-right:6px}
 .ev .d{font-size:11px;color:var(--text-dim);margin-top:2px;line-height:1.5;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.fall-banner{display:flex;align-items:center;gap:12px;border:1px solid #7a2a20;border-left:4px solid #e0503c;border-radius:8px;padding:10px 14px;margin-bottom:8px;background:linear-gradient(135deg,rgba(90,20,14,.55),rgba(30,10,8,.75));animation:evIn .4s ease}
+.fall-banner .ft{font-size:15px;letter-spacing:6px;color:#ff8a75;font-weight:700}
+.fall-banner .fd{font-size:12px;color:#d9b8b0;margin-top:3px}
 .who{white-space:nowrap}
 .who i{font-style:normal;font-size:9px;line-height:1;border:1px solid;border-radius:3px;padding:0 3px;margin-left:2px;vertical-align:1px;opacity:.95;background:rgba(0,0,0,.35)}
 .tag{font-size:9px;color:#0b0e14;background:var(--gold);border-radius:3px;padding:1px 4px;margin-left:6px;vertical-align:1px}
@@ -401,7 +404,7 @@ function renderFactionList(){
     const dRegions=(p.regions[M-1]||0)-(p.regions[M-2]??p.regions[M-1]);
     return `<div class="fcard${dead?" dead":""}${selFaction===f?" sel":""}" data-f="${f}">
       <span class="crest" style="background:${F.color}">${F.crest}</span>
-      <div class="finfo"><div class="l1">${esc(F.leader)} <span style="color:${F.color}">${F.name}</span>${dead?'<span class="deadmark">亡</span>':""}</div>
+      <div class="finfo"><div class="l1">${esc(F.leader)} <span style="color:${F.color}">${F.name}</span>${dead?`<span class="deadmark" title="${SIM.meta.months_label[(F.fall_month||M)-1]||""}亡">${F.fall_month?F.fall_month+"月亡":"亡"}</span>`:""}</div>
       <div class="l2"><span><b class="num">${p.regions[M-1]}</b>州</span><span>兵<b class="num">${fmt(p.troops[M-1])}</b>万</span><span class="num" style="color:${dRegions>0?"#46b98c":dRegions<0?"#e0503c":"#5d6a80"}">${dRegions>0?"▲"+dRegions:dRegions<0?"▼"+(-dRegions):""}</span></div></div>
       <div class="microbars">
         <div class="mb"><i style="width:${Math.min(100,p.troops[M-1]/30*100)}%;background:${F.color}"></i></div>
@@ -427,10 +430,16 @@ function renderStrips(){
 }
 function renderFeed(){
   const evs=SIM.timeline[String(M)]||[];
-  $("feed").innerHTML=evs.length?evs.map(e=>`<div class="ev ${e.type}" data-ev='${esc(JSON.stringify(e))}'>
+  const falls=[];
+  for(const f in SIM.factions){
+    const F=SIM.factions[f];
+    if(F.fall_month===M) falls.push(F);
+  }
+  const fallHtml=falls.map(F=>`<div class="fall-banner"><span class="crest" style="background:${F.color};width:36px;height:36px;font-size:17px">${F.crest}</span><div><div class="ft">帝 国 陨 落</div><div class="fd">${F.name} · ${esc(F.leader)}政权失去最后一州疆土</div></div></div>`).join("");
+  $("feed").innerHTML=fallHtml+(evs.length?evs.map(e=>`<div class="ev ${e.type}" data-ev='${esc(JSON.stringify(e))}'>
     <div class="t"><span class="m num">${e.month}月</span>${esc(e.title)}${e.inter?'<span class="tag">交锋</span>':""}</div>
     <div class="d">${anno(e.desc)}</div></div>`).join("")+'<div style="text-align:center;color:var(--text-faint);font-size:11px;padding:4px">— 以上 '+SIM.meta.months_label[M-1]+' —</div>'
-  :'<div style="color:var(--text-faint);padding:14px;text-align:center">本月天下无事</div>';
+  :'<div style="color:var(--text-faint);padding:14px;text-align:center">本月天下无事</div>');
   document.querySelectorAll("#feed .ev").forEach(el=>el.addEventListener("click",()=>{ const e=JSON.parse(el.dataset.ev); jumpTo(e.month); showEvent(e); }));
   $("feed").scrollTop=0;
 }
@@ -499,7 +508,7 @@ function showFaction(f){
   const dead=p.regions[N-1]===0;
   const myRegions=Object.keys(SIM.ownership[String(N)]).filter(r=>SIM.ownership[String(N)][r]===f);
   show(`<h2><span class="crest" style="background:${F.color};width:34px;height:34px;font-size:16px">${F.crest}</span> ${F.name} · ${esc(F.leader)}</h2>
-    <div class="sub2">${dead?"已亡":"现存"}${F.leader_title?" · "+esc(F.leader_title):""}</div>
+    <div class="sub2">${dead?`已亡 · 失地于 ${F.fall_month?SIM.meta.months_label[F.fall_month-1]:"?"}`:"现存"}${F.leader_title?" · "+esc(F.leader_title):""}</div>
     <p>${esc(F.bio)}</p>
     <div class="sec"><h4>方略</h4><p>${esc(F.doctrine)}</p></div>
     <div class="sec"><h4>当前国力（${SIM.meta.months_label[M-1]}）</h4>

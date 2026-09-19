@@ -110,6 +110,17 @@ for f in fids:
             factions[f]["ministers"].append({"name": name, "role": role.strip()[:6],
                                              "note": " ".join(note.split())[:40]})
 
+# ---- 各政权失地之月（帝国陨落标记）----
+for f in fids:
+    regs = power[f]["regions"]
+    fall = None
+    for i, v in enumerate(regs):
+        if v == 0 and i > 0 and regs[i-1] > 0:
+            fall = i + 1
+            break
+    if fall:
+        factions[f]["fall_month"] = fall
+
 # ---- epilogue（若已有）----
 epilogue = {"world_verdict":"推演仍在进行……","end_reason_cn":"未定",
             "fates":{f:{"leader":"","ministers":[]} for f in fids},
