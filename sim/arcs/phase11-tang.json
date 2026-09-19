@@ -1,0 +1,241 @@
+{
+  "faction": "tang",
+  "phase": 11,
+  "strategy": "春汛先聚歼明残师于江面，却汉释围之请；汉若蹙泗则以虎牢故智先破其援，还军一鼓下金陵，禁屠收人心。乘势会战绵竹收巴蜀、定荆湖岭南；灭明不即击汴：籍明水师、赏先定镇九锡之谤，縻汉逼宋，来岁成混一之势。",
+  "months": {
+    "121": [
+      {
+        "kind": "diplo",
+        "target": "ming",
+        "troops": null,
+        "general": null,
+        "detail": "最后通牒：春汛将至、围城已合。开城则封归义王，宗庙可保、吏民各安其业，马后皇孙以礼相待；援兵已绝，拒则炮尽发。",
+        "wishes": "城心先摇，总攻之日巷战可短。"
+      },
+      {
+        "kind": "diplo",
+        "target": "donghan",
+        "troops": null,
+        "general": null,
+        "detail": "却汉释围之请：存明之祀可议于城破之后，盟市如故；徐泗乃唐之土，汉师毋动郯费——动则曲在汉，兵连无已。",
+        "wishes": "汉或敛兵，纵动亦先失其直。"
+      }
+    ],
+    "122": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "北门东门之戒：薛万彻视师井陉飞狐，元吉谨成皋备汴，真金北衙骑巡云朔——汉耀兵而不敢深，宋观衅而无衅。",
+        "wishes": "南攻之际，两门皆铁。"
+      },
+      {
+        "kind": "move",
+        "target": "jianghuai",
+        "troops": 2,
+        "general": "尉迟恭",
+        "detail": "谍报汉兵集郯、朐港舟师益集——尉迟恭壁淮阴泗口护漕饷，为徐泗之备；金陵之围不弛，世民专意攻城。",
+        "wishes": "汉来有垒可据，漕枢不失。"
+      }
+    ],
+    "123": [
+      {
+        "kind": "battle",
+        "target": "ming",
+        "troops": 3,
+        "general": "平阳公主",
+        "detail": "春汛纵一隙诱明残师火船夜出接运海粟：张弘范以上风火舟逆焚，沙囊湿帆破其鄱阳旧术——聚歼于焦山江面。",
+        "wishes": "明最后之筹码尽于江上，城头自此无援。"
+      },
+      {
+        "kind": "spy",
+        "target": "ming",
+        "troops": null,
+        "general": null,
+        "detail": "房玄龄谍入城：结流民怨降之将，期以炮发为号噪应启门；兼觇耿弇出军之期、宋海槽首航之日。",
+        "wishes": "城未攻而内先应，敌动而我先知。"
+      }
+    ],
+    "124": [
+      {
+        "kind": "move",
+        "target": "jianghuai",
+        "troops": 0.8,
+        "general": "李世民",
+        "detail": "虎牢故智：留围不弛，世民自将玄甲锐骑八千衔枚趋徐泗，与尉迟恭合势邀耿弇于城野之间；张弘范舟师出淮口蹙朐港。",
+        "wishes": "援师顿于野，金陵之气先堕。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "宋旗海舶阴饷金陵，姑纵之毋截——未至城破之期，毋开第二门；严守汴口旧约，专意破汉援。",
+        "wishes": "宋无词可执，师不两用。"
+      }
+    ],
+    "125": [
+      {
+        "kind": "battle",
+        "target": "donghan",
+        "troops": 3,
+        "general": "李世民",
+        "detail": "徐泗会战：耿弇行军半渡阵未成，玄甲贯其中、尉迟恭壁蹙其前、舟师绝其归——纵不擒其帅，亦折锋而徐邳复。",
+        "wishes": "虎牢之雷再发，汉师十年不敢南望。"
+      },
+      {
+        "kind": "diplo",
+        "target": "song",
+        "troops": null,
+        "general": null,
+        "detail": "离间汴洛：汉约宋趋虎牢胁洛——宋何为汉前驱？北望之约所防者唐犯汴，今曲在汉；岁市如故，汴门毋启。",
+        "wishes": "宋敛兵观望，犄角之约不成。"
+      }
+    ],
+    "126": [
+      {
+        "kind": "battle",
+        "target": "jiangnan",
+        "troops": 6,
+        "general": "李世民",
+        "detail": "援灭还军，金陵总攻：炮垒三昼夜轰堞，玄甲夜登、尉迟恭自徐泗驰还先登；严令禁屠，拒者诛、降者即止刃。",
+        "wishes": "一鼓而城破，明社至此而终。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "城未破而赏典先榜：破城之赏已定于上，捷至即颁，功臣毋悬望——九锡之谤无隙可乘；房玄龄缉宋谍预藏之散本。",
+        "wishes": "谤本火落而柴先湿。"
+      }
+    ],
+    "127": [
+      {
+        "kind": "battle",
+        "target": "bashu",
+        "troops": 1.5,
+        "general": "苏定方",
+        "detail": "乘破国之势总攻绵竹：先檄沐英——金陵已下，蜀守谁为？世守如故唯易其旗；不降则炮石疲其车阵，奇兵间道出其后。",
+        "wishes": "绵竹一破或一檄而下，径指成都。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "汉罢输粟而唐仓倍储自解；九州义仓常平并举，江南蜀中赋输有籍——树大招风，先自固其本以备天时不虞。",
+        "wishes": "广土众民而腹心无患。"
+      }
+    ],
+    "128": [
+      {
+        "kind": "internal",
+        "target": "bashu",
+        "troops": null,
+        "general": null,
+        "detail": "成都下而抚蜀：沐英若降仍领蜀镇世守、易唐旗而已；蜀锦井盐岁输，栈道官修以通秦——以世守二字收蜀人之心。",
+        "wishes": "巴蜀为唐之仓，不设一戍而自安。"
+      },
+      {
+        "kind": "move",
+        "target": "jingchu",
+        "troops": 2.5,
+        "general": "平阳公主",
+        "detail": "水师上溯芜湖逼湖口：檄明舟师建制留用、将士不杀；疾趋江陵——宋欲尊太子正朔于江陵，先绝明廷南迁之路。",
+        "wishes": "上游舟师尽为唐有，荆楚不战而下。"
+      }
+    ],
+    "129": [
+      {
+        "kind": "move",
+        "target": "lingnan",
+        "troops": null,
+        "general": null,
+        "detail": "檄岭南：番禺市舶通番如故，守吏各安其位；遣使岁贡，唐旗通于南海。",
+        "wishes": "南海市舶之利，岁益军赀。"
+      },
+      {
+        "kind": "internal",
+        "target": "jiangnan",
+        "troops": null,
+        "general": null,
+        "detail": "以明法治明地：屯田、鱼鳞册、常平诸良法不废，明降臣有司率其旧职，蠲江南一岁逋赋——人心易附，赋不加而饶。",
+        "wishes": "胜国之政为唐所用，江南财赋倍于明时。"
+      }
+    ],
+    "130": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "灭明之赏：世民三辞九锡如初，领江东行台都督江淮徐泗诸军事；平阳、苏定方、尉迟恭封国公图形凌烟，承乾录功——功名有壑。",
+        "wishes": "两府之秤再平，玄武之雷永不发。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "简明降卒：水师尽籍别为一军，平阳总之并鄱阳火器之长；陆卒简锐补诸军、老弱归屯——降者为我用，兵复十六万。",
+        "wishes": "江海之师无敌，兵额自复。"
+      }
+    ],
+    "131": [
+      {
+        "kind": "diplo",
+        "target": "donghan",
+        "troops": null,
+        "general": null,
+        "detail": "胜后缓兵：还汉俘、复盟市，申骑不出井陉如故；密告齐与河北汉自守之，灭明后市舶尽通——息兵则两利，相持则两耗。",
+        "wishes": "汉新败而帝又感疾，许我以北息之约。"
+      },
+      {
+        "kind": "diplo",
+        "target": "song",
+        "troops": null,
+        "general": null,
+        "detail": "废汴约而檄宋：明亡则中原四战无倚——如隋故事去帝号内附，宗庙可保、封国公世袭汴梁；岁市代运俱罢。拒则来岁之师。",
+        "wishes": "宋降则传檄而定，不降亦先夺其气。"
+      }
+    ],
+    "132": [
+      {
+        "kind": "move",
+        "target": "jianghuai",
+        "troops": 6,
+        "general": "李世民",
+        "detail": "来岁之形：世民壁徐泗北向，苏定方移荆襄出宛洛之侧，平阳水师临汴口示形——三面之势成，只候宋之答与汉之从违。",
+        "wishes": "来岁正月剖符，混一之功终此一役。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "岁终谒太庙告江左混一：储饷倍实、义仓具，承乾总留守之政如故——九州之柄并固于上，家国同其规模。",
+        "wishes": "庙算先定，来岁无内顾之忧。"
+      }
+    ]
+  },
+  "diplomacy": [
+    {
+      "to": "ming",
+      "proposal": "警告",
+      "terms": "最后通牒：开城封归义王、宗庙可保、吏民各安其业，马后皇孙以礼相待；援兵已绝，拒则炮尽发，城破之日毋悔。"
+    },
+    {
+      "to": "donghan",
+      "proposal": "警告",
+      "terms": "释围之请不可从：存明之祀可议于城破之后，盟市如故；汉师毋动徐泗井陉，动则曲在汉、兵连无已。"
+    },
+    {
+      "to": "song",
+      "proposal": "称臣",
+      "terms": "明亡则中原无倚：如隋故事去帝号内附，宗庙可保、封国公世袭汴梁；岁市代运之约俱罢。拒则来岁水陆并进于汴。"
+    }
+  ],
+  "self_note": "汉宋欲乘我攻城蹙泗燃谤：先破耿弇于野、赏典先榜灭火。灭明不即击汴，籍舟储赋，来岁先宋后汉。"
+}

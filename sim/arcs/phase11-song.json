@@ -1,0 +1,241 @@
+{
+  "faction": "song",
+  "phase": 11,
+  "strategy": "压秤存明待唐变：海槽阴饷金陵使两虎久噬，漕价反扣唐饷；北望之约落细则分法；九锡之火候金陵城破之刻；应变军檄匣常开——唐变则出虎牢收汴西淮北，唐并明则敛守联汉死战。",
+  "months": {
+    "121": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "元正庙算定「压秤存明」：海槽阴饷金陵、漕价反扣唐饷、九锡之火候城破而燃；断唐粮道非汉俱动不举。三案檄匣重誊，月月推演。",
+        "wishes": "势虽急而三案先定，汴不自乱。"
+      },
+      {
+        "kind": "diplo",
+        "target": "donghan",
+        "troops": null,
+        "general": null,
+        "detail": "北望之约落细则：烽号三等（唐犯汴／唐两府乱／唐并明），井陉之师接烽三十日必发；分法密本各执一式，谍报月月相通。",
+        "wishes": "约落于驿烽，不只落于纸。"
+      }
+    ],
+    "122": [
+      {
+        "kind": "diplo",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "江面之失既往输平；代运续行须增「宋旗海舶毋犯」一款，否则岁市减半、代运价倍——唐的军饷之价，自覆舟之日已改。",
+        "wishes": "唐允则海道名分立，不允则饷价先痛。"
+      },
+      {
+        "kind": "build",
+        "target": "zhongyuan",
+        "troops": null,
+        "general": null,
+        "detail": "拓海舶于汴泗入海之口：商渔并籍、水师习海；沿海南槽下接番禺商路——阴饷金陵的船，从这里出汴。",
+        "wishes": "海道一通，金陵粮台挂上宋旗。"
+      }
+    ],
+    "123": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "代运反扣：岁修凌汛、漕卒分番为名，运期自缓；价随「唐军临江之势」再增三成。秤针回拨，泗口之饷后时。",
+        "wishes": "唐春攻之饷迟一日，金陵多一日之备。"
+      },
+      {
+        "kind": "spy",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "九锡散本先印两套：长安本「秦王功高，赏止九锡，锡外何物」；泗上本「入朝即危，行台即家」。候火而藏——金陵破或唐师老，火即落。",
+        "wishes": "两种火候皆备，只候长安那一声。"
+      }
+    ],
+    "124": [
+      {
+        "kind": "move",
+        "target": "ming",
+        "troops": 1,
+        "general": "潘美",
+        "detail": "海槽首航：粟五万石挂商籍宋旗，水师护送出海转输金陵；唐海巡若截，护舰自卫还击，俘获械送洛阳为证。",
+        "wishes": "金陵得饷民心固，唐顿坚城之下。"
+      },
+      {
+        "kind": "diplo",
+        "target": "donghan",
+        "troops": null,
+        "general": null,
+        "detail": "每旬以唐截宋旗、唐师顿挫谍报副本文洛：汉之「观衅」，宋先供其衅——洛阳看唐之横，自重北望之约。",
+        "wishes": "汉之缰，随宋之谍报渐紧。"
+      }
+    ],
+    "125": [
+      {
+        "kind": "battle",
+        "target": "tang",
+        "troops": 5,
+        "general": "潘美",
+        "detail": "唐若沉宋旗海舶或攻汴口：铁锁火船逆击、砲座夹射，曹翰蹙其陆师，逐出即敛；飞檄洛阳金陵按三约俱动——名为护漕，实收三面。",
+        "wishes": "唐知犯汴即三线战，敛锋转图。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "「商私」预案：海槽若被唐执实据，罪坐舟商私票，斩奸商自证、偿其直——阴饷之账查不到汴京；禁军续募向十五万。",
+        "wishes": "明饷不断，宋手不露。"
+      }
+    ],
+    "126": [
+      {
+        "kind": "spy",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "候火令：金陵若破，捷报入长安之刻即散两本——功高不赏与入朝即危对撞；若唐师老城下，则散「师老饷糜，宜召秦王还」。",
+        "wishes": "功成之日即疑生之日，一驿驰汴。"
+      },
+      {
+        "kind": "diplo",
+        "target": "ming",
+        "troops": null,
+        "general": null,
+        "detail": "密使金陵：城存则海槽续输、岁市增额；城破则尊太子正朔于江陵，宋认明廷南迁，海舶转输荆楚——明旗不倒，唐师不还。",
+        "wishes": "明存一隅，唐兵久悬江外。"
+      }
+    ],
+    "127": [
+      {
+        "kind": "move",
+        "target": "zhongyuan",
+        "troops": 3,
+        "general": "曹翰",
+        "detail": "应变军三万前移郑州，器械舟楫先发虎牢成皋之侧；「奉天子讨僭乱」檄文预藏于匣——只候长安那一声。",
+        "wishes": "变起一驿，宋旗先至虎牢。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "下案并备：若唐无变并明成势——迁淮北之民实汴、坚壁清野；联汉死战之兵册粮册烽册三本先造，举国守汴门。",
+        "wishes": "最坏之局，汴亦不慌。"
+      }
+    ],
+    "128": [
+      {
+        "kind": "battle",
+        "target": "tang",
+        "troops": 6,
+        "general": "曹翰",
+        "detail": "两府若开（召还不奉诏、两军相向）：曹翰即出虎牢收汴西，潘美主力继趋淮北；飞约洛阳按分法取河东——两家刀不相逢。",
+        "wishes": "唐裂之日，汴西淮北先姓赵。"
+      },
+      {
+        "kind": "diplo",
+        "target": "donghan",
+        "troops": null,
+        "general": null,
+        "detail": "变起驰约：汉出井陉取河东，宋收汴西淮北，分法密本即行；约唐旧境「毋相侵攻」，先定后动。",
+        "wishes": "宋汉两军并进而不相撞。"
+      }
+    ],
+    "129": [
+      {
+        "kind": "diplo",
+        "target": "donghan",
+        "troops": null,
+        "general": null,
+        "detail": "岁中固盟：平价粟如额、谍报成例；若唐已并明，请升北望之约为攻守同盟——划河为守、汴洛一体，共分关东。",
+        "wishes": "汴洛一体，唐锋不敢专向。"
+      },
+      {
+        "kind": "internal",
+        "target": "zhongyuan",
+        "troops": null,
+        "general": null,
+        "detail": "秋收大计：核田亩户口，漕利还民第三年，赈蠲之数宣示中外；常平增籴——民心是中立的底仓。",
+        "wishes": "民心即城，稳定再上。"
+      }
+    ],
+    "130": [
+      {
+        "kind": "build",
+        "target": "zhongyuan",
+        "troops": null,
+        "general": null,
+        "detail": "汴口再缮：沉舟四迭铁锁三重、砲座增床弩火箭；武举第三届、讲武堂二期三十将出官——守具帅才并进。",
+        "wishes": "汴口金汤，将星层出。"
+      },
+      {
+        "kind": "spy",
+        "target": "ming",
+        "troops": null,
+        "general": null,
+        "detail": "觇明室余绪：金陵存亡、太子之立、荆楚岭南巴蜀之属——存则海槽续饷，亡则收其遗士遗舟于海。",
+        "wishes": "明之余烬，亦入汴图。"
+      }
+    ],
+    "131": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "冬储大阅：应变军与禁军合操「出虎牢」之图；功臣阁第四榜图形、政记第三卷并进——来岁之门自内固。",
+        "wishes": "兵练图熟，进退有据。"
+      },
+      {
+        "kind": "diplo",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "岁末通问随势两案：唐内乱则奉表贺正统、阴结守旧老臣；唐并明则索「兵毋过汴」誓书——战和之价再议。",
+        "wishes": "唐裂则宋居名，唐盛则宋买时。"
+      }
+    ],
+    "132": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "郊祀庙算收束：乘变则进、俱损则渔、唐独大则联汉死守；史馆书「天下之枢悬于汴门」第二卷。",
+        "wishes": "来岁之局，仍由汴启。"
+      },
+      {
+        "kind": "spy",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "岁终大谍：长安两府、江南战局、洛阳庙算重绘一图；九锡火候、明室余烬、唐军并明后所向并注——图成，庙算随更。",
+        "wishes": "天下之底，岁岁在汴。"
+      }
+    ]
+  },
+  "diplomacy": [
+    {
+      "to": "donghan",
+      "proposal": "会盟",
+      "terms": "北望之约升攻守细则：烽号三等（唐犯汴／唐两府乱／唐并明），井陉之师接烽三十日必发；唐变则汉取河东、宋收汴西淮北；唐并明则升攻守同盟划河共守。"
+    },
+    {
+      "to": "ming",
+      "proposal": "贸易",
+      "terms": "唇齿三款续行并加：海槽转输岁粟加额、宋旗护海舶；金陵若破，尊太子正朔于江陵，宋认明廷南迁续盟转饷。"
+    },
+    {
+      "to": "tang",
+      "proposal": "互不侵犯",
+      "terms": "汴口之约重申；代运续行须增「宋旗海舶毋犯」一款，否则岁市减半、代运价倍；唐若犯汴口海舶，北望唇齿之约俱动。"
+    }
+  ],
+  "self_note": "秤非墙：海槽阴续明、漕价反扣唐、九锡候火候燃；断粮道非汉俱动不举——变起先至虎牢。"
+}

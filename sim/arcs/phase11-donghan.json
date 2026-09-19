@@ -1,0 +1,241 @@
+{
+  "faction": "donghan",
+  "phase": 11,
+  "strategy": "唐顿兵金陵，唇亡齿寒：罢粟缰、警唐释围；结宋为犄角、践明海盟。乘唐并力城下，耿弇传檄蹙泗复徐邳、冯异压井陉分其势，得地而止不赌国运。帝感疾付托，顾命藏太庙、东宫总常务——内定大计，外固淮汴，坐观唐变。",
+  "months": {
+    "121": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "云台大议：粟缰既失效，定「唇齿之援」——唐举攻金陵则汉蹙泗，得徐泗而止，毋赌国运；帝镇邺持重，东宫监国如常。",
+        "wishes": "以攻为援，城未破而地已复。"
+      },
+      {
+        "kind": "diplo",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "罢分月输粟；请释金陵之围、存明之祀（称臣纳质亦可），盟市如故；若执意灭明，汉绝盟兴援——曲在唐而直在汉。",
+        "wishes": "唐若释围则盟存势缓；不释则师出有名。"
+      }
+    ],
+    "122": [
+      {
+        "kind": "diplo",
+        "target": "song",
+        "troops": null,
+        "general": null,
+        "detail": "犄角密约：唐攻金陵城之日，汉出郯蹙泗、压井陉，宋趋虎牢胁洛；毋先怯毋独进，分地各就近——汉取徐泗、宋取淮西。",
+        "wishes": "两家刀同出，唐锋自分。"
+      },
+      {
+        "kind": "diplo",
+        "target": "ming",
+        "troops": null,
+        "general": null,
+        "detail": "海道使金陵践盟：告「汉骑渡泗，城中坚守毋降」；登莱商舶夹粟继饷，明残舟出内港接运；荆楚之师毋妄动自弃。",
+        "wishes": "城中知有外援，守心愈坚。"
+      }
+    ],
+    "123": [
+      {
+        "kind": "spy",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "觇唐一鼓之期、炮台所向、玄甲与可回之兵几何；候其并力城下、泗上势虚，即耿弇出军之候。",
+        "wishes": "唐举之期，先旬在汉。"
+      },
+      {
+        "kind": "build",
+        "target": "shandong",
+        "troops": null,
+        "general": null,
+        "detail": "出军之资前置：常平粟输郯城，朐港益集舟师，郯费壁垒增戍列烽——兵马未动，储戍先集于门。",
+        "wishes": "粮垒既集，发若雷霆。"
+      }
+    ],
+    "124": [
+      {
+        "kind": "battle",
+        "target": "jianghuai",
+        "troops": 4.5,
+        "general": "耿弇",
+        "detail": "出郯蹙泗：传檄淮北「故地吏民，开城各安其业」，疾趋徐邳；马成舟师出朐港侧击淮口为掎角。",
+        "wishes": "传檄而泗北定，玄甲不得不回。"
+      },
+      {
+        "kind": "move",
+        "target": "hedong",
+        "troops": 2,
+        "general": "冯异",
+        "detail": "出井陉耀兵压河东，大张旗鼓而勿深陷——践北望之约，分唐之势，使金陵城下之师有后顾。",
+        "wishes": "井陉旗动，城下之师自乱。"
+      }
+    ],
+    "125": [
+      {
+        "kind": "move",
+        "target": "jianghuai",
+        "troops": 4.5,
+        "general": "耿弇",
+        "detail": "得徐邳则壁泗口，深沟高垒，抚纳降附、籍户安民；唐回援则据垒毋浪战，全师为上。",
+        "wishes": "得地能守，降附能安。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "度田柔推三期：山东括隐籍户折粟输边，郭耿元勋免勘如故——军兴之际，根本之政不废。",
+        "wishes": "根本益实，豪右不惊。"
+      }
+    ],
+    "126": [
+      {
+        "kind": "move",
+        "target": "hebei",
+        "troops": 2.5,
+        "general": "吴汉",
+        "detail": "黎阳河内之备：吴汉益屯黎阳、河内增烽列戍——唐若北向报复，二门有备而根本不摇。",
+        "wishes": "北门有备，唐无隙可乘。"
+      },
+      {
+        "kind": "internal",
+        "target": "hebei",
+        "troops": null,
+        "general": null,
+        "detail": "帝如邺犒师，宴新附降将于堂上，推赤心置人腹；还雒中暑感疾，诏节劳——衰象自兹始。",
+        "wishes": "劳军固众，节劳养体。"
+      }
+    ],
+    "127": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "帝不豫：太子赴雒侍疾、权总百揆，邓禹冯异辅政如故；军前一委耿弇，淮上进取止于所得。",
+        "wishes": "帝不豫而国不疑。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "郭后请以郭氏分辅政，帝却之：「后族辅政，前汉之祸也。」尊后如故、益封郭况，以安北道豪右之心。",
+        "wishes": "后宫之局，定于生前。"
+      }
+    ],
+    "128": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "帝疾间，手书顾命藏太庙：崩则太子即位，邓禹辅政、冯异督军；后族毋预政、功臣毋加诛，柔道守成、度田毋停。",
+        "wishes": "身后之政，今日已定。"
+      },
+      {
+        "kind": "build",
+        "target": "shandong",
+        "troops": null,
+        "general": null,
+        "detail": "修郯费莒烽垒为常戍，泗上屯田、登莱舟师岁简——新复之地，即戍即垦。",
+        "wishes": "新复之地，一岁成边。"
+      }
+    ],
+    "129": [
+      {
+        "kind": "spy",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "册长安：金陵赏典所归、世民去留、两府之隙深浅；乘其胜后纵「功高不赏」之谤，摇其庙堂。",
+        "wishes": "唐之庙堂，自生其隙。"
+      },
+      {
+        "kind": "diplo",
+        "target": "song",
+        "troops": null,
+        "general": null,
+        "detail": "淮汴之约：徐泗既复，与宋分淮为守；岁市加额、谍报共享如故，约「唐若北犯，两家俱动」。",
+        "wishes": "淮汴一体，唐北犯则两面受敌。"
+      }
+    ],
+    "130": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "檄登莱：明吏民将士浮海来奔者抚纳之，降卒别籍而训；明宗室若至，以礼遇之——受降之心即攻心。",
+        "wishes": "明之亡卒，为汉之兵。"
+      },
+      {
+        "kind": "build",
+        "target": "hebei",
+        "troops": null,
+        "general": null,
+        "detail": "牧苑增置，岁简军骑自给逾半——与唐绝市之后，战马之柄收之于苑。",
+        "wishes": "马柄在苑，骑军自立。"
+      }
+    ],
+    "131": [
+      {
+        "kind": "move",
+        "target": "jianghuai",
+        "troops": 4.5,
+        "general": "耿弇",
+        "detail": "淮上冬守：泗口增垒、决淤断渡，朐港舟师备海；唐复来则坚壁待其师老，毋出浪战。",
+        "wishes": "坚壁过冬，师老者唐。"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "录淮上功：云台叙次，增邑进爵，赏厚而不假兵柄——善终之恩，贮功臣于冬。",
+        "wishes": "功高而身安，上下相保。"
+      }
+    ],
+    "132": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "岁终大计：校兵粮马船之实；帝疾平而倦勤，诏军国常务尽决东宫、帝但持大体——付托之常又深一日。",
+        "wishes": "付托成常，汉无内忧。"
+      },
+      {
+        "kind": "diplo",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "岁终两聘一使：汴申犄角之好，海道存问金陵（或岭南残明），唐则毋聘——绝盟之冬，修守待变。",
+        "wishes": "天下之变，汉立于有备。"
+      }
+    ]
+  },
+  "diplomacy": [
+    {
+      "to": "tang",
+      "proposal": "警告",
+      "terms": "释金陵之围、存明之祀（称臣纳质亦可）则盟市如故；执意灭明则汉绝盟兴援，曲直天下共见。"
+    },
+    {
+      "to": "song",
+      "proposal": "会盟",
+      "terms": "犄角之约：唐攻金陵城或北犯之日，汉出郯蹙泗、压井陉，宋趋虎牢胁洛；毋先怯毋独进，分地各就近（汉徐泗、宋淮西）。"
+    },
+    {
+      "to": "ming",
+      "proposal": "会盟",
+      "terms": "援盟：汉以蹙泗为援、海舶夹粟继饷，城中坚守毋降；明残部宗室浮海来奔者，汉纳而抚之。"
+    }
+  ],
+  "self_note": "救明为名，复泗为实；帝疾由劳而积，遗令已藏太庙。戒东宫：淮可守而江毋赌，唐衅至方大举。"
+}

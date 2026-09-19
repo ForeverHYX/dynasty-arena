@@ -1,0 +1,27 @@
+{
+  "month": 132,
+  "factions": {
+    "qin":     {"name": "秦", "leader": "胡亥", "troops": 0.3, "food": 0, "morale": 15, "stability": 10, "regions": [], "alive": false, "notes": "亡国（36月）。嬴政服丹暴崩、沙丘矫诏、王贲萧关殉国，李斯胡亥被执送长安——秦焰早熄，旧档存照"},
+    "han":     {"name": "汉(西汉)", "leader": "刘邦", "troops": 0, "food": 0, "morale": 10, "stability": 10, "regions": [], "alive": false, "notes": "国除（44月）。沛侯刘邦酒疾暴作薨于金陵围城（120月）。本岁（127月）金陵城破，寓公旧臣星散：萧何被执病终（129月），一个王朝的余响落定"},
+    "sui":     {"name": "隋", "leader": "杨勇", "troops": 0, "food": 0, "morale": 15, "stability": 10, "regions": [], "alive": false, "notes": "国除。杨广谋西奔事泄被幽（34月），杨勇安于汴梁隋国公位，部众早编入宋军。本岁唐檄宋「如隋故事」——隋之下场，成了悬在汴头顶的样板"},
+    "donghan": {"name": "汉(东汉)", "leader": "刘秀", "troops": 10.1, "food": 20, "morale": 77, "stability": 81, "regions": ["hebei", "shandong"], "alive": true, "notes": "蹙泗折锋之年：耿弇出郯传檄淮北、下邳徐县望风而应，而半渡沂水撞进玄甲与尉迟恭的合围——斩获万余敛还郯，复泗之师折于野；冯异井陉耀兵止于境。帝感疾几殆（126月中暑感疾、127月不豫、128月疾间、132月疾平），生死关口闯过，顾命藏太庙、军国常务尽决东宫——付托反而深了一层。汴洛攻守同盟成、受唐还俘复市两头留门；登莱纳明遗、牧苑自给其骑。败而不乱，修守待变"},
+    "tang":    {"name": "唐", "leader": "李建成", "troops": 14.0, "food": 12, "morale": 97, "stability": 74, "regions": ["hedong", "guanzhong", "longxi", "mobei", "jianghuai", "jiangnan", "bashu", "jingchu"], "alive": true, "notes": "灭明之年：焦山聚歼明水师而京口浮桥见焚（首攻顿一月）、徐泗半渡破耿弇、七月再举一鼓下金陵（禁屠、籍降卒、以明法治明地），传檄而定蜀荆——八州之柄、兵复十四万，唯岭南残明悬海未拔。九锡两度对撞（师老谤+城破对撞）皆被赏典先榜与缉谍所灭，世民三辞、两府之秤再平；檄宋称臣被拒，三面之势（世民徐泗、苏定方宛洛、平阳汴口）逼汴——混一候于来岁"},
+    "song":    {"name": "宋", "leader": "赵德昭", "troops": 13.0, "food": 25, "morale": 76, "stability": 68, "regions": ["zhongyuan"], "alive": true, "notes": "秤沉之年：海槽首航入金陵（五万石）、代运反扣唐饷、九锡两本两度纵火——师老之谤与城破对撞皆被唐赏典先榜与房玄龄缉谍所灭，反手成唐檄里的罪状；汉烽号逾期不发、犄角空悬；唐檄去帝号称臣，斩商自证而兵凶悬顶。汴洛攻守同盟成、应变军前移郑州、迁民实汴坚壁清野——天下之枢仍悬于汴门，来岁之门不知还开不开"},
+    "yuan":    {"name": "元", "leader": "真金", "troops": 0, "food": 0, "morale": 15, "stability": 10, "regions": [], "alive": false, "notes": "国除（93月）。真金奉世祖主去汗号举族内附，封归义王赐第长安；本岁真金率北衙骑巡云朔为唐守北门，归义诸部安"},
+    "ming":    {"name": "明", "leader": "李文忠(摄政)", "troops": 1.0, "food": 20, "morale": 60, "stability": 57, "regions": ["lingnan"], "alive": true, "notes": "亡国之年：婴城挫唐（首攻折唐万余）、桃花汛火焚京口浮桥——然水师尽没于焦山，七月城破：帝后殉社稷（元璋五十五焚奉先殿，马后五十一先薨）、蓝玉战死、徐达朱标被执、沐英易帜、荆楚举降。李文忠先期护皇孙浮海，番禺奉期岁幼主监国、文忠摄政，宋槽阴饷改泊番禺、汉舶通问——国祚一线悬于海隅，主少国疑而唐兵期在来岁"}
+  },
+  "regions": {
+    "longxi":    {"name": "陇右凉州", "owner": "tang",    "pop": 161, "grain": 5, "garrison": 0},
+    "guanzhong": {"name": "关中",     "owner": "tang",    "pop": 388, "grain": 6, "garrison": 0},
+    "hedong":    {"name": "河东",     "owner": "tang",    "pop": 301, "grain": 9, "garrison": 0},
+    "hebei":     {"name": "河北",     "owner": "donghan", "pop": 436, "grain": 6, "garrison": 0},
+    "zhongyuan": {"name": "中原",     "owner": "song",    "pop": 468, "grain": 6, "garrison": 0},
+    "shandong":  {"name": "山东",     "owner": "donghan", "pop": 292, "grain": 5, "garrison": 0},
+    "bashu":     {"name": "巴蜀",     "owner": "tang",    "pop": 347, "grain": 8, "garrison": 0},
+    "jingchu":   {"name": "荆楚",     "owner": "tang",    "pop": 335, "grain": 9, "garrison": 0},
+    "jianghuai": {"name": "江淮",     "owner": "tang",    "pop": 266, "grain": 4, "garrison": 0},
+    "jiangnan":  {"name": "江南",     "owner": "tang",    "pop": 462, "grain": 8, "garrison": 0},
+    "lingnan":   {"name": "岭南",     "owner": "ming",    "pop": 153, "grain": 6, "garrison": 0},
+    "mobei":     {"name": "漠北",     "owner": "tang",    "pop": 74,  "grain": 1, "garrison": 0}
+  }
+}

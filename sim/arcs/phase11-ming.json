@@ -1,0 +1,241 @@
+{
+  "faction": "ming",
+  "phase": 11,
+  "strategy": "死中求生：婴城挫唐来春一鼓，候桃花汛火船夜焚京口浮桥，鄱阳之火三演；蜀断阴平之馈，岭海舟师闯海续命；卑辞称臣以间长安，分唐之图以动汴邺；皇孙南储，标儿系城——围解则逐唐复江左，不解则南朝犹是明。",
+  "months": {
+    "121": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "围城总动员：帝临城誓「城在人在」；徐达总四门、蓝玉掌游兵、朱标抚军民、萧何计口配粮、马后恤伤；诛通唐首恶数人，余不问",
+        "wishes": "人心先固，死城变铁城"
+      },
+      {
+        "kind": "build",
+        "target": "jiangnan",
+        "troops": null,
+        "general": "徐达",
+        "detail": "军器局昼夜作火药铳炮，内港赶造火船百艘、修搁浅楼船；增缮瓮城羊马墙，逐日测记江水尺——春汛即战期，火起即围解",
+        "wishes": "汛至之日，火船足以焚桥"
+      }
+    ],
+    "122": [
+      {
+        "kind": "diplo",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "帝亲笔卑辞表驰长安：去帝号、复称吴王、岁贡金帛、江为界、世为唐藩——表不投丹阳大营，专烧长安主和主战之争",
+        "wishes": "和议一起，李世民灭明之大功自轻"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "海道储嗣：李文忠护常妃皇孙、祖训录、备玺乘海舶南趋番禺，密敕岭南备监国行在；手谕「六月围不解，太子南幸」",
+        "wishes": "社稷有二，城亡而明不亡"
+      }
+    ],
+    "123": [
+      {
+        "kind": "battle",
+        "target": "tang",
+        "troops": 1.0,
+        "general": "蓝玉",
+        "detail": "唐若来春一鼓蚁附：铳台层轰于外、瓮城伏发于内，滚木礌石继之；蓝玉率选锋缒城夜斫其营、焚云梯——以血城耗其锐气",
+        "wishes": "唐师顿于坚城，锐气血耗于墙下"
+      },
+      {
+        "kind": "battle",
+        "target": "tang",
+        "troops": 0.5,
+        "general": "沐英",
+        "detail": "沐英壁绵竹持重不战，遣偏师会昔日开关之羌部潜出白水，焚阴平栈道、拔其粮台——苏定方七百里悬军，馈道一断即绝命",
+        "wishes": "蜀中唐军粮尽自溃，上游复通"
+      }
+    ],
+    "124": [
+      {
+        "kind": "battle",
+        "target": "tang",
+        "troops": 0.8,
+        "general": "徐达",
+        "detail": "桃花汛至水涨船浮，徐达夜纵火船百艘顺流：撞焚京口浮桥船坞，蓝玉夹岸纵火，江左新附降卒举火内应——鄱阳之火第三演",
+        "wishes": "桥断舰焚，唐师南岸之势自摇"
+      },
+      {
+        "kind": "spy",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "谤入长安第三勺油：「顿兵坚城半载、丧师数万，淮上之血谁偿」播于两府之间，与宋谍之语合流；更以金帛密结唐营新附之军",
+        "wishes": "长安议撤议代，唐营内应可期"
+      }
+    ],
+    "125": [
+      {
+        "kind": "battle",
+        "target": "tang",
+        "troops": 2.0,
+        "general": "徐达",
+        "detail": "若火攻得手、唐势动摇：徐达开城水陆并出，直捣丹阳唐垒；江陵荆楚舟师顺流薄蕲黄为牵——夹击之势成于一旦",
+        "wishes": "围解或大创唐师，江左之局翻盘"
+      },
+      {
+        "kind": "diplo",
+        "target": "song",
+        "troops": null,
+        "general": null,
+        "detail": "使汴以「宋旗覆舟」之辱激之：唐敢截宋旗于江，即敢锁汴漕于河；唐师顿金陵、淮北虚，请绝其漕一月，明岁输市舶之利为酬",
+        "wishes": "汴缰一勒，唐饷立断"
+      }
+    ],
+    "126": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "暑月防疫：浚井分坊、石灰掩骼、军医施药；萧何平粜配给，马后亲董粥棚恤孤——大疫不起，死城自活",
+        "wishes": "围城经夏而疫不兴，民不溃"
+      },
+      {
+        "kind": "move",
+        "target": "jiangnan",
+        "troops": 0.5,
+        "general": "李文忠",
+        "detail": "李文忠集岭海舟师通番海舶，满载番禺之粟北上闯唐海巡，会苏松外海舟馈金陵——海上粮道，一船即一命",
+        "wishes": "海道续命，城中粮械不绝"
+      }
+    ],
+    "127": [
+      {
+        "kind": "battle",
+        "target": "tang",
+        "troops": 1.2,
+        "general": "沐英",
+        "detail": "候苏定方馈尽：沐英出绵竹掩击，复江油涪城，收其降卒编伍——蜀门复闭，天府全复，上游反攻之基立",
+        "wishes": "蜀中之唐军尽没，巴蜀全境复完"
+      },
+      {
+        "kind": "spy",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "三线并核：江左降卒内应之约、城中细作之伪、长安两府之隙——唐垒一动，先三日而知，机发在握",
+        "wishes": "敌未动而我先知，机至即发"
+      }
+    ],
+    "128": [
+      {
+        "kind": "move",
+        "target": "jiangnan",
+        "troops": 1.5,
+        "general": "沐英",
+        "detail": "沐英将蜀舟师下三峡，合江陵荆楚之师，旌旗鼓吹顺流而东——上游之师来会，金陵城下形势逆转之始",
+        "wishes": "上游朝发夕至，围师腹背受敌"
+      },
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "围中论功，蓝玉恃创骄言「纵兵十日」；帝夺俸切责、铁榜再申，马后谏止穷治，太子恩结如故——刀锋既利，先教入鞘",
+        "wishes": "骄气抑而将心不散"
+      }
+    ],
+    "129": [
+      {
+        "kind": "battle",
+        "target": "tang",
+        "troops": 2.5,
+        "general": "徐达",
+        "detail": "徐达、沐英水陆合势：火船当先、楼船继进，逐唐舟出江，复京口采石，铁锁再横——三十年水上之权，一朝夺还",
+        "wishes": "江权复归，唐师北渡而遁"
+      },
+      {
+        "kind": "diplo",
+        "target": "donghan",
+        "troops": null,
+        "general": null,
+        "detail": "使邺申「明已去帝号，永不北向」；唐若因败而削，河东可图、汉宋同动分之，明但复故土——观衅之缰，今日不勒异日无缰",
+        "wishes": "汉宋北动，唐首尾不能相顾"
+      }
+    ],
+    "130": [
+      {
+        "kind": "battle",
+        "target": "jiangnan",
+        "troops": 1.2,
+        "general": "蓝玉",
+        "detail": "唐师若北撤：传檄润常苏松，诸县反正；蓝玉选锋收抚，毋掠一民、毋焚一庐——失之以檄者，复之以檄",
+        "wishes": "江左畿县传檄而复"
+      },
+      {
+        "kind": "build",
+        "target": "jiangnan",
+        "troops": null,
+        "general": "徐达",
+        "detail": "采石京口复铸铁锁、修铳台，烽传再连锁至海；三吴船场复开，岁计战舰百艘、火船常备——大江仍是城墙",
+        "wishes": "江防复成，来者再碎于江"
+      }
+    ],
+    "131": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "民更始之典：免围城岁赋、恤死伤、旌义民节妇；围解则迎皇孙常妃北还，告庙大典——「与城俱生者，天下共见」",
+        "wishes": "民心固结，明之根基在民"
+      },
+      {
+        "kind": "spy",
+        "target": "tang",
+        "troops": null,
+        "general": null,
+        "detail": "谍观长安：丧师之后必有代帅、和约、北顾三议；与宋谍合而张之，候其裂——唐之内变，即明之外援",
+        "wishes": "两府之隙终开，唐自乱其阵"
+      }
+    ],
+    "132": [
+      {
+        "kind": "internal",
+        "target": null,
+        "troops": null,
+        "general": null,
+        "detail": "岁终大计：校四州兵粮、录围城功过；定来岁纲——围解则复淮雪耻，未解则守江再磨；祖训录增围城一章",
+        "wishes": "纲举目张，来岁有据"
+      },
+      {
+        "kind": "diplo",
+        "target": "song",
+        "troops": null,
+        "general": null,
+        "detail": "岁末聘汴固唇齿之约：市舶之利岁输如约，密约来岁观唐衅同动——毋令唐专意于南，粮缰勿松",
+        "wishes": "宋屏仍立，唐不得专力南向"
+      }
+    ]
+  },
+  "diplomacy": [
+    {
+      "to": "tang",
+      "proposal": "称臣",
+      "terms": "去帝号复称吴王、岁贡金帛、江为界世为唐藩——惟军毋入城、官吏军民如故"
+    },
+    {
+      "to": "song",
+      "proposal": "会盟",
+      "terms": "唐顿兵金陵，请绝汴漕一月为应；明岁输市舶之利，唐分则江淮盐铁共之"
+    },
+    {
+      "to": "donghan",
+      "proposal": "会盟",
+      "terms": "明去帝号永不北向；汉宋同动分唐，明但复故土，岭南市舶岁分其利"
+    }
+  ],
+  "self_note": "称臣表是毒丸，烧的是长安两府；皇孙南储是真保险；汛至火发，标儿在城系天下心。"
+}
